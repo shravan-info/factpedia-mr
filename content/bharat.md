@@ -139,10 +139,6 @@ description: भारत हा दक्षिण आशियातील ए
 
 ---
 
-## संबंधित लेख
-
-[महाराष्ट्र](/maharashtra) · [भारतीय रुपया](/indian-rupee) · [भारतीय संविधान](/constitution-of-india) · [भारतीय संसद](/indian-parliament) · [भारतीय स्वातंत्र्यलढा](/indian-independence-movement) · [हिमालय पर्वतरांग](/himalaya) · [गंगा नदी](/ganga-river) · [भारतीय रेल्वे](/indian-railways) · [रिझर्व्ह बँक](/reserve-bank-india) · [संयुक्त राष्ट्रसंघ](/united-nations)
-
 ## संदर्भ
 
 १. भारत सरकार — Know India, भारताची भौगोलिक माहिती.
