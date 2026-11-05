@@ -86,6 +86,17 @@ Sitemap: ${siteUrl}/sitemap.xml
 `;
 fs.writeFileSync(path.join(distDir, "robots.txt"), robotsContent);
 
+const bingVerificationFile = "BingSiteAuth.xml";
+if (fs.existsSync(bingVerificationFile)) {
+  fs.copyFileSync(
+    bingVerificationFile,
+    path.join(distDir, bingVerificationFile)
+  );
+  console.log("Bing Webmaster Tools verification file copied to dist.");
+} else {
+  console.warn("Bing verification file not found in repository root.");
+}
+
 const googleVerificationFile = "googled18bb9aab34a4f6b.html";
 if (fs.existsSync(googleVerificationFile)) {
   fs.copyFileSync(
