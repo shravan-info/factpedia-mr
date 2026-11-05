@@ -33,6 +33,6 @@ description: भारतीय रेल्वे ही भारताती�
 
 ## संदर्भ
 
-1. [रेल्वे मंत्रालय – भारतीय रेल्वे](https://indianrailways.gov.in/minstry/about-us)
+1. [रेल्वे मंत्रालय – भारतीय रेल्वे](https://cr.indianrailways.gov.in/ministry/about-us)
 
 *शेवटचे संपादन: ५ नोव्हेंबर २०२६*
