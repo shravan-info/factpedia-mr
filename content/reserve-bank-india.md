@@ -61,7 +61,7 @@ description: भारतीय रिझर्व्ह बँकेची स�
 
 ## संदर्भ
 
-1. [RBI – About Us](https://www.rbi.org.in/)
+1. [RBI – About Us](https://www.rbi.org.in/Scripts/AboutusDisplay.aspx)
 2. [RBI – Monetary Policy](https://www.rbi.org.in/Scripts/MonetaryPolicy.aspx)
 3. [RBI – FAQs](https://www.rbi.org.in/Scripts/FAQView.aspx)
 
