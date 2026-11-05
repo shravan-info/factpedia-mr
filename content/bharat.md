@@ -148,10 +148,10 @@ description: भारत हा दक्षिण आशियातील ए
    https://www.legislative.gov.in/constitution-of-india/
 
 ३. भारताची जनगणना २०११ — Population Finder, भारत सरकार.
-   https://censusindia.gov.in/census.website/en/data/population-finder
+   https://censusindia.gov.in/census.website/en/
 
 ४. Official Languages Act, 1963 — India Code, भारत सरकार.
-   https://www.indiacode.nic.in/handle/123456789/1526
+   https://www.indiacode.nic.in/handle/123456789/
 
 ५. भारतीय अंतराळ संशोधन संस्था — Spacecraft Missions.
    https://www.isro.gov.in/SpacecraftMissions.html
