@@ -98,6 +98,20 @@
   table td, table th { padding: 10px 14px; border-bottom: 1px solid var(--border-light); text-align: left; }
   table tr:last-child td { border-bottom: none; }
   table td:first-child { font-weight: 500; width: 42%; white-space: nowrap; }
+  /* बुलेट पॉईंट्सचे सुंदर आणि योग्य अलाइनमेंट */
+  ul, ol {
+    padding-left: 24px;
+    margin: 16px 0 24px;
+  }
+  li {
+    margin-bottom: 10px;
+    padding-left: 6px;
+    line-height: 1.8;
+  }
+  li::marker {
+    color: var(--link); /* बुलेट्सना सुंदर निळा रंग देईल */
+  }
+  
   @media (max-width: 640px) { table td:first-child { white-space: normal; width: 44%; } }
   .no-results { display: none; text-align: center; padding: 30px 20px; color: var(--text-secondary); font-size: 14px; }
   .no-results.show { display: block; }
