@@ -70,7 +70,7 @@ description: गणेश चतुर्थीचा धार्मिक इ�
 
 ## संदर्भ
 
-1. [Maharashtra Tourism](https://maharashtratourism.gov.in/)
+1. [महाराष्ट्र पर्यटन](https://maharashtratourism.gov.in/festivals/ganesh-chaturthi/)
 2. [Incredible India](https://www.incredibleindia.gov.in/)
 3. [Lokmanya Tilak – Britannica](https://www.britannica.com/biography/Bal-Gangadhar-Tilak)
 
