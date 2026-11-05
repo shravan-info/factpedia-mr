@@ -36,6 +36,6 @@ RBI व्याजदर आणि इतर धोरणात्मक सा
 
 ## संदर्भ
 
-1. [RBI – परिचय आणि इतिहास](https://www.rbi.org.in/)
+1. [RBI – परिचय आणि इतिहास](https://www.rbi.org.in/Scripts/AboutusDisplay.aspx)
 
 *शेवटचे संपादन: ५ नोव्हेंबर २०२६*
