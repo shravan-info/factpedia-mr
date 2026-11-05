@@ -64,7 +64,7 @@ description: भारतीय सर्वोच्च न्यायाल�
 
 ## संदर्भ
 
-1. [Supreme Court of India](https://www.sci.gov.in/)
+1. [इतिहास](https://www.sci.gov.in/about-department/history/) · [अधिकारक्षेत्र](https://www.sci.gov.in/jurisdiction/)
 2. [Constitution of India](https://www.indiacode.nic.in/)
 3. [India Code](https://www.indiacode.nic.in/)
 
