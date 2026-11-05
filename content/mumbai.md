@@ -96,10 +96,6 @@ description: मुंबई हे [महाराष्ट्र](/maharashtr
 
 ---
 
-## संबंधित लेख
-
-[महाराष्ट्र](/maharashtra) · [भारतीय रेल्वे](/indian-railways) · [छत्रपती शिवाजी महाराज](/chhatrapati-shivaji-maharaj) · [भारतीय स्वातंत्र्यलढा](/indian-independence-movement) · [रिझर्व्ह बँक](/reserve-bank-india)
-
 ## संदर्भ
 
 १. मुंबई शहर जिल्हा प्रशासन — मुंबईची माहिती  
