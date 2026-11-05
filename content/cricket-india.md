@@ -66,7 +66,7 @@ BCCI हे आंतरराष्ट्रीय क्रिकेट पर
 
 ## संदर्भ
 
-1. [BCCI](https://www.bcci.tv/)
+1. [BCCI – इतिहास](https://www.bcci.tv/news/article/history)
 2. [ICC](https://www.icc-cricket.com/)
 3. [MCC – Laws of Cricket](https://www.lords.org/mcc/the-laws-of-cricket)
 
