@@ -1,4 +1,4 @@
-import { marked } from "https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js";
+import { marked } from "marked";
 
 export async function onRequest(context) {
   const url = new URL(context.request.url);
