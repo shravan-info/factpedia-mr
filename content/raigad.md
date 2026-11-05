@@ -55,10 +55,6 @@ description: रायगड हा [महाराष्ट्र](/maharashtr
 
 ---
 
-## संबंधित लेख
-
-[छत्रपती शिवाजी महाराज](/chhatrapati-shivaji-maharaj) · [महाराष्ट्र](/maharashtra) · [मुंबई](/mumbai)
-
 ## संदर्भ
 
 १. मराठी विश्वकोश — रायगड  
