@@ -18,6 +18,20 @@ const homepageTemplate = fs.existsSync(homepageTemplatePath)
 const urls = [];
 const siteUrl = "https://factpedia-mr.pages.dev";
 
+function cleanMetaDescription(value) {
+  return String(value || "")
+    .replace(/!\\[([^\\]]*)\\]\\([^)]*\\)/g, "$1")
+    .replace(/\\[([^\\]]+)\\]\\([^)]*\\)/g, "$1")
+    .replace(/<[^>]*>/g, " ")
+    .replace(/&nbsp;/gi, " ")
+    .replace(/&amp;/gi, "&")
+    .replace(/&quot;/gi, '"')
+    .replace(/&#39;/gi, "'")
+    .replace(/[\\*_~`>#|]/g, " ")
+    .replace(/\\s+/g, " ")
+    .trim();
+}
+
 function escapeHtml(value) {
   return String(value).replace(/[&<>"']/g, (char) => ({
     "&": "&amp;",
@@ -309,7 +323,7 @@ function processDir(dir, currentSlug = "") {
       const selectedTemplate = isHomePage ? homepageTemplate : template;
       const outputHtml = selectedTemplate
         .replaceAll("{{title}}", escapeHtml(title))
-        .replaceAll("{{description}}", escapeHtml(description))
+        .replaceAll("{{description}}", escapeHtml(cleanMetaDescription(description)))
         .replaceAll("{{canonical}}", pageUrl)
         .replaceAll("{{og_type}}", isHomePage ? "website" : "article")
         .replaceAll("{{twitter_card}}", "summary")
