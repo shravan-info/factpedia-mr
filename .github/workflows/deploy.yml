@@ -36,7 +36,7 @@ jobs:
           node --input-type=module <<'NODE'
           import fs from "node:fs";
           const xml = fs.readFileSync("dist/sitemap.xml", "utf8");
-          const urlList = [...xml.matchAll(/<loc>(.*?)<\\/loc>/g)].map((m) => m[1].trim());
+          const urlList = [...xml.matchAll(/<loc>(.*?)<\/loc>/g)].map((m) => m[1].trim());
           if (urlList.length === 0) {
             console.log("No sitemap URLs found; skipping IndexNow.");
             process.exit(0);
