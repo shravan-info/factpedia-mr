@@ -66,12 +66,8 @@ Factpedia हा इतिहास, भूगोल, विज्ञान, स
 54. [भारतातील पंचायतराज व्यवस्था: रचना आणि कार्ये](/panchayati-raj-india)
 ---
 
-<div align="center">
-
-**एकूण लेख**
-
-# ५४
-
-*Factpedia वरील प्रकाशित लेख*
-
+<div class="article-count" aria-label="Factpedia वरील एकूण प्रकाशित लेख">
+  <span>एकूण प्रकाशित लेख</span>
+  <strong>५४</strong>
+  <span>Factpedia वरील लेख</span>
 </div>
