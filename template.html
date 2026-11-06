@@ -42,30 +42,30 @@
     backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
   }
   .header-inner {
-    max-width: 720px; margin: 0 auto; padding: 12px 20px;
+    max-width: 720px; margin: 0 auto; padding: 8px 14px;
     display: flex; justify-content: space-between; align-items: center;
-    position: relative; height: 56px;
+    height: 56px; gap: 8px;
   }
   .brand {
-    position: absolute; left: 50%; transform: translateX(-50%);
-    display: inline-flex; align-items: center; gap: 8px;
+    position: static; transform: none; flex: 0 1 auto;
+    display: inline-flex; align-items: center; gap: 7px;
     font-family: "Fraunces", Georgia, serif; font-style: italic;
-    font-weight: 600; font-size: 28px; color: var(--text); text-decoration: none;
+    font-weight: 600; font-size: 23px; color: var(--text); text-decoration: none;
     white-space: nowrap;
   }
-  .brand img { width: 30px; height: 30px; display: block; }
+  .brand img { width: 27px; height: 27px; display: block; }
   .install-btn {
-    display: inline-flex; align-items: center; justify-content: center; gap: 6px;
-    min-height: 38px; padding: 0 10px; border: 1px solid var(--border);
-    border-radius: 10px; background: var(--bg); color: var(--text);
-    font: inherit; font-size: 13px; font-weight: 600; cursor: pointer;
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 36px; min-width: 36px; height: 36px; padding: 0;
+    border: 1px solid var(--border); border-radius: 10px;
+    background: var(--bg); color: var(--text); cursor: pointer; flex: 0 0 36px;
   }
+  .install-btn span { display: none; }
   .install-btn:hover { background: var(--border-light); }
-  .install-btn svg { width: 17px; height: 17px; }
-  @media (max-width: 380px) { .install-btn span { display: none; } .install-btn { width: 38px; padding: 0; } }
-  .header-actions { display: flex; gap: 6px; margin-left: auto; }
+  .install-btn svg { width: 18px; height: 18px; }
+  .header-actions { display: flex; align-items: center; gap: 2px; margin-left: auto; flex: 0 0 auto; }
   .icon-btn {
-    width: 40px; height: 40px; display: grid; place-items: center;
+    width: 36px; height: 36px; display: grid; place-items: center;
     border-radius: 12px; border: 1px solid transparent;
     background: transparent; cursor: pointer; color: var(--text-secondary);
     transition: all .2s;
