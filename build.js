@@ -220,14 +220,14 @@ const englishAliases = {
   "gateway-of-india": ["gateway mumbai", "mumbai monument"]
 };
 function plainSearchText(markdown) {
-  return markdown.replace(/<!--[\\s\\S]*?-->/g, " ")
-    .replace(/!\\[([^\\]]*)\\]\\([^)]*\\)/g, " $1 ")
-    .replace(/\\[([^\\]]+)\\]\\([^)]*\\)/g, " $1 ")
+  return markdown.replace(/<!--[\s\S]*?-->/g, " ")
+    .replace(/!\[([^\]]*)\]\([^)]*\)/g, " $1 ")
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, " $1 ")
     .replace(/<[^>]+>/g, " ")
-    .replace(/^\\s*---[\\s\\S]*?---\\s*/m, " ")
+    .replace(/^\s*---[\s\S]*?---\s*/m, " ")
     .replace(/[#>*_~`|]/g, " ")
-    .replace(/https?:\\/\\/\\S+/g, " ")
-    .replace(/\\s+/g, " ").trim();
+    .replace(/https?:\/\/\S+/g, " ")
+    .replace(/\s+/g, " ").trim();
 }
 
 function addContextualInternalLinks(markdown, currentSlug) {
