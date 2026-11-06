@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{title}}</title>
+<meta name="description" content="{{description}}">
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{description}}">
+<meta property="og:url" content="{{canonical}}">
+<link rel="canonical" href="{{canonical}}">
+<script type="application/ld+json">{{schema}}</script>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,600&family=Noto+Sans+Devanagari:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #ffffff; --text: #111827; --text-secondary: #6b7280;
+    --border: #e5e7eb; --border-light: #f3f4f6; --card-bg: #ffffff;
+    --link: #2563eb; --header-bg: rgba(255,255,255,0.92); --code-bg: #f9fafb;
+    --search-bg: #f9fafb;
+  }
+  html.dark {
+    --bg: #121212; --text: #e5e7eb; --text-secondary: #9ca3af;
+    --border: #2a2a2a; --border-light: #1f1f1f; --card-bg: #1e1e1e;
+    --link: #60a5fa; --header-bg: rgba(18,18,18,0.92); --code-bg: #1e1e1e;
+    --search-bg: #1e1e1e;
+  }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg); color: var(--text);
+    font-family: "Noto Sans Devanagari", system-ui, -apple-system, sans-serif;
+    line-height: 1.8; transition: background-color .3s, color .3s; min-height: 100vh;
+  }
+  header {
+    position: sticky; top: 0; z-index: 50;
+    background: var(--header-bg); border-bottom: 1px solid var(--border-light);
+    backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+  }
+  .header-inner {
+    max-width: 720px; margin: 0 auto; padding: 12px 20px;
+    display: flex; justify-content: space-between; align-items: center;
+    position: relative; height: 56px;
+  }
+  .brand {
+    position: absolute; left: 50%; transform: translateX(-50%);
+    font-family: "Fraunces", Georgia, serif; font-style: italic;
+    font-weight: 600; font-size: 28px; color: var(--text); text-decoration: none;
+  }
+  .header-actions { display: flex; gap: 6px; margin-left: auto; }
+  .icon-btn {
+    width: 40px; height: 40px; display: grid; place-items: center;
+    border-radius: 12px; border: 1px solid transparent;
+    background: transparent; cursor: pointer; color: var(--text-secondary);
+    transition: all .2s;
+  }
+  .icon-btn:hover { background: var(--border-light); color: var(--text); border-color: var(--border); }
+  .icon-btn.active { background: var(--text); color: var(--bg); border-color: var(--text); }
+  .icon-btn svg { width: 20px; height: 20px; }
+  .search-wrap {
+    max-width: 720px; margin: 0 auto; padding: 0 20px;
+    max-height: 0; overflow: hidden; opacity: 0;
+    transition: all 0.3s ease;
+  }
+  .search-wrap.open {
+    max-height: 100px; opacity: 1; padding: 12px 20px 14px;
+    border-bottom: 1px solid var(--border-light);
+  }
+  .search-box {
+    display: flex; align-items: center; gap: 10px;
+    background: var(--search-bg); border: 1px solid var(--border);
+    border-radius: 14px; padding: 10px 14px;
+  }
+  .search-box:focus-within {
+    border-color: var(--link); box-shadow: 0 0 0 3px color-mix(in srgb, var(--link) 15%, transparent);
+  }
+  .search-box svg { width: 18px; height: 18px; color: var(--text-secondary); flex-shrink: 0; }
+  .search-box input {
+    flex: 1; border: none; outline: none; background: transparent;
+    font-size: 15px; font-family: inherit; color: var(--text);
+  }
+  .search-box input::placeholder { color: var(--text-secondary); }
+  .search-clear {
+    width: 26px; height: 26px; border-radius: 999px; border: none;
+    background: var(--border-light); color: var(--text-secondary);
+    cursor: pointer; display: grid; place-items: center;
+  }
+  .search-meta { font-size: 12px; color: var(--text-secondary); margin-top: 8px; min-height: 16px; }
+  .container { max-width: 720px; margin: 0 auto; padding: 0 20px 60px; }
+  main { padding-top: 28px; }
+  h1 { font-size: 2.75rem; font-weight: 800; line-height: 1.15; margin: 8px 0 20px; }
+  h2 { font-size: 1.65rem; font-weight: 700; margin: 36px 0 14px; }
+  h3 { font-size: 1.25rem; font-weight: 700; margin: 28px 0 10px; }
+  p { margin: 0 0 16px; font-size: 16px; }
+  a { color: var(--link); text-decoration: none; }
+  mark { background: #fef08a; color: #111827; padding: 1px 4px; border-radius: 4px; }
+  html.dark mark { background: #ca8a04; color: #fefce8; }
+  table {
+    width: 100%; border: 1px solid var(--border); border-radius: 14px;
+    border-collapse: separate; border-spacing: 0; overflow: hidden;
+    margin: 20px 0 28px; background: var(--card-bg); font-size: 15px;
+  }
+  table td, table th { padding: 10px 14px; border-bottom: 1px solid var(--border-light); text-align: left; }
+  table tr:last-child td { border-bottom: none; }
+  table td:first-child { font-weight: 500; width: 42%; white-space: nowrap; }
+  /* बुलेट पॉईंट्सचे सुंदर आणि योग्य अलाइनमेंट */
+  ul, ol {
+    padding-left: 24px;
+    margin: 16px 0 24px;
+  }
+  li {
+    margin-bottom: 10px;
+    padding-left: 6px;
+    line-height: 1.8;
+  }
+  li::marker {
+    color: black; /* बुलेट्सना सुंदर निळा रंग देईल */
+  }
+  
+  @media (max-width: 640px) { table td:first-child { white-space: normal; width: 44%; } }
+  .no-results { display: none; text-align: center; padding: 30px 20px; color: var(--text-secondary); font-size: 14px; }
+  .no-results.show { display: block; }
+  footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border-light); font-size: 13px; color: var(--text-secondary); text-align: center; }
+
+  /* Homepage-only refinements; article pages keep template.html unchanged. */
+  .homepage .home-version {
+    display: flex; align-items: center; justify-content: center;
+    width: fit-content; margin: 8px auto 14px; padding: 4px 10px;
+    border: 1px solid var(--border); border-radius: 999px;
+    color: var(--text-secondary); background: var(--card-bg);
+    font-size: 12px; font-weight: 500; letter-spacing: .02em;
+  }
+  .homepage main { padding-top: 18px; }
+  .homepage #mainContent > h1 {
+    text-align: center; font-size: clamp(2.4rem, 8vw, 3.25rem);
+    letter-spacing: -.035em; margin: 8px 0 12px;
+  }
+  .homepage #mainContent > h1 + p {
+    max-width: 620px; margin: 0 auto 30px; text-align: center;
+    color: var(--text-secondary); font-size: 16px; line-height: 1.9;
+  }
+  .homepage #mainContent > h2 {
+    margin-top: 34px; padding-bottom: 10px;
+    border-bottom: 1px solid var(--border-light);
+  }
+  .homepage #mainContent > ol {
+    list-style-position: inside; padding: 0; margin: 16px 0 28px;
+    border: 1px solid var(--border); border-radius: 16px;
+    overflow: hidden; background: var(--card-bg);
+  }
+  .homepage #mainContent > ol li {
+    margin: 0; padding: 11px 16px; line-height: 1.75;
+    border-bottom: 1px solid var(--border-light);
+  }
+  .homepage #mainContent > ol li:last-child { border-bottom: 0; }
+  .homepage #mainContent > ol li::marker { color: var(--text-secondary); font-weight: 700; }
+  .homepage #mainContent > ol li a { font-weight: 500; }
+  .homepage #mainContent > ol li:hover { background: var(--border-light); }
+  .homepage .article-count {
+    display: flex; flex-direction: column; align-items: center;
+    gap: 2px; margin: 28px auto 8px; padding: 18px 24px;
+    max-width: 260px; border: 1px solid var(--border);
+    border-radius: 16px; background: var(--card-bg); text-align: center;
+  }
+  .homepage .article-count strong {
+    color: var(--text); font-size: 2.25rem; line-height: 1.25;
+    font-weight: 800; font-variant-numeric: tabular-nums;
+  }
+  .homepage .article-count span { color: var(--text-secondary); font-size: 13px; }
+  @media (max-width: 640px) {
+    .homepage #mainContent > h1 + p { font-size: 15px; }
+    .homepage #mainContent > ol li { padding: 10px 12px; }
+  }
+</style>
+</head>
+<body class="homepage">
+<header>
+  <div class="header-inner">
+    <a href="/" class="brand">Factpedia</a>
+    <div class="header-actions">
+      <button class="icon-btn" id="searchBtn" aria-label="Search">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+        </svg>
+      </button>
+      <button class="icon-btn" id="darkToggle" aria-label="Toggle theme">
+        <svg id="icon-moon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+        </svg>
+        <svg id="icon-sun" style="display:none" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M3 12h2.25m.386-6.364 1.591 1.591M12 12a2.25 2.25 0 0 0-2.25 2.25 2.25 2.25 0 0 0 2.25 2.25 2.25 2.25 0 0 0 2.25-2.25A2.25 2.25 0 0 0 12 12Z" />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div class="search-wrap" id="searchWrap">
+    <div class="search-box">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+      </svg>
+      <input type="text" id="searchInput" placeholder="शोधा... उदा. राजधानी, भाषा, इतिहास" autocomplete="off">
+      <button class="search-clear" id="searchClear" aria-label="Clear">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width:14px;height:14px">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+    </div>
+    <div class="search-meta" id="searchMeta"></div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="home-version" aria-label="Website version">v 0.1</div>
+  <main id="mainContent">
+    {{content}}
+  </main>
+  <div class="no-results" id="noResults">कोणतेही परिणाम सापडले नाहीत 😕</div>
+  <footer>© 2026 Factpedia • सर्व ज्ञानाचा एक खुला संग्रह</footer>
+</div>
+
+<script>
+  (function() {
+    const html = document.documentElement;
+    const darkBtn = document.getElementById('darkToggle');
+    const moon = document.getElementById('icon-moon');
+    const sun = document.getElementById('icon-sun');
+    const searchBtn = document.getElementById('searchBtn');
+    const searchWrap = document.getElementById('searchWrap');
+    const searchInput = document.getElementById('searchInput');
+    const searchClear = document.getElementById('searchClear');
+    const searchMeta = document.getElementById('searchMeta');
+    const main = document.getElementById('mainContent');
+    const noResults = document.getElementById('noResults');
+    const saved = localStorage.getItem('factpedia-theme');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    function applyTheme(isDark) {
+      html.classList.toggle('dark', isDark);
+      moon.style.display = isDark ? 'none' : 'block';
+      sun.style.display = isDark ? 'block' : 'none';
+    }
+    applyTheme(saved ? saved === 'dark' : prefersDark);
+    darkBtn.addEventListener('click', () => {
+      const isDark = !html.classList.contains('dark');
+      applyTheme(isDark);
+      localStorage.setItem('factpedia-theme', isDark ? 'dark' : 'light');
+    });
+    function openSearch() {
+      searchWrap.classList.add('open');
+      searchBtn.classList.add('active');
+      setTimeout(() => searchInput.focus(), 150);
+    }
+    function closeSearch() {
+      searchWrap.classList.remove('open');
+      searchBtn.classList.remove('active');
+      searchInput.value = '';
+      clearHighlights();
+      resetFilter();
+    }
+    searchBtn.addEventListener('click', () => {
+      if (searchWrap.classList.contains('open')) closeSearch();
+      else openSearch();
+    });
+    let originalHTML = null;
+    function saveOriginal() { if (!originalHTML) originalHTML = main.innerHTML; }
+    function clearHighlights() { if (originalHTML) main.innerHTML = originalHTML; }
+    function resetFilter() {
+      searchMeta.textContent = '';
+      noResults.classList.remove('show');
+    }
+    function doSearch(query) {
+      saveOriginal();
+      if (!query.trim()) { clearHighlights(); resetFilter(); return; }
+      const q = query.toLowerCase();
+      let htmlStr = originalHTML;
+      const regex = new RegExp('('+query.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')', 'gi');
+      htmlStr = htmlStr.replace(regex, '<mark>$1</mark>');
+      main.innerHTML = htmlStr;
+      let count = main.querySelectorAll('mark').length;
+      if (count === 0) {
+        noResults.classList.add('show');
+        searchMeta.textContent = '0 परिणाम';
+      } else {
+        noResults.classList.remove('show');
+        searchMeta.textContent = count + ' परिणाम सापडले';
+      }
+    }
+    searchInput.addEventListener('input', (e) => doSearch(e.target.value));
+    searchClear.addEventListener('click', () => {
+      searchInput.value = '';
+      clearHighlights();
+      resetFilter();
+      searchInput.focus();
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && searchWrap.classList.contains('open')) closeSearch();
+      if (e.key === '/' && !e.target.matches('input,textarea') && !searchWrap.classList.contains('open')) {
+        e.preventDefault(); openSearch();
+      }
+    });
+  })();
+</script>
+</body>
+</html>
