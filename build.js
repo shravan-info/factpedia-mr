@@ -127,6 +127,109 @@ function escapeRegExp(value) {
   return value.split("").map(ch => "\\^$.*+?()[]{}|".includes(ch) ? "\\" + ch : ch).join("");
 }
 const articleTitles = collectArticleTitles(contentDir).sort((a, b) => b.title.length - a.title.length);
+
+const searchDocuments = [];
+const englishAliases = {
+  "bharat": ["india", "republic of india", "indian country", "south asia"],
+  "maharashtra": ["maharashtra state", "western india", "marathi state"],
+  "mumbai": ["mumbai city", "bombay", "maharashtra capital", "financial capital"],
+  "chhatrapati-shivaji-maharaj": ["shivaji", "chhatrapati shivaji", "maratha king", "maratha empire"],
+  "raigad": ["raigad fort", "shivaji coronation", "maratha capital"],
+  "constitution-of-india": ["indian constitution", "constitution", "fundamental rights"],
+  "dr-b-r-ambedkar": ["ambedkar", "babasaheb", "b r ambedkar"],
+  "mahatma-gandhi": ["gandhi", "father of the nation", "nonviolence"],
+  "apj-abdul-kalam": ["abdul kalam", "missile man", "former president of india"],
+  "isro": ["indian space research organisation", "space agency india"],
+  "chandrayaan-3": ["moon mission", "india moon landing", "lunar mission"],
+  "aditya-l1": ["sun mission", "solar mission", "indian space mission"],
+  "artificial-intelligence": ["ai", "machine learning", "generative ai"],
+  "internet": ["world wide web", "computer network", "online"],
+  "solar-system": ["planets", "sun", "solar system planets"],
+  "earth": ["planet earth", "world", "geography"],
+  "united-nations": ["un", "united nations organization"],
+  "indian-parliament": ["parliament of india", "lok sabha", "rajya sabha"],
+  "indian-railways": ["railways india", "train", "indian railway"],
+  "indian-rupee": ["rupee", "inr", "indian currency"],
+  "reserve-bank-india": ["rbi", "central bank india", "reserve bank of india"],
+  "indian-independence-movement": ["indian freedom struggle", "freedom movement", "independence"],
+  "indian-national-congress": ["congress party history", "inc", "indian congress"],
+  "election-commission-india": ["eci", "indian elections", "election commission"],
+  "supreme-court-india": ["supreme court", "indian judiciary", "highest court india"],
+  "panchayati-raj-india": ["village government", "local self government", "panchayat"],
+  "indian-postal-system": ["india post", "postal service", "post office"],
+  "diwali": ["deepavali", "festival of lights", "indian festival"],
+  "ganesh-chaturthi": ["ganesh festival", "ganpati", "vinayaka chaturthi"],
+  "ajanta-caves": ["ajanta", "buddhist caves", "ancient indian paintings"],
+  "ellora-caves": ["ellora", "kailasa temple", "cave temples"],
+  "taj-mahal": ["agra monument", "mughal architecture"],
+  "red-fort": ["lal qila", "delhi fort", "mughal monument"],
+  "himalaya": ["himalayas", "mountain range", "mountains"],
+  "ganga-river": ["ganges", "river ganga", "indian rivers"],
+  "godavari-river": ["godavari", "dakshin ganga", "river"],
+  "krishna-river": ["krishna river", "indian river"],
+  "narmada-river": ["narmada", "river"],
+  "western-ghats": ["sahyadri", "biodiversity hotspot", "mountains india"],
+  "thar-desert": ["great indian desert", "rajasthan desert"],
+  "deccan-plateau": ["deccan", "plateau india"],
+  "goa": ["goa state", "western coast india"],
+  "gujarat": ["gujarat state", "western india"],
+  "rajasthan": ["rajasthan state", "thar"],
+  "assam": ["assam state", "northeast india"],
+  "kerala": ["kerala state", "malabar coast"],
+  "himachal-pradesh": ["himachal", "indian himalayas"],
+  "punjab": ["punjab state", "five rivers"],
+  "uttarakhand": ["uttarakhand state", "devbhoomi"],
+  "sikkim": ["sikkim state", "kanchenjunga"],
+  "mizoram": ["mizoram state", "northeast india"],
+  "tripura": ["tripura state", "northeast india"],
+  "meghalaya": ["meghalaya state", "living root bridges"],
+  "manipur": ["manipur state", "loktak lake"],
+  "nagaland": ["nagaland state", "naga"],
+  "arunachal-pradesh": ["arunachal", "eastern himalaya"],
+  "tamil-nadu": ["tamil nadu state", "southern india"],
+  "karnataka": ["karnataka state", "bengaluru"],
+  "andhra-pradesh": ["andhra", "andhra pradesh state"],
+  "telangana": ["telangana state", "hyderabad"],
+  "madhya-pradesh": ["madhya pradesh state", "central india"],
+  "chhattisgarh": ["chhattisgarh state", "central india"],
+  "odisha": ["orissa", "odisha state", "eastern india"],
+  "jharkhand": ["jharkhand state", "eastern india"],
+  "bihar": ["bihar state", "magadha"],
+  "uttar-pradesh": ["up", "uttar pradesh state"],
+  "west-bengal": ["west bengal state", "bengal"],
+  "delhi": ["new delhi", "national capital territory", "capital of india"],
+  "jammu-kashmir": ["jammu and kashmir", "kashmir"],
+  "ladakh": ["ladakh union territory", "cold desert"],
+  "andaman-nicobar": ["andaman and nicobar islands", "islands india"],
+  "puducherry": ["pondicherry", "union territory india"],
+  "indian-premier-league": ["ipl", "cricket league"],
+  "cricket-india": ["indian cricket", "team india"],
+  "cv-raman": ["c v raman", "raman effect", "physicist"],
+  "homi-bhabha": ["homi j bhabha", "nuclear science india"],
+  "savitribai-phule": ["savitribai", "women education india"],
+  "jyotirao-phule": ["jotiba phule", "social reformer"],
+  "sardar-vallabhbhai-patel": ["sardar patel", "iron man of india"],
+  "subhas-chandra-bose": ["netaji", "indian freedom fighter"],
+  "rabindranath-tagore": ["tagore", "poet", "nobel prize india"],
+  "hampi": ["vijayanagara empire", "vijayanagar ruins"],
+  "kaziranga-national-park": ["kaziranga", "one horned rhinoceros"],
+  "khajuraho-group-of-monuments": ["khajuraho temples", "temples india"],
+  "sanchi-stupa": ["sanchi", "buddhist monument"],
+  "konark-sun-temple": ["konark", "sun temple"],
+  "qutb-minar": ["qutub minar", "delhi monument"],
+  "gateway-of-india": ["gateway mumbai", "mumbai monument"]
+};
+function plainSearchText(markdown) {
+  return markdown.replace(/<!--[\\s\\S]*?-->/g, " ")
+    .replace(/!\\[([^\\]]*)\\]\\([^)]*\\)/g, " $1 ")
+    .replace(/\\[([^\\]]+)\\]\\([^)]*\\)/g, " $1 ")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/^\\s*---[\\s\\S]*?---\\s*/m, " ")
+    .replace(/[#>*_~`|]/g, " ")
+    .replace(/https?:\\/\\/\\S+/g, " ")
+    .replace(/\\s+/g, " ").trim();
+}
+
 function addContextualInternalLinks(markdown, currentSlug) {
   const linked = new Set();
   let inCodeBlock = false;
@@ -183,6 +286,17 @@ function processDir(dir, currentSlug = "") {
         ? ""
         : path.join(currentSlug, slugName).replace(/\\/g, "/");
       const pageUrl = pagePath ? siteUrl + "/" + pagePath + "/" : siteUrl + "/";
+      if (!isHomePage) {
+        const searchText = plainSearchText(markdownBody);
+        searchDocuments.push({
+          title,
+          slug: pagePath,
+          url: "/" + pagePath + "/",
+          description,
+          aliases: englishAliases[pagePath] || [],
+          text: searchText.slice(0, 12000)
+        });
+      }
       const linkedMarkdown = isHomePage ? markdownBody : addContextualInternalLinks(markdownBody, pagePath);
       const htmlContent = ensureSingleH1(marked.parse(linkedMarkdown), title);
       const structuredData = createStructuredData({
@@ -219,6 +333,13 @@ function processDir(dir, currentSlug = "") {
 if (fs.existsSync(contentDir)) {
   processDir(contentDir);
 }
+
+fs.writeFileSync(
+  path.join(distDir, "search-index.json"),
+  JSON.stringify(searchDocuments)
+);
+console.log(`Search index generated with ${searchDocuments.length} articles.`);
+
 
 const sitemapContent = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
