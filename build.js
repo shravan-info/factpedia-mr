@@ -20,18 +20,13 @@ const siteUrl = "https://factpedia-mr.pages.dev";
 
 function cleanMetaDescription(value) {
   return String(value || "")
-    .replace(/!\\[([^\\]]*)\\]\\([^)]*\\)/g, "$1")
-    .replace(/\\[([^\\]]+)\\]\\([^)]*\\)/g, "$1")
+    .replace(/!\[(.*?)\]\([^)]*\)/g, "$1")
+    .replace(/\[(.*?)\]\([^)]*\)/g, "$1")
     .replace(/<[^>]*>/g, " ")
-    .replace(/&nbsp;/gi, " ")
-    .replace(/&amp;/gi, "&")
-    .replace(/&quot;/gi, '"')
-    .replace(/&#39;/gi, "'")
-    .replace(/[\\*_~`>#|]/g, " ")
-    .replace(/\\s+/g, " ")
+    .replace(/[*_~>#|]/g, " ")
+    .replace(/\s+/g, " ")
     .trim();
 }
-
 function escapeHtml(value) {
   return String(value).replace(/[&<>"']/g, (char) => ({
     "&": "&amp;",
@@ -306,8 +301,8 @@ function processDir(dir, currentSlug = "") {
           title,
           slug: pagePath,
           url: "/" + pagePath + "/",
-          description,
-          aliases: englishAliases[pagePath] || [],
+          description: cleanMetaDescription(description),
+          aliases: [...new Set([...(englishAliases[pagePath] || []), pagePath.replace(/[\/-]+/g, " ")])],
           text: searchText.slice(0, 12000)
         });
       }
