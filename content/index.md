@@ -64,10 +64,16 @@ Factpedia हा इतिहास, भूगोल, विज्ञान, स
 52. [गेटवे ऑफ इंडिया: इतिहास आणि स्थापत्य](/gateway-of-india)
 53. [भारतीय राष्ट्रीय काँग्रेस: स्थापना आणि इतिहास](/indian-national-congress)
 54. [भारतातील पंचायतराज व्यवस्था: रचना आणि कार्ये](/panchayati-raj-india)
+55. [आदित्य-L1: भारताची सूर्य निरीक्षण मोहीम](/aditya-l1/)
+56. [सारनाथ: बौद्ध धर्माचे ऐतिहासिक तीर्थस्थळ](/sarnath/)
+57. [भारतीय टपाल व्यवस्था: इतिहास आणि सेवा](/indian-postal-system/)
+58. [हम्पी: विजयनगर साम्राज्याची राजधानी](/hampi/)
+59. [काझीरंगा राष्ट्रीय उद्यान: जैवविविधता आणि संवर्धन](/kaziranga-national-park/)
+60. [खजुराहोची मंदिरे: स्थापत्य आणि शिल्पकला](/khajuraho-group-of-monuments/)
 ---
 
 <div class="article-count" aria-label="Factpedia वरील एकूण प्रकाशित लेख">
   <span>एकूण प्रकाशित लेख</span>
-  <strong>५४</strong>
+  <strong>६०</strong>
   <span>Factpedia वरील लेख</span>
 </div>
