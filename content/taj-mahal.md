@@ -50,6 +50,8 @@ description: आग्रा येथील ताजमहालचा इत�
 
 कुराणातील आयतींचे सुलेखन, संगमरवरी जाळ्या, नाजूक कोरीवकाम आणि कमानींची सजावट ही ताजमहालची इतर वैशिष्ट्ये आहेत. प्रवेशद्वार आणि मुख्य इमारतीवरील सुलेखनात अक्षरांच्या आकारात केलेले बदल दूरून पाहताना अक्षरे जवळजवळ समान आकाराची भासावीत यासाठी उपयोगी ठरतात. अशा तपशीलांमुळे वास्तूची दृश्यात्मक एकसंधता वाढते. [६][७]
 
+मुख्य घुमटाखालील कक्ष, बाहेरील कमानींची मालिका आणि संगमरवरी जाळ्यांमधून येणारा प्रकाश यांमुळे आतील जागेला वेगळे दृश्यात्मक स्वरूप मिळते. वास्तूच्या विविध भागांत सजावटीची घनता समान नाही: मुख्य मकबऱ्यावर अधिक सूक्ष्म जडावकाम दिसते, तर मशिद आणि अतिथीगृहात तुलनेने संयत सजावट आहे. या नियोजनातून संपूर्ण संकुलात मुख्य मकबऱ्याला केंद्रस्थानी ठेवणारी श्रेणी आणि समतोल स्पष्ट होतो. [६][७][१४]
+
 ## सांस्कृतिक आणि ऐतिहासिक महत्त्व
 
 ताजमहाल हा शाहजहानच्या काळातील मुघल साम्राज्याची आर्थिक क्षमता, कारागिरी, स्थापत्यविचार आणि कलाप्रेम यांचा महत्त्वाचा पुरावा आहे. तो केवळ प्रेमाचे प्रतीक म्हणूनच नव्हे, तर सतराव्या शतकातील राजसत्ता, स्मृतिसंस्कृती, धार्मिक प्रतीके आणि उद्यानरचनेचा अभ्यास करण्यासाठीही महत्त्वाचा आहे. इतिहासकार ताजमहालचा अभ्यास इतर मुघल मकबरे, बागा आणि नदीकाठच्या वास्तूंच्या संदर्भात करतात. [११][१३][१४]
@@ -79,12 +81,12 @@ description: आग्रा येथील ताजमहालचा इत�
 ७. [Taj Mahal Official Website – Overview](https://www.tajmahal.gov.in/overview.aspx)
 ८. [Taj Mahal Official Website – History of the Taj Mahal](https://www.tajmahal.gov.in/history-of-the-taj-mahal.aspx)
 ९. [Taj Mahal Official Website – Taj Garden](https://www.tajmahal.gov.in/taj-garden.aspx)
-१०. [UNESCO – Taj Mahal आणि आग्रा येथील पर्चिनकारी हस्तकला](https://www.unesco.org/en/articles/taj-mahal?hub=66743)
+१०. [Google Arts & Culture – Stone Crafts of Agra: A Historical Legacy](https://artsandculture.google.com/story/stone-crafts-of-agra-a-historical-legacy-dastkari-haat-samiti/fgVRidJbIUEkKg?hl=en)
 ११. [Smithsonian Libraries – Architecture of Mughal India, Catherine B. Asher](https://www.si.edu/object/architecture-mughal-india-catherine-b-asher%3Asiris_sil_884351)
 १२. [Indira Gandhi National Centre for the Arts – Conservation of The Taj Mahal](https://ignca.gov.in/Asi_data/82052.pdf)
 १३. [UCLA – Mughal Architecture](https://southasia.ucla.edu/culture/architecture/mughal-architecture/)
 १४. [Smarthistory – The Taj Mahal](https://smarthistory.org/the-taj-mahal/)
-१५. [UNESCO – Taj Mahal: संरक्षण आणि व्यवस्थापन](https://whc.unesco.org/en/list/252/)
+१५. [Supreme Court of India – M.C. Mehta v. Union of India (Taj Trapezium Zone, 1996)](https://api.sci.gov.in/jonew/judis/14555.pdf)
 १६. [Archaeological Survey of India – Conservation and Preservation](https://asi.nic.in/pages/Conservation-%26-Preservation)
 १७. [Press Information Bureau – Impact of Climate Change on Cultural Heritage Sites](https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2100367&lang=2&reg=48)
 १८. [Proceedings of the Institution of Civil Engineers – Investigation of construction techniques used for the foundation of the Taj Mahal](https://www.sciencedirect.com/science/article/pii/S1757943018000060)
