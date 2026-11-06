@@ -110,6 +110,44 @@ function createStructuredData({ title, description, pageUrl, isHomePage }) {
   }).replace(/</g, "\\u003c");
 }
 
+
+function collectArticleTitles(dir, currentSlug = "", output = []) {
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const fullPath = path.join(dir, entry.name);
+    if (entry.isDirectory()) collectArticleTitles(fullPath, path.join(currentSlug, entry.name), output);
+    else if (entry.name.endsWith(".md") && entry.name !== "index.md") {
+      const source = fs.readFileSync(fullPath, "utf-8");
+      const heading = source.match(/^#\s+(.+)$/m);
+      if (heading) output.push({ title: heading[1].trim(), slug: path.join(currentSlug, entry.name.replace(/\.md$/, "")).split(path.sep).join("/") });
+    }
+  }
+  return output;
+}
+function escapeRegExp(value) {
+  return value.split("").map(ch => "\\^$.*+?()[]{}|".includes(ch) ? "\\" + ch : ch).join("");
+}
+const articleTitles = collectArticleTitles(contentDir).sort((a, b) => b.title.length - a.title.length);
+function addContextualInternalLinks(markdown, currentSlug) {
+  const linked = new Set();
+  let inCodeBlock = false;
+  return markdown.split("\n").map(line => {
+    if (/^\s*```/.test(line)) { inCodeBlock = !inCodeBlock; return line; }
+    if (inCodeBlock || /^\s{0,3}(#|>|[-*+]\s|\d+\.\s|\||\[)/.test(line) ||
+        /https?:\/\//i.test(line) || /\[[^\]]*\]\([^)]*\)/.test(line) ||
+        /<[^>]+>/.test(line) || !line.trim()) return line;
+    let output = line;
+    for (const item of articleTitles) {
+      if (item.slug === currentSlug || linked.has(item.slug)) continue;
+      const pattern = new RegExp("(?<![\\p{L}\\p{N}])(" + escapeRegExp(item.title) + ")(?![\\p{L}\\p{N}])", "u");
+      if (pattern.test(output)) output = output.replace(pattern, match => {
+        linked.add(item.slug);
+        return "[" + match + "](/" + item.slug + "/)";
+      });
+    }
+    return output;
+  }).join("\n");
+}
+
 function processDir(dir, currentSlug = "") {
   const entries = fs.readdirSync(dir, { withFileTypes: true });
 
@@ -145,7 +183,8 @@ function processDir(dir, currentSlug = "") {
         ? ""
         : path.join(currentSlug, slugName).replace(/\\/g, "/");
       const pageUrl = pagePath ? siteUrl + "/" + pagePath + "/" : siteUrl + "/";
-      const htmlContent = ensureSingleH1(marked.parse(markdownBody), title);
+      const linkedMarkdown = isHomePage ? markdownBody : addContextualInternalLinks(markdownBody, pagePath);
+      const htmlContent = ensureSingleH1(marked.parse(linkedMarkdown), title);
       const structuredData = createStructuredData({
         title,
         description,
