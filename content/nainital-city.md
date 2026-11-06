@@ -93,7 +93,7 @@ description: नैनीताल शहराचा इतिहास, नै
 3. [उत्तराखंड पर्यटन — नैनीताल](https://www.uttarakhandtourism.gov.in/destination/nainital)
 4. [नैनीताल जिल्हा प्रशासन — नैनीतालची माहिती](https://nainital.nic.in/explore-nainital/)
 5. [उत्तराखंड शहरी विकास विभाग — नैनीताल शहर विकास आराखडा](https://udd.uk.gov.in/files/CDP_NITL.PDF)
-6. [कुमाऊँ मंडळ — नैनीताल](https://kumaon.gov.in/places-centres/taj-mahal-agra/)
+6. [कुमाऊँ मंडळ — नैनीताल](https://nainital.nic.in/tourist-place/naini-lake/)
 7. [भारताची जनगणना — २०११ जनगणना](https://censusindia.gov.in/census.website/)
 
 ---
