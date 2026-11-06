@@ -46,7 +46,7 @@ description: कृष्णा नदीचा उगम, प्रवाह, �
 
 ## संदर्भ
 
-1. [केंद्रीय जल आयोग](https://cwc.gov.in/)
+1. [केंद्रीय जल आयोग](https://krmb.gov.in/krmb/aboutUs)
 2. [भारत जलसंपदा माहिती](https://indiawris.gov.in/)
 3. [जलशक्ती मंत्रालय](https://jalshakti-dowr.gov.in/)
 4. [राष्ट्रीय जल अभियान](https://nwm.gov.in/)

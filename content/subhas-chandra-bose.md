@@ -50,6 +50,6 @@ description: नेताजी सुभाषचंद्र बोस या�
 2. [PIB – सुभाषचंद्र बोस](https://www.pib.gov.in/PressReleasePage.aspx?PRID=1600373&lang=1&reg=6)
 3. [नेताजी संशोधन ब्युरो](https://www.netajisubhasbose.org/)
 4. [राष्ट्रीय अभिलेखागार](https://nationalarchives.nic.in/)
-5. [भारत सरकार](https://www.india.gov.in/)
+5. [भारत सरकार](https://static.pib.gov.in/WriteReadData/userfiles/Unsung%20Heroes%20of%20Freedom%20Movement_p1.pdf)
 
 *शेवटचे संपादन: ६ नोव्हेंबर २०२६*

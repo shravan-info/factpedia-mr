@@ -49,7 +49,7 @@ description: होमी जहांगीर भाभा यांचे ज
 1. [BARC – होमी भाभा](https://www.barc.gov.in/about/)
 2. [TIFR – इतिहास](https://www.tifr.res.in/portal/history.php/rti.php)
 3. [राष्ट्रीय इंधन संकुल](https://www.nfc.gov.in/history.html)
-4. [विज्ञान आणि तंत्रज्ञान विभाग](https://dst.gov.in/)
+4. [विज्ञान आणि तंत्रज्ञान विभाग](https://dae.gov.in/atomic-energy-commission/former-head/shri-homi-bhabha/)
 5. [अणुऊर्जा विभाग](https://dae.gov.in/)
 
 *शेवटचे संपादन: ६ नोव्हेंबर २०२६*

@@ -57,7 +57,7 @@ description: पंचायतराज व्यवस्थेचा इत�
 ## संदर्भ
 
 1. [पंचायती राज मंत्रालय](https://panchayat.gov.in/)
-2. [७३ वी घटनादुरुस्ती](https://panchayat.gov.in/en/document/73rd-constitutional-amendment-act-1992/)
+2. [७३ वी घटनादुरुस्ती](https://panchayat.gov.in/en/document/annex-2-73rd-amendment-act-1993/)
 3. [गृह मंत्रालय – ७३ वी दुरुस्ती](https://secforuts.mha.gov.in/73rd-amendment-of-panchayati-raj-in-india/)
 4. [PIB – पंचायतराज](https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1784196&lang=2&reg=3)
 5. [भारताचे संविधान](https://legislative.gov.in/constitution-of-india/)

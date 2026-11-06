@@ -48,6 +48,6 @@ description: रवींद्रनाथ टागोर यांचे ज�
 2. [नोबेल पुरस्कार – चरित्र](https://www.nobelprize.org/prizes/literature/1913/tagore/biographical/)
 3. [विश्वभारती विद्यापीठ](https://www.visvabharati.ac.in/)
 4. [साहित्य अकादमी](https://sahitya-akademi.gov.in/)
-5. [भारत सरकार – संस्कृती](https://culture.gov.in/)
+5. [भारत सरकार – संस्कृती](https://www.nobelprize.org/prizes/literature/1913/tagore/article/)
 
 *शेवटचे संपादन: ६ नोव्हेंबर २०२६*

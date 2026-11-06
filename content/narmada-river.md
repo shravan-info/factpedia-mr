@@ -46,7 +46,7 @@ description: नर्मदा नदीचा उगम, पश्चिमव
 
 ## संदर्भ
 
-1. [केंद्रीय जल आयोग](https://cwc.gov.in/)
+1. [केंद्रीय जल आयोग](https://cwc.gov.in/sites/default/files/admin/8_NBO_Bhopal_Narmada_WQYB_2015-16.pdf)
 2. [नर्मदा नियंत्रण प्राधिकरण](https://nca.gov.in/)
 3. [भारत जलसंपदा माहिती](https://indiawris.gov.in/)
 4. [जलशक्ती मंत्रालय](https://jalshakti-dowr.gov.in/)

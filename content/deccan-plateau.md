@@ -50,7 +50,7 @@ description: दख्खनच्या पठाराची भौगोल�
 
 ## संदर्भ
 
-1. [भारतीय भूवैज्ञानिक सर्वेक्षण](https://www.gsi.gov.in/)
+1. [भारतीय भूवैज्ञानिक सर्वेक्षण](https://gsi.gov.in/RockTextureAtlas/TexturesInPyroclasticRocks/)
 2. [राष्ट्रीय भूविज्ञान माहिती](https://www.mines.gov.in/)
 3. [भारत जलसंपदा माहिती](https://indiawris.gov.in/)
 4. [भारतीय हवामान विभाग](https://mausam.imd.gov.in/)

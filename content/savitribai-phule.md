@@ -50,6 +50,6 @@ description: सावित्रीबाई फुले यांचे ज�
 2. [पुणे विद्यापीठ](https://www.unipune.ac.in/)
 3. [महाराष्ट्र शासन](https://maharashtra.gov.in/)
 4. [भारत सरकार – शिक्षण](https://www.education.gov.in/)
-5. [PIB – सामाजिक विषय](https://pib.gov.in/)
+5. [PIB – सामाजिक विषय](https://indianexpress.com/article/explained/explained-culture/who-was-savitribai-phule-192nd-birth-anniversary-8357861/)
 
 *शेवटचे संपादन: ६ नोव्हेंबर २०२६*

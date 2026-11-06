@@ -46,7 +46,7 @@ description: ब्रह्मपुत्रा नदीचा हिमा�
 
 ## संदर्भ
 
-1. [केंद्रीय जल आयोग](https://cwc.gov.in/)
+1. [केंद्रीय जल आयोग](https://www.cwc.gov.in/sites/default/files/brahmaputra-basin-volume-i.pdf)
 2. [भारत जलसंपदा माहिती](https://indiawris.gov.in/)
 3. [ब्रह्मपुत्रा बोर्ड](https://brahmaputraboard.gov.in/)
 4. [आसाम शासन](https://assam.gov.in/)

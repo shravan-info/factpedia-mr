@@ -44,7 +44,7 @@ description: सरदार वल्लभभाई पटेल यांच�
 
 1. [संस्कृती मंत्रालय](https://culture.gov.in/sardar-vallabhbhai-patel)
 2. [PIB – सरदार पटेल](https://static.pib.gov.in/WriteReadData/specificdocs/documents/2021/oct/doc2021103031.pdf)
-3. [भारत सरकार](https://www.india.gov.in/)
+3. [भारत सरकार](https://culture.gov.in/commemorations/150th-birth-anniversary-sardar-vallabhbhai-patel)
 4. [स्टॅच्यू ऑफ युनिटी](https://statueofunity.in/)
 5. [संसद डिजिटल ग्रंथालय](https://eparlib.nic.in/)
 

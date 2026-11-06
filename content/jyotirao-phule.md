@@ -52,8 +52,8 @@ description: महात्मा ज्योतिराव फुले य�
 ## संदर्भ
 
 1. [महाराष्ट्र शासन](https://maharashtra.gov.in/)
-2. [पुणे विद्यापीठ](https://www.unipune.ac.in/)
-3. [NCERT – सामाजिक इतिहास](https://ncert.nic.in/)
+2. [पुणे विद्यापीठ](https://brlibrary.unipune.ac.in/book-reviews/mahatma-jyotirao-phule/)
+3. [NCERT – सामाजिक इतिहास](https://ejournals.ncert.gov.in/index.php/tpt/article/view/700/654)
 4. [भारत सरकार – शिक्षण](https://www.education.gov.in/)
 5. [PIB – समाजसुधारक](https://pib.gov.in/)
 
