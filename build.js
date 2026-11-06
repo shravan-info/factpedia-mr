@@ -5,12 +5,16 @@ import { marked } from "marked";
 const contentDir = "./content";
 const distDir = "./dist";
 const templatePath = "./template.html";
+const homepageTemplatePath = "./homepage-template.html";
 
 if (!fs.existsSync(distDir)) {
   fs.mkdirSync(distDir, { recursive: true });
 }
 
 const template = fs.readFileSync(templatePath, "utf-8");
+const homepageTemplate = fs.existsSync(homepageTemplatePath)
+  ? fs.readFileSync(homepageTemplatePath, "utf-8")
+  : template;
 const urls = [];
 const siteUrl = "https://factpedia-mr.pages.dev";
 
@@ -149,7 +153,8 @@ function processDir(dir, currentSlug = "") {
         isHomePage
       });
 
-      const outputHtml = template
+      const selectedTemplate = isHomePage ? homepageTemplate : template;
+      const outputHtml = selectedTemplate
         .replaceAll("{{title}}", title)
         .replaceAll("{{description}}", description)
         .replaceAll("{{canonical}}", pageUrl)
