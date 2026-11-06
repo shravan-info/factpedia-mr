@@ -329,7 +329,7 @@
 </script>
 
 <script>
-  // Mobile encyclopedia sections: keep headings visible and collapse their content.
+  // Mobile encyclopedia sections: preserve tables and keep the first section open.
   (function () {
     const main = document.getElementById('mainContent');
     if (!main) return;
@@ -340,46 +340,57 @@
       if (built) return;
       const headings = Array.from(main.querySelectorAll(':scope > h2'));
       headings.forEach((heading, index) => {
-        if (heading.querySelector('.section-toggle')) return;
-        const content = document.createElement('div');
-        content.className = 'section-content';
-        content.id = 'article-section-' + (index + 1);
+        const parts = [];
         let node = heading.nextSibling;
+        let chunk = null;
         while (node && !(node.nodeType === 1 && node.matches('h2'))) {
           const next = node.nextSibling;
-          content.appendChild(node);
+          const isTable = node.nodeType === 1 &&
+            (node.matches('table') || node.querySelector('table'));
+          if (isTable) {
+            chunk = null;
+            parts.push({node, isTable: true});
+          } else {
+            if (!chunk) {
+              chunk = document.createElement('div');
+              chunk.className = 'section-content';
+              chunk.id = 'article-section-' + (index + 1) + '-part-' + (parts.length + 1);
+              parts.push({node: chunk, isTable: false});
+            }
+            chunk.appendChild(node);
+          }
           node = next;
         }
-        heading.after(content);
+        parts.forEach(part => heading.after(part.node));
         const button = document.createElement('button');
         button.type = 'button';
         button.className = 'section-toggle';
-        button.setAttribute('aria-controls', content.id);
-        button.setAttribute('aria-expanded', mobile.matches ? 'false' : 'true');
-        button.setAttribute('aria-label', (mobile.matches ? 'विभाग उघडा: ' : 'विभाग बंद करा: ') + heading.textContent.trim());
-        button.textContent = mobile.matches ? '+' : '−';
+        button.setAttribute('aria-controls', parts.filter(p => !p.isTable).map(p => p.node.id).join(' '));
+        const initiallyOpen = !mobile.matches || index === 0;
+        button.setAttribute('aria-expanded', String(initiallyOpen));
+        button.setAttribute('aria-label', (initiallyOpen ? 'विभाग बंद करा: ' : 'विभाग उघडा: ') + heading.textContent.trim());
+        button.textContent = initiallyOpen ? '−' : '+';
         heading.appendChild(button);
-        content.hidden = mobile.matches;
+        parts.filter(p => !p.isTable).forEach(part => { part.node.hidden = !initiallyOpen; });
       });
       built = true;
     }
 
     function syncSections() {
       buildSections();
-      main.querySelectorAll(':scope > h2').forEach(heading => {
+      main.querySelectorAll(':scope > h2').forEach((heading, index) => {
         const button = heading.querySelector('.section-toggle');
-        const content = heading.nextElementSibling;
-        if (!button || !content || !content.classList.contains('section-content')) return;
+        if (!button) return;
         button.hidden = !mobile.matches;
-        if (!mobile.matches) {
-          content.hidden = false;
-          button.setAttribute('aria-expanded', 'true');
-          button.textContent = '−';
-        } else if (!button.dataset.touched) {
-          content.hidden = true;
-          button.setAttribute('aria-expanded', 'false');
-          button.textContent = '+';
+        const expanded = !mobile.matches || index === 0;
+        button.setAttribute('aria-expanded', String(expanded));
+        button.textContent = expanded ? '−' : '+';
+        let next = heading.nextElementSibling;
+        while (next && !next.matches('h2')) {
+          if (next.classList.contains('section-content')) next.hidden = !expanded;
+          next = next.nextElementSibling;
         }
+        if (!mobile.matches) button.dataset.userChanged = '';
       });
     }
 
@@ -387,14 +398,16 @@
       const button = event.target.closest('.section-toggle');
       if (!button || !main.contains(button)) return;
       const heading = button.closest('h2');
-      const content = heading && heading.nextElementSibling;
-      if (!content || !content.classList.contains('section-content')) return;
       const expanded = button.getAttribute('aria-expanded') === 'true';
-      button.dataset.touched = 'true';
+      button.dataset.userChanged = 'true';
       button.setAttribute('aria-expanded', String(!expanded));
-      content.hidden = expanded;
       button.textContent = expanded ? '+' : '−';
       button.setAttribute('aria-label', (expanded ? 'विभाग उघडा: ' : 'विभाग बंद करा: ') + heading.textContent.replace(/[+−]/g, '').trim());
+      let next = heading.nextElementSibling;
+      while (next && !next.matches('h2')) {
+        if (next.classList.contains('section-content')) next.hidden = expanded;
+        next = next.nextElementSibling;
+      }
     });
     if (mobile.addEventListener) mobile.addEventListener('change', syncSections);
     else mobile.addListener(syncSections);
