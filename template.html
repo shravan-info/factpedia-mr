@@ -361,7 +361,8 @@
           }
           node = next;
         }
-        parts.forEach(part => heading.after(part.node));
+        const sectionEnd = node;
+        parts.forEach(part => heading.parentNode.insertBefore(part.node, sectionEnd));
         const button = document.createElement('button');
         button.type = 'button';
         button.className = 'section-toggle';
