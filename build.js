@@ -88,8 +88,9 @@ function createStructuredData({ title, description, pageUrl, isHomePage }) {
         "@id": pageUrl + "#article",
         "mainEntityOfPage": { "@id": pageId },
         "headline": title,
-        "description": description,
+        "description": cleanMetaDescription(description),
         "inLanguage": "mr",
+        "author": { "@id": organizationId },
         "publisher": { "@id": organizationId }
       },
       {
@@ -310,7 +311,7 @@ function processDir(dir, currentSlug = "") {
       const htmlContent = ensureSingleH1(marked.parse(linkedMarkdown), title);
       const structuredData = createStructuredData({
         title,
-        description,
+        description: cleanMetaDescription(description),
         pageUrl,
         isHomePage
       });
