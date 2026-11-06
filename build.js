@@ -245,6 +245,17 @@ if (fs.existsSync(bingVerificationFile)) {
   console.warn("Bing verification file not found in repository root.");
 }
 
+const indexNowKeyFile = "ef79319de7cd4d95aabfd1fdb1b2f01d.txt";
+if (fs.existsSync(indexNowKeyFile)) {
+  fs.copyFileSync(
+    indexNowKeyFile,
+    path.join(distDir, indexNowKeyFile)
+  );
+  console.log("IndexNow key file copied to dist.");
+} else {
+  console.warn("IndexNow key file not found in repository root.");
+}
+
 const googleVerificationFile = "googled18bb9aab34a4f6b.html";
 if (fs.existsSync(googleVerificationFile)) {
   fs.copyFileSync(
