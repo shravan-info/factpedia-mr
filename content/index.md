@@ -121,6 +121,6 @@ Factpedia हा इतिहास, भूगोल, विज्ञान, स
 
 <div class="article-count" aria-label="Factpedia वरील एकूण प्रकाशित लेख">
   <span>एकूण प्रकाशित लेख</span>
-  <strong>१२२</strong>
+  <strong>१२४</strong>
   <span>Factpedia वरील लेख</span>
 </div>
