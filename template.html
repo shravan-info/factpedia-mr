@@ -196,6 +196,34 @@
     .section-toggle:active { transform: scale(.94); }
   }
 
+
+  /* Factpedia visual system refresh */
+  :root { --bg:#f7f9fd; --text:#17243b; --text-secondary:#65748b; --border:#dce5f2; --border-light:#eaf0f8; --card-bg:#fff; --link:#2457c5; --header-bg:rgba(255,255,255,.9); --code-bg:#f1f5fb; --search-bg:#f4f7fc; --accent-soft:#eaf1ff; --accent-strong:#1746a2; }
+  html.dark { --bg:#0d1422; --text:#e8eef9; --text-secondary:#a1aec2; --border:#263650; --border-light:#1b2940; --card-bg:#121e30; --link:#82adff; --header-bg:rgba(13,20,34,.9); --code-bg:#142238; --search-bg:#142238; --accent-soft:#1a3157; --accent-strong:#9bbcff; }
+  body { background:var(--bg); }
+  header { border-bottom-color:var(--border); box-shadow:0 4px 22px rgba(21,48,91,.035); }
+  .header-inner { max-width:980px; height:68px; padding:8px 22px; }
+  .brand { gap:10px; font-family:"Noto Sans Devanagari",system-ui,sans-serif; font-style:normal; font-weight:800; letter-spacing:-.045em; font-size:24px; }
+  .brand img { width:34px; height:34px; border-radius:10px; }
+  .icon-btn { width:40px; height:40px; border-radius:13px; }
+  .icon-btn:hover { color:var(--link); background:var(--accent-soft); border-color:var(--border); }
+  .icon-btn.active { color:#fff; background:var(--accent-strong); border-color:var(--accent-strong); }
+  a { color:var(--link); } li::marker { color:var(--link); }
+  #mainContent > h1,#mainContent > h2 { color:var(--text); }
+  .search-box,.hero-search { border-color:var(--border); }
+  .search-box:focus-within,.hero-search:focus-within { border-color:var(--link); }
+  .install-btn { border-radius:12px; border-color:var(--border); }
+  footer { color:var(--text-secondary); }
+
+  .search-wrap.open { max-height:560px; overflow:visible; padding-bottom:14px; }
+  .article-search-results { display:none; margin-top:10px; max-height:340px; overflow:auto; border:1px solid var(--border); border-radius:14px; background:var(--card-bg); box-shadow:0 14px 35px rgba(15,35,70,.12); }
+  .search-wrap.open .article-search-results.has-results { display:block; }
+  .article-search-result { display:block; padding:12px 14px; color:var(--text); border-bottom:1px solid var(--border-light); text-decoration:none!important; }
+  .article-search-result:last-child { border-bottom:0; }
+  .article-search-result:hover,.article-search-result:focus { background:var(--accent-soft); outline:none; }
+  .article-search-result strong { display:block; color:var(--link); font-size:15px; margin-bottom:2px; }
+  .article-search-result span { display:block; color:var(--text-secondary); font-size:12px; line-height:1.6; }
+  .article-search-empty { padding:14px; color:var(--text-secondary); font-size:13px; }
 </style>
 </head>
 <body>
@@ -234,7 +262,8 @@
         </svg>
       </button>
     </div>
-    <div class="search-meta" id="searchMeta"></div>
+    <div class="search-meta" id="searchMeta" aria-live="polite"></div>
+    <div class="article-search-results" id="articleSearchResults" role="listbox" aria-label="Search results"></div>
   </div>
 </header>
 
@@ -247,84 +276,50 @@
 </div>
 
 <script>
-  (function() {
-    const html = document.documentElement;
-    const darkBtn = document.getElementById('darkToggle');
-    const moon = document.getElementById('icon-moon');
-    const sun = document.getElementById('icon-sun');
-    const searchBtn = document.getElementById('searchBtn');
-    const searchWrap = document.getElementById('searchWrap');
-    const searchInput = document.getElementById('searchInput');
-    const searchClear = document.getElementById('searchClear');
-    const searchMeta = document.getElementById('searchMeta');
-    const main = document.getElementById('mainContent');
-    const noResults = document.getElementById('noResults');
-    const saved = localStorage.getItem('factpedia-theme');
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    function applyTheme(isDark) {
-      html.classList.toggle('dark', isDark);
-      moon.style.display = isDark ? 'none' : 'block';
-      sun.style.display = isDark ? 'block' : 'none';
+  (function () {
+    const html = document.documentElement, darkBtn = document.getElementById('darkToggle');
+    const moon = document.getElementById('icon-moon'), sun = document.getElementById('icon-sun');
+    const searchBtn = document.getElementById('searchBtn'), searchWrap = document.getElementById('searchWrap');
+    const searchInput = document.getElementById('searchInput'), searchClear = document.getElementById('searchClear');
+    const searchMeta = document.getElementById('searchMeta'), resultsBox = document.getElementById('articleSearchResults');
+    const saved = localStorage.getItem('factpedia-theme'), prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    function applyTheme(isDark) { html.classList.toggle('dark',isDark); moon.style.display=isDark?'none':'block'; sun.style.display=isDark?'block':'none'; }
+    applyTheme(saved ? saved==='dark' : prefersDark);
+    darkBtn.addEventListener('click',()=>{const isDark=!html.classList.contains('dark');applyTheme(isDark);localStorage.setItem('factpedia-theme',isDark?'dark':'light');});
+    function openSearch(){searchWrap.classList.add('open');searchBtn.classList.add('active');setTimeout(()=>searchInput.focus(),120);}
+    function closeSearch(){searchWrap.classList.remove('open');searchBtn.classList.remove('active');searchInput.value='';resultsBox.replaceChildren();resultsBox.classList.remove('has-results');searchMeta.textContent='';}
+    searchBtn.addEventListener('click',()=>searchWrap.classList.contains('open')?closeSearch():openSearch());
+    let documents=[],indexReady=false;
+    fetch('/search-index.json').then(r=>{if(!r.ok)throw new Error('index unavailable');return r.json();})
+      .then(data=>{documents=Array.isArray(data)?data:[];indexReady=true;if(searchInput.value.trim())renderSearch(searchInput.value);})
+      .catch(()=>{searchMeta.textContent='शोध सध्या उपलब्ध नाही. कृपया पुन्हा प्रयत्न करा.';});
+    const normalize=value=>String(value||'').toLocaleLowerCase('en').normalize('NFKC').replace(/[’']/g,'').replace(/[^\p{L}\p{N}]+/gu,' ').trim();
+    function scoreDocument(doc,query){
+      const q=normalize(query),tokens=q.split(/\s+/).filter(Boolean),title=normalize(doc.title);
+      const aliases=normalize((doc.aliases||[]).join(' ')),slug=normalize(String(doc.slug||'').replace(/-/g,' '));
+      const description=normalize(doc.description),body=normalize(doc.text);let score=0;
+      if(title===q)score+=150;if(title.includes(q))score+=90;if(aliases.includes(q))score+=75;
+      if(slug.includes(q))score+=50;if(description.includes(q))score+=28;if(body.includes(q))score+=12;
+      const matched=tokens.filter(x=>title.includes(x)||aliases.includes(x)||slug.includes(x)||description.includes(x)||body.includes(x)).length;
+      if(matched===tokens.length&&tokens.length)score+=35;else score+=matched*4;return score;
     }
-    applyTheme(saved ? saved === 'dark' : prefersDark);
-    darkBtn.addEventListener('click', () => {
-      const isDark = !html.classList.contains('dark');
-      applyTheme(isDark);
-      localStorage.setItem('factpedia-theme', isDark ? 'dark' : 'light');
-    });
-    function openSearch() {
-      searchWrap.classList.add('open');
-      searchBtn.classList.add('active');
-      setTimeout(() => searchInput.focus(), 150);
+    function renderSearch(query){
+      const q=query.trim();resultsBox.replaceChildren();resultsBox.classList.remove('has-results');
+      if(!q){searchMeta.textContent='';return;}
+      if(!indexReady){searchMeta.textContent='लेख शोधले जात आहेत…';return;}
+      const results=documents.map(doc=>({doc,score:scoreDocument(doc,q)})).filter(x=>x.score>0)
+        .sort((a,b)=>b.score-a.score||String(a.doc.title).localeCompare(String(b.doc.title),'mr')).slice(0,10);
+      searchMeta.textContent=results.length?'“'+q+'” साठी '+results.length+' लेख':'लेख सापडला नाही. दुसरा शब्द वापरून पाहा.';
+      if(!results.length){const empty=document.createElement('div');empty.className='article-search-empty';empty.textContent='मराठी किंवा English मधील दुसरा शब्द वापरून पाहा.';resultsBox.append(empty);resultsBox.classList.add('has-results');return;}
+      results.forEach(({doc})=>{const link=document.createElement('a');link.className='article-search-result';link.href=doc.url;link.setAttribute('role','option');
+        const title=document.createElement('strong');title.textContent=doc.title;const desc=document.createElement('span');
+        desc.textContent=doc.description||'Factpedia वरील लेख वाचा.';link.append(title,desc);resultsBox.append(link);});
+      resultsBox.classList.add('has-results');
     }
-    function closeSearch() {
-      searchWrap.classList.remove('open');
-      searchBtn.classList.remove('active');
-      searchInput.value = '';
-      clearHighlights();
-      resetFilter();
-    }
-    searchBtn.addEventListener('click', () => {
-      if (searchWrap.classList.contains('open')) closeSearch();
-      else openSearch();
-    });
-    let originalHTML = null;
-    function saveOriginal() { if (!originalHTML) originalHTML = main.innerHTML; }
-    function clearHighlights() { if (originalHTML) main.innerHTML = originalHTML; }
-    function resetFilter() {
-      searchMeta.textContent = '';
-      noResults.classList.remove('show');
-    }
-    function doSearch(query) {
-      saveOriginal();
-      if (!query.trim()) { clearHighlights(); resetFilter(); return; }
-      const q = query.toLowerCase();
-      let htmlStr = originalHTML;
-      const regex = new RegExp('('+query.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')', 'gi');
-      htmlStr = htmlStr.replace(regex, '<mark>$1</mark>');
-      main.innerHTML = htmlStr;
-      let count = main.querySelectorAll('mark').length;
-      if (count === 0) {
-        noResults.classList.add('show');
-        searchMeta.textContent = '0 परिणाम';
-      } else {
-        noResults.classList.remove('show');
-        searchMeta.textContent = count + ' परिणाम सापडले';
-      }
-    }
-    searchInput.addEventListener('input', (e) => doSearch(e.target.value));
-    searchClear.addEventListener('click', () => {
-      searchInput.value = '';
-      clearHighlights();
-      resetFilter();
-      searchInput.focus();
-    });
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && searchWrap.classList.contains('open')) closeSearch();
-      if (e.key === '/' && !e.target.matches('input,textarea') && !searchWrap.classList.contains('open')) {
-        e.preventDefault(); openSearch();
-      }
-    });
+    searchInput.addEventListener('input',e=>renderSearch(e.target.value));
+    searchClear.addEventListener('click',()=>{searchInput.value='';renderSearch('');searchInput.focus();});
+    document.addEventListener('keydown',e=>{if(e.key==='/'&&!e.target.matches('input,textarea')&&!searchWrap.classList.contains('open')){e.preventDefault();openSearch();}
+      if(e.key==='Escape'&&searchWrap.classList.contains('open'))closeSearch();});
   })();
 </script>
 
