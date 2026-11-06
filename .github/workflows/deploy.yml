@@ -28,3 +28,32 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy dist --project-name=factpedia-mr
+
+      - name: Submit sitemap URLs to IndexNow
+        if: success()
+        shell: bash
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from "node:fs";
+          const xml = fs.readFileSync("dist/sitemap.xml", "utf8");
+          const urlList = [...xml.matchAll(/<loc>(.*?)<\\/loc>/g)].map((m) => m[1].trim());
+          if (urlList.length === 0) {
+            console.log("No sitemap URLs found; skipping IndexNow.");
+            process.exit(0);
+          }
+          const payload = {
+            host: "factpedia-mr.pages.dev",
+            key: "ef79319de7cd4d95aabfd1fdb1b2f01d",
+            keyLocation: "https://factpedia-mr.pages.dev/ef79319de7cd4d95aabfd1fdb1b2f01d.txt",
+            urlList
+          };
+          fs.writeFileSync("/tmp/indexnow-payload.json", JSON.stringify(payload));
+          console.log(`Prepared ${urlList.length} URLs for IndexNow.`);
+          NODE
+          curl --fail-with-body --silent --show-error \
+            -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json; charset=utf-8" \
+            --data-binary @/tmp/indexnow-payload.json \
+            --output /tmp/indexnow-response.txt \
+            --write-out "IndexNow HTTP status: %{http_code}\\n"
+          cat /tmp/indexnow-response.txt || true
