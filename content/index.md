@@ -72,8 +72,51 @@ Factpedia हा इतिहास, भूगोल, विज्ञान, स
 60. [खजुराहोची मंदिरे: स्थापत्य आणि शिल्पकला](/khajuraho-group-of-monuments/)
 ---
 
+61. [धोलावीरा](/dholavira/)
+62. [घारापुरीची लेणी (एलिफंटा लेणी)](/elephanta-caves/)
+63. [नालंदा महाविहार](/nalanda-mahavihara/)
+64. [भीमबेटका शैलाश्रय](/bhimbetka-rock-shelters/)
+65. [महाबलीपुरमची स्मारके](/mahabalipuram-monuments/)
+66. [पट्टदकलची स्मारके](/pattadakal-monuments/)
+67. [आग्रा किल्ला](/agra-fort/)
+68. [हुमायूनची कबर](/humayuns-tomb/)
+69. [फतेहपूर सिक्री](/fatehpur-sikri/)
+70. [जयपूरचे जंतरमंतर](/jantar-mantar-jaipur/)
+71. [राणी की वाव](/rani-ki-vav/)
+72. [महान चोल मंदिरे](/great-living-chola-temples/)
+73. [रामप्पा मंदिर](/ramappa-temple/)
+74. [शांतिनिकेतन](/santiniketan/)
+75. [आसामचे मोईदाम](/moidams-assam/)
+76. [छत्रपती शिवाजी महाराज टर्मिनस](/chhatrapati-shivaji-terminus/)
+77. [गोव्याची चर्च आणि कॉन्व्हेंट्स](/churches-convents-goa/)
+78. [व्हिक्टोरिया मेमोरियल](/victoria-memorial/)
+79. [सेल्युलर जेल](/cellular-jail/)
+80. [गोलकोंडा किल्ला](/golconda-fort/)
+81. [ग्रेट हिमालयन राष्ट्रीय उद्यान](/great-himalayan-national-park/)
+82. [फुलांची दरी राष्ट्रीय उद्यान](/valley-of-flowers/)
+83. [मानस वन्यजीव अभयारण्य](/manas-wildlife-sanctuary/)
+84. [केवळादेव राष्ट्रीय उद्यान](/keoladeo-national-park/)
+85. [नंदा देवी राष्ट्रीय उद्यान](/nanda-devi-national-park/)
+86. [कांचनजंगा राष्ट्रीय उद्यान](/khangchendzonga-national-park/)
+87. [चिलिका सरोवर](/chilika-lake/)
+88. [लोकटक सरोवर](/loktak-lake/)
+89. [भारतीय मान्सून](/indian-monsoon/)
+90. [मंगळयान मोहीम](/mangalyaan/)
+91. [चांद्रयान-१ मोहीम](/chandrayaan-1/)
+92. [गगनयान मोहीम](/gaganyaan/)
+93. [ध्रुवीय उपग्रह प्रक्षेपण वाहन (PSLV)](/pslv/)
+94. [अ‍ॅस्ट्रोसॅट](/astrosat/)
+95. [वैज्ञानिक आणि औद्योगिक संशोधन परिषद (CSIR)](/csir/)
+96. [संरक्षण संशोधन आणि विकास संस्था (DRDO)](/drdo/)
+97. [भाभा अणुसंशोधन केंद्र (BARC)](/barc/)
+98. [युनिफाइड पेमेंट्स इंटरफेस (UPI)](/upi/)
+99. [आधार प्रणाली](/aadhaar/)
+100. [डिजिटल इंडिया](/digital-india/)
+
+---
+
 <div class="article-count" aria-label="Factpedia वरील एकूण प्रकाशित लेख">
   <span>एकूण प्रकाशित लेख</span>
-  <strong>६०</strong>
+  <strong>१००</strong>
   <span>Factpedia वरील लेख</span>
 </div>
