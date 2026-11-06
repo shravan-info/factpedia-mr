@@ -9,6 +9,12 @@
 <meta property="og:description" content="{{description}}">
 <meta property="og:url" content="{{canonical}}">
 <link rel="canonical" href="{{canonical}}">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="theme-color" content="#1e40af">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Factpedia">
 <script type="application/ld+json">{{schema}}</script>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,600&family=Noto+Sans+Devanagari:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
@@ -245,6 +251,15 @@
       }
     });
   })();
+</script>
+<script>
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register("/service-worker.js").catch((error) => {
+        console.error("Factpedia service worker registration failed:", error);
+      });
+    });
+  }
 </script>
 </body>
 </html>
