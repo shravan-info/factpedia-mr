@@ -187,6 +187,62 @@
     .homepage #mainContent > h1 + p { font-size: 15px; }
     .homepage #mainContent > ol li { padding: 10px 12px; }
   }
+
+  /* Search-first encyclopedia home */
+  .homepage .container { max-width: 1040px; padding-left: 24px; padding-right: 24px; }
+  .homepage .home-version { display: none; }
+  .homepage .search-hero {
+    max-width: 780px; margin: 42px auto 34px; padding: 0 4px; text-align: center;
+  }
+  .homepage .search-kicker {
+    color: var(--link); font-size: 12px; font-weight: 700; letter-spacing: .12em;
+    text-transform: uppercase; margin-bottom: 10px;
+  }
+  .homepage .search-hero h2 {
+    font-size: clamp(1.8rem, 5vw, 2.65rem); line-height: 1.25;
+    margin: 0 0 12px; letter-spacing: -.035em;
+  }
+  .homepage .search-hero p { color: var(--text-secondary); margin: 0 auto 22px; max-width: 600px; }
+  .homepage .hero-search {
+    display: flex; align-items: center; gap: 12px; padding: 7px 9px 7px 18px;
+    border: 1px solid var(--border); border-radius: 18px; background: var(--card-bg);
+    box-shadow: 0 10px 35px rgba(15,23,42,.07); text-align: left;
+  }
+  html.dark .homepage .hero-search { box-shadow: 0 10px 35px rgba(0,0,0,.2); }
+  .homepage .hero-search:focus-within { border-color: var(--link); box-shadow: 0 0 0 4px color-mix(in srgb, var(--link) 13%, transparent); }
+  .homepage .hero-search svg { width: 22px; height: 22px; color: var(--text-secondary); flex: 0 0 auto; }
+  .homepage .hero-search input {
+    width: 100%; min-width: 0; border: 0; outline: 0; background: transparent;
+    color: var(--text); font: inherit; font-size: 16px; padding: 11px 0;
+  }
+  .homepage .hero-search input::placeholder { color: var(--text-secondary); }
+  .homepage .search-hint { color: var(--text-secondary); font-size: 12px; margin-top: 12px; }
+  .homepage .search-results { max-width: 780px; margin: 0 auto 34px; }
+  .homepage .search-results[hidden] { display: none; }
+  .homepage .results-heading { color: var(--text-secondary); font-size: 13px; margin: 0 0 10px; }
+  .homepage .result-list { display: grid; gap: 10px; }
+  .homepage .search-result {
+    display: block; padding: 16px 18px; border: 1px solid var(--border);
+    border-radius: 14px; background: var(--card-bg); color: var(--text);
+    transition: border-color .15s, transform .15s;
+  }
+  .homepage .search-result:hover { border-color: var(--link); transform: translateY(-1px); }
+  .homepage .search-result strong { display: block; color: var(--link); font-size: 17px; margin-bottom: 4px; }
+  .homepage .search-result span { display: block; color: var(--text-secondary); font-size: 13px; line-height: 1.65; }
+  .homepage .browse-heading {
+    margin-top: 40px !important; font-size: 1.45rem !important;
+    border-bottom: 1px solid var(--border-light); padding-bottom: 12px;
+  }
+  .homepage #mainContent > h1 { font-size: clamp(2.1rem, 6vw, 3rem); }
+  .homepage #mainContent > h1 + p { max-width: 680px; }
+  .homepage .search-wrap { display: none; }
+  @media (max-width: 640px) {
+    .homepage .container { padding-left: 16px; padding-right: 16px; }
+    .homepage .search-hero { margin: 28px auto 26px; }
+    .homepage .hero-search { border-radius: 14px; padding-left: 13px; }
+    .homepage .search-result { padding: 14px; }
+  }
+
 </style>
 </head>
 <body class="homepage">
@@ -230,7 +286,21 @@
 </header>
 
 <div class="container">
-  <div class="home-version" aria-label="Website version">v 0.1</div>
+  <section class="search-hero" aria-label="Factpedia article search">
+    <div class="search-kicker">मुक्त मराठी ज्ञानकोश</div>
+    <h2>ज्ञानाचा शोध, एका ठिकाणी.</h2>
+    <p>इतिहास, भूगोल, विज्ञान, संस्कृती आणि भारताविषयी विश्वासार्ह माहिती शोधा.</p>
+    <div class="hero-search">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="11" cy="11" r="7.5"/><path stroke-linecap="round" stroke-linejoin="round" d="m16.5 16.5 4 4"/></svg>
+      <input id="searchInput" type="search" placeholder="मराठी किंवा English मध्ये शोधा..." autocomplete="off" aria-label="Search Factpedia articles">
+    </div>
+    <div class="search-hint">उदा. भारत / India · महाराष्ट्र / Maharashtra · Space · Shivaji Maharaj</div>
+  </section>
+  <section class="search-results" id="searchResults" aria-live="polite" hidden>
+    <p class="results-heading" id="searchMeta"></p>
+    <div class="result-list" id="resultList"></div>
+  </section>
+  <div class="home-version" aria-label="Website version">Factpedia</div>
   <main id="mainContent">
     {{content}}
   </main>
@@ -245,12 +315,10 @@
     const moon = document.getElementById('icon-moon');
     const sun = document.getElementById('icon-sun');
     const searchBtn = document.getElementById('searchBtn');
-    const searchWrap = document.getElementById('searchWrap');
     const searchInput = document.getElementById('searchInput');
-    const searchClear = document.getElementById('searchClear');
+    const searchResults = document.getElementById('searchResults');
     const searchMeta = document.getElementById('searchMeta');
-    const main = document.getElementById('mainContent');
-    const noResults = document.getElementById('noResults');
+    const resultList = document.getElementById('resultList');
     const saved = localStorage.getItem('factpedia-theme');
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     function applyTheme(isDark) {
@@ -264,57 +332,80 @@
       applyTheme(isDark);
       localStorage.setItem('factpedia-theme', isDark ? 'dark' : 'light');
     });
-    function openSearch() {
-      searchWrap.classList.add('open');
-      searchBtn.classList.add('active');
-      setTimeout(() => searchInput.focus(), 150);
-    }
-    function closeSearch() {
-      searchWrap.classList.remove('open');
-      searchBtn.classList.remove('active');
-      searchInput.value = '';
-      clearHighlights();
-      resetFilter();
-    }
     searchBtn.addEventListener('click', () => {
-      if (searchWrap.classList.contains('open')) closeSearch();
-      else openSearch();
-    });
-    let originalHTML = null;
-    function saveOriginal() { if (!originalHTML) originalHTML = main.innerHTML; }
-    function clearHighlights() { if (originalHTML) main.innerHTML = originalHTML; }
-    function resetFilter() {
-      searchMeta.textContent = '';
-      noResults.classList.remove('show');
-    }
-    function doSearch(query) {
-      saveOriginal();
-      if (!query.trim()) { clearHighlights(); resetFilter(); return; }
-      const q = query.toLowerCase();
-      let htmlStr = originalHTML;
-      const regex = new RegExp('('+query.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')', 'gi');
-      htmlStr = htmlStr.replace(regex, '<mark>$1</mark>');
-      main.innerHTML = htmlStr;
-      let count = main.querySelectorAll('mark').length;
-      if (count === 0) {
-        noResults.classList.add('show');
-        searchMeta.textContent = '0 परिणाम';
-      } else {
-        noResults.classList.remove('show');
-        searchMeta.textContent = count + ' परिणाम सापडले';
-      }
-    }
-    searchInput.addEventListener('input', (e) => doSearch(e.target.value));
-    searchClear.addEventListener('click', () => {
-      searchInput.value = '';
-      clearHighlights();
-      resetFilter();
       searchInput.focus();
+      searchInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
     });
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && searchWrap.classList.contains('open')) closeSearch();
-      if (e.key === '/' && !e.target.matches('input,textarea') && !searchWrap.classList.contains('open')) {
-        e.preventDefault(); openSearch();
+    let documents = [];
+    let indexReady = false;
+    fetch('/search-index.json')
+      .then(response => { if (!response.ok) throw new Error('Search index unavailable'); return response.json(); })
+      .then(data => { documents = Array.isArray(data) ? data : []; indexReady = true; })
+      .catch(() => { searchMeta.textContent = 'शोध निर्देशांक सध्या उपलब्ध नाही. कृपया पृष्ठ पुन्हा उघडा.'; });
+    const normalize = value => String(value || '').toLocaleLowerCase('en').normalize('NFKC')
+      .replace(/[’']/g, '').replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
+    function scoreDocument(doc, query) {
+      const q = normalize(query);
+      const tokens = q.split(/\s+/).filter(Boolean);
+      const title = normalize(doc.title);
+      const aliases = normalize((doc.aliases || []).join(' '));
+      const slug = normalize(doc.slug.replace(/-/g, ' '));
+      const description = normalize(doc.description);
+      const text = normalize(doc.text);
+      let score = 0;
+      if (title === q || aliases.split(' ').join(' ').includes(q)) score += 120;
+      if (title.includes(q)) score += 80;
+      if (slug.includes(q)) score += 45;
+      if (aliases.includes(q)) score += 65;
+      if (description.includes(q)) score += 25;
+      if (text.includes(q)) score += 12;
+      const matched = tokens.filter(token =>
+        title.includes(token) || aliases.includes(token) || slug.includes(token) ||
+        description.includes(token) || text.includes(token)
+      ).length;
+      if (matched === tokens.length) score += 30;
+      else if (matched > 0) score += matched * 3;
+      return score;
+    }
+    function renderSearch(query) {
+      const q = query.trim();
+      if (!q) {
+        searchResults.hidden = true;
+        resultList.replaceChildren();
+        return;
+      }
+      searchResults.hidden = false;
+      if (!indexReady) {
+        searchMeta.textContent = 'लेख शोधले जात आहेत...';
+        return;
+      }
+      const results = documents.map(doc => ({ doc, score: scoreDocument(doc, q) }))
+        .filter(item => item.score > 0)
+        .sort((a, b) => b.score - a.score || a.doc.title.localeCompare(b.doc.title, 'mr'))
+        .slice(0, 12);
+      searchMeta.textContent = results.length
+        ? '“' + q + '” साठी ' + results.length + ' संबंधित लेख'
+        : '“' + q + '” साठी लेख सापडला नाही. वेगळा शब्द वापरून पाहा.';
+      resultList.replaceChildren();
+      results.forEach(({doc}) => {
+        const link = document.createElement('a');
+        link.className = 'search-result';
+        link.href = doc.url;
+        const title = document.createElement('strong');
+        title.textContent = doc.title;
+        const desc = document.createElement('span');
+        desc.textContent = doc.description || 'Factpedia वरील माहितीपूर्ण लेख वाचा.';
+        link.append(title, desc);
+        resultList.append(link);
+      });
+    }
+    searchInput.addEventListener('input', event => renderSearch(event.target.value));
+    document.addEventListener('keydown', event => {
+      if (event.key === '/' && !event.target.matches('input,textarea')) {
+        event.preventDefault(); searchInput.focus();
+      }
+      if (event.key === 'Escape' && document.activeElement === searchInput) {
+        searchInput.value = ''; renderSearch('');
       }
     });
   })();
