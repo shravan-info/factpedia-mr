@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 512 512" role="img" aria-label="Factpedia">
+  <rect width="512" height="512" rx="112" fill="#1e40af"/>
+  <path d="M150 112h230v72H230v74h132v70H230v112h-80z" fill="#ffffff"/>
+  <path d="M150 112h230v18H150z" fill="#fbbf24"/>
+  <circle cx="374" cy="374" r="34" fill="#fbbf24"/>
+</svg>
