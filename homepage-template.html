@@ -269,20 +269,6 @@
       </button>
     </div>
   </div>
-  <div class="search-wrap" id="searchWrap">
-    <div class="search-box">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-      </svg>
-      <input type="text" id="searchInput" placeholder="शोधा... उदा. राजधानी, भाषा, इतिहास" autocomplete="off">
-      <button class="search-clear" id="searchClear" aria-label="Clear">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width:14px;height:14px">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-        </svg>
-      </button>
-    </div>
-    <div class="search-meta" id="searchMeta"></div>
-  </div>
 </header>
 
 <div class="container">
@@ -340,7 +326,7 @@
     let indexReady = false;
     fetch('/search-index.json')
       .then(response => { if (!response.ok) throw new Error('Search index unavailable'); return response.json(); })
-      .then(data => { documents = Array.isArray(data) ? data : []; indexReady = true; })
+      .then(data => { documents = Array.isArray(data) ? data : []; indexReady = true; if (searchInput.value.trim()) renderSearch(searchInput.value); })
       .catch(() => { searchMeta.textContent = 'शोध निर्देशांक सध्या उपलब्ध नाही. कृपया पृष्ठ पुन्हा उघडा.'; });
     const normalize = value => String(value || '').toLocaleLowerCase('en').normalize('NFKC')
       .replace(/[’']/g, '').replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
