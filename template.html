@@ -360,13 +360,6 @@
         button.textContent = mobile.matches ? '+' : '−';
         heading.appendChild(button);
         content.hidden = mobile.matches;
-        button.addEventListener('click', () => {
-          const expanded = button.getAttribute('aria-expanded') === 'true';
-          button.setAttribute('aria-expanded', String(!expanded));
-          content.hidden = expanded;
-          button.textContent = expanded ? '+' : '−';
-          button.setAttribute('aria-label', (expanded ? 'विभाग उघडा: ' : 'विभाग बंद करा: ') + heading.textContent.replace(/[+−]/g, '').trim());
-        });
       });
       built = true;
     }
@@ -392,7 +385,16 @@
 
     main.addEventListener('click', event => {
       const button = event.target.closest('.section-toggle');
-      if (button) button.dataset.touched = 'true';
+      if (!button || !main.contains(button)) return;
+      const heading = button.closest('h2');
+      const content = heading && heading.nextElementSibling;
+      if (!content || !content.classList.contains('section-content')) return;
+      const expanded = button.getAttribute('aria-expanded') === 'true';
+      button.dataset.touched = 'true';
+      button.setAttribute('aria-expanded', String(!expanded));
+      content.hidden = expanded;
+      button.textContent = expanded ? '+' : '−';
+      button.setAttribute('aria-label', (expanded ? 'विभाग उघडा: ' : 'विभाग बंद करा: ') + heading.textContent.replace(/[+−]/g, '').trim());
     });
     if (mobile.addEventListener) mobile.addEventListener('change', syncSections);
     else mobile.addListener(syncSections);
