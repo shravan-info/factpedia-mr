@@ -160,12 +160,12 @@ Factpedia हा इतिहास, भूगोल, विज्ञान, स
 145. [श्रीनगर शहर](/srinagar-city)
 146. [ठाणे शहर](/thane-city)
 147. [वाराणसी](/varanasi-city)
-148. [यवतमाळ शहर](/yavatmal-city)
+148. [यवतमाळ शहर](/yavatmal-city)\n149. [रायगड जिल्हा](/raigad-district)
 
 ---
 
 <div class="article-count" aria-label="Factpedia वरील एकूण प्रकाशित लेख">
   <span>एकूण प्रकाशित लेख</span>
-  <strong>१४८</strong>
+  <strong>१४९</strong>
   <span>Factpedia वरील लेख</span>
 </div>
