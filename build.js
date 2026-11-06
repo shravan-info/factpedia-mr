@@ -308,9 +308,11 @@ function processDir(dir, currentSlug = "") {
 
       const selectedTemplate = isHomePage ? homepageTemplate : template;
       const outputHtml = selectedTemplate
-        .replaceAll("{{title}}", title)
-        .replaceAll("{{description}}", description)
+        .replaceAll("{{title}}", escapeHtml(title))
+        .replaceAll("{{description}}", escapeHtml(description))
         .replaceAll("{{canonical}}", pageUrl)
+        .replaceAll("{{og_type}}", isHomePage ? "website" : "article")
+        .replaceAll("{{twitter_card}}", "summary")
         .replaceAll("{{schema}}", structuredData)
         .replaceAll("{{content}}", htmlContent);
 
