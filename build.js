@@ -256,4 +256,9 @@ if (fs.existsSync(googleVerificationFile)) {
   console.warn("Google verification file not found in repository root.");
 }
 
-console.log("Static build completed successfully with sitemap.xml and robots.txt!");
+if (fs.existsSync("./public")) {
+  fs.cpSync("./public", distDir, { recursive: true });
+  console.log("PWA assets copied to dist.");
+}
+
+console.log("Static build completed successfully with sitemap.xml, robots.txt, and PWA assets!");
