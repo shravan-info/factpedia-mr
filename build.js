@@ -12,6 +12,99 @@ if (!fs.existsSync(distDir)) {
 
 const template = fs.readFileSync(templatePath, "utf-8");
 const urls = [];
+const siteUrl = "https://factpedia-mr.pages.dev";
+
+function escapeHtml(value) {
+  return String(value).replace(/[&<>"']/g, (char) => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&#39;"
+  })[char]);
+}
+
+// Keep exactly one H1 in the rendered page, even if source Markdown has more.
+function ensureSingleH1(html, title) {
+  let h1Count = 0;
+  const normalized = html.replace(/<h1\b([^>]*)>([\s\S]*?)<\/h1>/gi, (match, attributes, content) => {
+    h1Count += 1;
+    return h1Count === 1 ? match : "<h2" + attributes + ">" + content + "</h2>";
+  });
+
+  return h1Count === 0
+    ? "<h1>" + escapeHtml(title) + "</h1>\n" + normalized
+    : normalized;
+}
+
+function createStructuredData({ title, description, pageUrl, isHomePage }) {
+  const organizationId = siteUrl + "/#organization";
+  const websiteId = siteUrl + "/#website";
+  const pageId = pageUrl + "#webpage";
+
+  const graph = [
+    {
+      "@type": "Organization",
+      "@id": organizationId,
+      "name": "Factpedia",
+      "url": siteUrl + "/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": websiteId,
+      "url": siteUrl + "/",
+      "name": "Factpedia",
+      "inLanguage": "mr",
+      "publisher": { "@id": organizationId }
+    },
+    {
+      "@type": "WebPage",
+      "@id": pageId,
+      "url": pageUrl,
+      "name": title,
+      "description": description,
+      "inLanguage": "mr",
+      "isPartOf": { "@id": websiteId }
+    }
+  ];
+
+  if (!isHomePage) {
+    graph.push(
+      {
+        "@type": "Article",
+        "@id": pageUrl + "#article",
+        "mainEntityOfPage": { "@id": pageId },
+        "headline": title,
+        "description": description,
+        "inLanguage": "mr",
+        "publisher": { "@id": organizationId }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": pageUrl + "#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "मुख्यपृष्ठ",
+            "item": siteUrl + "/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": title,
+            "item": pageUrl
+          }
+        ]
+      }
+    );
+  }
+
+  return JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": graph
+  }).replace(/</g, "\\u003c");
+}
 
 function processDir(dir, currentSlug = "") {
   const entries = fs.readdirSync(dir, { withFileTypes: true });
@@ -43,21 +136,34 @@ function processDir(dir, currentSlug = "") {
         }
       }
 
-      const htmlContent = marked.parse(markdownBody);
+      const isHomePage = slugName === "index" && !currentSlug;
+      const pagePath = isHomePage
+        ? ""
+        : path.join(currentSlug, slugName).replace(/\\/g, "/");
+      const pageUrl = pagePath ? siteUrl + "/" + pagePath + "/" : siteUrl + "/";
+      const htmlContent = ensureSingleH1(marked.parse(markdownBody), title);
+      const structuredData = createStructuredData({
+        title,
+        description,
+        pageUrl,
+        isHomePage
+      });
 
       const outputHtml = template
         .replaceAll("{{title}}", title)
         .replaceAll("{{description}}", description)
+        .replaceAll("{{canonical}}", pageUrl)
+        .replaceAll("{{schema}}", structuredData)
         .replaceAll("{{content}}", htmlContent);
 
       let targetDir;
-      if (slugName === "index" && !currentSlug) {
+      if (isHomePage) {
         targetDir = distDir;
         urls.push("");
       } else {
         targetDir = path.join(distDir, currentSlug, slugName);
         fs.mkdirSync(targetDir, { recursive: true });
-        urls.push(path.join(currentSlug, slugName).replace(/\\/g, "/"));
+        urls.push(pagePath);
       }
 
       fs.writeFileSync(path.join(targetDir, "index.html"), outputHtml);
@@ -69,8 +175,6 @@ function processDir(dir, currentSlug = "") {
 if (fs.existsSync(contentDir)) {
   processDir(contentDir);
 }
-
-const siteUrl = "https://factpedia-mr.pages.dev";
 
 const sitemapContent = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
