@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 512 512" role="img" aria-label="Factpedia">
-  <rect width="512" height="512" rx="112" fill="#1e40af"/>
-  <path d="M150 112h230v72H230v74h132v70H230v112h-80z" fill="#ffffff"/>
-  <path d="M150 112h230v18H150z" fill="#fbbf24"/>
-  <circle cx="374" cy="374" r="34" fill="#fbbf24"/>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1746a2"/><stop offset="1" stop-color="#0b2f70"/></linearGradient><linearGradient id="page" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#dbeafe"/></linearGradient></defs>
+  <rect x="12" y="12" width="488" height="488" rx="118" fill="url(#bg)"/>
+  <circle cx="256" cy="224" r="139" fill="none" stroke="#93c5fd" stroke-width="8" opacity=".42"/>
+  <path d="M117 224c42-17 87-16 139 9 52-25 97-26 139-9v135c-48-18-94-16-139 10-45-26-91-28-139-10z" fill="url(#page)" stroke="#fff" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M256 233v136M148 259c34-9 62-6 85 8m-85 26c34-9 62-6 85 8m46-42c34-14 62-17 85-8m-85 50c34-14 62-17 85-8" fill="none" stroke="#2563eb" stroke-width="9" stroke-linecap="round"/>
+  <path d="M256 64v33m-16-16h32M365 112l-18 18m-182 0-18-18" stroke="#bfdbfe" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="256" cy="104" r="15" fill="#fbbf24"/>
+  <path d="M256 385v36m-18-18h36" stroke="#fbbf24" stroke-width="11" stroke-linecap="round"/>
 </svg>
