@@ -48,9 +48,21 @@
   }
   .brand {
     position: absolute; left: 50%; transform: translateX(-50%);
+    display: inline-flex; align-items: center; gap: 8px;
     font-family: "Fraunces", Georgia, serif; font-style: italic;
     font-weight: 600; font-size: 28px; color: var(--text); text-decoration: none;
+    white-space: nowrap;
   }
+  .brand img { width: 30px; height: 30px; display: block; }
+  .install-btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+    min-height: 38px; padding: 0 10px; border: 1px solid var(--border);
+    border-radius: 10px; background: var(--bg); color: var(--text);
+    font: inherit; font-size: 13px; font-weight: 600; cursor: pointer;
+  }
+  .install-btn:hover { background: var(--border-light); }
+  .install-btn svg { width: 17px; height: 17px; }
+  @media (max-width: 380px) { .install-btn span { display: none; } .install-btn { width: 38px; padding: 0; } }
   .header-actions { display: flex; gap: 6px; margin-left: auto; }
   .icon-btn {
     width: 40px; height: 40px; display: grid; place-items: center;
@@ -130,7 +142,7 @@
 <body>
 <header>
   <div class="header-inner">
-    <a href="/" class="brand">Factpedia</a>
+    <a href="/" class="brand"><img src="/favicon.svg" alt="" width="30" height="30">Factpedia</a>
     <div class="header-actions">
       <button class="icon-btn" id="searchBtn" aria-label="Search">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor">
@@ -144,6 +156,10 @@
         <svg id="icon-sun" style="display:none" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M3 12h2.25m.386-6.364 1.591 1.591M12 12a2.25 2.25 0 0 0-2.25 2.25 2.25 2.25 0 0 0 2.25 2.25 2.25 2.25 0 0 0 2.25-2.25A2.25 2.25 0 0 0 12 12Z" />
         </svg>
+      </button>
+      <button class="install-btn" id="installBtn" type="button" aria-label="Install Factpedia" title="Install Factpedia">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v12m0 0 4-4m-4 4-4-4M4 17v3h16v-3"/></svg>
+        <span>Install</span>
       </button>
     </div>
   </div>
@@ -253,6 +269,28 @@
   })();
 </script>
 <script>
+  let deferredInstallPrompt = null;
+  const installButton = document.getElementById("installBtn");
+  if (installButton) {
+    installButton.addEventListener("click", async () => {
+      if (deferredInstallPrompt) {
+        deferredInstallPrompt.prompt();
+        await deferredInstallPrompt.userChoice;
+        deferredInstallPrompt = null;
+        installButton.hidden = true;
+      } else {
+        alert("Factpedia install करण्यासाठी Chrome मेनूमधील 'Install app' किंवा 'Add to Home screen' पर्याय वापरा.");
+      }
+    });
+    window.addEventListener("beforeinstallprompt", (event) => {
+      event.preventDefault();
+      deferredInstallPrompt = event;
+    });
+    window.addEventListener("appinstalled", () => {
+      installButton.hidden = true;
+      deferredInstallPrompt = null;
+    });
+  }
   if ("serviceWorker" in navigator) {
     window.addEventListener("load", () => {
       navigator.serviceWorker.register("/service-worker.js").catch((error) => {
