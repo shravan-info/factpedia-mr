@@ -71,6 +71,9 @@ Factpedia हा इतिहास, भूगोल, विज्ञान, स
 59. [काझीरंगा राष्ट्रीय उद्यान: जैवविविधता आणि संवर्धन](/kaziranga-national-park/)
 60. [खजुराहोची मंदिरे: स्थापत्य आणि शिल्पकला](/khajuraho-group-of-monuments/)
 
+77. [तमिळनाडू: तमिळ साहित्य, इतिहास आणि संस्कृती](/tamil-nadu)
+78. [कर्नाटक: इतिहास, कन्नड संस्कृती आणि आधुनिक विकास](/karnataka)
+
 75. [नागालँड: नागा समुदाय आणि सांस्कृतिक वारसा](/nagaland)
 76. [अरुणाचल प्रदेश: पूर्व हिमालय आणि जैवविविधता](/arunachal-pradesh)
 
@@ -97,6 +100,6 @@ Factpedia हा इतिहास, भूगोल, विज्ञान, स
 
 <div class="article-count" aria-label="Factpedia वरील एकूण प्रकाशित लेख">
   <span>एकूण प्रकाशित लेख</span>
-  <strong>७६</strong>
+  <strong>७८</strong>
   <span>Factpedia वरील लेख</span>
 </div>
