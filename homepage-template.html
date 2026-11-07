@@ -19,7 +19,7 @@
 <link rel="canonical" href="{{canonical}}">
 <link rel="manifest" href="/manifest.webmanifest">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-<meta name="theme-color" content="#fffdf9">
+<meta name="theme-color" content="#fbfaf8">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Factpedia">
@@ -481,6 +481,13 @@ html.dark .homepage header{background:rgba(21,21,21,.97)}
 .homepage .hero-search input[type=search]::-webkit-search-decoration{-webkit-appearance:none;appearance:none}
 .homepage .hero-search input::-ms-clear{display:none}
 .homepage .search-result strong{font-weight:600}
+
+/* Unified Factpedia Grokipedia-inspired theme */
+:root{color-scheme:light;--bg:#fbfaf8;--surface:#fff;--surface-2:#f4f2ee;--text:#242321;--text-secondary:#77736c;--border:#e8e5df;--border-light:#efede8;--link:#3d5f8c;--accent-soft:#eeece6;--accent-strong:#30302d;--header-bg:rgba(251,250,248,.94)}
+html.dark{color-scheme:dark;--bg:#171716;--surface:#20201e;--surface-2:#262624;--text:#e9e7e2;--text-secondary:#aaa69e;--border:#393834;--border-light:#302f2b;--link:#a9c4e8;--accent-soft:#302f2a;--accent-strong:#e6e2d9;--header-bg:rgba(23,23,22,.94)}
+body,.homepage{background:var(--bg)!important;color:var(--text)}header,.homepage header{background:var(--header-bg)!important;border-color:var(--border)!important;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
+.homepage .hero-wordmark,.homepage .article-count strong,.homepage #mainContent>ol li a{color:var(--text)}.homepage .hero-tagline,.homepage .search-hint span{color:var(--text-secondary)}.homepage .hero-search,.homepage .search-hint a{background:var(--surface)!important;border-color:var(--border)!important;color:var(--text)}.homepage .hero-search input{color:var(--text)}.homepage .hero-search input::placeholder{color:var(--text-secondary)}.homepage .hero-search-go{background:var(--surface-2)!important;color:var(--text)!important}.homepage .hero-search-go:hover,.homepage .search-hint a:hover{background:var(--accent-soft)!important}.homepage #mainContent>h2,.homepage #mainContent>ol li{border-color:var(--border-light)}.homepage #mainContent>ol li:hover{background:var(--surface-2)}.homepage .search-result{background:var(--surface);border-color:var(--border);color:var(--text)}.homepage .search-result span{color:var(--text-secondary)}.homepage footer,footer{color:var(--text-secondary);border-color:var(--border)}.icon-btn{color:var(--text-secondary)}.icon-btn:hover{background:var(--surface-2);color:var(--text);border-color:var(--border)}.icon-btn.active{background:var(--accent-strong);color:var(--bg);border-color:var(--accent-strong)}a{color:var(--link)}
+
 </style>
 </head>
 <body class="homepage">
