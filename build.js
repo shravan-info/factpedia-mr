@@ -153,6 +153,7 @@ function appendMissingHomepageArticles(markdown) {
 const searchDocuments = [];
 const englishAliases = {
   "bharat": ["india", "republic of india", "indian country", "south asia"],
+  "bharatacha-bhugol": ["india geography", "geography of india", "indian geography", "physical geography of india", "bharat geography"],
   "maharashtra": ["maharashtra state", "western india", "marathi state"],
   "mumbai": ["mumbai city", "bombay", "maharashtra capital", "financial capital"],
   "chhatrapati-shivaji-maharaj": ["shivaji", "chhatrapati shivaji", "maratha king", "maratha empire"],
