@@ -17,6 +17,8 @@ const homepageTemplate = fs.existsSync(homepageTemplatePath)
   : template;
 const urls = [];
 const siteUrl = "https://factpedia-mr.pages.dev";
+// Keep legacy country-name URLs available through permanent redirects, not duplicate article pages.
+const articleRedirects = new Map([["turkey", "turkiye"]]);
 
 function cleanMetaDescription(value) {
   return String(value || "")
@@ -130,7 +132,8 @@ function collectArticleTitles(dir, currentSlug = "", output = []) {
       const heading = source.match(/^#\s+(.+)$/m);
       const metaTitle = source.match(/^title:\s*(.+)$/m);
       const title = heading?.[1]?.trim() || metaTitle?.[1]?.trim() || entry.name.replace(/\.md$/, "").replace(/[-_]+/g, " ");
-      output.push({ title, slug: path.join(currentSlug, entry.name.replace(/\.md$/, "")).split(path.sep).join("/") });
+      const slug = path.join(currentSlug, entry.name.replace(/\.md$/, "")).split(path.sep).join("/");
+      if (!articleRedirects.has(slug)) output.push({ title, slug });
     }
   }
   return output;
@@ -305,6 +308,10 @@ function processDir(dir, currentSlug = "") {
         ? ""
         : path.join(currentSlug, slugName).replace(/\\/g, "/");
       const pageUrl = pagePath ? siteUrl + "/" + pagePath + "/" : siteUrl + "/";
+      if (articleRedirects.has(pagePath)) {
+        console.log(`Skipping duplicate article route /${pagePath}/; redirecting to /${articleRedirects.get(pagePath)}/`);
+        continue;
+      }
       if (!isHomePage) {
         const searchText = plainSearchText(markdownBody);
         searchDocuments.push({
@@ -415,4 +422,10 @@ if (fs.existsSync("./public")) {
   console.log("PWA assets copied to dist.");
 }
 
-console.log("Static build completed successfully with sitemap.xml, robots.txt, and PWA assets!");
+const redirectRules = [...articleRedirects].flatMap(([from, to]) => [
+  `/${from} /${to}/ 301`,
+  `/${from}/ /${to}/ 301`
+]).join("\\n") + "\\n";
+fs.writeFileSync(path.join(distDir, "_redirects"), redirectRules);
+
+console.log("Static build completed successfully with sitemap.xml, robots.txt, redirects, and PWA assets!");
