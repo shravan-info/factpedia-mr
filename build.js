@@ -143,7 +143,7 @@ function appendMissingHomepageArticles(markdown) {
   const intro = markdown.split(/^##\s+सर्व लेख\s*$/m)[0].replace(/\n+$/, "");
   const sorted = [...articleTitles].sort((a, b) => a.title.localeCompare(b.title, "mr"));
   const marathiCount = String(sorted.length).replace(/[0-9]/g, digit => "०१२३४५६७८९"[Number(digit)]);
-  const count = `<div class="article-count" aria-label="Factpedia वरील एकूण प्रकाशित लेख"><span>एकूण प्रकाशित लेख</span><strong>${marathiCount}</strong><span>ज्ञानाचा मुक्त संग्रह</span></div>`;
+  const count = `<div class="article-count" aria-label="Factpedia वरील एकूण प्रकाशित लेख"><span>एकूण लेख</span><strong>${marathiCount}</strong></div>`;
   const list = sorted.map((item, index) => `${index + 1}. [${item.title}](/${item.slug}/)`).join("\n");
   return `${intro}\n\n${count}\n\n## सर्व लेख\n\n${list}\n`;
 }
@@ -308,7 +308,7 @@ function processDir(dir, currentSlug = "") {
       if (!isHomePage) {
         const searchText = plainSearchText(markdownBody);
         searchDocuments.push({
-          title,
+          title: title.replace(/\s*\|\s*Factpedia\s*$/i, "").trim(),
           slug: pagePath,
           url: "/" + pagePath + "/",
           description: cleanMetaDescription(description),
