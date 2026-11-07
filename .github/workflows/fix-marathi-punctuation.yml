@@ -1,0 +1,58 @@
+name: Fix Marathi punctuation in all articles
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/fix-marathi-punctuation.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Replace Hindi danda in every article
+        shell: bash
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+          const path = require('path');
+          const root = 'content';
+          let files = 0, changed = 0, dandaCount = 0;
+          function walk(dir) {
+            for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+              const full = path.join(dir, entry.name);
+              if (entry.isDirectory()) walk(full);
+              else if (entry.isFile() && entry.name.endsWith('.md')) {
+                files++;
+                const before = fs.readFileSync(full, 'utf8');
+                const matches = before.match(/\u0964/g);
+                if (matches) {
+                  dandaCount += matches.length;
+                  fs.writeFileSync(full, before.replace(/\u0964/g, '.'));
+                  changed++;
+                }
+              }
+            }
+          }
+          walk(root);
+          console.log(JSON.stringify({ markdownFilesScanned: files, filesChanged: changed, hindiDandaReplaced: dandaCount }));
+          NODE
+      - name: Commit normalized articles and remove temporary workflow
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content
+          git rm .github/workflows/fix-marathi-punctuation.yml
+          if git diff --cached --quiet; then
+            echo "No article punctuation changes were needed."
+            exit 0
+          fi
+          git commit -m "Normalize Hindi danda to Marathi full stop in articles"
+          git push origin main
