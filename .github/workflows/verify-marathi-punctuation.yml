@@ -1,0 +1,48 @@
+name: Verify Marathi punctuation across articles
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/verify-marathi-punctuation.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Scan every Markdown article
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+          const path = require('path');
+          let files = 0, remaining = 0, periods = 0;
+          function walk(dir) {
+            for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+              const full = path.join(dir, entry.name);
+              if (entry.isDirectory()) walk(full);
+              else if (entry.isFile() && entry.name.endsWith('.md')) {
+                files++;
+                const text = fs.readFileSync(full, 'utf8');
+                remaining += (text.match(/\u0964/g) || []).length;
+                periods += (text.match(/\./g) || []).length;
+              }
+            }
+          }
+          walk('content');
+          console.log(JSON.stringify({ markdownFilesVerified: files, remainingHindiDanda: remaining, asciiFullStops: periods }));
+          if (remaining !== 0) process.exit(1);
+          NODE
+      - name: Remove temporary verification workflow
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/verify-marathi-punctuation.yml
+          git commit -m "Remove temporary punctuation verification workflow"
+          git push origin main
