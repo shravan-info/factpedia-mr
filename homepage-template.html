@@ -617,7 +617,7 @@ html.dark .homepage header{background:rgba(21,21,21,.97)}
       let matched = 0;
       for (const token of tokens) {
         if (entry.heads.has(token)) matched += 2;
-        else if (title.includes(token) || aliases.includes(token) || slug.includes(token)) matched += 1;
+        else if (title.includes(token) || aliases.includes(token) || slug.includes(token) || description.includes(token) || text.includes(token)) matched += 1;
       }
       if (matched >= tokens.length * 2) score += 40;
       else if (matched > 0) score += matched * 3;
