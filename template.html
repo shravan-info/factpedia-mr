@@ -47,7 +47,7 @@
   header {
     position: sticky; top: 0; z-index: 50;
     background: var(--header-bg); border-bottom: 1px solid var(--border-light);
-    backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: none; -webkit-backdrop-filter: none;
   }
   .header-inner {
     max-width: 720px; margin: 0 auto; padding: 8px 14px;
@@ -76,7 +76,7 @@
     width: 36px; height: 36px; display: grid; place-items: center;
     border-radius: 12px; border: 1px solid transparent;
     background: transparent; cursor: pointer; color: var(--text-secondary);
-    transition: all .2s;
+    transition: background-color .15s, border-color .15s, color .15s;
   }
   .icon-btn:hover { background: var(--border-light); color: var(--text); border-color: var(--border); }
   .icon-btn.active { background: var(--text); color: var(--bg); border-color: var(--text); }
@@ -84,7 +84,7 @@
   .search-wrap {
     max-width: 720px; margin: 0 auto; padding: 0 20px;
     max-height: 0; overflow: hidden; opacity: 0;
-    transition: all 0.3s ease;
+    transition: max-height .18s ease, padding .18s ease;
   }
   .search-wrap.open {
     max-height: 100px; opacity: 1; padding: 12px 20px 14px;
@@ -289,34 +289,117 @@
     function openSearch(){searchWrap.classList.add('open');searchBtn.classList.add('active');setTimeout(()=>searchInput.focus(),120);}
     function closeSearch(){searchWrap.classList.remove('open');searchBtn.classList.remove('active');searchInput.value='';resultsBox.replaceChildren();resultsBox.classList.remove('has-results');searchMeta.textContent='';}
     searchBtn.addEventListener('click',()=>searchWrap.classList.contains('open')?closeSearch():openSearch());
-    let documents=[],indexReady=false;
-    fetch('/search-index.json').then(r=>{if(!r.ok)throw new Error('index unavailable');return r.json();})
-      .then(data=>{documents=Array.isArray(data)?data:[];indexReady=true;if(searchInput.value.trim())renderSearch(searchInput.value);})
-      .catch(()=>{searchMeta.textContent='शोध सध्या उपलब्ध नाही. कृपया पुन्हा प्रयत्न करा.';});
-    const normalize=value=>String(value||'').toLocaleLowerCase('en').normalize('NFKC').replace(/[’']/g,'').replace(/[^\p{L}\p{N}]+/gu,' ').trim();
-    function scoreDocument(doc,query){
-      const q=normalize(query),tokens=q.split(/\s+/).filter(Boolean),title=normalize(doc.title);
-      const aliases=normalize((doc.aliases||[]).join(' ')),slug=normalize(String(doc.slug||'').replace(/-/g,' '));
-      const description=normalize(doc.description),body=normalize(doc.text);let score=0;
-      if(title===q)score+=150;if(title.includes(q))score+=90;if(aliases.includes(q))score+=75;
-      if(slug.includes(q))score+=50;if(description.includes(q))score+=28;if(body.includes(q))score+=12;
-      const matched=tokens.filter(x=>title.includes(x)||aliases.includes(x)||slug.includes(x)||description.includes(x)||body.includes(x)).length;
-      if(matched===tokens.length&&tokens.length)score+=35;else score+=matched*4;return score;
-    }
-    function renderSearch(query){
-      const q=query.trim();resultsBox.replaceChildren();resultsBox.classList.remove('has-results');
-      if(!q){searchMeta.textContent='';return;}
-      if(!indexReady){searchMeta.textContent='लेख शोधले जात आहेत…';return;}
-      const results=documents.map(doc=>({doc,score:scoreDocument(doc,q)})).filter(x=>x.score>0)
-        .sort((a,b)=>b.score-a.score||String(a.doc.title).localeCompare(String(b.doc.title),'mr')).slice(0,10);
-      searchMeta.textContent=results.length?'“'+q+'” साठी '+results.length+' लेख':'लेख सापडला नाही. दुसरा शब्द वापरून पाहा.';
-      if(!results.length){const empty=document.createElement('div');empty.className='article-search-empty';empty.textContent='मराठी किंवा English मधील दुसरा शब्द वापरून पाहा.';resultsBox.append(empty);resultsBox.classList.add('has-results');return;}
-      results.forEach(({doc})=>{const link=document.createElement('a');link.className='article-search-result';link.href=doc.url;link.setAttribute('role','option');
-        const title=document.createElement('strong');title.textContent=doc.title;const desc=document.createElement('span');
-        desc.textContent=doc.description||'Factpedia वरील लेख वाचा.';link.append(title,desc);resultsBox.append(link);});
+    const normalize = value => String(value || '').toLocaleLowerCase('en').normalize('NFKC')
+          .replace(/[’']/g, '').replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
+        let documents = [];
+        let indexReady = false;
+        let pendingFrame = 0;
+    
+        function prepareDocuments(data) {
+          documents = (Array.isArray(data) ? data : []).map(doc => {
+            const prepared = {
+              ...doc,
+              _title: normalize(doc.title),
+              _aliases: normalize((doc.aliases || []).join(' ')),
+              _slug: normalize(String(doc.slug || '').replace(/-/g, ' ')),
+              _description: normalize(doc.description),
+              _text: normalize(doc.text)
+            };
+            delete prepared.text;
+            return prepared;
+          });
+          indexReady = true;
+        }
+    
+        function scoreDocument(doc, query, tokens) {
+          const title = doc._title, aliases = doc._aliases, slug = doc._slug;
+          const description = doc._description, body = doc._text;
+          let score = 0;
+          if (title === query) score += 160;
+          if (title.includes(query)) score += 95;
+          if (aliases.includes(query)) score += 78;
+          if (slug.includes(query)) score += 52;
+          if (description.includes(query)) score += 30;
+          if (body.includes(query)) score += 10;
+          let matched = 0;
+          for (const token of tokens) {
+            if (title.includes(token) || aliases.includes(token) || slug.includes(token) ||
+                description.includes(token) || body.includes(token)) matched++;
+          }
+          if (tokens.length && matched === tokens.length) score += 38;
+          else score += matched * 4;
+          return score;
+        }
+    
+        function findSearchResults(query, limit) {
+          const normalizedQuery = normalize(query);
+          if (!normalizedQuery) return [];
+          const tokens = normalizedQuery.split(/\s+/).filter(Boolean);
+          const results = [];
+          for (const doc of documents) {
+            const score = scoreDocument(doc, normalizedQuery, tokens);
+            if (score > 0) results.push({ doc, score });
+          }
+          results.sort((a, b) => b.score - a.score ||
+            String(a.doc.title).localeCompare(String(b.doc.title), 'mr'));
+          return results.slice(0, limit);
+        }
+    
+        function scheduleSearch(query) {
+          if (pendingFrame) cancelAnimationFrame(pendingFrame);
+          pendingFrame = requestAnimationFrame(() => {
+            pendingFrame = 0;
+            renderSearch(query);
+          });
+        }
+    
+        fetch('/search-index.json', { cache: 'force-cache' })
+          .then(response => {
+            if (!response.ok) throw new Error('Search index unavailable');
+            return response.json();
+          })
+          .then(data => {
+            prepareDocuments(data);
+            if (searchInput.value.trim()) renderSearch(searchInput.value);
+          })
+          .catch(() => {
+            searchMeta.textContent = 'शोध निर्देशांक सध्या उपलब्ध नाही. कृपया पृष्ठ पुन्हा उघडा.';
+          });
+
+    function renderSearch(query) {
+      const q = query.trim();
+      resultsBox.replaceChildren();
+      resultsBox.classList.remove('has-results');
+      if (!q) { searchMeta.textContent = ''; return; }
+      if (!indexReady) { searchMeta.textContent = 'लेख शोधले जात आहेत…'; return; }
+      const results = findSearchResults(q, 10);
+      searchMeta.textContent = results.length
+        ? '“' + q + '” साठी ' + results.length + ' लेख'
+        : 'लेख सापडला नाही. दुसरा शब्द वापरून पाहा.';
+      const fragment = document.createDocumentFragment();
+      if (!results.length) {
+        const empty = document.createElement('div');
+        empty.className = 'article-search-empty';
+        empty.textContent = 'मराठी किंवा English मधील दुसरा शब्द वापरून पाहा.';
+        fragment.append(empty);
+      } else {
+        for (const { doc } of results) {
+          const link = document.createElement('a');
+          link.className = 'article-search-result';
+          link.href = doc.url;
+          link.setAttribute('role', 'option');
+          const title = document.createElement('strong');
+          title.textContent = doc.title;
+          const desc = document.createElement('span');
+          desc.textContent = doc.description || 'Factpedia वरील लेख वाचा.';
+          link.append(title, desc);
+          fragment.append(link);
+        }
+      }
+      resultsBox.append(fragment);
       resultsBox.classList.add('has-results');
     }
-    searchInput.addEventListener('input',e=>renderSearch(e.target.value));
+    searchInput.addEventListener('input', e => scheduleSearch(e.target.value));
     searchClear.addEventListener('click',()=>{searchInput.value='';renderSearch('');searchInput.focus();});
     document.addEventListener('keydown',e=>{if(e.key==='/'&&!e.target.matches('input,textarea')&&!searchWrap.classList.contains('open')){e.preventDefault();openSearch();}
       if(e.key==='Escape'&&searchWrap.classList.contains('open'))closeSearch();});
