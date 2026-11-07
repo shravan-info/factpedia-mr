@@ -19,7 +19,7 @@
 <link rel="canonical" href="{{canonical}}">
 <link rel="manifest" href="/manifest.webmanifest">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-<meta name="theme-color" content="#1e40af">
+<meta name="theme-color" content="#fffdf9">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Factpedia">
@@ -332,12 +332,47 @@
   .homepage #mainContent > ol { box-shadow:0 8px 24px rgba(28,63,120,.035); }
   @media(max-width:640px) { .homepage .search-hero { margin-top:38px; } .homepage .brand { font-size:21px; } .homepage .brand img { width:30px; height:30px; } }
 
+/* Warm, minimal encyclopedia homepage */
+:root{--bg:#fffdf9;--text:#191919;--text-secondary:#77736e;--border:#e9e5df;--border-light:#f1eee9;--card-bg:#fff;--link:#292724;--header-bg:rgba(255,253,249,.94);--code-bg:#f7f4ef;--search-bg:#fff;--accent-soft:#f4f0e9;--accent-strong:#292724}
+html.dark{--bg:#151515;--text:#f2f0ec;--text-secondary:#aaa59d;--border:#34312d;--border-light:#292724;--card-bg:#1d1c1a;--link:#f2f0ec;--header-bg:rgba(21,21,21,.94);--code-bg:#242321;--search-bg:#1d1c1a;--accent-soft:#292724;--accent-strong:#f2f0ec}
+body{background:var(--bg);color:var(--text)}header{background:var(--header-bg);border:0;box-shadow:none}
+.homepage .header-inner{max-width:1080px;height:54px;justify-content:flex-end;padding:8px 24px}
+.homepage .brand{display:none}.homepage .header-actions{margin-left:auto}
+.homepage .icon-btn{width:40px;height:40px;border:0;border-radius:50%}.homepage .icon-btn:hover{background:var(--accent-soft);color:var(--text)}
+.homepage .container{max-width:980px;padding:0 22px 56px}
+.homepage .search-hero{max-width:760px;margin:78px auto 46px;padding:0 8px}
+.homepage .hero-wordmark{font-family:"Fraunces",Georgia,serif;font-style:italic;font-weight:600;font-size:clamp(3.7rem,12vw,6.4rem);letter-spacing:-.075em;line-height:1.05;color:var(--text);margin-bottom:18px}
+.homepage .hero-wordmark span{display:inline-block;font-family:"Noto Sans Devanagari",sans-serif;font-style:normal;font-size:12px;font-weight:500;letter-spacing:.02em;color:var(--text-secondary);vertical-align:middle;margin-left:8px}
+.homepage .search-hero .hero-title{font-size:clamp(1.45rem,4.8vw,2rem);line-height:1.45;font-weight:500;letter-spacing:-.025em;margin:0 0 8px}
+.homepage .search-hero p{color:var(--text-secondary);font-size:15px;margin-bottom:34px}
+.homepage .hero-search{min-height:72px;padding:8px 12px 8px 24px;gap:14px;border:1px solid var(--border);border-radius:999px;background:var(--card-bg);box-shadow:0 8px 28px rgba(40,34,25,.045)}
+html.dark .homepage .hero-search{box-shadow:0 8px 28px rgba(0,0,0,.16)}
+.homepage .hero-search:focus-within{border-color:#aaa39a;box-shadow:0 0 0 3px rgba(120,110,95,.08)}
+.homepage .hero-search input{font-size:17px;padding:12px 0}.homepage .hero-search input::placeholder{color:#9a958e}
+.homepage .hero-search svg{color:var(--text-secondary);width:23px;height:23px}
+.homepage .search-hint{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:8px;margin-top:20px;color:var(--text-secondary);font-size:13px}
+.homepage .search-hint a{color:var(--text);border:1px solid var(--border);border-radius:999px;padding:7px 14px;background:var(--card-bg);text-decoration:none}
+.homepage .search-hint a:hover{background:var(--accent-soft)}
+.homepage .search-results{max-width:760px;margin:0 auto 34px}.homepage .result-list{grid-template-columns:1fr;gap:8px}
+.homepage .search-result{border-radius:14px;box-shadow:none}.homepage .search-result strong{color:var(--text)}
+.homepage .search-result:hover{background:var(--accent-soft);border-color:var(--border)}
+.homepage #mainContent{max-width:820px;margin:0 auto}.homepage #mainContent>h1,.homepage #mainContent>p:first-of-type{display:none}
+.homepage .article-count{display:flex;flex-direction:row;align-items:center;justify-content:center;gap:10px;max-width:none;width:fit-content;margin:10px auto 34px;padding:12px 22px;border:1px solid var(--border);border-radius:999px;background:var(--card-bg);box-shadow:none}
+.homepage .article-count strong{font-size:1.35rem;font-weight:700}.homepage .article-count span{font-size:13px;color:var(--text-secondary)}
+.homepage #mainContent>h2{margin:0 0 16px;padding:0 0 12px;border-bottom:1px solid var(--border);font-size:1.35rem;font-weight:600;letter-spacing:-.02em}
+.homepage #mainContent>ol{margin:0;padding:0;list-style:none;border:1px solid var(--border);border-radius:18px;background:var(--card-bg);box-shadow:none}
+.homepage #mainContent>ol li{display:flex;align-items:flex-start;gap:12px;margin:0;padding:12px 18px;border-bottom:1px solid var(--border-light);line-height:1.7}
+.homepage #mainContent>ol li:last-child{border-bottom:0}
+.homepage #mainContent>ol li::before{content:"";width:5px;height:5px;flex:0 0 5px;margin-top:12px;border-radius:50%;background:#aaa39a}
+.homepage #mainContent>ol li a{color:var(--text);font-weight:500}.homepage #mainContent>ol li:hover{background:var(--accent-soft)}
+.homepage footer{max-width:820px;margin:42px auto 0;border-color:var(--border)}
+@media(max-width:640px){.homepage .header-inner{height:48px;padding:6px 16px}.homepage .container{padding:0 16px 42px}.homepage .search-hero{margin:64px auto 38px;padding:0}.homepage .hero-wordmark{font-size:clamp(3.25rem,15vw,4.5rem);margin-bottom:20px}.homepage .hero-wordmark span{font-size:10px}.homepage .search-hero .hero-title{font-size:1.4rem}.homepage .search-hero p{font-size:14px;margin-bottom:28px}.homepage .hero-search{min-height:62px;padding-left:20px}.homepage .hero-search input{font-size:15px}.homepage .search-hint{gap:7px;font-size:12px}.homepage .search-hint a{padding:6px 11px}.homepage .article-count{margin-bottom:26px;padding:10px 16px}.homepage #mainContent>h2{font-size:1.18rem}.homepage #mainContent>ol{border-radius:15px}.homepage #mainContent>ol li{padding:11px 13px;gap:9px;font-size:14px}}
 </style>
 </head>
 <body class="homepage">
 <header>
   <div class="header-inner">
-    <a href="/" class="brand"><img src="/favicon.svg" alt="" width="30" height="30">Factpedia</a>
+    <a href="/" class="brand" aria-label="Factpedia मुख्यपृष्ठ"></a>
     <div class="header-actions">
       <button class="icon-btn" id="searchBtn" aria-label="Search">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor">
@@ -352,24 +387,21 @@
           <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M3 12h2.25m.386-6.364 1.591 1.591M12 12a2.25 2.25 0 0 0-2.25 2.25 2.25 2.25 0 0 0 2.25 2.25 2.25 2.25 0 0 0 2.25-2.25A2.25 2.25 0 0 0 12 12Z" />
         </svg>
       </button>
-      <button class="install-btn" id="installBtn" type="button" aria-label="Install Factpedia" title="Install Factpedia">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v12m0 0 4-4m-4 4-4-4M4 17v3h16v-3"/></svg>
-        <span>Install</span>
-      </button>
+
     </div>
   </div>
 </header>
 
 <div class="container">
   <section class="search-hero" aria-label="Factpedia article search">
-    <div class="search-kicker">मुक्त मराठी ज्ञानकोश</div>
+    <div class="hero-wordmark">Factpedia <span>ज्ञानकोश</span></div>
     <p class="hero-title">ज्ञानाचा शोध, एका ठिकाणी.</p>
-    <p>इतिहास, भूगोल, विज्ञान, संस्कृती आणि भारताविषयी विश्वासार्ह माहिती शोधा.</p>
+    <p>इतिहास, भूगोल, विज्ञान, संस्कृती आणि जगाविषयी माहितीचा मुक्त मराठी ज्ञानकोश.</p>
     <div class="hero-search">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="11" cy="11" r="7.5"/><path stroke-linecap="round" stroke-linejoin="round" d="m16.5 16.5 4 4"/></svg>
       <input id="searchInput" type="search" placeholder="मराठी किंवा English मध्ये शोधा..." autocomplete="off" aria-label="Search Factpedia articles">
     </div>
-    <div class="search-hint">उदा. भारत / India · महाराष्ट्र / Maharashtra · Space · Shivaji Maharaj</div>
+    <div class="search-hint"><span>लोकप्रिय लेख</span><a href="/bharat/">भारत</a><a href="/maharashtra/">महाराष्ट्र</a><a href="/artificial-intelligence/">कृत्रिम बुद्धिमत्ता</a></div>
   </section>
   <section class="search-results" id="searchResults" aria-live="polite" hidden>
     <p class="results-heading" id="searchMeta"></p>
@@ -485,36 +517,6 @@
     });
   })();
 </script>
-<script>
-  let deferredInstallPrompt = null;
-  const installButton = document.getElementById("installBtn");
-  if (installButton) {
-    installButton.addEventListener("click", async () => {
-      if (deferredInstallPrompt) {
-        deferredInstallPrompt.prompt();
-        await deferredInstallPrompt.userChoice;
-        deferredInstallPrompt = null;
-        installButton.hidden = true;
-      } else {
-        alert("Factpedia install करण्यासाठी Chrome मेनूमधील 'Install app' किंवा 'Add to Home screen' पर्याय वापरा.");
-      }
-    });
-    window.addEventListener("beforeinstallprompt", (event) => {
-      event.preventDefault();
-      deferredInstallPrompt = event;
-    });
-    window.addEventListener("appinstalled", () => {
-      installButton.hidden = true;
-      deferredInstallPrompt = null;
-    });
-  }
-  if ("serviceWorker" in navigator) {
-    window.addEventListener("load", () => {
-      navigator.serviceWorker.register("/service-worker.js").catch((error) => {
-        console.error("Factpedia service worker registration failed:", error);
-      });
-    });
-  }
-</script>
+
 </body>
 </html>
