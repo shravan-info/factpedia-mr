@@ -15,7 +15,7 @@ description: आदित्य-L1 ही भारताची सूर्य-
 
 ## L1 बिंदू म्हणजे काय?
 
-L1 म्हणजे सूर्य आणि पृथ्वी यांच्या मधील पहिला Lagrange Point. सूर्य आणि पृथ्वी यांच्या गुरुत्वाकर्षणाचा तसेच कक्षीय गतीचा विचार करता, या प्रदेशात अवकाशयानाला दोन्ही खगोलीय वस्तूंच्या संदर्भात तुलनेने स्थिर स्थितीत राहता येते. हा बिंदू पृथ्वीपासून साधारण १५ लाख किलोमीटर अंतरावर सूर्याच्या दिशेने आहे.
+L1 म्हणजे सूर्य आणि पृथ्वी यांच्या मधील पहिला Lagrange Point. सूर्य आणि पृथ्वी यांच्या गुरुत्वाकर्षणाचा तसेच कक्षीय गतीचा विचार करता, L1 हा समतोलाचा प्रदेश आहे; मात्र तो गतिशीलदृष्ट्या अस्थिर असतो. त्यामुळे या बिंदूभोवतीच्या कक्षेत असलेल्या यानाला नियतकालिक कक्षादुरुस्ती करावी लागते. हा बिंदू पृथ्वीपासून साधारण १५ लाख किलोमीटर अंतरावर सूर्याच्या दिशेने आहे.
 
 L1 परिसरातून सूर्याचे जवळजवळ अखंड निरीक्षण करता येते. पृथ्वीमुळे सूर्य झाकला जाण्याची शक्यता कमी असल्याने सूर्यावरील घडामोडींचा सातत्याने अभ्यास करणे शक्य होते. आदित्य-L1 सूर्याच्या पृष्ठभागावर उतरत नाही आणि सूर्याजवळ जाण्यासाठी पाठवलेले यानही नाही; ते L1 बिंदूभोवतीच्या कक्षेतून निरीक्षण करते.
 
@@ -53,7 +53,9 @@ L1 परिसरातून सूर्याचे जवळजवळ अ�
 
 - [ISRO – Aditya-L1 Mission Details](https://www.isro.gov.in/Aditya_L1-MissionDetails.html)
 - [ISRO – Aditya-L1 Mission](https://www.isro.gov.in/Aditya_L1.html)
-- [ISRO – Lagrange Point L1 Assessment](https://www.isro.gov.in/Assessment_spacesituation_LagrangePoint_L1.html)
+- [ISRO – Lagrange Point L1 Assessment](https://www.isro.gov.in/ISRO_EN/Assessment_spacesituation_LagrangePoint_L1.html)
+- [NASA – What are Lagrange Points?](https://science.nasa.gov/solar-system/resources/faq/what-are-lagrange-points/)
+- [ISRO – Aditya-L1 Mission: Completion of First Halo Orbit](https://www.isro.gov.in/Aditya_L1_Mission_Completion_of_First_Halo_Orbit.html)
 - [Indian Space Science Data Centre](https://www.issdc.gov.in/adityal1.html)
 - [India Science, Technology & Innovation Portal](https://www.indiascienceandtechnology.gov.in/megascienceprojects/aditya-l1)
 - [ISRO – Aditya-L1 Booklet](https://www.isro.gov.in/media_isro/pdf/Aditya_L1_Booklet.pdf)
