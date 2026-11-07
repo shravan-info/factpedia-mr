@@ -47,7 +47,7 @@
   header {
     position: sticky; top: 0; z-index: 50;
     background: var(--header-bg); border-bottom: 1px solid var(--border-light);
-    backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: none; -webkit-backdrop-filter: none;
   }
   .header-inner {
     max-width: 720px; margin: 0 auto; padding: 8px 14px;
@@ -475,7 +475,7 @@ html.dark .homepage{background:#151515}
 }
 
 /* polish */
-.homepage header{background:rgba(255,255,255,.97);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+.homepage header{background:rgba(255,255,255,.97);backdrop-filter:none;-webkit-backdrop-filter:none}
 html.dark .homepage header{background:rgba(21,21,21,.97)}
 .homepage .hero-search input[type=search]::-webkit-search-cancel-button,
 .homepage .hero-search input[type=search]::-webkit-search-decoration{-webkit-appearance:none;appearance:none}
@@ -561,6 +561,7 @@ html.dark .homepage header{background:rgba(21,21,21,.97)}
     let documents = [];
     let prepared = [];
     let prefixIndex = new Map();
+    let bodyPrefixIndex = new Map();
     let indexReady = false;
     const MAX_PREFIX = 10;
     fetch('/search-index.json')
@@ -582,6 +583,7 @@ html.dark .homepage header{background:rgba(21,21,21,.97)}
         return { doc, title, aliases, slug, description, text, heads };
       });
       prefixIndex = new Map();
+      bodyPrefixIndex = new Map();
       prepared.forEach((entry, i) => {
         entry.heads.forEach(token => {
           const limit = Math.min(token.length, MAX_PREFIX);
@@ -591,6 +593,15 @@ html.dark .homepage header{background:rgba(21,21,21,.97)}
             if (bucket) bucket.push(i); else prefixIndex.set(key, [i]);
           }
         });
+        const indexedPrefixes = new Set();
+        for (const token of entry.text.split(/\\s+/)) {
+          if (token.length < 4) continue;
+          const key = token.slice(0, 4);
+          if (indexedPrefixes.has(key)) continue;
+          indexedPrefixes.add(key);
+          const bucket = bodyPrefixIndex.get(key);
+          if (bucket) bucket.push(i); else bodyPrefixIndex.set(key, [i]);
+        }
       });
     }
     function scoreEntry(entry, q, tokens) {
@@ -613,12 +624,14 @@ html.dark .homepage header{background:rgba(21,21,21,.97)}
       return score;
     }
     function candidateIds(tokens) {
-      if (!tokens.length) return null;
       let best = null;
       for (const token of tokens) {
-        const bucket = prefixIndex.get(token.slice(0, MAX_PREFIX));
-        if (!bucket) return null;                 // a token has no head match: fall back to scan
-        if (!best || bucket.length < best.length) best = bucket;
+        const key = token.slice(0, Math.min(token.length, MAX_PREFIX));
+        const headBucket = prefixIndex.get(key);
+        const bodyBucket = token.length >= 4 ? bodyPrefixIndex.get(token.slice(0, 4)) : null;
+        for (const bucket of [headBucket, bodyBucket]) {
+          if (bucket && (!best || bucket.length < best.length)) best = bucket;
+        }
       }
       return best;
     }
@@ -636,7 +649,7 @@ html.dark .homepage header{background:rgba(21,21,21,.97)}
       }
       const tokens = normalize(q).split(' ').filter(Boolean);
       const candidates = candidateIds(tokens);
-      const pool = candidates ? candidates.slice(0, 400) : prepared.map((_, i) => i);
+      const pool = candidates || prepared.map((_, i) => i);
       const results = [];
       for (const i of pool) {
         const entry = prepared[i];
@@ -662,18 +675,17 @@ html.dark .homepage header{background:rgba(21,21,21,.97)}
         resultList.append(link);
       });
     }
-    let searchTimer = 0;
     let pendingFrame = 0;
     searchInput.addEventListener('input', event => {
       const value = event.target.value;
-      clearTimeout(searchTimer);
-      searchTimer = setTimeout(() => {
-        cancelAnimationFrame(pendingFrame);
-        pendingFrame = requestAnimationFrame(() => renderSearch(value));
-      }, 90);
+      if (pendingFrame) cancelAnimationFrame(pendingFrame);
+      pendingFrame = requestAnimationFrame(() => {
+        pendingFrame = 0;
+        renderSearch(value);
+      });
     });
     searchInput.addEventListener('keydown', event => {
-      if (event.key === 'Enter') { clearTimeout(searchTimer); renderSearch(searchInput.value); }
+      if (event.key === 'Enter') { if (pendingFrame) cancelAnimationFrame(pendingFrame); pendingFrame = 0; renderSearch(searchInput.value); }
     });
     const searchGo = document.getElementById('searchGo');
     if (searchGo) searchGo.addEventListener('click', () => {
