@@ -53,9 +53,8 @@ L1 परिसरातून सूर्याचे जवळजवळ अ�
 
 - [ISRO – Aditya-L1 Mission Details](https://www.isro.gov.in/Aditya_L1-MissionDetails.html)
 - [ISRO – Aditya-L1 Mission](https://www.isro.gov.in/Aditya_L1.html)
-- [ISRO – Lagrange Point L1 Assessment](https://www.isro.gov.in/ISRO_EN/Assessment_spacesituation_LagrangePoint_L1.html)
+- [ISRO – Lagrange Point L1 Assessment](https://www.isro.gov.in/Assessment_spacesituation_LagrangePoint_L1.html)
 - [NASA – What are Lagrange Points?](https://science.nasa.gov/solar-system/resources/faq/what-are-lagrange-points/)
-- [ISRO – Aditya-L1 Mission: Completion of First Halo Orbit](https://www.isro.gov.in/Aditya_L1_Mission_Completion_of_First_Halo_Orbit.html)
 - [Indian Space Science Data Centre](https://www.issdc.gov.in/adityal1.html)
 - [India Science, Technology & Innovation Portal](https://www.indiascienceandtechnology.gov.in/megascienceprojects/aditya-l1)
 - [ISRO – Aditya-L1 Booklet](https://www.isro.gov.in/media_isro/pdf/Aditya_L1_Booklet.pdf)

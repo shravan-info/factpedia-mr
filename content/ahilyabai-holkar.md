@@ -87,12 +87,10 @@ description: अठराव्या शतकातील मालवा प�
 ## संदर्भ
 
 1. [देवी अहिल्या विद्यापीठ — अहिल्याबाई होळकर](https://www.maitri.gov.in/ahilyabai)
-2. [अहिल्यानगर जिल्हा प्रशासन — जिल्हा प्रोफाइल](https://ahilyanagar.maharashtra.gov.in/en/about-district/district-profile/)
-3. [भारतीय पुरातत्त्व सर्वेक्षण विभाग — अधिकृत संकेतस्थळ](https://asi.nic.in/)
-4. [इन्क्रेडिबल इंडिया — पर्यटन माहिती](https://www.incredibleindia.org/)
-5. [महाराष्ट्र शासन — अधिकृत संकेतस्थळ](https://www.maharashtra.gov.in/)
-6. [महाराष्ट्र राज्य गॅझेटिअर्स](https://gazetteers.maharashtra.gov.in/)
-
+2. [भारत सरकार, संस्कृती मंत्रालय — अहिल्याबाई होळकर यांची ३०० वी जयंती](https://culture.gov.in/commemorations/300th-birth-anniversary-ahilya-bai-holkar)
+3. [अहिल्यानगर जिल्हा प्रशासन — जिल्हा प्रोफाइल](https://ahilyanagar.maharashtra.gov.in/en/about-district/district-profile/)
+4. [खरगोन जिल्हा प्रशासन — महेश्वर](https://khargone.nic.in/en/tourist-place/maheshwar-ancient-mahishmati/)
+5. [मध्य प्रदेश पर्यटन — महेश्वर](https://www.mptourism.com/destination-maheshwar.php)
 ---
 
 *शेवटचे संपादन: ७ नोव्हेंबर २०२६*

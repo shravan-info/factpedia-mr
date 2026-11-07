@@ -90,12 +90,12 @@ description: आग्रा शहराचा इतिहास, यमुन
 
 ## संदर्भ
 
-1. [आग्रा जिल्हा प्रशासन — जिल्ह्याची माहिती](https://agra.nic.in/district-profile/)
-2. [उत्तर प्रदेश राज्य पर्यटन विकास महामंडळ — आग्रा पर्यटन](https://www.guesthouse.uppwd.gov.in/Web/agra_tourism)
-3. [UNESCO — ताजमहाल](https://whc.unesco.org/en/list/252/)
-4. [UNESCO — आग्रा किल्ला](https://whc.unesco.org/en/list/251/)
-5. [UNESCO — फतेहपूर सिक्री](https://whc.unesco.org/en/list/255/)
-6. [भारताची जनगणना — अधिकृत संकेतस्थळ](https://censusindia.gov.in/census.website/)
+1. [उत्तर प्रदेश राज्य पर्यटन विकास महामंडळ — आग्रा पर्यटन](https://www.guesthouse.uppwd.gov.in/Web/agra_tourism)
+2. [UNESCO — ताजमहाल](https://whc.unesco.org/en/list/252/)
+3. [UNESCO — आग्रा किल्ला](https://whc.unesco.org/en/list/251/)
+4. [UNESCO — फतेहपूर सिक्री](https://whc.unesco.org/en/list/255/)
+5. [भारताची जनगणना — आग्रा जिल्हा जनगणना पुस्तिका, २०११](https://censusindia.gov.in/nada/index.php/catalog/1161)
+6. [भारताची जनगणना — Population Finder 2011](https://censusindia.gov.in/census.website/data/population-finder)
 ---
 
 *शेवटचे संपादन: ७ नोव्हेंबर २०२६*
