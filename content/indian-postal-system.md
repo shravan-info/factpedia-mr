@@ -70,3 +70,7 @@ PIN Code मुळे समान नावाची ठिकाणे कि�
 - [India Post – Official Website](https://www.indiapost.gov.in/)
 - [Ministry of Communications](https://dot.gov.in/)
 - [Universal Postal Union – India](https://www.upu.int/en/Universal-Postal-Union/About-UPU/Member-Countries?csid=108)
+
+---
+
+*शेवटचे संपादन: ७ नोव्हेंबर २०२६*

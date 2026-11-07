@@ -58,3 +58,7 @@ L1 परिसरातून सूर्याचे जवळजवळ अ�
 - [India Science, Technology & Innovation Portal](https://www.indiascienceandtechnology.gov.in/megascienceprojects/aditya-l1)
 - [ISRO – Aditya-L1 Booklet](https://www.isro.gov.in/media_isro/pdf/Aditya_L1_Booklet.pdf)
 - [ISRO – Parliament Question on Aditya-L1](https://www.isro.gov.in/media_isro/pdf/docs/UsefulLinks/ParliamentQuestions/BudgetSession_2024_English.pdf)
+
+---
+
+*शेवटचे संपादन: ७ नोव्हेंबर २०२६*

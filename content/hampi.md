@@ -56,3 +56,7 @@ description: कर्नाटकातील हम्पी येथील �
 - [Ministry of Culture](https://www.indiaculture.gov.in/)
 - [Incredible India – Hampi](https://www.incredibleindia.gov.in/en/karnataka/hampi)
 - [UNESCO World Heritage Convention – India](https://whc.unesco.org/en/statesparties/in)
+
+---
+
+*शेवटचे संपादन: ७ नोव्हेंबर २०२६*

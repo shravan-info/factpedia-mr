@@ -56,3 +56,7 @@ description: मध्य प्रदेशातील खजुराहो �
 - [Ministry of Culture, Government of India](https://www.indiaculture.gov.in/)
 - [Incredible India – Khajuraho](https://www.incredibleindia.gov.in/en/madhya-pradesh/khajuraho)
 - [UNESCO World Heritage Centre](https://whc.unesco.org/)
+
+---
+
+*शेवटचे संपादन: ७ नोव्हेंबर २०२६*

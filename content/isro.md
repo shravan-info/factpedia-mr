@@ -76,6 +76,8 @@ description: इस्रोची स्थापना, भारताचा 
 
 भारताच्या अंतराळ कार्यक्रमात मानवी अंतराळ उड्डाण, पुढील चांद्र मोहिमा, अधिक सक्षम प्रक्षेपण वाहने, पृथ्वी निरीक्षण आणि ग्रह-अभ्यास यांना महत्त्व दिले जात आहे. गगनयान कार्यक्रमाचा उद्देश भारतीय मानवी अंतराळ उड्डाण क्षमता विकसित करणे हा आहे. भविष्यातील मोहिमांची वेळापत्रके आणि उद्दिष्टे सरकारी मंजुरी, तांत्रिक चाचण्या आणि प्रत्यक्ष प्रगतीनुसार बदलू शकतात; म्हणून त्याबाबतची अद्ययावत माहिती इस्रोच्या अधिकृत घोषणांमधून तपासणे आवश्यक आहे. [१५][१७]
 
+ऑक्टोबर २०२६ पर्यंत गगनयानच्या पहिल्या मानवरहित मोहिमेची (G1) तयारी अंतिम टप्प्यात होती. क्रू मॉड्यूल आणि सर्व्हिस मॉड्यूल वेगळे होण्याच्या चाचण्यांची मालिका विक्रम साराभाई अंतराळ केंद्रात पूर्ण झाली. इस्रो अध्यक्ष व्ही. नारायणन यांनी ही मोहीम २०२६ उलटण्यापूर्वी प्रक्षेपित करण्याचे लक्ष्य असल्याचे सांगितले. G1, G2 आणि G3 या तीन मानवरहित मोहिमा यशस्वी झाल्यानंतरच मानवी मोहिमेचा विचार केला जाणार आहे.
+
 ## संदर्भ
 
 १. [ISRO – About ISRO / Profile](https://www.isro.gov.in/ISRO_EN/profile.html)
@@ -97,6 +99,7 @@ description: इस्रोची स्थापना, भारताचा 
 १७. [ISRO – Annual Report 2024–25](https://www.isro.gov.in/media_isro/pdf/AnnualReport/Annual_Report_2024_25_Eng.pdf)
 १८. [Vikram Sarabhai Space Centre – Annual Report 2019–20](https://www.vssc.gov.in/pdf/AnnualReport/Annual_Report_2019-20.pdf)
 १९. [IN-SPACe – Official Website](https://www.inspace.gov.in/)
-२०. [Rajya Sabha – Department of Space Parliamentary Committee Report](https://sansad.in/getFile/rsnew/Committee_site/Committee_File/ReportFile/19/201/391_2025_3_13.pdf?source=rajyasabha)
+२०. [The Hindu – Gaganyaan CM-SM separation tests ahead of G1](https://www.thehindu.com/sci-tech/science/gaganyaan-isro-completes-key-test-ahead-of-first-uncrewed-mission/article71592436.ece)
+२१. [Rajya Sabha – Department of Space Parliamentary Committee Report](https://sansad.in/getFile/rsnew/Committee_site/Committee_File/ReportFile/19/201/391_2025_3_13.pdf?source=rajyasabha)
 
-*शेवटचे संपादन: ६ नोव्हेंबर २०२६*
+*शेवटचे संपादन: ७ नोव्हेंबर २०२६*

@@ -58,3 +58,7 @@ description: सारनाथचा बौद्ध इतिहास, गौ
 - [Archaeological Survey of India – Museums](https://asi.nic.in/pages/Museums)
 - [Archaeological Survey of India – Monuments](https://asi.nic.in/pages/Monuments)
 - [Ministry of Culture – Legal Mandate](https://www.indiaculture.gov.in/legal-mandate)
+
+---
+
+*शेवटचे संपादन: ७ नोव्हेंबर २०२६*
