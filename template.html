@@ -19,7 +19,7 @@
 <link rel="canonical" href="{{canonical}}">
 <link rel="manifest" href="/manifest.webmanifest">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-<meta name="theme-color" content="#1e40af">
+<meta name="theme-color" content="#fbfaf8">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Factpedia">
@@ -224,6 +224,12 @@
   .article-search-result strong { display:block; color:var(--link); font-size:15px; margin-bottom:2px; }
   .article-search-result span { display:block; color:var(--text-secondary); font-size:12px; line-height:1.6; }
   .article-search-empty { padding:14px; color:var(--text-secondary); font-size:13px; }
+
+/* Article reading design, matching the Factpedia homepage */
+:root{color-scheme:light;--bg:#fbfaf8;--surface:#fff;--surface-2:#f4f2ee;--text:#242321;--text-secondary:#77736c;--border:#e8e5df;--border-light:#efede8;--link:#3d5f8c;--accent-soft:#eeece6;--accent-strong:#30302d;--header-bg:rgba(251,250,248,.94);--card-bg:#fff;--code-bg:#f2f0eb;--search-bg:#f4f2ee}
+html.dark{color-scheme:dark;--bg:#171716;--surface:#20201e;--surface-2:#262624;--text:#e9e7e2;--text-secondary:#aaa69e;--border:#393834;--border-light:#302f2b;--link:#a9c4e8;--accent-soft:#302f2a;--accent-strong:#e6e2d9;--header-bg:rgba(23,23,22,.94);--card-bg:#20201e;--code-bg:#252522;--search-bg:#252522}
+body{background:var(--bg)!important;color:var(--text)}header{background:var(--header-bg)!important;border-color:var(--border)!important;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}.header-inner{max-width:1040px}.container{max-width:900px}main{padding-top:32px}#mainContent{color:var(--text)}#mainContent>h1{font-size:clamp(2rem,5vw,2.8rem);line-height:1.28;letter-spacing:-.035em;border-bottom:1px solid var(--border);padding-bottom:18px}#mainContent>h2{font-size:1.42rem;letter-spacing:-.015em;color:var(--text);border-color:var(--border-light)}#mainContent>h3,#mainContent p,#mainContent li{color:var(--text)}#mainContent blockquote{background:var(--surface-2);color:var(--text-secondary);border-left-color:var(--link)}#mainContent table{background:var(--surface);border-color:var(--border);color:var(--text)}#mainContent table th{background:var(--surface-2);color:var(--text)}#mainContent table td,#mainContent table th{border-color:var(--border-light)}#mainContent pre{background:var(--code-bg);color:var(--text)}#mainContent hr{border-color:var(--border)}.section-toggle{background:var(--surface);color:var(--text-secondary);border-color:var(--border)}.search-box{background:var(--search-bg);border-color:var(--border)}.article-search-results{background:var(--surface);border-color:var(--border)}.article-search-result{color:var(--text);border-color:var(--border-light)}.article-search-result:hover,.article-search-result:focus{background:var(--surface-2)}.article-search-result strong{color:var(--link)}.search-clear{background:var(--surface-2);color:var(--text-secondary)}mark{background:#f2df9b;color:#29251c}html.dark mark{background:#715b27;color:#fff1c5}footer{border-color:var(--border);color:var(--text-secondary)}@media(max-width:700px){.container{padding-left:18px;padding-right:18px}main{padding-top:24px}#mainContent>h1{font-size:1.9rem}}
+
 </style>
 </head>
 <body>
