@@ -128,7 +128,9 @@ function collectArticleTitles(dir, currentSlug = "", output = []) {
     else if (entry.name.endsWith(".md") && entry.name !== "index.md") {
       const source = fs.readFileSync(fullPath, "utf-8");
       const heading = source.match(/^#\s+(.+)$/m);
-      if (heading) output.push({ title: heading[1].trim(), slug: path.join(currentSlug, entry.name.replace(/\.md$/, "")).split(path.sep).join("/") });
+      const metaTitle = source.match(/^title:\s*(.+)$/m);
+      const title = heading?.[1]?.trim() || metaTitle?.[1]?.trim() || entry.name.replace(/\.md$/, "").replace(/[-_]+/g, " ");
+      output.push({ title, slug: path.join(currentSlug, entry.name.replace(/\.md$/, "")).split(path.sep).join("/") });
     }
   }
   return output;
@@ -137,6 +139,21 @@ function escapeRegExp(value) {
   return value.split("").map(ch => "\\^$.*+?()[]{}|".includes(ch) ? "\\" + ch : ch).join("");
 }
 const articleTitles = collectArticleTitles(contentDir).sort((a, b) => b.title.length - a.title.length);
+function appendMissingHomepageArticles(markdown) {
+  const existingSlugs = new Set(
+    [...markdown.matchAll(/\]\(\/([^)#?]+)\/?\)/g)].map(match => match[1].replace(/\/$/, ""))
+  );
+  const missing = articleTitles
+    .filter(item => !existingSlugs.has(item.slug))
+    .sort((a, b) => a.title.localeCompare(b.title, "mr"));
+  const marathiCount = String(articleTitles.length).replace(/[0-9]/g, digit => "०१२३४५६७८९"[Number(digit)]);
+  let output = markdown.replace(/(<strong>)१५९(<\/strong>)/, `$1${marathiCount}$2`);
+  if (!missing.length) return output;
+  output += "\n\n## इतर सर्व उपलब्ध लेख\n\n";
+  output += missing.map(item => `- [${item.title}](/${item.slug}/)`).join("\n");
+  return output + "\n";
+}
+
 
 const searchDocuments = [];
 const englishAliases = {
@@ -307,7 +324,8 @@ function processDir(dir, currentSlug = "") {
           text: searchText.slice(0, 12000)
         });
       }
-      const linkedMarkdown = isHomePage ? markdownBody : addContextualInternalLinks(markdownBody, pagePath);
+      const homepageMarkdown = isHomePage ? appendMissingHomepageArticles(markdownBody) : markdownBody;
+      const linkedMarkdown = isHomePage ? homepageMarkdown : addContextualInternalLinks(markdownBody, pagePath);
       const htmlContent = ensureSingleH1(marked.parse(linkedMarkdown), title);
       const structuredData = createStructuredData({
         title,
