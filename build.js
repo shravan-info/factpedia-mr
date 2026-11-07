@@ -425,7 +425,7 @@ if (fs.existsSync("./public")) {
 const redirectRules = [...articleRedirects].flatMap(([from, to]) => [
   `/${from} /${to}/ 301`,
   `/${from}/ /${to}/ 301`
-]).join("\\n") + "\\n";
+]).join("\n") + "\n";
 fs.writeFileSync(path.join(distDir, "_redirects"), redirectRules);
 
 console.log("Static build completed successfully with sitemap.xml, robots.txt, redirects, and PWA assets!");
