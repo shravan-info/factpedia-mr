@@ -310,8 +310,8 @@ function processDir(dir, currentSlug = "") {
         rawText = rawText.replace(/(?<!डॉ)([\u0900-\u097F])\.(?=\s|$)/g, "$1।");
       }
 
-      let title = "Factpedia - मुक्त ज्ञानकोश";
-      let description = "सत्य आणि पडताळणी केलेली माहिती देणारा मराठी ज्ञानकोश.";
+      let title = "";
+      let description = "";
       let markdownBody = rawText;
 
       if (rawText.startsWith("---")) {
@@ -320,13 +320,26 @@ function processDir(dir, currentSlug = "") {
           const meta = parts[1];
           markdownBody = parts.slice(2).join("---");
 
-          const titleMatch = meta.match(/title:\s*(.*)/);
+          const titleMatch = meta.match(/^title:\s*(.*)$/m);
           if (titleMatch) title = titleMatch[1].trim();
 
-          const descMatch = meta.match(/description:\s*(.*)/);
+          const descMatch = meta.match(/^description:\s*(.*)$/m);
           if (descMatch) description = descMatch[1].trim();
         }
       }
+
+      const sourceHeading = markdownBody.match(/^#\\s+(.+)$/m)?.[1]?.trim();
+      const fallbackSlugTitle = slugName.replace(/[-_]+/g, " ").replace(/\\b\\w/g, letter => letter.toUpperCase());
+      title = title || sourceHeading || (slugName === "index" ? "Factpedia - मुक्त ज्ञानकोश" : fallbackSlugTitle);
+
+      if (!description) {
+        const descriptionSource = plainSearchText(markdownBody)
+          .replace(new RegExp("^" + escapeRegExp(title) + "\\s*", "i"), "")
+          .trim();
+        const firstSentences = descriptionSource.match(/^.{1,320}?(?:[।.!?](?:\\s|$)|$)/u)?.[0] || descriptionSource;
+        description = firstSentences || "Factpedia वर " + title + " या विषयाची मराठीत माहिती वाचा.";
+      }
+      description = Array.from(cleanMetaDescription(description)).slice(0, 160).join("");
 
       const isHomePage = slugName === "index" && !currentSlug;
       const pagePath = isHomePage
@@ -453,5 +466,37 @@ const redirectRules = [...articleRedirects].flatMap(([from, to]) => [
   `/${from}/ /${to}/ 301`
 ]).join("\n") + "\n";
 fs.writeFileSync(path.join(distDir, "_redirects"), redirectRules);
+
+// Build-time SEO quality checks: surface issues without silently changing article facts.
+const titleCounts = new Map();
+const descriptionCounts = new Map();
+let articleCount = 0;
+let missingH1Count = 0;
+let missingAltCount = 0;
+for (const pagePath of urls.filter(Boolean)) {
+  articleCount += 1;
+  const htmlPath = path.join(distDir, pagePath, "index.html");
+  if (!fs.existsSync(htmlPath)) continue;
+  const html = fs.readFileSync(htmlPath, "utf-8");
+  const pageTitle = html.match(/<title>([\\s\\S]*?)<\\/title>/i)?.[1]?.trim() || "";
+  const pageDescription = html.match(/<meta\\s+name="description"\\s+content="([^"]*)"/i)?.[1]?.trim() || "";
+  titleCounts.set(pageTitle, (titleCounts.get(pageTitle) || 0) + 1);
+  descriptionCounts.set(pageDescription, (descriptionCounts.get(pageDescription) || 0) + 1);
+  if (!/<h1\\b/i.test(html)) missingH1Count += 1;
+  for (const imageTag of html.match(/<img\\b[^>]*>/gi) || []) {
+    if (!/\\balt\\s*=/i.test(imageTag)) missingAltCount += 1;
+  }
+}
+const duplicateTitles = [...titleCounts].filter(([, count]) => count > 1);
+const duplicateDescriptions = [...descriptionCounts].filter(([value, count]) => value && count > 1);
+console.log("SEO audit summary:");
+console.log(`- Articles checked: ${articleCount}`);
+console.log(`- Duplicate title groups: ${duplicateTitles.length}`);
+console.log(`- Duplicate description groups: ${duplicateDescriptions.length}`);
+console.log(`- Pages missing H1: ${missingH1Count}`);
+console.log(`- Images missing alt attributes: ${missingAltCount}`);
+if (duplicateTitles.length) console.warn("Duplicate title examples:", duplicateTitles.slice(0, 10));
+if (duplicateDescriptions.length) console.warn("Duplicate description examples:", duplicateDescriptions.slice(0, 10));
+if (missingH1Count || missingAltCount) console.warn("Review the SEO audit warnings above.");
 
 console.log("Static build completed successfully with sitemap.xml, robots.txt, redirects, and PWA assets!");
