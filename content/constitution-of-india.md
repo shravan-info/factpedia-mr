@@ -53,4 +53,4 @@ description: भारतीय संविधान हा देशाचा 
 1. [भारतीय संविधान – विधायी विभाग](https://www.legislative.gov.in/static/uploads/2025/08/cb1b190ea633a1746368ed1fac35fb30.pdf)
 2. [लोकसभा – संविधानाची ओळख](https://sansad.in/ls/about/introduction)
 
-*शेवटचे संपादन: ५ नोव्हेंबर २०२६*
+*शेवटचे संपादन: ८ नोव्हेंबर २०२६*

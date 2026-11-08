@@ -1,0 +1,24 @@
+{
+  "next_index": 150,
+  "cycle": 1,
+  "runs": [
+    {
+      "date": "2026-11-08",
+      "checked": 150,
+      "range": [
+        "abraham-lincoln.md",
+        "cote-divoire.md"
+      ],
+      "extra_fixes": [
+        "content/lohagad.md",
+        "content/mahuli-fort.md",
+        "content/ravi-shankar.md",
+        "content/tikona-fort.md",
+        "content/tornagad.md"
+      ],
+      "next_index": 150,
+      "cycle": 1
+    }
+  ],
+  "total_articles": 732
+}

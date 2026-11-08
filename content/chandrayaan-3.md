@@ -102,4 +102,4 @@ ISRO ने २३ ऑगस्ट २०२४ रोजी चांद्र�
 १९. [ISRO – Laser Retroreflector Array on Chandrayaan-3 Lander](https://www.isro.gov.in/Chandrayaan-3_lander_Instrument.html)
 २०. [NASA – Laser Instrument Successfully Pings the Indian Moon Lander](https://science.nasa.gov/missions/lro/laser-instrument-on-nasas-lro-successfully-pings-indian-moon-lander/)
 
-*शेवटचे संपादन: ६ नोव्हेंबर २०२६*
+*शेवटचे संपादन: ८ नोव्हेंबर २०२६*
