@@ -42,17 +42,17 @@ function escapeHtml(value) {
 // Keep exactly one H1 in the rendered page, even if source Markdown has more.
 function addImageLoadingHints(html) {
   let imageIndex = 0;
-  return html.replace(/<img\\b[^>]*>/gi, (tag) => {
+  return html.replace(/<img\b[^>]*>/gi, (tag) => {
     const isFirstImage = imageIndex++ === 0;
     let output = tag;
-    if (!/\\bloading\\s*=/i.test(output)) {
-      output = output.replace(/<img\\b/i, '<img loading="' + (isFirstImage ? 'eager' : 'lazy') + '"');
+    if (!/\bloading\s*=/i.test(output)) {
+      output = output.replace(/<img\b/i, '<img loading="' + (isFirstImage ? 'eager' : 'lazy') + '"');
     }
-    if (!/\\bdecoding\\s*=/i.test(output)) {
-      output = output.replace(/<img\\b/i, '<img decoding="async"');
+    if (!/\bdecoding\s*=/i.test(output)) {
+      output = output.replace(/<img\b/i, '<img decoding="async"');
     }
-    if (isFirstImage && !/\\bfetchpriority\\s*=/i.test(output)) {
-      output = output.replace(/<img\\b/i, '<img fetchpriority="high"');
+    if (isFirstImage && !/\bfetchpriority\s*=/i.test(output)) {
+      output = output.replace(/<img\b/i, '<img fetchpriority="high"');
     }
     return output;
   });
@@ -356,7 +356,7 @@ function processDir(dir, currentSlug = "") {
         description: cleanMetaDescription(description),
         pageUrl,
         isHomePage,
-        wordCount: isHomePage ? 0 : plainSearchText(markdownBody).split(/\\s+/).filter(Boolean).length
+        wordCount: isHomePage ? 0 : plainSearchText(markdownBody).split(/\s+/).filter(Boolean).length
       });
 
       const selectedTemplate = isHomePage ? homepageTemplate : template;
