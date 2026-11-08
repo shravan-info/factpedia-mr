@@ -40,6 +40,24 @@ function escapeHtml(value) {
 }
 
 // Keep exactly one H1 in the rendered page, even if source Markdown has more.
+function addImageLoadingHints(html) {
+  let imageIndex = 0;
+  return html.replace(/<img\\b[^>]*>/gi, (tag) => {
+    const isFirstImage = imageIndex++ === 0;
+    let output = tag;
+    if (!/\\bloading\\s*=/i.test(output)) {
+      output = output.replace(/<img\\b/i, '<img loading="' + (isFirstImage ? 'eager' : 'lazy') + '"');
+    }
+    if (!/\\bdecoding\\s*=/i.test(output)) {
+      output = output.replace(/<img\\b/i, '<img decoding="async"');
+    }
+    if (isFirstImage && !/\\bfetchpriority\\s*=/i.test(output)) {
+      output = output.replace(/<img\\b/i, '<img fetchpriority="high"');
+    }
+    return output;
+  });
+}
+
 function ensureSingleH1(html, title) {
   let h1Count = 0;
   const normalized = html.replace(/<h1\b([^>]*)>([\s\S]*?)<\/h1>/gi, (match, attributes, content) => {
@@ -52,7 +70,7 @@ function ensureSingleH1(html, title) {
     : normalized;
 }
 
-function createStructuredData({ title, description, pageUrl, isHomePage }) {
+function createStructuredData({ title, description, pageUrl, isHomePage, wordCount = 0 }) {
   const organizationId = siteUrl + "/#organization";
   const websiteId = siteUrl + "/#website";
   const pageId = pageUrl + "#webpage";
@@ -93,7 +111,10 @@ function createStructuredData({ title, description, pageUrl, isHomePage }) {
         "description": cleanMetaDescription(description),
         "inLanguage": "mr",
         "author": { "@id": organizationId },
-        "publisher": { "@id": organizationId }
+        "publisher": { "@id": organizationId },
+        "wordCount": wordCount,
+        "isAccessibleForFree": true,
+        "copyrightHolder": { "@id": organizationId }
       },
       {
         "@type": "BreadcrumbList",
@@ -329,12 +350,13 @@ function processDir(dir, currentSlug = "") {
       }
       const homepageMarkdown = isHomePage ? appendMissingHomepageArticles(markdownBody) : markdownBody;
       const linkedMarkdown = isHomePage ? homepageMarkdown : addContextualInternalLinks(markdownBody, pagePath);
-      const htmlContent = ensureSingleH1(marked.parse(linkedMarkdown), title);
+      const htmlContent = addImageLoadingHints(ensureSingleH1(marked.parse(linkedMarkdown), title));
       const structuredData = createStructuredData({
         title,
         description: cleanMetaDescription(description),
         pageUrl,
-        isHomePage
+        isHomePage,
+        wordCount: isHomePage ? 0 : plainSearchText(markdownBody).split(/\\s+/).filter(Boolean).length
       });
 
       const selectedTemplate = isHomePage ? homepageTemplate : template;
