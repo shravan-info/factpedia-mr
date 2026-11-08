@@ -379,7 +379,7 @@ function processDir(dir, currentSlug = "") {
         .replaceAll("{{description}}", escapeHtml(cleanMetaDescription(description)))
         .replaceAll("{{canonical}}", pageUrl)
         .replaceAll("{{og_type}}", isHomePage ? "website" : "article")
-        .replaceAll("{{twitter_card}}", "summary")
+        .replaceAll("{{twitter_card}}", "summary_large_image")
         .replaceAll("{{schema}}", structuredData)
         .replaceAll("{{content}}", htmlContent);
 
