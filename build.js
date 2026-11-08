@@ -478,13 +478,13 @@ for (const pagePath of urls.filter(Boolean)) {
   const htmlPath = path.join(distDir, pagePath, "index.html");
   if (!fs.existsSync(htmlPath)) continue;
   const html = fs.readFileSync(htmlPath, "utf-8");
-  const pageTitle = html.match(/<title>([\\s\\S]*?)<\\/title>/i)?.[1]?.trim() || "";
-  const pageDescription = html.match(/<meta\\s+name="description"\\s+content="([^"]*)"/i)?.[1]?.trim() || "";
+  const pageTitle = html.match(/<title>([\s\S]*?)<\/title>/i)?.[1]?.trim() || "";
+  const pageDescription = html.match(/<meta\s+name="description"\s+content="([^"]*)"/i)?.[1]?.trim() || "";
   titleCounts.set(pageTitle, (titleCounts.get(pageTitle) || 0) + 1);
   descriptionCounts.set(pageDescription, (descriptionCounts.get(pageDescription) || 0) + 1);
-  if (!/<h1\\b/i.test(html)) missingH1Count += 1;
-  for (const imageTag of html.match(/<img\\b[^>]*>/gi) || []) {
-    if (!/\\balt\\s*=/i.test(imageTag)) missingAltCount += 1;
+  if (!/<h1\b/i.test(html)) missingH1Count += 1;
+  for (const imageTag of html.match(/<img\b[^>]*>/gi) || []) {
+    if (!/\balt\s*=/i.test(imageTag)) missingAltCount += 1;
   }
 }
 const duplicateTitles = [...titleCounts].filter(([, count]) => count > 1);
