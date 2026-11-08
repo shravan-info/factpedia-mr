@@ -89,13 +89,12 @@ description: कटक शहराचा इतिहास, महानदी
 ## संदर्भ
 
 1. [कटक जिल्हा प्रशासन — इतिहास](https://cuttack.odisha.gov.in/en/about-district/history)
-2. [कटक जिल्हा प्रशासन — शहर व पर्यटन](https://cuttack.odisha.gov.in/en/tourism/tourist-places/cuttack-city)
-3. [कटक महानगरपालिका — शहराचा परिचय](https://cmccuttack.odisha.gov.in/index.php/overview-on-cuttack/)
-4. [ओडिशा सरकार — कटक पर्यटनस्थळे](https://odisha.gov.in/en/odisha-tourism/important-tourist-pointscuttack)
-5. [ओडिशा सरकार — कटक संस्कृती व वारसा](https://cuttack.odisha.gov.in/en/tourism/culture-Heritage)
-6. [ओडिशा शहरी विकास विभाग — कटक शहर प्रोफाइल](https://urban.odisha.gov.in/sites/default/files/2021-05/Roadmap%20For%20Implementation%20Of%20Water-sensitive%20Urban%20Design%20And%20Planning%20In%20Odisha.pdf)
-7. [भारताची जनगणना — २०११ जनगणना](https://censusindia.gov.in/census.website/)
+2. [कटक जिल्हा प्रशासन — शहराची माहिती](https://cuttack.odisha.gov.in/en/tourism/tourist-places/cuttack-city)
+3. [कटक महानगरपालिका — शहर परिचय](https://cmccuttack.odisha.gov.in/index.php/overview-on-cuttack/)
+4. [ओडिशा शासन — संस्कृती व वारसा](https://cuttack.odisha.gov.in/en/tourism/culture-Heritage)
+5. [भारताची जनगणना — २०११](https://censusindia.gov.in/census.website/)
 
 ---
 
+*शेवटचे संपादन: ८ नोव्हेंबर २०२६*
 *शेवटचे संपादन: ६ नोव्हेंबर २०२६*
