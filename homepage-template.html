@@ -496,6 +496,66 @@ html.dark{color-scheme:dark;--bg:#171716;--surface:#20201e;--surface-2:#262624;-
 body,.homepage{background:var(--bg)!important;color:var(--text)}header,.homepage header{background:var(--header-bg)!important;border-color:var(--border)!important;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
 .homepage .hero-wordmark,.homepage .article-count strong,.homepage #mainContent>ol li a{color:var(--text)}.homepage .hero-tagline,.homepage .search-hint span{color:var(--text-secondary)}.homepage .hero-search,.homepage .search-hint a{background:var(--surface)!important;border-color:var(--border)!important;color:var(--text)}.homepage .hero-search input{color:var(--text)}.homepage .hero-search input::placeholder{color:var(--text-secondary)}.homepage .hero-search-go{background:var(--surface-2)!important;color:var(--text)!important}.homepage .hero-search-go:hover,.homepage .search-hint a:hover{background:var(--accent-soft)!important}.homepage #mainContent>h2,.homepage #mainContent>ol li{border-color:var(--border-light)}.homepage #mainContent>ol li:hover{background:var(--surface-2)}.homepage .search-result{background:var(--surface);border-color:var(--border);color:var(--text)}.homepage .search-result span{color:var(--text-secondary)}.homepage footer,footer{color:var(--text-secondary);border-color:var(--border)}.icon-btn{color:var(--text-secondary)}.icon-btn:hover{background:var(--surface-2);color:var(--text);border-color:var(--border)}.icon-btn.active{background:var(--accent-strong);color:var(--bg);border-color:var(--accent-strong)}a{color:var(--link)}
 
+
+/* 2026 homepage redesign: clean editorial search-first layout */
+:root{
+ --bg:#f8f7f4;--text:#20211f;--text-secondary:#77766f;--border:#e7e4dd;
+ --border-light:#efede7;--card-bg:#fff;--link:#315d50;--header-bg:rgba(248,247,244,.94);
+ --accent-soft:#edf2ed;--accent-strong:#315d50;--search-bg:#fff;
+}
+html.dark{
+ --bg:#151715;--text:#f1f1eb;--text-secondary:#aaa99f;--border:#353a34;
+ --border-light:#292e29;--card-bg:#1d211d;--link:#a9c9b7;--header-bg:rgba(21,23,21,.94);
+ --accent-soft:#27352c;--accent-strong:#a9c9b7;--search-bg:#1d211d;
+}
+body.homepage{background:var(--bg);color:var(--text)}
+.homepage header{position:sticky;top:0;background:var(--header-bg);border-bottom:1px solid var(--border);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
+.homepage .header-inner{max-width:1160px;height:68px;justify-content:space-between;padding:8px 28px}
+.homepage .brand{display:inline-flex;align-items:center;gap:10px;color:var(--text);font:800 22px/1 "Noto Sans Devanagari",sans-serif;letter-spacing:-.04em;text-decoration:none}
+.homepage .brand:before{content:"F";display:grid;place-items:center;width:34px;height:34px;border-radius:11px;background:var(--text);color:var(--bg);font:800 20px/1 Georgia,serif}
+.homepage .header-actions{margin-left:auto;gap:6px}
+.homepage .icon-btn{width:40px;height:40px;border:1px solid var(--border);border-radius:12px;background:var(--card-bg);color:var(--text-secondary)}
+.homepage .icon-btn:hover{background:var(--accent-soft);color:var(--text);border-color:var(--border)}
+.homepage .container{max-width:1160px;padding:0 28px 64px}
+.homepage .search-hero{max-width:820px;margin:clamp(52px,9vw,104px) auto 58px;padding:0 12px;text-align:center}
+.homepage .hero-wordmark{margin:0 0 18px;color:var(--text);font:600 clamp(3.2rem,9vw,6rem)/1.05 "Fraunces",Georgia,serif;letter-spacing:-.075em}
+.homepage .hero-wordmark .version{display:inline-block;vertical-align:top;margin:9px 0 0 8px;padding:5px 9px;border:1px solid var(--border);border-radius:99px;color:var(--text-secondary);font:500 11px/1.2 "Noto Sans Devanagari",sans-serif;letter-spacing:0}
+.homepage .hero-tagline{margin:0 auto 30px;color:var(--text-secondary);font-size:clamp(15px,2vw,18px)}
+.homepage .hero-search{max-width:760px;min-height:68px;margin:0 auto;padding:8px 10px 8px 22px;gap:14px;border:1px solid var(--border);border-radius:18px;background:var(--card-bg);box-shadow:0 18px 50px rgba(30,40,32,.08)}
+html.dark .homepage .hero-search{box-shadow:0 18px 50px rgba(0,0,0,.2)}
+.homepage .hero-search input{font-size:17px}
+.homepage .hero-search-go{display:grid;place-items:center;width:48px;height:48px;flex:0 0 48px;border:0;border-radius:13px;background:var(--text);color:var(--bg);cursor:pointer}
+.homepage .hero-search-go svg{width:21px;height:21px}
+.homepage .search-hint{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:9px;margin-top:18px;color:var(--text-secondary);font-size:12px}
+.homepage .search-hint a{padding:6px 11px;border:1px solid var(--border);border-radius:99px;color:var(--text-secondary);background:var(--card-bg);text-decoration:none}
+.homepage .search-hint a:hover{border-color:var(--link);color:var(--link);background:var(--accent-soft)}
+.homepage .search-results{max-width:820px;margin:-24px auto 48px}
+.homepage .search-result{border:1px solid var(--border);border-radius:13px;background:var(--card-bg);box-shadow:none}
+.homepage .search-result:hover{background:var(--accent-soft);transform:translateY(-1px)}
+.homepage #mainContent{max-width:900px;margin:0 auto}
+.homepage #mainContent>h1{font-size:clamp(1.8rem,4vw,2.35rem);text-align:left;letter-spacing:-.035em}
+.homepage #mainContent>h2{margin:44px 0 16px;padding:0 0 12px;border-bottom:1px solid var(--border);font-size:1.35rem;letter-spacing:-.02em}
+.homepage #mainContent>p{color:var(--text-secondary)}
+.homepage #mainContent>ol,.homepage #mainContent>ul{padding:8px 22px;border:1px solid var(--border);border-radius:16px;background:var(--card-bg)}
+.homepage #mainContent>ol li,.homepage #mainContent>ul li{padding:8px 4px;border-bottom:1px solid var(--border-light)}
+.homepage #mainContent>ol li:last-child,.homepage #mainContent>ul li:last-child{border-bottom:0}
+.homepage #mainContent a{font-weight:600}
+.homepage footer{max-width:900px;margin:54px auto 0;padding-top:22px;border-color:var(--border)}
+.homepage :focus-visible{outline:3px solid color-mix(in srgb,var(--link) 45%,transparent);outline-offset:3px}
+@media(max-width:640px){
+ .homepage .header-inner{height:60px;padding:8px 16px}
+ .homepage .brand{font-size:20px}
+ .homepage .brand:before{width:31px;height:31px}
+ .homepage .container{padding:0 16px 48px}
+ .homepage .search-hero{margin:48px auto 42px;padding:0}
+ .homepage .hero-wordmark{font-size:clamp(3rem,15vw,4.4rem)}
+ .homepage .hero-search{min-height:58px;padding:6px 7px 6px 14px;border-radius:15px}
+ .homepage .hero-search input{font-size:15px}
+ .homepage .hero-search-go{width:42px;height:42px;flex-basis:42px}
+ .homepage #mainContent>h2{margin-top:34px;font-size:1.2rem}
+ .homepage #mainContent>ol,.homepage #mainContent>ul{padding:6px 14px}
+}
+
 </style>
 </head>
 <body class="homepage">
