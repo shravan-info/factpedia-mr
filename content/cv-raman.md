@@ -75,25 +75,14 @@ description: भारतीय भौतिकशास्त्रज्ञ �
 
 ## संदर्भ
 
-१. [Nobel Prize – C. V. Raman: Biographical](https://www.nobelprize.org/prizes/physics/1930/raman/biographical/)
-२. [Nobel Prize – C. V. Raman: Facts](https://www.nobelprize.org/laureate/37)
-३. [Nobel Prize – Raman’s Nobel Lecture](https://www.nobelprize.org/prizes/physics/1930/raman/lecture/)
-४. [Indian Association for the Cultivation of Science – Official Website](https://www.iacs.res.in/)
-५. [Raman Research Institute – Overview and History](https://www.rri.res.in/about/overview)
-६. [Indian Institute of Science – C. V. Raman and Physics at IISc](https://www.iisc.ac.in/wp-content/uploads/2018/03/CV_RAMAN_AND_PHYSICS_AT_IISc.pdf)
-७. [Raman Research Institute – Official Website](https://www.rri.res.in/)
-८. [Indian Academy of Sciences – Publications of IAS Fellows: 1928](https://repository.ias.ac.in/view/year/1928.html)
-९. [Nature – A New Type of Secondary Radiation (1928)](https://www.nature.com/articles/121501c0)
-१०. [Nature – The Optical Analogue of the Compton Effect (1928)](https://www.nature.com/articles/121711a0)
-११. [Indian Academy of Sciences Repository – A New Radiation (1928)](https://repository.ias.ac.in/70648/)
-१२. [Optica – C. V. Raman Biography](https://www.optica.org/History/Biographies/bios/C-V--Raman)
-१३. [American Chemical Society – C. V. Raman and the Raman Effect](https://www.acs.org/content/acs/en/education/whatischemistry/landmarks/ramaneffect.html)
-१४. [Department of Science and Technology – National Science Day](https://dst.gov.in/)
-१५. [India Science, Technology & Innovation Portal – National Science Day](https://www.indiascienceandtechnology.gov.in/conferences-and-seminars/regular-events/national-science-day)
-१६. [U. R. Rao Satellite Centre – National Science Day Overview](https://www.ursc.gov.in/nsd.jsp)
-१७. [U. R. Rao Satellite Centre – National Science Day 2026 Brochure](https://www.ursc.gov.in/science-promotion/nsd-2026/Brochure_NSD-2026.pdf)
-१८. [Nature – Sir C. V. Raman, F.R.S. (1949)](https://www.nature.com/articles/163054b0)
-१९. [American Institute of Physics – C. V. Raman Papers](https://history.aip.org/history/catalog/icos/2406.html)
-२०. [President of India – Address on Science Day (2005)](https://presidentofindia.nic.in/dr-apj-abdul-kalam/speeches/address-nation-president-india-science-day-2005)
+1. [Nobel Prize — जीवनचरित्र](https://www.nobelprize.org/prizes/physics/1930/raman/biographical/)
+2. [Nobel Prize — रमण यांची व्याख्यानमाला](https://www.nobelprize.org/prizes/physics/1930/raman/lecture/)
+3. [Nature — रमण परिणामावरील १९२८ चा लेख](https://www.nature.com/articles/121501c0)
+4. [Indian Association for the Cultivation of Science](https://www.iacs.res.in/)
+5. [Raman Research Institute — इतिहास](https://www.rri.res.in/about/overview)
+6. [विज्ञान व तंत्रज्ञान विभाग — राष्ट्रीय विज्ञान दिन](https://dst.gov.in/)
 
+---
+
+*शेवटचे संपादन: ८ नोव्हेंबर २०२६*
 *शेवटचे संपादन: ६ नोव्हेंबर २०२६*
