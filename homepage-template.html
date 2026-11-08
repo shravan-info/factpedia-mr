@@ -602,8 +602,9 @@ body,.homepage{background:var(--bg)!important;color:var(--text)}header,.homepage
         });
         const indexedPrefixes = new Set();
         for (const token of entry.text.split(/\\s+/)) {
-          if (token.length < 4) continue;
-          const key = token.slice(0, 4);
+          const chars = Array.from(token);
+          if (chars.length < 3) continue;
+          const key = chars.slice(0, 3).join('');
           if (indexedPrefixes.has(key)) continue;
           indexedPrefixes.add(key);
           const bucket = bodyPrefixIndex.get(key);
@@ -631,16 +632,22 @@ body,.homepage{background:var(--bg)!important;color:var(--text)}header,.homepage
       return score;
     }
     function candidateIds(tokens) {
-      let best = null;
+      // Search every query term. Returning only the smallest bucket caused
+      // multi-word searches to miss articles matching another term.
+      const candidates = new Set();
+      let foundBucket = false;
       for (const token of tokens) {
-        const key = token.slice(0, Math.min(token.length, MAX_PREFIX));
+        const key = Array.from(token).slice(0, MAX_PREFIX).join('');
+        const bodyKey = Array.from(token).slice(0, 3).join('');
         const headBucket = prefixIndex.get(key);
-        const bodyBucket = token.length >= 4 ? bodyPrefixIndex.get(token.slice(0, 4)) : null;
+        const bodyBucket = Array.from(token).length >= 3 ? bodyPrefixIndex.get(bodyKey) : null;
         for (const bucket of [headBucket, bodyBucket]) {
-          if (bucket && (!best || bucket.length < best.length)) best = bucket;
+          if (!bucket) continue;
+          foundBucket = true;
+          for (const id of bucket) candidates.add(id);
         }
       }
-      return best;
+      return foundBucket ? candidates : null;
     }
     function renderSearch(query) {
       const q = query.trim();
