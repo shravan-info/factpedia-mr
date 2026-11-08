@@ -136,4 +136,4 @@ description: भारताचे स्थान, विस्तार, भ�
 7. [Ministry of Agriculture and Farmers Welfare – कृषीविषयक माहिती](https://agriwelfare.gov.in/)
 8. [Forest Survey of India – भारतातील वनस्थिती](https://fsi.nic.in/)
 
-*शेवटचे संपादन: ७ नोव्हेंबर २०२६*
+*शेवटचे संपादन: ८ नोव्हेंबर २०२६*
