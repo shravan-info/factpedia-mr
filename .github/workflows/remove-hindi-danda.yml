@@ -1,0 +1,54 @@
+name: Remove Hindi danda from all Factpedia articles
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  clean:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Replace Hindi danda in every article
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          root = Path("content")
+          files = sorted(root.rglob("*.md"))
+          changed = []
+          total = 0
+          for path in files:
+              text = path.read_text(encoding="utf-8")
+              count = text.count("\u0964")
+              if count:
+                  path.write_text(text.replace("\u0964", "."), encoding="utf-8")
+                  changed.append(str(path))
+                  total += count
+          print(f"MARKDOWN_FILES_SCANNED={len(files)}")
+          print(f"FILES_CHANGED={len(changed)}")
+          print(f"HINDI_DANDA_REPLACED={total}")
+          print("CHANGED_FILES_BEGIN")
+          print("\n".join(changed))
+          print("CHANGED_FILES_END")
+          PY
+      - name: Commit changes and remove temporary workflow
+        shell: bash
+        run: |
+          rm -f .github/workflows/remove-hindi-danda.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content .github/workflows/remove-hindi-danda.yml
+          if git diff --cached --quiet; then
+            echo "No Hindi danda found in article files."
+          else
+            git commit -m "Replace Hindi danda punctuation in all articles"
+            git push origin HEAD:main
+          fi
