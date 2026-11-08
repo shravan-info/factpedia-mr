@@ -470,6 +470,8 @@ fs.writeFileSync(path.join(distDir, "_redirects"), redirectRules);
 // Build-time SEO quality checks: surface issues without silently changing article facts.
 const titleCounts = new Map();
 const descriptionCounts = new Map();
+const knownPagePaths = new Set(["/", ...urls.filter(Boolean).map(value => "/" + value.replace(/^\/+|\/+$/g, "") + "/")]);
+const brokenInternalLinks = [];
 let articleCount = 0;
 let missingH1Count = 0;
 let missingAltCount = 0;
@@ -486,6 +488,14 @@ for (const pagePath of urls.filter(Boolean)) {
   for (const imageTag of html.match(/<img\b[^>]*>/gi) || []) {
     if (!/\balt\s*=/i.test(imageTag)) missingAltCount += 1;
   }
+  for (const anchor of html.match(/<a\b[^>]*href=["']([^"']+)["'][^>]*>/gi) || []) {
+    const href = anchor.match(/href=["']([^"']+)["']/i)?.[1];
+    if (!href || !href.startsWith("/") || href.startsWith("//")) continue;
+    const pathname = href.split(/[?#]/, 1)[0];
+    if (!pathname || /\.[a-z0-9]{2,8}$/i.test(pathname)) continue;
+    const normalizedPath = pathname.endsWith("/") ? pathname : pathname + "/";
+    if (!knownPagePaths.has(normalizedPath)) brokenInternalLinks.push({ page: "/" + pagePath + "/", href });
+  }
 }
 const duplicateTitles = [...titleCounts].filter(([, count]) => count > 1);
 const duplicateDescriptions = [...descriptionCounts].filter(([value, count]) => value && count > 1);
@@ -495,6 +505,8 @@ console.log(`- Duplicate title groups: ${duplicateTitles.length}`);
 console.log(`- Duplicate description groups: ${duplicateDescriptions.length}`);
 console.log(`- Pages missing H1: ${missingH1Count}`);
 console.log(`- Images missing alt attributes: ${missingAltCount}`);
+console.log(`- Broken internal article links: ${brokenInternalLinks.length}`);
+if (brokenInternalLinks.length) console.warn("Broken internal link examples:", brokenInternalLinks.slice(0, 20));
 if (duplicateTitles.length) console.warn("Duplicate title examples:", duplicateTitles.slice(0, 10));
 if (duplicateDescriptions.length) console.warn("Duplicate description examples:", duplicateDescriptions.slice(0, 10));
 if (missingH1Count || missingAltCount) console.warn("Review the SEO audit warnings above.");
