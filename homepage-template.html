@@ -556,6 +556,43 @@ html.dark .homepage .hero-search{box-shadow:0 18px 50px rgba(0,0,0,.2)}
  .homepage #mainContent>ol,.homepage #mainContent>ul{padding:6px 14px}
 }
 
+
+/* ChatGPT-inspired homepage interaction and motion */
+body.homepage{overflow-x:hidden}
+.homepage .search-hero{position:relative;isolation:isolate;margin-top:clamp(58px,10vw,112px);margin-bottom:64px}
+.homepage .search-hero:before,.homepage .search-hero:after{content:"";position:absolute;z-index:-1;pointer-events:none;border-radius:50%;filter:blur(2px)}
+.homepage .search-hero:before{width:250px;height:250px;left:-95px;top:-75px;background:radial-gradient(circle,rgba(104,155,130,.13),transparent 70%);animation:fp-float 9s ease-in-out infinite}
+.homepage .search-hero:after{width:290px;height:290px;right:-110px;bottom:-70px;background:radial-gradient(circle,rgba(120,145,190,.11),transparent 70%);animation:fp-float 11s ease-in-out infinite reverse}
+.homepage .hero-wordmark{animation:fp-rise .75s cubic-bezier(.2,.7,.2,1) both}
+.homepage .hero-tagline{animation:fp-rise .75s .12s cubic-bezier(.2,.7,.2,1) both}
+.homepage .hero-search{position:relative;animation:fp-rise .8s .22s cubic-bezier(.2,.7,.2,1) both;transition:border-color .25s,box-shadow .25s,transform .25s}
+.homepage .hero-search:focus-within{transform:translateY(-2px);box-shadow:0 20px 55px rgba(49,93,80,.14),0 0 0 4px color-mix(in srgb,var(--link) 10%,transparent)}
+.homepage .hero-search-go{transition:transform .2s,background .2s}
+.homepage .hero-search-go:hover{transform:translateY(-1px) scale(1.04)}
+.homepage .hero-search-go:active{transform:scale(.96)}
+.homepage .search-hint{animation:fp-rise .75s .34s both}
+.homepage .search-hint a{transition:transform .2s,border-color .2s,background .2s,color .2s}
+.homepage .search-hint a:hover{transform:translateY(-3px)}
+.homepage .search-results{animation:fp-rise .35s ease both}
+.homepage .search-result{transition:transform .2s,border-color .2s,background .2s,box-shadow .2s}
+.homepage .search-result:hover{transform:translateY(-3px);box-shadow:0 10px 28px rgba(20,35,25,.07)}
+.homepage #mainContent{animation:fp-rise .7s .2s both}
+.homepage #mainContent>h2{scroll-margin-top:90px}
+.homepage .browse-heading{display:flex;align-items:center;gap:10px}
+.homepage .browse-heading:before{content:"";width:4px;height:23px;border-radius:9px;background:var(--link)}
+.homepage footer{animation:fp-rise .7s .3s both}
+@keyframes fp-rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fp-float{0%,100%{transform:translate3d(0,0,0) scale(1)}50%{transform:translate3d(12px,-15px,0) scale(1.08)}}
+@media(max-width:640px){
+ .homepage .search-hero{margin-top:62px;margin-bottom:48px}
+ .homepage .search-hero:before{width:180px;height:180px;left:-90px}
+ .homepage .search-hero:after{width:190px;height:190px;right:-100px}
+ .homepage .hero-search{min-height:64px}
+}
+@media(prefers-reduced-motion:reduce){
+ .homepage *, .homepage *:before, .homepage *:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}
+}
+
 </style>
 </head>
 <body class="homepage">
@@ -583,10 +620,10 @@ html.dark .homepage .hero-search{box-shadow:0 18px 50px rgba(0,0,0,.2)}
 <div class="container">
   <section class="search-hero" aria-label="Factpedia article search">
     <div class="hero-wordmark">Factpedia <span class="version">v0.1</span></div>
-    <p class="hero-tagline">सर्व ज्ञानाचा खुला आणि सर्वसमावेशक संग्रह.</p>
+    <p class="hero-tagline">आज तुम्हाला काय जाणून घ्यायचे आहे?</p>
     <div class="hero-search">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="11" cy="11" r="7.5"/><path stroke-linecap="round" stroke-linejoin="round" d="m16.5 16.5 4 4"/></svg>
-      <input id="searchInput" type="search" placeholder="अल्बर्ट आइनस्टाइन" autocomplete="off" aria-label="Search Factpedia articles">
+      <input id="searchInput" type="search" placeholder="काहीही शोधा किंवा प्रश्न विचारा..." autocomplete="off" aria-label="Search Factpedia articles">
       <button type="button" class="hero-search-go" id="searchGo" aria-label="शोध सुरू करा">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 19V5m0 0-6 6m6-6 6 6"/></svg>
       </button>
