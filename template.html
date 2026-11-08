@@ -238,6 +238,53 @@
 html.dark{color-scheme:dark;--bg:#171716;--surface:#20201e;--surface-2:#262624;--text:#e9e7e2;--text-secondary:#aaa69e;--border:#393834;--border-light:#302f2b;--link:#a9c4e8;--accent-soft:#302f2a;--accent-strong:#e6e2d9;--header-bg:rgba(23,23,22,.94);--card-bg:#20201e;--code-bg:#252522;--search-bg:#252522}
 body{background:var(--bg)!important;color:var(--text)}header{background:var(--header-bg)!important;border-color:var(--border)!important;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}.header-inner{max-width:1040px}.container{max-width:900px}main{padding-top:32px}#mainContent{color:var(--text)}#mainContent>h1{font-size:clamp(2rem,5vw,2.8rem);line-height:1.28;letter-spacing:-.035em;border-bottom:1px solid var(--border);padding-bottom:18px}#mainContent>h2{font-size:1.42rem;letter-spacing:-.015em;color:var(--text);border-color:var(--border-light)}#mainContent>h3,#mainContent p,#mainContent li{color:var(--text)}#mainContent blockquote{background:var(--surface-2);color:var(--text-secondary);border-left-color:var(--link)}#mainContent table{background:var(--surface);border-color:var(--border);color:var(--text)}#mainContent table th{background:var(--surface-2);color:var(--text)}#mainContent table td,#mainContent table th{border-color:var(--border-light)}#mainContent pre{background:var(--code-bg);color:var(--text)}#mainContent hr{border-color:var(--border)}.section-toggle{background:var(--surface);color:var(--text-secondary);border-color:var(--border)}.search-box{background:var(--search-bg);border-color:var(--border)}.article-search-results{background:var(--surface);border-color:var(--border)}.article-search-result{color:var(--text);border-color:var(--border-light)}.article-search-result:hover,.article-search-result:focus{background:var(--surface-2)}.article-search-result strong{color:var(--link)}.search-clear{background:var(--surface-2);color:var(--text-secondary)}mark{background:#f2df9b;color:#29251c}html.dark mark{background:#715b27;color:#fff1c5}footer{border-color:var(--border);color:var(--text-secondary)}@media(max-width:700px){.container{padding-left:18px;padding-right:18px}main{padding-top:24px}#mainContent>h1{font-size:1.9rem}}
 
+
+/* 2026 article reading experience: complete content stays expanded */
+:root{--bg:#f8f7f4;--text:#20211f;--text-secondary:#77766f;--border:#e7e4dd;--border-light:#efede7;--card-bg:#fff;--link:#315d50;--header-bg:rgba(248,247,244,.94);--accent-soft:#edf2ed;--code-bg:#f1f0eb;--search-bg:#fff}
+html.dark{--bg:#151715;--text:#f1f1eb;--text-secondary:#aaa99f;--border:#353a34;--border-light:#292e29;--card-bg:#1d211d;--link:#a9c9b7;--header-bg:rgba(21,23,21,.94);--accent-soft:#27352c;--code-bg:#242923;--search-bg:#1d211d}
+body{background:var(--bg)!important;color:var(--text)}
+header{background:var(--header-bg)!important;border-bottom:1px solid var(--border)!important;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
+.header-inner{max-width:1100px;height:66px;padding:8px 24px}
+.brand{font-family:"Noto Sans Devanagari",sans-serif;font-style:normal;font-weight:800;font-size:22px;letter-spacing:-.04em}
+.brand img{width:34px;height:34px;border-radius:10px}
+.icon-btn{width:40px;height:40px;border-radius:12px}
+.install-btn{width:40px;min-width:40px;height:40px;flex-basis:40px;border-radius:12px}
+.container{max-width:900px;padding:0 26px 64px}
+main{padding-top:38px}
+#mainContent{color:var(--text)}
+#mainContent>h1{font-size:clamp(2rem,5vw,2.85rem);line-height:1.25;letter-spacing:-.04em;padding-bottom:20px;border-bottom:1px solid var(--border)}
+#mainContent>h2{margin:40px 0 16px;padding-bottom:10px;border-bottom:1px solid var(--border-light);font-size:1.45rem;line-height:1.4}
+#mainContent>h3{margin:28px 0 10px;font-size:1.18rem}
+#mainContent p,#mainContent li{font-size:16px;line-height:1.95}
+#mainContent p{margin-bottom:19px}
+#mainContent ul,#mainContent ol{padding-left:26px;margin:16px 0 26px}
+#mainContent li{padding-left:5px;margin-bottom:9px}
+#mainContent a{color:var(--link);text-decoration:underline;text-decoration-color:color-mix(in srgb,var(--link) 35%,transparent);text-underline-offset:3px}
+#mainContent blockquote{margin:22px 0;padding:16px 20px;border-left:3px solid var(--link);border-radius:0 12px 12px 0;background:var(--accent-soft);color:var(--text)}
+#mainContent table{display:block;max-width:100%;overflow-x:auto;border:1px solid var(--border);border-radius:13px;background:var(--card-bg);color:var(--text);border-collapse:separate;border-spacing:0}
+#mainContent table th{background:var(--accent-soft);color:var(--text)}
+#mainContent table td,#mainContent table th{padding:11px 14px;border-color:var(--border-light);white-space:normal}
+#mainContent pre{overflow-x:auto;padding:16px;border:1px solid var(--border);border-radius:12px;background:var(--code-bg);color:var(--text)}
+#mainContent hr{margin:28px 0;border:0;border-top:1px solid var(--border)}
+.search-box{background:var(--search-bg);border-color:var(--border)}
+.article-search-results{background:var(--card-bg);border-color:var(--border)}
+.article-search-result{color:var(--text);border-color:var(--border-light)}
+.article-search-result:hover,.article-search-result:focus{background:var(--accent-soft)}
+.article-search-result strong{color:var(--link)}
+.search-clear{background:var(--accent-soft);color:var(--text-secondary)}
+footer{margin-top:56px;border-color:var(--border);color:var(--text-secondary)}
+.section-toggle{display:none!important}
+#mainContent .section-content{display:contents!important}
+@media(max-width:700px){
+ .header-inner{height:60px;padding:8px 14px}
+ .container{padding-left:17px;padding-right:17px}
+ main{padding-top:26px}
+ #mainContent>h1{font-size:1.85rem}
+ #mainContent>h2{font-size:1.25rem;margin-top:32px}
+ #mainContent p,#mainContent li{font-size:15px;line-height:1.9}
+ #mainContent table{font-size:14px}
+}
+
 </style>
 </head>
 <body>
@@ -420,93 +467,7 @@ body{background:var(--bg)!important;color:var(--text)}header{background:var(--he
   })();
 </script>
 
-<script>
-  // Mobile encyclopedia sections: preserve tables and keep the first section open.
-  (function () {
-    const main = document.getElementById('mainContent');
-    if (!main) return;
-    const mobile = window.matchMedia('(max-width: 700px)');
-    let built = false;
 
-    function buildSections() {
-      if (built) return;
-      const headings = Array.from(main.querySelectorAll(':scope > h2'));
-      headings.forEach((heading, index) => {
-        const parts = [];
-        let node = heading.nextSibling;
-        let chunk = null;
-        while (node && !(node.nodeType === 1 && node.matches('h2'))) {
-          const next = node.nextSibling;
-          const isTable = node.nodeType === 1 &&
-            (node.matches('table') || node.querySelector('table'));
-          if (isTable) {
-            chunk = null;
-            parts.push({node, isTable: true});
-          } else {
-            if (!chunk) {
-              chunk = document.createElement('div');
-              chunk.className = 'section-content';
-              chunk.id = 'article-section-' + (index + 1) + '-part-' + (parts.length + 1);
-              parts.push({node: chunk, isTable: false});
-            }
-            chunk.appendChild(node);
-          }
-          node = next;
-        }
-        const sectionEnd = node;
-        parts.forEach(part => heading.parentNode.insertBefore(part.node, sectionEnd));
-        const button = document.createElement('button');
-        button.type = 'button';
-        button.className = 'section-toggle';
-        button.setAttribute('aria-controls', parts.filter(p => !p.isTable).map(p => p.node.id).join(' '));
-        const initiallyOpen = !mobile.matches || index === 0;
-        button.setAttribute('aria-expanded', String(initiallyOpen));
-        button.setAttribute('aria-label', (initiallyOpen ? 'विभाग बंद करा: ' : 'विभाग उघडा: ') + heading.textContent.trim());
-        button.textContent = initiallyOpen ? '−' : '+';
-        heading.appendChild(button);
-        parts.filter(p => !p.isTable).forEach(part => { part.node.hidden = !initiallyOpen; });
-      });
-      built = true;
-    }
-
-    function syncSections() {
-      buildSections();
-      main.querySelectorAll(':scope > h2').forEach((heading, index) => {
-        const button = heading.querySelector('.section-toggle');
-        if (!button) return;
-        button.hidden = !mobile.matches;
-        const expanded = !mobile.matches || index === 0;
-        button.setAttribute('aria-expanded', String(expanded));
-        button.textContent = expanded ? '−' : '+';
-        let next = heading.nextElementSibling;
-        while (next && !next.matches('h2')) {
-          if (next.classList.contains('section-content')) next.hidden = !expanded;
-          next = next.nextElementSibling;
-        }
-        if (!mobile.matches) button.dataset.userChanged = '';
-      });
-    }
-
-    main.addEventListener('click', event => {
-      const button = event.target.closest('.section-toggle');
-      if (!button || !main.contains(button)) return;
-      const heading = button.closest('h2');
-      const expanded = button.getAttribute('aria-expanded') === 'true';
-      button.dataset.userChanged = 'true';
-      button.setAttribute('aria-expanded', String(!expanded));
-      button.textContent = expanded ? '+' : '−';
-      button.setAttribute('aria-label', (expanded ? 'विभाग उघडा: ' : 'विभाग बंद करा: ') + heading.textContent.replace(/[+−]/g, '').trim());
-      let next = heading.nextElementSibling;
-      while (next && !next.matches('h2')) {
-        if (next.classList.contains('section-content')) next.hidden = expanded;
-        next = next.nextElementSibling;
-      }
-    });
-    if (mobile.addEventListener) mobile.addEventListener('change', syncSections);
-    else mobile.addListener(syncSections);
-    syncSections();
-  })();
-</script>
 
 <script>
   let deferredInstallPrompt = null;
