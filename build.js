@@ -286,7 +286,7 @@ function processDir(dir, currentSlug = "") {
       let rawText = fs.readFileSync(fullPath, "utf-8");
       const slugName = entry.name.replace(".md", "");
       if (slugName.endsWith("-taluka")) {
-        rawText = rawText.replace(/([\u0900-\u097F])\.(?=\s|$)/g, "$1।");
+        rawText = rawText.replace(/(?<!डॉ)([\u0900-\u097F])\.(?=\s|$)/g, "$1।");
       }
 
       let title = "Factpedia - मुक्त ज्ञानकोश";
