@@ -1,5 +1,5 @@
 {
-  "next_index": 150,
+  "next_index": 225,
   "cycle": 1,
   "runs": [
     {
@@ -18,7 +18,30 @@
       ],
       "next_index": 150,
       "cycle": 1
+    },
+    {
+      "date": "2026-11-08",
+      "checked": 10,
+      "range": [
+        "cricket-india.md",
+        "daman-diu-dnh.md"
+      ],
+      "updated_articles": [
+        "cryptocurrency.md",
+        "dadabhai-naoroji.md",
+        "dadasaheb-phalke-award.md",
+        "daman-diu-dnh.md",
+        "cv-raman.md",
+        "cuttack-city.md"
+      ],
+      "next_index": 225,
+      "cycle": 1
     }
   ],
-  "total_articles": 1104
+  "total_articles": 1104,
+  "human_review": [
+    "dadabhai-naoroji.md: जन्मस्थळाबाबत Azim Premji University मुंबई सांगते, तर गुजरात शासनाचे Navsari पृष्ठ नवसारी सांगते; अतिरिक्त प्राथमिक पुरावा मिळेपर्यंत मजकूर बदललेला नाही.",
+    "dadasaheb-phalke-award.md: अधिकृत DFF/PIB पानांवर ₹10 लाख, तर 18 सप्टेंबर 2026 च्या Gazette मजकूराच्या उपलब्ध प्रतिलिपीत ₹15 लाख दिसते; मूळ eGazette PDF पडताळता न आल्याने रक्कम बदललेली नाही.",
+    "dada-kondke.md: महाराष्ट्र राज्य चित्रपट पुरस्काराविषयीचा विशिष्ट दावा विश्वसनीय प्राथमिक स्रोताने पुष्टी करता आला नाही; लेख बदललेला नाही."
+  ]
 }
