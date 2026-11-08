@@ -593,6 +593,50 @@ body.homepage{overflow-x:hidden}
  .homepage *, .homepage *:before, .homepage *:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}
 }
 
+
+/* 2026.11 ChatGPT-inspired homepage polish */
+.homepage{--chat-surface:var(--card-bg)}
+.homepage .header-inner{max-width:1180px}
+.homepage .brand{transition:opacity .2s,transform .2s}
+.homepage .brand:hover{opacity:.82;transform:translateY(-1px)}
+.homepage .search-hero{max-width:850px;margin-top:clamp(64px,11vh,118px);margin-bottom:70px}
+.homepage .hero-wordmark{font-size:clamp(3.5rem,10vw,6.5rem);letter-spacing:-.085em}
+.homepage .hero-tagline{font-size:clamp(16px,2vw,19px);margin-bottom:32px}
+.homepage .hero-search{max-width:790px;min-height:76px;padding:10px 12px 10px 24px;border-radius:24px;box-shadow:0 12px 42px rgba(20,30,24,.07);transition:transform .24s ease,border-color .24s ease,box-shadow .24s ease}
+.homepage .hero-search:focus-within{transform:translateY(-3px);box-shadow:0 18px 52px rgba(49,93,80,.13),0 0 0 4px color-mix(in srgb,var(--link) 9%,transparent)}
+.homepage .hero-search input{font-size:17px;min-height:48px}
+.homepage .hero-search-go{width:50px;height:50px;flex-basis:50px;border-radius:17px;transition:transform .2s ease,background .2s ease}
+.homepage .search-hint{margin-top:22px;gap:10px}
+.homepage .search-hint a{padding:7px 13px;transition:transform .2s ease,background .2s ease,border-color .2s ease}
+.homepage .search-hint a:hover{transform:translateY(-2px)}
+.homepage .search-results{max-width:790px;margin-top:-35px}
+.homepage .result-list{gap:12px}
+.homepage .search-result{padding:18px 20px;border-radius:17px;animation:fp-result-in .35s ease both}
+.homepage .search-result:nth-child(2){animation-delay:35ms}
+.homepage .search-result:nth-child(3){animation-delay:70ms}
+.homepage .search-result:nth-child(4){animation-delay:105ms}
+.homepage #mainContent{max-width:920px}
+.homepage #mainContent>h1{font-size:clamp(1.8rem,4vw,2.25rem);margin-bottom:18px}
+.homepage #mainContent>h2{margin-top:48px}
+.homepage #mainContent>ol,.homepage #mainContent>ul{box-shadow:0 4px 20px rgba(20,30,24,.025)}
+.homepage #mainContent>ol li,.homepage #mainContent>ul li{transition:background .18s ease,padding-left .18s ease}
+.homepage #mainContent>ol li:hover,.homepage #mainContent>ul li:hover{padding-left:10px}
+.homepage :is(button,a,input){-webkit-tap-highlight-color:transparent}
+@keyframes fp-result-in{from{opacity:0;transform:translateY(9px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:640px){
+ .homepage .search-hero{margin-top:58px;margin-bottom:50px}
+ .homepage .hero-wordmark{font-size:clamp(3.25rem,15vw,4.5rem)}
+ .homepage .hero-search{min-height:64px;padding-left:15px;border-radius:19px}
+ .homepage .hero-search input{font-size:15px}
+ .homepage .hero-search-go{width:44px;height:44px;flex-basis:44px;border-radius:14px}
+ .homepage .search-hint{gap:7px}
+ .homepage .search-hint a{padding:6px 10px}
+ .homepage .search-result{padding:15px}
+}
+@media(prefers-reduced-motion:reduce){
+ .homepage .search-hero:before,.homepage .search-hero:after,.homepage .hero-wordmark,.homepage .hero-tagline,.homepage .hero-search,.homepage .search-hint,.homepage #mainContent,.homepage footer,.homepage .search-result{animation:none!important;transition:none!important}
+}
+
 </style>
 </head>
 <body class="homepage">
