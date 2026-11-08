@@ -18,7 +18,7 @@ const homepageTemplate = fs.existsSync(homepageTemplatePath)
 const urls = [];
 const siteUrl = "https://factpedia-mr.pages.dev";
 // Keep legacy country-name URLs available through permanent redirects, not duplicate article pages.
-const articleRedirects = new Map([["turkey", "turkiye"], ["uae", "united-arab-emirates"]]);
+const articleRedirects = new Map([["turkey", "turkiye"], ["uae", "united-arab-emirates"], ["hatkanangale-taluka", "hatkanangle-taluka"], ["khed-taluka", "khed-pune-taluka"], ["malkapur-taluka", "malkapur-buldhana-taluka"]]);
 
 function cleanMetaDescription(value) {
   return String(value || "")
