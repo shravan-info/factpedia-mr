@@ -75,4 +75,4 @@ description: अजिंठा येथील बौद्ध शैलगृ�
 2. [भारतीय पुरातत्त्व सर्वेक्षण — अजिंठा लेणी](https://asi.nic.in/pages/WorldHeritageAjantaCaves)
 3. [इंदिरा गांधी राष्ट्रीय कला केंद्र — अजिंठ्याची कला, स्थापत्य आणि शिलालेख](https://ignca.gov.in/the-art-architecture-and-epigraphy-of-ajanta/)
 
-*शेवटचे संपादन: ७ नोव्हेंबर २०२६*
+*शेवटचे संपादन: ८ नोव्हेंबर २०२६*

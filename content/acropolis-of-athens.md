@@ -78,4 +78,4 @@ description: अथेन्समधील अ‍ॅक्रोपोलिस
 7. [ब्रिटानिका — पेरिक्लेस](https://www.britannica.com/biography/Pericles-Athenian-statesman)
 ---
 
-*शेवटचे संपादन: ७ नोव्हेंबर २०२६*
+*शेवटचे संपादन: ८ नोव्हेंबर २०२६*
