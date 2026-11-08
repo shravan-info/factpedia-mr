@@ -64,7 +64,7 @@ description: तेल्हारा तालुक्याचे स्थ�
 
 1. [अकोला जिल्हा प्रशासन — जिल्ह्याविषयी व तालुक्यांची माहिती](https://akola.gov.in/en/about-district/)
 2. [अकोला जिल्हा प्रशासन — तहसीलदारांची अधिकृत यादी](https://akola.gov.in/en/divisions/tahsildar/)
-3. [GSDA, महाराष्ट्र शासन — भूजलविषयक माहिती](https://gsda.maharashtra.gov.in/en-district-jalgaon/)
+3. [कृषी विज्ञान केंद्र, अकोला — अधिकृत संकेतस्थळ](https://www.kvkakola.org/)
 4. [महाराष्ट्र शासन — महाभूमी तालुका व गाव निर्देशिका](https://mahavillages.mahabhumi.gov.in/all_list.php)
 
 ---
