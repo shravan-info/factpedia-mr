@@ -328,15 +328,15 @@ function processDir(dir, currentSlug = "") {
         }
       }
 
-      const sourceHeading = markdownBody.match(/^#\\s+(.+)$/m)?.[1]?.trim();
-      const fallbackSlugTitle = slugName.replace(/[-_]+/g, " ").replace(/\\b\\w/g, letter => letter.toUpperCase());
+      const sourceHeading = markdownBody.match(/^#\s+(.+)$/m)?.[1]?.trim();
+      const fallbackSlugTitle = slugName.replace(/[-_]+/g, " ").replace(/\b\w/g, letter => letter.toUpperCase());
       title = title || sourceHeading || (slugName === "index" ? "Factpedia - मुक्त ज्ञानकोश" : fallbackSlugTitle);
 
       if (!description) {
         const descriptionSource = plainSearchText(markdownBody)
           .replace(new RegExp("^" + escapeRegExp(title) + "\\s*", "i"), "")
           .trim();
-        const firstSentences = descriptionSource.match(/^.{1,320}?(?:[।.!?](?:\\s|$)|$)/u)?.[0] || descriptionSource;
+        const firstSentences = descriptionSource.match(/^.{1,320}?(?:[।.!?](?:\s|$)|$)/u)?.[0] || descriptionSource;
         description = firstSentences || "Factpedia वर " + title + " या विषयाची मराठीत माहिती वाचा.";
       }
       description = Array.from(cleanMetaDescription(description)).slice(0, 160).join("");
