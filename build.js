@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { marked } from "marked";
+import sharp from "sharp";
 
 const contentDir = "./content";
 const distDir = "./dist";
@@ -461,6 +462,11 @@ if (fs.existsSync("./public")) {
   console.log("PWA assets copied to dist.");
 }
 
+if (fs.existsSync("./public/og-image.svg")) {
+  await sharp("./public/og-image.svg").resize(1200, 630, { fit: "cover" }).png({ compressionLevel: 9 }).toFile(path.join(distDir, "og-image.png"));
+  console.log("1200x630 social sharing image generated: og-image.png");
+}
+
 const redirectRules = [...articleRedirects].flatMap(([from, to]) => [
   `/${from} /${to}/ 301`,
   `/${from}/ /${to}/ 301`
@@ -470,7 +476,7 @@ fs.writeFileSync(path.join(distDir, "_redirects"), redirectRules);
 // Build-time SEO quality checks: surface issues without silently changing article facts.
 const titleCounts = new Map();
 const descriptionCounts = new Map();
-const knownPagePaths = new Set(["/", ...urls.filter(Boolean).map(value => "/" + value.replace(/^\/+|\/+$/g, "") + "/")]);
+const knownPagePaths = new Set(["/", ...urls.filter(Boolean).map(value => "/" + value.replace(/^\/+|\/+$/g, "") + "/"), ...[...articleRedirects.keys()].map(value => "/" + value + "/")]);
 const brokenInternalLinks = [];
 let articleCount = 0;
 let missingH1Count = 0;
