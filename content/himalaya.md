@@ -104,4 +104,4 @@ description: हिमालयाची निर्मिती, भौगो�
 १९. [National Centre for Polar and Ocean Research – Research Activities](https://ncaor.gov.in/pages/view/325/315-research-activities)
 २०. [Department of Science and Technology – Climate Change Programme](https://dst.gov.in/climate-change-Programme)
 
-*शेवटचे संपादन: ६ नोव्हेंबर २०२६*
+*शेवटचे संपादन: ९ नोव्हेंबर २०२६*

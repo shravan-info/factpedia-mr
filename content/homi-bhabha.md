@@ -52,4 +52,4 @@ description: होमी जहांगीर भाभा यांचे ज
 4. [विज्ञान आणि तंत्रज्ञान विभाग](https://dae.gov.in/atomic-energy-commission/former-head/shri-homi-bhabha/)
 5. [अणुऊर्जा विभाग](https://dae.gov.in/)
 
-*शेवटचे संपादन: ६ नोव्हेंबर २०२६*
+*शेवटचे संपादन: ९ नोव्हेंबर २०२६*

@@ -73,4 +73,4 @@ description: वेरूळ येथील बौद्ध, हिंदू �
 2. [Archaeological Survey of India](https://asi.nic.in/)
 3. [Maharashtra Tourism](https://maharashtratourism.gov.in/)
 
-*शेवटचे संपादन: ६ नोव्हेंबर २०२६*
+*शेवटचे संपादन: ९ नोव्हेंबर २०२६*

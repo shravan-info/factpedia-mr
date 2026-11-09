@@ -70,4 +70,4 @@ EVM आणि VVPAT यांची साठवण, वाहतूक, तप�
 2. [Constitution of India](https://www.indiacode.nic.in/)
 3. [National Voters' Service](https://voters.eci.gov.in/)
 
-*शेवटचे संपादन: ६ नोव्हेंबर २०२६*
+*शेवटचे संपादन: ९ नोव्हेंबर २०२६*

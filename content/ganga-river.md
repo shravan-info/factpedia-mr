@@ -91,4 +91,4 @@ description: गंगा नदीचा उगम, प्रवाह, उप�
 १९. [J-STAGE – Study on Water Quality Management Plan for Ganga River](https://www.jstage.jst.go.jp/article/river/13/0/13_35/_article/-char/en)
 २०. [Central Water Commission – Monitoring of Environmental Flow in Ganga Basin](https://cwc.gov.in/sites/default/files/final-bhagirath-english-2021-annual-issue.pdf)
 
-*शेवटचे संपादन: ६ नोव्हेंबर २०२६*
+*शेवटचे संपादन: ९ नोव्हेंबर २०२६*

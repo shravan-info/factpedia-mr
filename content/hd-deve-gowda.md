@@ -57,4 +57,4 @@ description: एच. डी. देवेगौडा हे कर्नाट�
 4. [Government of Karnataka](https://www.karnataka.gov.in/)
 
 ---
-*शेवटचे संपादन: ८ नोव्हेंबर २०२६*
+*शेवटचे संपादन: ९ नोव्हेंबर २०२६*
