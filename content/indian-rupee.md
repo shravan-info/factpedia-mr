@@ -65,7 +65,7 @@ description: भारतीय रुपयाचा इतिहास, चल
 ## संदर्भ
 
 1. [RBI – Indian Currency](https://www.rbi.org.in/Scripts/FAQView.aspx?Id=136)
-2. [RBI – Digital Rupee](https://www.rbi.org.in/)
+2. [RBI – Digital Rupee FAQ](https://www.rbi.org.in/commonman/Upload/English/FAQs/PDFs/DigitalRupee09012025.pdf)
 3. [India Code](https://www.indiacode.nic.in/)
 
 *शेवटचे संपादन: ६ नोव्हेंबर २०२६*

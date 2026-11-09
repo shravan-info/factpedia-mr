@@ -1,5 +1,5 @@
 {
-  "next_index": 377,
+  "next_index": 386,
   "cycle": 1,
   "runs": [
     {
@@ -53,6 +53,32 @@
       ],
       "next_index": 377,
       "cycle": 1
+    },
+    {
+      "date": "2026-11-09",
+      "checked": 8,
+      "range": [
+        "indian-independence-movement.md",
+        "indian-rupee.md"
+      ],
+      "reviewed_files": [
+        "indian-independence-movement.md",
+        "indian-national-congress.md",
+        "indian-ocean.md",
+        "indian-parliament.md",
+        "indian-postal-system.md",
+        "indian-premier-league.md",
+        "indian-railways.md",
+        "indian-rupee.md"
+      ],
+      "updated_articles": [
+        "indian-ocean.md",
+        "indian-premier-league.md",
+        "indian-rupee.md",
+        "indian-independence-movement.md"
+      ],
+      "next_index": 386,
+      "cycle": 1
     }
   ],
   "total_articles": 1114,
@@ -60,6 +86,9 @@
     "dadabhai-naoroji.md: जन्मस्थळाबाबत Azim Premji University मुंबई सांगते, तर गुजरात शासनाचे Navsari पृष्ठ नवसारी सांगते; अतिरिक्त प्राथमिक पुरावा मिळेपर्यंत मजकूर बदललेला नाही.",
     "dadasaheb-phalke-award.md: अधिकृत DFF/PIB पानांवर ₹10 लाख, तर 18 सप्टेंबर 2026 च्या Gazette मजकूराच्या उपलब्ध प्रतिलिपीत ₹15 लाख दिसते; मूळ eGazette PDF पडताळता न आल्याने रक्कम बदललेली नाही.",
     "dada-kondke.md: महाराष्ट्र राज्य चित्रपट पुरस्काराविषयीचा विशिष्ट दावा विश्वसनीय प्राथमिक स्रोताने पुष्टी करता आला नाही; लेख बदललेला नाही.",
-    "hatkanangale-taluka.md व hatkanangle-taluka.md: एकाच शीर्षकाच्या दोन फाइलींमुळे साइटवर दुहेरी पाने तयार होतात; एकत्रीकरणाचा निर्णय आवश्यक."
+    "hatkanangale-taluka.md व hatkanangle-taluka.md: एकाच शीर्षकाच्या दोन फाइलींमुळे साइटवर दुहेरी पाने तयार होतात; एकत्रीकरणाचा निर्णय आवश्यक.",
+    "indian-ocean.md: किनारपट्टीची 66,526 किमी लांबी आणि पाण्याचे 29.2 कोटी घन किमी प्रमाण या दोन आकड्यांसाठी या बॅचमध्ये पुरेसा विशिष्ट प्राथमिक स्रोत पडताळता आला नाही; बदललेले नाहीत.",
+    "indian-independence-movement.md: दोन संदर्भ संपूर्ण प्रादेशिक, आदिवासी, कामगार आणि क्रांतिकारी प्रवाहांना पुरेसे आधार देतात का याची पुढील तपासणी आवश्यक.",
+    "indian-national-congress.md: 1885 च्या पहिल्या अधिवेशनातील 72 प्रतिनिधींचा आकडा या बॅचमध्ये काँग्रेसच्या अधिकृत पृष्ठावरून स्वतंत्रपणे पडताळता आला नाही."
   ]
 }
