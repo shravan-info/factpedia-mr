@@ -1,5 +1,5 @@
 {
-  "next_index": 386,
+  "next_index": 394,
   "cycle": 1,
   "runs": [
     {
@@ -79,6 +79,34 @@
       ],
       "next_index": 386,
       "cycle": 1
+    },
+    {
+      "date": "2026-11-09",
+      "checked": 8,
+      "range": [
+        "indira-gandhi-peace-prize.md",
+        "industrial-revolution.md"
+      ],
+      "reviewed_files": [
+        "indira-gandhi-peace-prize.md",
+        "indira-gandhi.md",
+        "indonesia.md",
+        "indore-city.md",
+        "indore-district.md",
+        "indus-river.md",
+        "indus-valley-civilisation.md",
+        "industrial-revolution.md"
+      ],
+      "updated_articles": [
+        "indira-gandhi-peace-prize.md",
+        "indira-gandhi.md",
+        "indonesia.md",
+        "indore-district.md",
+        "indus-river.md",
+        "industrial-revolution.md"
+      ],
+      "next_index": 394,
+      "cycle": 1
     }
   ],
   "total_articles": 1114,
@@ -89,6 +117,9 @@
     "hatkanangale-taluka.md व hatkanangle-taluka.md: एकाच शीर्षकाच्या दोन फाइलींमुळे साइटवर दुहेरी पाने तयार होतात; एकत्रीकरणाचा निर्णय आवश्यक.",
     "indian-ocean.md: किनारपट्टीची 66,526 किमी लांबी आणि पाण्याचे 29.2 कोटी घन किमी प्रमाण या दोन आकड्यांसाठी या बॅचमध्ये पुरेसा विशिष्ट प्राथमिक स्रोत पडताळता आला नाही; बदललेले नाहीत.",
     "indian-independence-movement.md: दोन संदर्भ संपूर्ण प्रादेशिक, आदिवासी, कामगार आणि क्रांतिकारी प्रवाहांना पुरेसे आधार देतात का याची पुढील तपासणी आवश्यक.",
-    "indian-national-congress.md: 1885 च्या पहिल्या अधिवेशनातील 72 प्रतिनिधींचा आकडा या बॅचमध्ये काँग्रेसच्या अधिकृत पृष्ठावरून स्वतंत्रपणे पडताळता आला नाही."
+    "indian-national-congress.md: 1885 च्या पहिल्या अधिवेशनातील 72 प्रतिनिधींचा आकडा या बॅचमध्ये काँग्रेसच्या अधिकृत पृष्ठावरून स्वतंत्रपणे पडताळता आला नाही.",
+    "indonesia.md: BPS च्या 2025 SUPAS आकडेवारीत लोकसंख्या 284.67 दशलक्ष दिली आहे; लेखातील 'सुमारे 28 कोटी' हा ढोबळ आकडा आहे. BPS चे थेट पृष्ठ या रनमध्ये 403 देत असल्याने अचूक आकडा लेखात बदललेला नाही.",
+    "indore-district.md: तहसीलांची यादी आणि सध्याची प्रशासकीय विभागणी जिल्हा प्रशासनाच्या अद्ययावत नोंदींशी पुन्हा जुळवणे आवश्यक.",
+    "indus-river.md: कराराच्या कायदेशीर स्थितीबाबत भारत सरकार व Permanent Court of Arbitration यांच्या भूमिका भिन्न आहेत; लेखात दोन्ही बाजू स्पष्ट केल्या आहेत. पुढील अधिकृत निवेदन आल्यास पुन्हा तपासावे."
   ]
 }
