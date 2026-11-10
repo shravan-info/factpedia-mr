@@ -76,7 +76,7 @@ description: मकर संक्रांती हा सूर्याच�
 ## संदर्भ
 
 1. [महाराष्ट्र पर्यटन — मकर संक्रांती](https://maharashtratourism.gov.in/festivals/makar-sankranti/)
-2. [गुजरात पर्यटन — आंतरराष्ट्रीय पतंग महोत्सव](https://www.gujarattourism.com/fair-and-festival/international-kite-festival.html)
+2. [गुजरात पर्यटन — आंतरराष्ट्रीय पतंग महोत्सव](https://ikf.gujarattourism.com/)
 3. [NASA — हिवाळी व उन्हाळी अयनांत](https://science.nasa.gov/earth/earth-observatory/winter-and-summer-solstice-6125/)
 4. [एन्सायक्लोपीडिया ब्रिटानिका — मकर संक्रांती](https://www.britannica.com/topic/Makar-Sankranti)
 5. [उत्सव पोर्टल — मकर संक्रांती मेळा](https://utsav.gov.in/public/view-event/makar-sankranti-mela-1)

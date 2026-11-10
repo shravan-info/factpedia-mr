@@ -93,7 +93,7 @@ description: इ.स. १२१५ मधील मॅग्ना कार्�
 1. [यूके संसद — मॅग्ना कार्टा](https://www.parliament.uk/about/living-heritage/evolutionofparliament/originsofparliament/birthofparliament/overview/magnacarta/)
 2. [यूके संसद — मॅग्ना कार्टाची कलमे](https://www.parliament.uk/about/living-heritage/evolutionofparliament/originsofparliament/birthofparliament/overview/magnacarta/magnacartaclauses/)
 3. [ब्रिटिश लायब्ररी — १२१५ चा मूळ दस्तऐवज](https://searcharchives.bl.uk/catalog/040-001102110)
-4. [युनेस्को — १२१५ मॅग्ना कार्टा](https://unesco.org.uk/our-network/memory-of-the-world/magna-carta)
+4. [युनेस्को — १२१५ मॅग्ना कार्टा](https://www.unesco.org/en/memory-world/magna-carta-issued-1215)
 5. [एन्सायक्लोपीडिया ब्रिटानिका — मॅग्ना कार्टा](https://www.britannica.com/topic/Magna-Carta)
 6. [संयुक्त राष्ट्रे — मानवी हक्कांचा जागतिक जाहीरनामा](https://www.un.org/en/about-us/universal-declaration-of-human-rights)
 
