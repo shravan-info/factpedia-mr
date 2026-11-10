@@ -247,7 +247,7 @@
     "malkapur-taluka.md: हा legacy slug build.js मधील redirect map ने malkapur-buldhana-taluka कडे वळवला जातो; त्यामुळे समान frontmatter title असूनही स्वतंत्र duplicate page तयार होत नाही."
   ],
   "next_file": "manipuri-dance.md",
-  "last_verified_main": "cb8453c3ffca5147f4fe6c0ef2c43dd1916c242b",
+  "last_verified_main": "3b7bde8a2d217101b35e64e583c1911d21b106d7",
   "index_note": "content/index.md is a short shell; build.js generates the article listing from content/*.md. Legacy aliases are handled by the redirect map, including malkapur-taluka -> malkapur-buldhana-taluka and hatkanangale-taluka -> hatkanangle-taluka.",
-  "last_checkpoint_commit": "cb8453c3ffca5147f4fe6c0ef2c43dd1916c242b"
+  "last_checkpoint_commit": "3b7bde8a2d217101b35e64e583c1911d21b106d7"
 }
