@@ -376,6 +376,121 @@ footer{max-width:908px;margin:46px auto 0;padding:20px 0;border-top:1px solid va
 }
 
 </style>
+<style>
+/* Factpedia Vector-inspired interface refinement */
+:root{--fp-wiki-width:1240px;--fp-sidebar:218px;--fp-page:#fff;--fp-panel:#f8f9fa;--fp-link:#0645ad;--fp-link-visited:#0b0080;--fp-line:#a7d7f9;--fp-muted:#54595d}
+html.dark{--fp-page:#17191c;--fp-panel:#202327;--fp-link:#8ab4f8;--fp-link-visited:#c3a6ff;--fp-line:#43566c;--fp-muted:#a2a9b1}
+body{background:var(--bg);color:var(--text)}
+header{position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--border);box-shadow:none;backdrop-filter:none}
+.header-inner{max-width:var(--fp-wiki-width);height:66px;gap:14px;padding:8px 24px 8px calc(var(--fp-sidebar) + 28px)}
+.brand{font-family:Georgia,"Noto Sans Devanagari",serif;font-style:normal;font-size:22px;font-weight:600;letter-spacing:-.03em;gap:9px}
+.brand img{width:38px;height:38px;object-fit:contain}
+.fp-menu-button{width:38px;height:38px;flex:0 0 38px;border:0;border-radius:4px;background:transparent;color:var(--text);display:grid;place-items:center;cursor:pointer}
+.fp-menu-button:hover{background:var(--border-light)}
+.fp-menu-button svg{width:21px;height:21px}
+.fp-wiki-sidebar{position:fixed;z-index:45;left:0;top:66px;bottom:0;width:var(--fp-sidebar);padding:22px 18px 30px 25px;overflow:auto;background:var(--bg);border-right:1px solid var(--border);transition:transform .2s ease}
+.fp-sidebar-brand{display:flex;align-items:center;gap:9px;padding:0 0 18px;margin-bottom:16px;border-bottom:1px solid var(--border);font-family:Georgia,serif;font-size:18px;font-weight:600}
+.fp-sidebar-brand img{width:30px;height:30px}
+.fp-nav-label{font-size:12px;font-weight:700;color:var(--text-secondary);margin:17px 0 6px;padding-left:8px}
+.fp-wiki-sidebar a{display:block;padding:6px 8px;border-radius:3px;color:var(--link);font-size:14px;line-height:1.5;text-decoration:none}
+.fp-wiki-sidebar a:hover{background:var(--border-light);text-decoration:underline}
+.fp-wiki-sidebar .fp-nav-current{font-weight:700;color:var(--text);background:var(--border-light)}
+.fp-sidebar-scrim{display:none}
+.header-actions{gap:5px}
+.icon-btn{width:36px;height:36px;border-radius:4px}
+.icon-btn:hover{border-color:var(--border);background:var(--border-light)}
+.search-wrap{max-width:520px;flex:1 1 420px;margin:0;padding:0;max-height:none;opacity:1;overflow:visible}
+.search-wrap.open{max-height:none;padding:0;border:0}
+.search-box{min-height:40px;padding:5px 10px;border-radius:3px;background:var(--bg);border-color:var(--border)}
+.search-box input{font-size:14px}
+.search-box:focus-within{box-shadow:inset 0 0 0 1px var(--link);border-color:var(--link)}
+.article-search-results{z-index:60}
+.container{max-width:var(--fp-wiki-width);margin:0 auto;padding:0 28px 56px 260px}
+body:not(.homepage) main{padding-top:26px}
+body:not(.homepage) .article-shell{display:grid;grid-template-columns:minmax(0, min(760px, 1fr)) 205px;gap:34px;align-items:start;justify-content:start;margin:18px 0 0}
+body:not(.homepage) .article-shell #mainContent{grid-column:1;grid-row:1;max-width:760px;margin:0}
+body:not(.homepage) .article-shell .article-toc{grid-column:2;grid-row:1;position:sticky;top:88px;max-height:calc(100vh - 110px);overflow:auto;border:0;border-left:1px solid var(--border);border-radius:0;padding:8px 0 8px 18px;background:transparent}
+.article-toc-title{font-family:Georgia,"Noto Sans Devanagari",serif;font-size:15px;font-weight:600;padding-bottom:8px;border-bottom:1px solid var(--border);margin-bottom:8px}
+.article-toc ol{list-style:none;padding:0;margin:0}
+.article-toc li{border-left:0}
+.article-toc li a{padding:4px 7px;color:var(--link);font-size:13px;border-radius:2px}
+.article-toc li a:hover{background:var(--border-light);text-decoration:underline}
+.article-toc li.sub a{padding-left:18px}
+body:not(.homepage) #mainContent>h1{font-family:Georgia,"Noto Sans Devanagari",serif;font-size:clamp(1.85rem,3vw,2.35rem);font-weight:400;letter-spacing:0;line-height:1.3;padding:0 0 9px;margin:0 0 0;border-bottom:1px solid var(--border)}
+.fp-page-tabs{display:flex;align-items:center;gap:18px;min-height:42px;border-bottom:1px solid var(--border);margin:0 0 20px;font-size:13px}
+.fp-page-tabs a,.fp-page-tabs button{height:42px;display:inline-flex;align-items:center;border:0;border-bottom:2px solid transparent;background:transparent;color:var(--link);font:inherit;text-decoration:none;padding:0 2px;cursor:pointer}
+.fp-page-tabs .active{border-bottom-color:var(--text);color:var(--text);font-weight:600}
+.fp-page-tabs .fp-tabs-spacer{flex:1}
+.fp-page-tabs .fp-page-subtitle{color:var(--text-secondary);font-size:12px}
+body:not(.homepage) #mainContent>h2{font-family:Georgia,"Noto Sans Devanagari",serif;font-size:1.35rem;font-weight:500;letter-spacing:0;border-bottom:1px solid var(--border);padding:0 0 7px;margin:30px 0 12px}
+body:not(.homepage) #mainContent>h2:before{display:none}
+body:not(.homepage) #mainContent>h3{font-size:1.08rem;font-weight:600;margin:22px 0 8px}
+body:not(.homepage) #mainContent p,body:not(.homepage) #mainContent li{font-size:15px;line-height:1.85}
+body:not(.homepage) #mainContent p{margin-bottom:14px}
+body:not(.homepage) #mainContent a{color:var(--link);text-decoration:none}
+body:not(.homepage) #mainContent a:hover{text-decoration:underline}
+body:not(.homepage) #mainContent img{border:1px solid var(--border);border-radius:2px;box-shadow:none}
+body:not(.homepage) #mainContent table{border:1px solid var(--border);border-radius:0;box-shadow:none}
+body:not(.homepage) #mainContent th{background:var(--fp-panel)}
+body:not(.homepage) #mainContent blockquote{border-left:3px solid var(--border);border-radius:0;background:var(--fp-panel)}
+.fp-tool-panel{border-top:1px solid var(--border);margin-top:22px;padding-top:12px}
+.fp-tool-panel strong{display:block;font-size:13px;margin-bottom:7px}
+.fp-tool-panel button{display:block;width:100%;text-align:left;padding:6px 7px;margin:2px 0;border:0;border-radius:2px;background:transparent;color:var(--link);font:inherit;font-size:13px;cursor:pointer}
+.fp-tool-panel button:hover{background:var(--border-light);text-decoration:underline}
+body.homepage .header-inner{justify-content:flex-start}
+body.homepage .brand{display:inline-flex}
+body.homepage .search-hero{max-width:780px;margin:34px auto 28px;text-align:left;padding:0}
+body.homepage .hero-wordmark{font-family:Georgia,"Noto Sans Devanagari",serif;font-size:2rem;font-weight:400;letter-spacing:0;line-height:1.3;margin:0 0 4px;text-align:left}
+body.homepage .hero-wordmark:after{display:none}
+body.homepage .hero-tagline{font-size:14px;margin:0;color:var(--text-secondary);text-align:left}
+body.homepage .search-hero .hero-search{max-width:560px;margin:14px 0 0;min-height:40px;padding:3px 6px 3px 11px;border-radius:3px;box-shadow:none;border-color:var(--border)}
+body.homepage .search-hero .hero-search input{font-size:14px;padding:7px 0}
+body.homepage .search-hero .hero-search-go{width:34px;height:32px;border-radius:2px;background:var(--fp-panel);color:var(--text);border:1px solid var(--border)}
+body.homepage .search-hint{justify-content:flex-start;margin-top:10px;font-size:12px}
+body.homepage .search-hint a{border:0;padding:2px 6px;background:transparent;text-decoration:underline}
+body.homepage .container{padding-top:0}
+body.homepage #mainContent{max-width:920px;margin:24px 0 0}
+body.homepage #mainContent>h1{font-family:Georgia,"Noto Sans Devanagari",serif;font-size:1.55rem;font-weight:500;text-align:left;letter-spacing:0;margin:0 0 15px;padding:0 0 7px;border-bottom:1px solid var(--border)}
+body.homepage #mainContent>h2{font-family:Georgia,"Noto Sans Devanagari",serif;font-size:1.25rem;font-weight:500;margin:26px 0 10px;padding:0 0 7px;border-bottom:1px solid var(--border)}
+body.homepage #mainContent>ol{columns:2;column-gap:34px;list-style:decimal;padding:0 0 0 28px;margin:12px 0 25px;border:0;border-radius:0;background:transparent;box-shadow:none}
+body.homepage #mainContent>ol li{break-inside:avoid;padding:5px 3px;margin:0;border:0;border-bottom:1px solid var(--border-light);font-size:14px}
+body.homepage #mainContent>ol li a{font-weight:400}
+body.homepage #mainContent>ol li::marker{color:var(--text-secondary)}
+body.homepage footer,body:not(.homepage) footer{max-width:100%;margin:44px 0 0;padding:16px 0;text-align:left;border-top:1px solid var(--border);font-size:12px}
+body.homepage .article-count{border-radius:2px;box-shadow:none}
+@media(max-width:1100px){
+ .header-inner{padding-left:20px}
+ .fp-wiki-sidebar{transform:translateX(-100%);box-shadow:none}
+ body.fp-sidebar-open .fp-wiki-sidebar{transform:translateX(0);box-shadow:5px 0 25px rgba(0,0,0,.12)}
+ .fp-sidebar-scrim{display:block;position:fixed;z-index:44;inset:66px 0 0;background:rgba(0,0,0,.28);opacity:0;pointer-events:none;transition:opacity .2s}
+ body.fp-sidebar-open .fp-sidebar-scrim{opacity:1;pointer-events:auto}
+ .container{padding-left:24px;padding-right:24px}
+}
+@media(max-width:760px){
+ .header-inner{height:58px;padding:6px 12px;gap:8px}
+ .brand{font-size:18px}
+ .brand img{width:32px;height:32px}
+ .search-wrap{position:absolute;left:10px;right:10px;top:62px;max-width:none;display:none;padding:0;background:var(--bg);box-shadow:0 4px 12px rgba(0,0,0,.08)}
+ .search-wrap.open{display:block;max-height:none;padding:8px;border:1px solid var(--border)}
+ .search-box{min-height:42px}
+ .container{padding:0 16px 42px}
+ body:not(.homepage) .article-shell{grid-template-columns:minmax(0,1fr);gap:12px;margin-top:12px}
+ body:not(.homepage) .article-shell #mainContent{grid-column:1;grid-row:2}
+ body:not(.homepage) .article-shell .article-toc{grid-column:1;grid-row:1;position:static;max-height:none;border:1px solid var(--border);padding:10px 12px;background:var(--fp-panel)}
+ .article-toc ol{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 10px}
+ .fp-page-tabs{margin-bottom:16px;gap:13px}
+ body:not(.homepage) #mainContent>h1{font-size:1.75rem}
+ body:not(.homepage) #mainContent p,body:not(.homepage) #mainContent li{font-size:14px;line-height:1.85}
+ body.homepage .search-hero{margin:26px 0 20px}
+ body.homepage .hero-wordmark{font-size:1.7rem}
+ body.homepage .search-hero .hero-search{max-width:100%}
+ body.homepage #mainContent{margin-top:22px}
+ body.homepage #mainContent>ol{columns:1}
+ body.homepage #mainContent>h1{font-size:1.4rem}
+}
+@media(max-width:420px){.fp-page-tabs .fp-page-subtitle{display:none}.article-toc ol{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){.fp-wiki-sidebar,.fp-sidebar-scrim{transition:none!important}}
+</style>
 </head>
 <body>
 <div class="reading-progress" aria-hidden="true"><span id="readingProgressBar"></span></div>
@@ -631,6 +746,55 @@ footer{max-width:908px;margin:46px auto 0;padding:20px 0;border-top:1px solid va
    main.parentNode.insertBefore(shell,main);
    shell.append(toc,main);
  } 
+})();
+</script>
+
+
+<script>
+(function(){
+ const body=document.body, header=document.querySelector('header'), inner=header&&header.querySelector('.header-inner');
+ if(!header||!inner)return;
+ const ns='http://www.w3.org/2000/svg';
+ function icon(path){const s=document.createElementNS(ns,'svg');s.setAttribute('viewBox','0 0 24 24');s.setAttribute('fill','none');s.setAttribute('stroke','currentColor');s.setAttribute('stroke-width','1.8');s.setAttribute('stroke-linecap','round');s.setAttribute('stroke-linejoin','round');const p=document.createElementNS(ns,'path');p.setAttribute('d',path);s.appendChild(p);return s;}
+ const menu=document.createElement('button');menu.className='fp-menu-button';menu.type='button';menu.setAttribute('aria-label','मुख्य मेनू');menu.setAttribute('aria-expanded','false');menu.appendChild(icon('M4 6h16M4 12h16M4 18h16'));inner.insertBefore(menu,inner.firstChild);
+ const brand=inner.querySelector('.brand');
+ if(brand && !brand.textContent.trim()){const img=document.createElement('img');img.src='/favicon.svg';img.alt='';img.width=36;img.height=36;brand.append(img,document.createTextNode('Factpedia'));}
+ if(brand && !brand.querySelector('img')){const img=document.createElement('img');img.src='/favicon.svg';img.alt='';img.width=36;img.height=36;brand.prepend(img);}
+ const sidebar=document.createElement('aside');sidebar.className='fp-wiki-sidebar';sidebar.id='fpWikiSidebar';
+ sidebar.innerHTML='<div class="fp-sidebar-brand"><img src="/favicon.svg" alt="">Factpedia</div><div class="fp-nav-label">नेव्हिगेशन</div><a href="/" class="'+(body.classList.contains('homepage')?'fp-nav-current':'')+'">मुख्यपृष्ठ</a><a href="/#mainContent">सर्व लेख</a><div class="fp-nav-label">वाचन</div><a href="#mainContent">लेखाचा मजकूर</a><a href="#article-toc">अनुक्रमणिका</a><div class="fp-nav-label">Factpedia</div><a href="https://github.com/shravan-info/factpedia-mr" target="_blank" rel="noopener">प्रकल्प माहिती</a>';
+ body.appendChild(sidebar);
+ const scrim=document.createElement('div');scrim.className='fp-sidebar-scrim';body.appendChild(scrim);
+ function closeMenu(){body.classList.remove('fp-sidebar-open');menu.setAttribute('aria-expanded','false');}
+ menu.addEventListener('click',()=>{const open=body.classList.toggle('fp-sidebar-open');menu.setAttribute('aria-expanded',String(open));});
+ scrim.addEventListener('click',closeMenu);
+ sidebar.querySelectorAll('a').forEach(a=>a.addEventListener('click',closeMenu));
+ const actions=inner.querySelector('.header-actions');
+ const searchWrap=document.getElementById('searchWrap');
+ const searchBtn=document.getElementById('searchBtn');
+ if(searchWrap && actions){inner.insertBefore(searchWrap,actions);if(searchBtn)searchBtn.addEventListener('click',()=>{searchWrap.classList.toggle('open');});}
+ if(body.classList.contains('homepage')){
+   const hero=document.querySelector('.search-hero'), search=document.querySelector('.hero-search');
+   if(hero && search){const tagline=hero.querySelector('.hero-tagline');if(tagline)tagline.textContent='मुक्त ज्ञानाचा मराठी ज्ञानकोश';}
+ }else{
+   const main=document.getElementById('mainContent');
+   if(main){
+     const h1=main.querySelector(':scope > h1');
+     if(h1){
+       const tabs=document.createElement('nav');tabs.className='fp-page-tabs';tabs.setAttribute('aria-label','लेख पर्याय');
+       tabs.innerHTML='<a class="active" href="#mainContent">लेख</a><a href="#article-toc">अनुक्रमणिका</a><span class="fp-tabs-spacer"></span><span class="fp-page-subtitle">Factpedia मधील लेख</span>';
+       h1.insertAdjacentElement('afterend',tabs);
+     }
+     const toc=document.querySelector('.article-toc');if(toc)toc.id='article-toc';
+     const panel=document.createElement('div');panel.className='fp-tool-panel';
+     panel.innerHTML='<strong>साधने</strong><button type="button" data-fp-action="print">मुद्रण / PDF</button><button type="button" data-fp-action="copy">लेखाचा दुवा कॉपी करा</button>';
+     if(toc)toc.appendChild(panel);
+     panel.addEventListener('click',async e=>{
+       const b=e.target.closest('button');if(!b)return;
+       if(b.dataset.fpAction==='print')window.print();
+       if(b.dataset.fpAction==='copy'){try{await navigator.clipboard.writeText(location.href);b.textContent='दुवा कॉपी झाला';}catch(_){b.textContent='दुवा: '+location.href;}}
+     });
+   }
+ }
 })();
 </script>
 
