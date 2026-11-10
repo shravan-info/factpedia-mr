@@ -863,6 +863,16 @@ body.homepage .article-count{border-radius:2px;box-shadow:none}
 @media(max-width:420px){.fp-page-tabs .fp-page-subtitle{display:none}.article-toc ol{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){.fp-wiki-sidebar,.fp-sidebar-scrim{transition:none!important}}
 </style>
+
+<style>
+.homepage .header-inner>.hero-search{display:flex;flex:1 1 520px;max-width:560px;min-width:180px;align-items:center;gap:9px;padding:3px 6px 3px 11px;margin:0;border:1px solid var(--border);border-radius:3px;background:var(--bg);box-shadow:none}
+.homepage .header-inner>.hero-search>svg{width:18px;height:18px}
+.homepage .header-inner>.hero-search input{font-size:14px;padding:7px 0;min-width:0}
+.homepage .header-inner>.hero-search .hero-search-go{width:34px;height:32px;border-radius:2px;background:var(--fp-panel);color:var(--text);border:1px solid var(--border)}
+@media(max-width:760px){.homepage .header-inner>.hero-search{display:none}.homepage .search-hero{margin-top:22px}.homepage .search-hero .hero-wordmark{font-size:1.7rem}}
+@media(min-width:761px) and (max-width:1050px){.homepage .header-inner>.hero-search{max-width:420px}}
+@media(max-width:1100px){body:not(.homepage) .article-shell{grid-template-columns:minmax(0,1fr) 190px;gap:20px}}
+</style>
 </head>
 <body class="homepage">
 <header>
@@ -1118,7 +1128,7 @@ body.homepage .article-count{border-radius:2px;box-shadow:none}
  if(searchWrap && actions){inner.insertBefore(searchWrap,actions);if(searchBtn)searchBtn.addEventListener('click',()=>{searchWrap.classList.toggle('open');});}
  if(body.classList.contains('homepage')){
    const hero=document.querySelector('.search-hero'), search=document.querySelector('.hero-search');
-   if(hero && search){const tagline=hero.querySelector('.hero-tagline');if(tagline)tagline.textContent='मुक्त ज्ञानाचा मराठी ज्ञानकोश';}
+   if(hero && search){const tagline=hero.querySelector('.hero-tagline');if(tagline)tagline.textContent='मुक्त ज्ञानाचा मराठी ज्ञानकोश';const actions=inner.querySelector('.header-actions');if(actions)inner.insertBefore(search,actions);}
  }else{
    const main=document.getElementById('mainContent');
    if(main){
