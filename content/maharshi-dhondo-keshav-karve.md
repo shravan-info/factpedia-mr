@@ -67,7 +67,7 @@ description: विधवा-विवाहाचे पुरस्कर्�
 
 १९३६ मध्ये विठ्ठलदास ठाकरसी यांनी मोठी देणगी दिली. त्यांच्या आईच्या स्मरणार्थ विद्यापीठाचे नाव एस.एन.डी.टी. महिला विद्यापीठ असे झाले. १९५० मध्ये विद्यापीठाला कायदेशीर मान्यता मिळाली.
 
-विद्यापीठाचे ब्रीद 'संस्कृत स्त्री पराशक्ती' असे आहे. याचा अर्थ सुशिक्षित स्त्री ही अनंत शक्तीचा स्रोत आहे. आज या विद्यापीठाच्या अनेक शाखा आहेत.
+विद्यापीठाचे ब्रीद 'संस्कृता स्त्री पराशक्तिः' असे आहे. याचा अर्थ सुशिक्षित स्त्री ही अनंत शक्तीचा स्रोत आहे. आज या विद्यापीठाच्या अनेक शाखा आहेत.
 
 विद्यापीठ सुरू करताना त्यांना अनेक अडचणींना तोंड द्यावे लागले. पैसा, इमारत आणि शिक्षक यांची कमतरता होती.
 
@@ -113,12 +113,12 @@ description: विधवा-विवाहाचे पुरस्कर्�
 
 ## संदर्भ
 
-1. [Maharshi Dhondo Keshav Karve — SNDT Women's University](https://sndtiase.ac.in/university/)
-2. [Dhondo Keshav Karve — Wikipedia](https://en.wikipedia.org/wiki/Dhondo_Keshav_Karve)
-3. [SNDT Women's University — Official site](https://www.sndt.ac.in/)
-4. [Dhondo Keshav Karve — The Nehru Archive](https://nehruarchive.in/people/dhondo-keshav-karve)
-5. [Bharat Ratna — Wikipedia](https://en.wikipedia.org/wiki/Bharat_Ratna)
+1. [एस.एन.डी.टी. — विद्यापीठाचा इतिहास व ब्रीद](https://sndtiase.ac.in/university/)
+2. [एस.एन.डी. महिला विद्यापीठ — अधिकृत संकेतस्थळ](https://www.sndt.ac.in/)
+3. [नेहरू संग्रह — धोंडो केशव कर्वे](https://nehruarchive.in/people/dhondo-keshav-karve)
+4. [भारत सरकार — पद्म पुरस्कार अधिसूचना १९५५](https://www.padmaawards.gov.in/Document/pdf/notifications/PadmaAwards/1955.pdf)
+5. [गृह मंत्रालय — भारतरत्न मानकरी यादी](https://www.mha.gov.in/sites/default/files/2024-04/BharatRatna_15042024.pdf)
 
 ---
 
-*शेवटचे संपादन: ७ नोव्हेंबर २०२६*
+*शेवटचे संपादन: १० नोव्हेंबर २०२६*

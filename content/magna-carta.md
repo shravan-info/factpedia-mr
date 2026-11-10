@@ -90,11 +90,13 @@ description: इ.स. १२१५ मधील मॅग्ना कार्�
 
 ## संदर्भ
 
-1. [मॅग्ना कार्टा — ब्रिटिश लायब्ररी](https://www.bl.uk/magna-carta)
-2. [मॅग्ना कार्टा — एन्सायक्लोपीडिया ब्रिटानिका](https://www.britannica.com/topic/Magna-Carta)
-3. [मॅग्ना कार्टा — युनेस्को मेमरी ऑफ द वर्ल्ड](https://www.unesco.org/en/memory-world)
-4. [मानवी हक्कांचा जागतिक जाहीरनामा — संयुक्त राष्ट्रे](https://www.un.org/en/about-us/universal-declaration-of-human-rights)
+1. [यूके संसद — मॅग्ना कार्टा](https://www.parliament.uk/about/living-heritage/evolutionofparliament/originsofparliament/birthofparliament/overview/magnacarta/)
+2. [यूके संसद — मॅग्ना कार्टाची कलमे](https://www.parliament.uk/about/living-heritage/evolutionofparliament/originsofparliament/birthofparliament/overview/magnacarta/magnacartaclauses/)
+3. [ब्रिटिश लायब्ररी — १२१५ चा मूळ दस्तऐवज](https://searcharchives.bl.uk/catalog/040-001102110)
+4. [युनेस्को — १२१५ मॅग्ना कार्टा](https://unesco.org.uk/our-network/memory-of-the-world/magna-carta)
+5. [एन्सायक्लोपीडिया ब्रिटानिका — मॅग्ना कार्टा](https://www.britannica.com/topic/Magna-Carta)
+6. [संयुक्त राष्ट्रे — मानवी हक्कांचा जागतिक जाहीरनामा](https://www.un.org/en/about-us/universal-declaration-of-human-rights)
 
 ---
 
-*शेवटचे संपादन: ७ नोव्हेंबर २०२६*
+*शेवटचे संपादन: १० नोव्हेंबर २०२६*
