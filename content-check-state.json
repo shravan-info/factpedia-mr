@@ -1,5 +1,5 @@
 {
-  "next_index": 544,
+  "next_index": 559,
   "cycle": 1,
   "runs": [
     {
@@ -122,6 +122,50 @@
       ],
       "next_index": 544,
       "cycle": 1
+    },
+    {
+      "date": "2026-11-10",
+      "checked": 15,
+      "reviewed_files": [
+        "madrid-city.md",
+        "madurai-district.md",
+        "magna-carta.md",
+        "mahabaleshwar-taluka.md",
+        "mahabaleshwar.md",
+        "mahabodhi-temple.md",
+        "mahad-taluka.md",
+        "mahadev-govind-ranade.md",
+        "maharashtra.md",
+        "maharshi-dhondo-keshav-karve.md",
+        "mahatma-gandhi.md",
+        "mahavir-chakra.md",
+        "mahuli-fort.md",
+        "makar-sankranti.md",
+        "make-in-india.md"
+      ],
+      "updated_articles": [
+        "madrid-city.md",
+        "madurai-district.md",
+        "magna-carta.md",
+        "mahabaleshwar.md",
+        "mahabodhi-temple.md",
+        "mahadev-govind-ranade.md",
+        "maharshi-dhondo-keshav-karve.md",
+        "mahavir-chakra.md",
+        "makar-sankranti.md"
+      ],
+      "unchanged_articles": [
+        "mahabaleshwar-taluka.md",
+        "mahad-taluka.md",
+        "maharashtra.md",
+        "mahatma-gandhi.md",
+        "mahuli-fort.md",
+        "make-in-india.md"
+      ],
+      "internal_links_checked": 15,
+      "broken_internal_links": 0,
+      "next_index": 559,
+      "cycle": 1
     }
   ],
   "total_articles": 1114,
@@ -135,6 +179,11 @@
     "indian-national-congress.md: 1885 च्या पहिल्या अधिवेशनातील 72 प्रतिनिधींचा आकडा या बॅचमध्ये काँग्रेसच्या अधिकृत पृष्ठावरून स्वतंत्रपणे पडताळता आला नाही.",
     "indonesia.md: BPS च्या 2025 SUPAS आकडेवारीत लोकसंख्या 284.67 दशलक्ष दिली आहे; लेखातील 'सुमारे 28 कोटी' हा ढोबळ आकडा आहे. BPS चे थेट पृष्ठ या रनमध्ये 403 देत असल्याने अचूक आकडा लेखात बदललेला नाही.",
     "indore-district.md: तहसीलांची यादी आणि सध्याची प्रशासकीय विभागणी जिल्हा प्रशासनाच्या अद्ययावत नोंदींशी पुन्हा जुळवणे आवश्यक.",
-    "indus-river.md: कराराच्या कायदेशीर स्थितीबाबत भारत सरकार व Permanent Court of Arbitration यांच्या भूमिका भिन्न आहेत; लेखात दोन्ही बाजू स्पष्ट केल्या आहेत. पुढील अधिकृत निवेदन आल्यास पुन्हा तपासावे."
+    "indus-river.md: कराराच्या कायदेशीर स्थितीबाबत भारत सरकार व Permanent Court of Arbitration यांच्या भूमिका भिन्न आहेत; लेखात दोन्ही बाजू स्पष्ट केल्या आहेत. पुढील अधिकृत निवेदन आल्यास पुन्हा तपासावे.",
+    "maharshi-dhondo-keshav-karve.md: एस.एन.डी.टी. कॉलेज ऑफ एज्युकेशनच्या अधिकृत पृष्ठावर वैधानिक मान्यता 1950, तर विद्यापीठाच्या मुख्य संकेतस्थळावरील दुसऱ्या ऐतिहासिक नोंदीत 1951 दिसते; लेखातील 1950 बदललेले नाही, विद्यापीठाकडून स्पष्टता आवश्यक.",
+    "mahavir-chakra.md: सुमारे 213 मानकऱ्यांचा आकडा अधिकृत अद्ययावत यादीतून स्वतंत्रपणे पडताळता आला नाही; आकडा बदललेला नाही.",
+    "mahuli-fort.md: 'ठाणे जिल्ह्यातील सर्वोच्च बिंदू' हा दावा आणि सरदार कडम यांना 'सोनारे' नाव मिळाल्याची कथा या बॅचमध्ये विश्वसनीय प्राथमिक स्रोताने पुष्टी झाली नाही; बदललेले नाही.",
+    "mahad-taluka.md: 2011 ची लोकसंख्या व इतर तालुकास्तरीय आकडे मूळ जनगणना तक्त्याशी पुन्हा जुळवणे बाकी.",
+    "maharashtra.md: काही संदर्भ सर्वसाधारण शासन संकेतस्थळांकडे जातात; संबंधित दाव्यांशी जुळणारे विशिष्ट अधिकृत पृष्ठ मिळाल्यावरच बदल करावा."
   ]
 }
