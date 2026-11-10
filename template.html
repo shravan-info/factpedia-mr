@@ -323,6 +323,58 @@ body:not(.homepage) footer{max-width:var(--reading-width);margin:58px auto 0;pad
 }
 @media(prefers-reduced-motion:reduce){body:not(.homepage) #mainContent{animation:none!important}body:not(.homepage) #mainContent a{transition:none!important}}
 
+
+/* Wikipedia-inspired modern article layout */
+:root{--wiki-rule:var(--border);--wiki-muted:var(--text-secondary)}
+header{background:var(--header-bg);border-bottom:1px solid var(--border);box-shadow:none}
+.header-inner{max-width:1280px;height:64px;padding:8px 28px}
+.brand{font-family:Georgia,"Noto Sans Devanagari",serif;font-style:normal;font-size:24px;font-weight:600;letter-spacing:-.035em}
+.brand img{border-radius:4px}
+.icon-btn{border-radius:8px}
+.container{max-width:1280px;padding:0 28px 64px}
+.article-shell{display:grid;grid-template-columns:220px minmax(0,860px);gap:48px;align-items:start;justify-content:center;margin:28px auto 0}
+.article-toc{position:sticky;top:88px;max-height:calc(100vh - 112px);overflow:auto;padding:16px 14px;border:1px solid var(--border);border-radius:8px;background:var(--card-bg)}
+.article-toc-title{font-size:14px;font-weight:700;margin:0 0 10px;color:var(--text)}
+.article-toc ol{list-style:none;margin:0;padding:0}
+.article-toc li{margin:0;padding:0;border-left:2px solid transparent}
+.article-toc li a{display:block;padding:6px 9px;font-size:13px;line-height:1.5;color:var(--text-secondary);text-decoration:none}
+.article-toc li a:hover{color:var(--link);background:var(--accent-soft)}
+.article-toc li.sub a{padding-left:22px;font-size:12px}
+#mainContent{min-width:0;max-width:860px;margin:0 auto}
+#mainContent>h1{font-family:Georgia,"Noto Sans Devanagari",serif;font-size:clamp(2rem,4vw,2.65rem);font-weight:500;line-height:1.3;letter-spacing:-.025em;margin:0 0 12px;padding:0 0 12px;border-bottom:1px solid var(--border)}
+#mainContent>h1:after{content:"";display:block}
+#mainContent>h2{font-family:Georgia,"Noto Sans Devanagari",serif;font-size:1.55rem;font-weight:500;line-height:1.4;margin:34px 0 12px;padding:0 0 8px;border-bottom:1px solid var(--border)}
+#mainContent>h3{font-size:1.2rem;font-weight:650;margin:25px 0 9px}
+#mainContent p{font-size:16px;line-height:1.9;margin:0 0 16px}
+#mainContent a{color:var(--link);text-decoration:none}
+#mainContent a:hover{text-decoration:underline}
+#mainContent ul,#mainContent ol{padding-left:28px;margin:12px 0 22px}
+#mainContent li{padding-left:3px;margin:0 0 8px;line-height:1.8}
+#mainContent table{border:1px solid var(--border);border-radius:6px;box-shadow:none;margin:18px 0 26px;font-size:14px}
+#mainContent th{background:var(--accent-soft);font-weight:650}
+#mainContent td,#mainContent th{padding:10px 12px}
+#mainContent img{max-width:100%;height:auto;border-radius:5px}
+#mainContent blockquote{margin:18px 0;padding:12px 18px;border-left:3px solid var(--border);background:var(--accent-soft);color:var(--text-secondary)}
+.reading-progress{height:2px}
+footer{max-width:908px;margin:46px auto 0;padding:20px 0;border-top:1px solid var(--border);text-align:left}
+@media(max-width:900px){
+ .container{padding:0 20px 48px}
+ .article-shell{grid-template-columns:minmax(0,1fr);gap:18px;margin-top:18px}
+ .article-toc{position:static;max-height:none;padding:10px 14px}
+ .article-toc ol{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 10px}
+ #mainContent>h1{font-size:2rem}
+}
+@media(max-width:560px){
+ .header-inner{height:58px;padding:7px 14px}
+ .container{padding:0 15px 40px}
+ .article-shell{margin-top:14px}
+ .article-toc ol{grid-template-columns:1fr}
+ #mainContent p{font-size:15px;line-height:1.85}
+ #mainContent>h2{font-size:1.35rem;margin-top:28px}
+ #mainContent table{display:block;overflow-x:auto}
+ footer{margin-top:34px}
+}
+
 </style>
 </head>
 <body>
@@ -558,5 +610,29 @@ body:not(.homepage) footer{max-width:var(--reading-width);margin:58px auto 0;pad
   update();
 })();
 </script>
+
+<script>
+(function(){
+ const main=document.getElementById('mainContent');
+ if(!main || main.querySelector('.article-shell')) return;
+ const headings=[...main.querySelectorAll('h2,h3')];
+ const shell=document.createElement('div'); shell.className='article-shell';
+ const toc=document.createElement('nav'); toc.className='article-toc'; toc.setAttribute('aria-label','लेखातील अनुक्रमणिका');
+ const title=document.createElement('div'); title.className='article-toc-title'; title.textContent='अनुक्रमणिका';
+ const list=document.createElement('ol');
+ headings.forEach((heading,index)=>{
+   if(!heading.id) heading.id='section-'+(index+1);
+   const li=document.createElement('li'); if(heading.tagName==='H3')li.className='sub';
+   const link=document.createElement('a'); link.href='#'+heading.id; link.textContent=heading.textContent.trim();
+   li.appendChild(link); list.appendChild(li);
+ });
+ if(headings.length){
+   toc.append(title,list);
+   main.parentNode.insertBefore(shell,main);
+   shell.append(toc,main);
+ } 
+})();
+</script>
+
 </body>
 </html>
