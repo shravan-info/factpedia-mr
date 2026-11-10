@@ -246,7 +246,8 @@
     "malaysia.md: 31 ऑगस्ट हा National Day आणि 16 सप्टेंबर हा Malaysia Day असा भेद अधिक स्पष्ट करता येईल; सध्याचा 31 ऑगस्टचा National Day उल्लेख चुकीचा नाही.",
     "malkapur-taluka.md: हा legacy slug build.js मधील redirect map ने malkapur-buldhana-taluka कडे वळवला जातो; त्यामुळे समान frontmatter title असूनही स्वतंत्र duplicate page तयार होत नाही."
   ],
-  "next_file": "malala-yousafzai.md",
-  "last_verified_main": "e9f8247ae74ea7e32fffcf4c242bc0a1e0b5ccdf",
-  "index_note": "content/index.md is a short shell; build.js generates the article listing from content/*.md. Legacy aliases are handled by the redirect map, including malkapur-taluka -> malkapur-buldhana-taluka and hatkanangale-taluka -> hatkanangle-taluka."
+  "next_file": "manipuri-dance.md",
+  "last_verified_main": "cb8453c3ffca5147f4fe6c0ef2c43dd1916c242b",
+  "index_note": "content/index.md is a short shell; build.js generates the article listing from content/*.md. Legacy aliases are handled by the redirect map, including malkapur-taluka -> malkapur-buldhana-taluka and hatkanangale-taluka -> hatkanangle-taluka.",
+  "last_checkpoint_commit": "cb8453c3ffca5147f4fe6c0ef2c43dd1916c242b"
 }

@@ -73,7 +73,7 @@ description: स्वात खोऱ्यातील मुलींच्�
 
 1. [मलाला युसुफझाई — शांततेचे नोबेल पारितोषिक २०१४](https://www.nobelprize.org/prizes/peace/2014/yousafzai/facts/)
 2. [मलाला युसुफझाई — चरित्र, नोबेल फाउंडेशन](https://www.nobelprize.org/prizes/peace/2014/yousafzai/biographical/)
-3. [मलालाची कथा — मलाला फंड](https://malala.org/malalas-story/)
+3. [मलाला फंड — मलालाचे संयुक्त राष्ट्रांतील भाषण (१२ जुलै २०१३)](https://malala.org/news-and-voices/malala-un-speech)
 4. [मलाला युसुफझाई — एन्सायक्लोपीडिया ब्रिटॅनिका](https://www.britannica.com/biography/Malala-Yousafzai)
 5. [Lady Margaret Hall, University of Oxford — Malala Yousafzai](https://www.lmh.ox.ac.uk/news/new-portrait-celebrates-lmh-alumna-malala-yousafzai)
 
