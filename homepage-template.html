@@ -637,6 +637,68 @@ body.homepage{overflow-x:hidden}
  .homepage .search-hero:before,.homepage .search-hero:after,.homepage .hero-wordmark,.homepage .hero-tagline,.homepage .hero-search,.homepage .search-hint,.homepage #mainContent,.homepage footer,.homepage .search-result{animation:none!important;transition:none!important}
 }
 
+
+/* Responsive ChatGPT-style experience — November 2026 */
+.homepage header{position:sticky;top:0;z-index:60;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border-bottom:1px solid var(--border-light)}
+.homepage .header-inner{max-width:1180px;height:64px;justify-content:space-between;padding:8px 28px}
+.homepage .brand{display:inline-flex!important;align-items:center;gap:10px;color:var(--text);font-family:system-ui,sans-serif;font-size:19px;font-style:normal;font-weight:750;letter-spacing:-.04em;text-decoration:none}
+.homepage .brand:before{content:"F";display:grid;place-items:center;width:34px;height:34px;border-radius:12px;background:var(--text);color:var(--bg);font-family:Georgia,serif;font-size:22px;font-weight:700;font-style:normal;letter-spacing:-.05em}
+.homepage .brand:after{content:"Factpedia"}
+.homepage .header-actions{margin-left:auto;gap:7px}
+.homepage #searchBtn{display:grid!important}
+.homepage .icon-btn{width:40px;height:40px;border:1px solid transparent;border-radius:13px;color:var(--text-secondary)}
+.homepage .icon-btn:hover{background:var(--accent-soft);border-color:var(--border);color:var(--text)}
+.homepage .container{max-width:1120px;padding:0 28px 72px}
+.homepage .search-hero{max-width:820px;margin:clamp(56px,10vh,104px) auto 52px}
+.homepage .hero-wordmark{font-family:system-ui,sans-serif;font-style:normal;font-weight:760;letter-spacing:-.075em;font-size:clamp(2.8rem,8vw,5rem);margin-bottom:16px}
+.homepage .hero-wordmark .version{font-family:system-ui,sans-serif;font-size:11px;font-style:normal;letter-spacing:.02em;border:1px solid var(--border);border-radius:999px;padding:4px 8px;color:var(--text-secondary);background:var(--card-bg)}
+.homepage .hero-tagline{max-width:680px;margin:0 auto 30px;color:var(--text-secondary);font-size:clamp(1.05rem,2.4vw,1.25rem);line-height:1.6}
+.homepage .hero-search{max-width:790px;min-height:76px;padding:10px 12px 10px 22px;border-radius:24px;border:1px solid var(--border);background:var(--card-bg);box-shadow:0 8px 34px rgba(0,0,0,.055);gap:13px}
+html.dark .homepage .hero-search{box-shadow:0 10px 36px rgba(0,0,0,.22)}
+.homepage .hero-search:focus-within{border-color:var(--link);box-shadow:0 0 0 4px color-mix(in srgb,var(--link) 12%,transparent),0 12px 38px rgba(0,0,0,.06);transform:translateY(-1px)}
+.homepage .hero-search input{font-size:16px;min-height:48px}
+.homepage .hero-search-go{width:48px;height:48px;flex-basis:48px;border-radius:16px;background:var(--text);color:var(--bg)}
+.homepage .hero-search-go:hover{background:var(--link);color:white}
+.homepage .search-hint{justify-content:center;gap:9px;margin-top:20px}
+.homepage .search-hint a{padding:7px 13px;border-radius:999px;background:var(--card-bg);border-color:var(--border);font-size:13px}
+.homepage .search-hint a:hover{background:var(--accent-soft);border-color:var(--link)}
+.homepage .search-results{max-width:790px;margin:0 auto 44px}
+.homepage .results-heading{font-size:13px;margin-bottom:12px}
+.homepage .result-list{grid-template-columns:1fr;gap:9px}
+.homepage .search-result{padding:16px 19px;border-radius:16px;background:var(--card-bg);box-shadow:none}
+.homepage .search-result strong{font-size:16px;color:var(--text)}
+.homepage .search-result span{font-size:13px;line-height:1.7}
+.homepage .search-result:hover{background:var(--accent-soft);border-color:var(--link);transform:translateY(-2px)}
+.homepage #mainContent{max-width:900px;margin:clamp(42px,7vh,76px) auto 0}
+.homepage #mainContent>h2{font-size:1.12rem;margin:0 0 15px;color:var(--text);border-bottom:1px solid var(--border-light);padding-bottom:13px}
+.homepage #mainContent>ol{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 30px}
+.homepage #mainContent>ol li{min-width:0;padding:10px 2px;font-size:14px}
+.homepage #mainContent>ol li a{overflow-wrap:anywhere}
+.homepage footer{max-width:900px;margin-top:54px;padding-top:20px}
+.homepage :focus-visible{outline:3px solid color-mix(in srgb,var(--link) 65%,transparent);outline-offset:3px}
+@media(max-width:700px){
+ .homepage .header-inner{height:58px;padding:7px 16px}
+ .homepage .brand{font-size:17px;gap:8px}
+ .homepage .brand:before{width:31px;height:31px;border-radius:10px;font-size:20px}
+ .homepage .container{padding:0 16px 48px}
+ .homepage .search-hero{margin:clamp(46px,9vh,76px) auto 38px}
+ .homepage .hero-wordmark{font-size:clamp(2.7rem,13vw,4rem);letter-spacing:-.07em}
+ .homepage .hero-tagline{font-size:1rem;margin-bottom:24px}
+ .homepage .hero-search{min-height:62px;padding:7px 8px 7px 14px;gap:9px;border-radius:19px}
+ .homepage .hero-search>svg{width:20px;height:20px}
+ .homepage .hero-search input{font-size:15px;min-height:44px}
+ .homepage .hero-search-go{width:43px;height:43px;flex-basis:43px;border-radius:14px}
+ .homepage .search-hint{gap:7px;margin-top:17px}
+ .homepage .search-hint span{width:100%;text-align:center}
+ .homepage .search-hint a{padding:6px 10px;font-size:12px}
+ .homepage .search-result{padding:14px;border-radius:14px}
+ .homepage #mainContent{margin-top:42px}
+ .homepage #mainContent>ol{grid-template-columns:1fr;gap:0}
+ .homepage #mainContent>ol li{font-size:14px;padding:10px 0}
+ .homepage footer{margin-top:42px}
+}
+@media(prefers-reduced-motion:reduce){.homepage *,.homepage *:before,.homepage *:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}
+
 </style>
 </head>
 <body class="homepage">
@@ -810,14 +872,16 @@ body.homepage{overflow-x:hidden}
         searchMeta.textContent = 'लेख शोधले जात आहेत...';
         return;
       }
-      const tokens = normalize(q).split(' ').filter(Boolean);
+      const normalizedQuery = normalize(q);
+      const tokens = normalizedQuery.split(' ').filter(Boolean);
+      if (!tokens.length) { searchMeta.textContent = 'शोधण्यासाठी अक्षरे किंवा शब्द टाइप करा.'; resultList.replaceChildren(); return; }
       const candidates = candidateIds(tokens);
-      const pool = candidates || prepared.map((_, i) => i);
+      const pool = candidates && candidates.size ? candidates : prepared.map((_, i) => i);
       const results = [];
       for (const i of pool) {
         const entry = prepared[i];
         if (!entry) continue;
-        const score = scoreEntry(entry, normalize(q), tokens);
+        const score = scoreEntry(entry, normalizedQuery, tokens);
         if (score > 0) results.push({ doc: entry.doc, score });
       }
       results.sort((a, b) => b.score - a.score || a.doc.title.localeCompare(b.doc.title, 'mr'));
