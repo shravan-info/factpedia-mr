@@ -1,4 +1,4 @@
-const CACHE_NAME = "factpedia-pwa-v5";
+const CACHE_NAME = "factpedia-pwa-v6";
 const OFFLINE_URL = "/offline.html";
 const PRECACHE_URLS = ["/", OFFLINE_URL, "/search-index.json", "/favicon.svg", "/manifest.webmanifest"];
 
