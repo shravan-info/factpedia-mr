@@ -775,7 +775,7 @@ body.homepage .article-count{border-radius:2px;box-shadow:none}
  const actions=inner.querySelector('.header-actions');
  const searchWrap=document.getElementById('searchWrap');
  const searchBtn=document.getElementById('searchBtn');
- if(searchWrap && actions){inner.insertBefore(searchWrap,actions);if(searchBtn)searchBtn.addEventListener('click',()=>{searchWrap.classList.toggle('open');});}
+ if(searchWrap && actions){inner.insertBefore(searchWrap,actions);}
  if(body.classList.contains('homepage')){
    const hero=document.querySelector('.search-hero'), search=document.querySelector('.hero-search');
    if(hero && search){const tagline=hero.querySelector('.hero-tagline');if(tagline)tagline.textContent='मुक्त ज्ञानाचा मराठी ज्ञानकोश';}
