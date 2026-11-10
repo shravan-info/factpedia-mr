@@ -1,5 +1,5 @@
 {
-  "next_index": 559,
+  "next_index": 574,
   "cycle": 1,
   "runs": [
     {
@@ -166,6 +166,58 @@
       "broken_internal_links": 0,
       "next_index": 559,
       "cycle": 1
+    },
+    {
+      "date": "2026-11-10",
+      "checked": 15,
+      "range": [
+        "malala-yousafzai.md",
+        "manipur.md"
+      ],
+      "reviewed_files": [
+        "malala-yousafzai.md",
+        "malawi.md",
+        "malaysia.md",
+        "malegaon-taluka.md",
+        "malhargad.md",
+        "malkapur-buldhana-taluka.md",
+        "malkapur-taluka.md",
+        "malshiras-taluka.md",
+        "man-taluka.md",
+        "manas-national-park.md",
+        "mandangad-taluka.md",
+        "mangalwedha-taluka.md",
+        "mangaon-taluka.md",
+        "manikgad.md",
+        "manipur.md"
+      ],
+      "updated_articles": [
+        "malala-yousafzai.md",
+        "malawi.md",
+        "malegaon-taluka.md",
+        "manas-national-park.md",
+        "manipur.md"
+      ],
+      "unchanged_articles": [
+        "malaysia.md",
+        "malhargad.md",
+        "malkapur-buldhana-taluka.md",
+        "malkapur-taluka.md",
+        "malshiras-taluka.md",
+        "man-taluka.md",
+        "mandangad-taluka.md",
+        "mangalwedha-taluka.md",
+        "mangaon-taluka.md",
+        "manikgad.md"
+      ],
+      "internal_links_checked": 5,
+      "broken_internal_links": 0,
+      "aliases_checked": [
+        "malkapur-taluka.md -> malkapur-buldhana-taluka.md (build.js redirect)"
+      ],
+      "next_index": 574,
+      "next_file": "manipuri-dance.md",
+      "cycle": 1
     }
   ],
   "total_articles": 1114,
@@ -173,7 +225,6 @@
     "dadabhai-naoroji.md: जन्मस्थळाबाबत Azim Premji University मुंबई सांगते, तर गुजरात शासनाचे Navsari पृष्ठ नवसारी सांगते; अतिरिक्त प्राथमिक पुरावा मिळेपर्यंत मजकूर बदललेला नाही.",
     "dadasaheb-phalke-award.md: अधिकृत DFF/PIB पानांवर ₹10 लाख, तर 18 सप्टेंबर 2026 च्या Gazette मजकूराच्या उपलब्ध प्रतिलिपीत ₹15 लाख दिसते; मूळ eGazette PDF पडताळता न आल्याने रक्कम बदललेली नाही.",
     "dada-kondke.md: महाराष्ट्र राज्य चित्रपट पुरस्काराविषयीचा विशिष्ट दावा विश्वसनीय प्राथमिक स्रोताने पुष्टी करता आला नाही; लेख बदललेला नाही.",
-    "hatkanangale-taluka.md व hatkanangle-taluka.md: एकाच शीर्षकाच्या दोन फाइलींमुळे साइटवर दुहेरी पाने तयार होतात; एकत्रीकरणाचा निर्णय आवश्यक.",
     "indian-ocean.md: किनारपट्टीची 66,526 किमी लांबी आणि पाण्याचे 29.2 कोटी घन किमी प्रमाण या दोन आकड्यांसाठी या बॅचमध्ये पुरेसा विशिष्ट प्राथमिक स्रोत पडताळता आला नाही; बदललेले नाहीत.",
     "indian-independence-movement.md: दोन संदर्भ संपूर्ण प्रादेशिक, आदिवासी, कामगार आणि क्रांतिकारी प्रवाहांना पुरेसे आधार देतात का याची पुढील तपासणी आवश्यक.",
     "indian-national-congress.md: 1885 च्या पहिल्या अधिवेशनातील 72 प्रतिनिधींचा आकडा या बॅचमध्ये काँग्रेसच्या अधिकृत पृष्ठावरून स्वतंत्रपणे पडताळता आला नाही.",
@@ -187,9 +238,15 @@
     "maharashtra.md: काही संदर्भ सर्वसाधारण शासन संकेतस्थळांकडे जातात; संबंधित दाव्यांशी जुळणारे विशिष्ट अधिकृत पृष्ठ मिळाल्यावरच बदल करावा.",
     "mahatma-gandhi.md: दोन संदर्भ आहेत; लेखातील सर्व कालखंड, संस्थात्मक काम आणि तारखांसाठी अधिक विशिष्ट प्राथमिक स्रोतांची पुढील बॅचमध्ये पडताळणी आवश्यक.",
     "mahabaleshwar-taluka.md: संदर्भांपैकी काही सर्वसाधारण पोर्टल पृष्ठे आहेत; तालुक्याची सीमा, गावसंख्या आणि प्रशासकीय तपशीलांसाठी थेट अधिकृत स्रोत जोडणे बाकी.",
-    "make-in-india.md: संदर्भ यादीत Wikipedia आहे आणि इतर काही दुवे सर्वसाधारण homepage आहेत; कार्यक्रमाच्या टप्प्यांनुसार DPIIT/सरकारी दस्तऐवजांशी दावे जुळवणे बाकी."
+    "make-in-india.md: संदर्भ यादीत Wikipedia आहे आणि इतर काही दुवे सर्वसाधारण homepage आहेत; कार्यक्रमाच्या टप्प्यांनुसार DPIIT/सरकारी दस्तऐवजांशी दावे जुळवणे बाकी.",
+    "malawi.md: SADC च्या देश-प्रोफाइलच्या सारांशात इंग्रजी व चिचेवा दोन्ही अधिकृत भाषा म्हटल्या आहेत, तर त्याच पृष्ठाच्या वर्णनात इंग्रजी अधिकृत व चिचेवा राष्ट्रीय भाषा म्हटली आहे. लेखातील सध्याची मांडणी कायम ठेवली; मलावीच्या संविधान/सरकारी कायद्यातून स्वतंत्र पुष्टी आवश्यक.",
+    "malegaon-taluka.md: मालेगाव किल्ल्याच्या बांधकामाची सुरुवात सुमारे 1740 मध्ये नरोशंकर राजे बहादूर यांनी केली हा दावा या बॅचमध्ये विशिष्ट अधिकृत ऐतिहासिक स्रोताने पडताळता आला नाही; मजकूर बदललेला नाही.",
+    "malhargad.md: लेखात तालुका वेल्हे दिला आहे; किल्ला सोनोरी-सासवडजवळ असल्याचे स्रोत सांगतात, परंतु सोनोरी गावाची सध्याची महसुली तालुका नोंद थेट अधिकृत स्रोताने या बॅचमध्ये पडताळता आली नाही. तालुका बदललेला नाही.",
+    "manikgad.md: किल्ल्याची उभारणी, कान्होजी आंग्रे यांना 1718 मध्ये हस्तांतरण, अचूक उंची व प्रवेशमार्ग यांना या बॅचमध्ये विशिष्ट अधिकृत प्राथमिक स्रोत मिळाला नाही; दावे बदललेले नाहीत.",
+    "malaysia.md: 31 ऑगस्ट हा National Day आणि 16 सप्टेंबर हा Malaysia Day असा भेद अधिक स्पष्ट करता येईल; सध्याचा 31 ऑगस्टचा National Day उल्लेख चुकीचा नाही.",
+    "malkapur-taluka.md: हा legacy slug build.js मधील redirect map ने malkapur-buldhana-taluka कडे वळवला जातो; त्यामुळे समान frontmatter title असूनही स्वतंत्र duplicate page तयार होत नाही."
   ],
   "next_file": "malala-yousafzai.md",
-  "last_verified_main": "c359007a5604072dcc3577e8c323a487494f4b53",
-  "index_note": "content/index.md contains the site heading; build.js generates the article listing from content/*.md. Validate generated links and titles during the full build audit."
+  "last_verified_main": "e9f8247ae74ea7e32fffcf4c242bc0a1e0b5ccdf",
+  "index_note": "content/index.md is a short shell; build.js generates the article listing from content/*.md. Legacy aliases are handled by the redirect map, including malkapur-taluka -> malkapur-buldhana-taluka and hatkanangale-taluka -> hatkanangle-taluka."
 }
