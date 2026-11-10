@@ -57,4 +57,4 @@ description: कस्तुरबा गांधी या महात्म�
 4. [National Portal of India](https://www.india.gov.in/)
 
 ---
-*शेवटचे संपादन: ८ नोव्हेंबर २०२६*
+*शेवटचे संपादन: १० नोव्हेंबर २०२६*
