@@ -102,9 +102,9 @@ description: पनामा कालवा, १९१४ मधील उद�
 
 1. [पनामा कालवा प्राधिकरण — इतिहास व रचना](https://pancanal.com/en/history-of-the-panama-canal/)
 2. [पनामा कालवा प्राधिकरण — विस्तारित कालवा](https://pancanal.com/en/discover-the-expanded-canal/)
-3. [पनामा कालवा प्राधिकरण — कायदेशीर आधार व हस्तांतरण](https://pancanal.com/en/legal-foundations/)
-4. [अमेरिकेचे परराष्ट्र विभाग — पनामा कालवा करार](https://history.state.gov/milestones/1977-1980/panama-canal)
-5. [पनामा कालवा प्राधिकरण — हरित मार्ग धोरण](https://pancanal.com/wp-content/uploads/2021/08/LaRutaVerde-English.pdf)
+3. [पनामा कालवा प्राधिकरण — हरित मार्ग व पाणी-बचत कुलूपे](https://pancanal.com/en/green-route-strategy/)
+4. [पनामा कालवा प्राधिकरण — पनामाकडे हस्तांतरणाची २६ वर्षे](https://pancanal.com/en/the-panama-canal-commemorates-26-years-under-panamanian-administration/)
+5. [अमेरिकेचे परराष्ट्र विभाग — पनामा कालवा करार](https://history.state.gov/milestones/1977-1980/panama-canal)
 
 ---
 
