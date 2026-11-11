@@ -47,10 +47,8 @@ description: पॅटागोनिया हा अर्जेंटिन�
 
 १. [Encyclopaedia Britannica — Patagonia](https://www.britannica.com/place/Patagonia-region-South-America)
 २. [UNESCO — Los Glaciares National Park](https://whc.unesco.org/en/list/145/)
-३. [UNESCO — Torres del Paine Biosphere Reserve](https://www.unesco.org/en/mab)
-४. [Argentina National Parks Administration](https://www.argentina.gob.ar/parquesnacionales)
+३. [CONAF — Torres del Paine National Park](https://www.conaf.cl/parque_nacionales/parque-nacional-torres-del-paine/)
+४. [Argentina National Parks — Los Glaciares](https://www.argentina.gob.ar/parquesnacionales/patagonia-austral/parque-nacional-los-glaciares)
 ५. [Chile National Forest Corporation (CONAF)](https://www.conaf.cl/)
 
----
-
-*शेवटचे संपादन: ८ नोव्हेंबर २०२६*
+*शेवटचे संपादन: ११ नोव्हेंबर २०२६*

@@ -39,10 +39,9 @@ description: पारशिवनी तालुक्याचे स्थ�
 
 ## संदर्भ
 
-1. [नागपूर जिल्हा प्रशासन — अधिकृत संकेतस्थळ](https://nagpur.gov.in/)
-2. [महाराष्ट्र शासन — महाभूमी तालुका व गाव निर्देशिका](https://mahavillages.mahabhumi.gov.in/all_list.php)
-3. [महाराष्ट्र शासन — जिल्हा सामाजिक व आर्थिक समालोचन](https://mahades.maharashtra.gov.in/)
+1. [नागपूर जिल्हा प्रशासन — प्रशासकीय माहिती व तहसील](https://nagpur.gov.in/administration/)
+2. [नागपूर जिल्हा प्रशासन — पारशिवनी नगरपंचायत](https://nagpur.gov.in/public-utility/parseoni-nagar-panchayat/)
+3. [पेंच व्याघ्र प्रकल्प — पारशिवनीसह क्षेत्राची माहिती](https://penchtigerreserve.maharashtra.gov.in/about/)
+4. [महाराष्ट्र शासन — महाभूमी तालुका व गाव निर्देशिका](https://mahavillages.mahabhumi.gov.in/all_list.php)
 
----
-
-*शेवटचे संपादन: ८ नोव्हेंबर २०२६*
+*शेवटचे संपादन: ११ नोव्हेंबर २०२६*

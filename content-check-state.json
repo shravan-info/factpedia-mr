@@ -1,5 +1,5 @@
 {
-  "next_index": 740,
+  "next_index": 750,
   "cycle": 1,
   "runs": [
     {
@@ -285,6 +285,46 @@
         "a5c98699d4fff83e4370ab4c3b68ba39d8c88b34",
         "bfb6416e349ec1185e8c268d2dba87c28d54b6f2"
       ]
+    },
+    {
+      "date": "2026-11-11",
+      "checked": 10,
+      "reviewed_files": [
+        "panjabrao-deshmukh.md",
+        "panvel-taluka.md",
+        "param-vir-chakra.md",
+        "parbhani-district.md",
+        "paris-city.md",
+        "parner-taluka.md",
+        "parola-taluka.md",
+        "parshivni-taluka.md",
+        "parvati.md",
+        "patagonia.md"
+      ],
+      "updated_articles": [
+        "panjabrao-deshmukh.md",
+        "panvel-taluka.md",
+        "param-vir-chakra.md",
+        "parbhani-district.md",
+        "paris-city.md",
+        "parshivni-taluka.md",
+        "parvati.md",
+        "patagonia.md"
+      ],
+      "unchanged_articles": [
+        "parner-taluka.md",
+        "parola-taluka.md"
+      ],
+      "internal_links_checked": 2,
+      "broken_internal_links": 0,
+      "aliases_checked": [],
+      "index_checked": true,
+      "index_changed": false,
+      "title_frontmatter_checks": 10,
+      "next_index": 750,
+      "next_file": "patan-taluka.md",
+      "cycle": 1,
+      "base_commit": "e556bd0c20a991075bea58ff23897f4f682e5eed"
     }
   ],
   "total_articles": 1124,
@@ -316,11 +356,14 @@
     "panhala-fort.md: उंचीबाबत 845 आणि 977 मीटर असे विसंगत आकडे दिसले; अधिकृत प्राथमिक मोजमाप या बॅचमध्ये पडताळता न आल्याने अचूक उंची व परिघ काढले. India Cine Hub च्या अधिकृत नोंदीनुसार किल्ला 12व्या शतकात शिलाहार राजघराण्याने उभारला; नेमके वर्ष दिलेले नाही. बोगद्यांची संख्या/लांबी व सज्जा कोठीच्या बांधकामवर्षाबाबत ठोस अधिकृत पुरावा नसल्याने अचूक दावे ठेवले नाहीत.",
     "pandharpur.md: पादस्पर्श दर्शनाची प्रतीक्षा वेळ आणि दर्शनाचे वेळापत्रक सामान्य दिवस, एकादशी व यात्राकाळानुसार बदलते; लेखात स्थिर वेळा न देता उपलब्धतेतील बदल स्पष्ट केले.",
     "panama-canal.md: प्रत्येक जहाजासाठी सुमारे 20 कोटी लिटर पाणी लागते हा एकच आकडा सर्व कुलूपप्रकारांना लागू होत नाही; लेखात विस्तारित कुलूपांतील 60 टक्क्यांपर्यंत पाणी-पुनर्वापर स्पष्ट केला.",
-    "panchatantra.md: संस्कृत मूळ ग्रंथाचा अचूक रचनाकाल निश्चित नाही; तो विशिष्ट इ.स.पू. तिसऱ्या शतकात ठेवणारा आकडा काढला. मध्य पर्शियन अनुवादाच्या श्रेयाबाबत बोर्झूया/बोझोर्गमेहर परंपरांतील मतभेद नोंदवले."
+    "panchatantra.md: संस्कृत मूळ ग्रंथाचा अचूक रचनाकाल निश्चित नाही; तो विशिष्ट इ.स.पू. तिसऱ्या शतकात ठेवणारा आकडा काढला. मध्य पर्शियन अनुवादाच्या श्रेयाबाबत बोर्झूया/बोझोर्गमेहर परंपरांतील मतभेद नोंदवले.",
+    "parbhani-district.md: गावांची व नागरी स्थानिक संस्थांची संख्या जिल्हा प्रशासनाच्या 05.05.2018 रोजी अद्ययावत केलेल्या पृष्ठावरून घेतली आहे; नवीन प्रशासकीय बदल झाल्यास आकडे पुन्हा तपासावेत. 2011 लिंग गुणोत्तर व पर्जन्यमानाच्या तपशीलासाठी पुढील बॅचमध्ये Census DCHB/राज्य स्रोताशी पुनर्पडताळणी करावी.",
+    "param-vir-chakra.md: वीरता सन्मानांची क्रमवारी (परमवीर चक्र, अशोक चक्र, महावीर चक्र, कीर्ती चक्र, वीर चक्र, शौर्य चक्र) यासाठी अद्ययावत अधिकृत पूर्वक्रम दस्तऐवज स्वतंत्ररीत्या पडताळणे बाकी; या बॅचमध्ये तो दावा बदललेला नाही.",
+    "panvel-taluka.md: विमानतळाच्या व्यावसायिक व आंतरराष्ट्रीय सेवा सुरू होण्याच्या तारखा विमानतळ चालकाच्या प्रसिद्धिपत्रकांवरून घेतल्या; उड्डाणांचे वेळापत्रक व मार्ग सतत बदलू शकतात."
   ],
-  "next_file": "panipat-third-battle.md",
-  "last_verified_main": "bfb6416e349ec1185e8c268d2dba87c28d54b6f2",
+  "next_file": "patan-taluka.md",
+  "last_verified_main": "e556bd0c20a991075bea58ff23897f4f682e5eed",
   "index_note": "content/index.md is a short shell; build.js generates the article listing from content/*.md. Legacy aliases are handled by the redirect map, including malkapur-taluka -> malkapur-buldhana-taluka and hatkanangale-taluka -> hatkanangle-taluka.",
-  "last_checkpoint_commit": "bfb6416e349ec1185e8c268d2dba87c28d54b6f2",
+  "last_checkpoint_commit": "e556bd0c20a991075bea58ff23897f4f682e5eed",
   "last_run_date": "2026-11-11"
 }
