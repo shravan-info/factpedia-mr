@@ -273,7 +273,17 @@
       "footer_dates_refreshed": 6,
       "next_index": 740,
       "next_file": "panipat-third-battle.md",
-      "cycle": 1
+      "cycle": 1,
+      "content_commit_shas": [
+        "d09a70761d0b668377987cbde7032e9a987aa7da",
+        "350420f805ec35c2fa32a50c8878f4b4a18d8405",
+        "b4437c1460c7464171c8d2d83888134cd4264bb0",
+        "e6ecaf2cfc1c4d07fff59ce169ea8b8e552d4ec2",
+        "7119fdac34569a6b6f7b0eb818f778c54b09b098",
+        "8870a6d2ad760a4718ab7f959353dfabbb7d11ee",
+        "5352bfe0d3d6430c3b240d8bef841334f3e366ef",
+        "a5c98699d4fff83e4370ab4c3b68ba39d8c88b34"
+      ]
     }
   ],
   "total_articles": 1124,
@@ -308,8 +318,8 @@
     "panchatantra.md: संस्कृत मूळ ग्रंथाचा अचूक रचनाकाल निश्चित नाही; तो विशिष्ट इ.स.पू. तिसऱ्या शतकात ठेवणारा आकडा काढला. मध्य पर्शियन अनुवादाच्या श्रेयाबाबत बोर्झूया/बोझोर्गमेहर परंपरांतील मतभेद नोंदवले."
   ],
   "next_file": "panipat-third-battle.md",
-  "last_verified_main": "8870a6d2ad760a4718ab7f959353dfabbb7d11ee",
+  "last_verified_main": "a5c98699d4fff83e4370ab4c3b68ba39d8c88b34",
   "index_note": "content/index.md is a short shell; build.js generates the article listing from content/*.md. Legacy aliases are handled by the redirect map, including malkapur-taluka -> malkapur-buldhana-taluka and hatkanangale-taluka -> hatkanangle-taluka.",
-  "last_checkpoint_commit": "8870a6d2ad760a4718ab7f959353dfabbb7d11ee",
+  "last_checkpoint_commit": "a5c98699d4fff83e4370ab4c3b68ba39d8c88b34",
   "last_run_date": "2026-11-11"
 }
