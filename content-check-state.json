@@ -267,7 +267,7 @@
     "malkapur-taluka.md: हा legacy slug build.js मधील redirect map ने malkapur-buldhana-taluka कडे वळवला जातो; त्यामुळे समान frontmatter title असूनही स्वतंत्र duplicate page तयार होत नाही."
   ],
   "next_file": "palk-strait.md",
-  "last_verified_main": "3b7bde8a2d217101b35e64e583c1911d21b106d7",
+  "last_verified_main": "24717a75f25598730850b58e64ab305743216d59",
   "index_note": "content/index.md is a short shell; build.js generates the article listing from content/*.md. Legacy aliases are handled by the redirect map, including malkapur-taluka -> malkapur-buldhana-taluka and hatkanangale-taluka -> hatkanangle-taluka.",
-  "last_checkpoint_commit": "3b7bde8a2d217101b35e64e583c1911d21b106d7"
+  "last_checkpoint_commit": "24717a75f25598730850b58e64ab305743216d59"
 }
