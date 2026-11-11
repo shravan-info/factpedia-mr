@@ -1,5 +1,5 @@
 {
-  "next_index": 574,
+  "next_index": 730,
   "cycle": 1,
   "runs": [
     {
@@ -218,9 +218,29 @@
       "next_index": 574,
       "next_file": "manipuri-dance.md",
       "cycle": 1
+    },
+    {
+      "date": "2026-11-11",
+      "checked": 150,
+      "range": [
+        "manipuri-dance.md",
+        "palghar-taluka.md"
+      ],
+      "updated_articles": [
+        "mary-kom.md",
+        "mohammed-shami.md",
+        "neeraj-chopra.md",
+        "nobel-prize.md"
+      ],
+      "internal_links_checked": 24,
+      "broken_internal_links": 0,
+      "footer_dates_refreshed": 150,
+      "next_index": 730,
+      "next_file": "palk-strait.md",
+      "cycle": 1
     }
   ],
-  "total_articles": 1114,
+  "total_articles": 1124,
   "human_review": [
     "dadabhai-naoroji.md: जन्मस्थळाबाबत Azim Premji University मुंबई सांगते, तर गुजरात शासनाचे Navsari पृष्ठ नवसारी सांगते; अतिरिक्त प्राथमिक पुरावा मिळेपर्यंत मजकूर बदललेला नाही.",
     "dadasaheb-phalke-award.md: अधिकृत DFF/PIB पानांवर ₹10 लाख, तर 18 सप्टेंबर 2026 च्या Gazette मजकूराच्या उपलब्ध प्रतिलिपीत ₹15 लाख दिसते; मूळ eGazette PDF पडताळता न आल्याने रक्कम बदललेली नाही.",
@@ -246,7 +266,7 @@
     "malaysia.md: 31 ऑगस्ट हा National Day आणि 16 सप्टेंबर हा Malaysia Day असा भेद अधिक स्पष्ट करता येईल; सध्याचा 31 ऑगस्टचा National Day उल्लेख चुकीचा नाही.",
     "malkapur-taluka.md: हा legacy slug build.js मधील redirect map ने malkapur-buldhana-taluka कडे वळवला जातो; त्यामुळे समान frontmatter title असूनही स्वतंत्र duplicate page तयार होत नाही."
   ],
-  "next_file": "manipuri-dance.md",
+  "next_file": "palk-strait.md",
   "last_verified_main": "3b7bde8a2d217101b35e64e583c1911d21b106d7",
   "index_note": "content/index.md is a short shell; build.js generates the article listing from content/*.md. Legacy aliases are handled by the redirect map, including malkapur-taluka -> malkapur-buldhana-taluka and hatkanangale-taluka -> hatkanangle-taluka.",
   "last_checkpoint_commit": "3b7bde8a2d217101b35e64e583c1911d21b106d7"
