@@ -1,5 +1,5 @@
 {
-  "next_index": 730,
+  "next_index": 740,
   "cycle": 1,
   "runs": [
     {
@@ -238,6 +238,42 @@
       "next_index": 730,
       "next_file": "palk-strait.md",
       "cycle": 1
+    },
+    {
+      "date": "2026-11-11",
+      "checked": 10,
+      "reviewed_files": [
+        "palk-strait.md",
+        "palus-taluka.md",
+        "panaji-city.md",
+        "panama-canal.md",
+        "panchatantra.md",
+        "panchayati-raj-india.md",
+        "pandharpur-taluka.md",
+        "pandharpur.md",
+        "panhala-fort.md",
+        "panhala-taluka.md"
+      ],
+      "updated_articles": [
+        "palk-strait.md",
+        "panama-canal.md",
+        "panchatantra.md",
+        "panchayati-raj-india.md",
+        "pandharpur.md",
+        "panhala-fort.md"
+      ],
+      "unchanged_articles": [
+        "palus-taluka.md",
+        "panaji-city.md",
+        "pandharpur-taluka.md",
+        "panhala-taluka.md"
+      ],
+      "internal_links_checked": 3,
+      "broken_internal_links": 0,
+      "footer_dates_refreshed": 6,
+      "next_index": 740,
+      "next_file": "panipat-third-battle.md",
+      "cycle": 1
     }
   ],
   "total_articles": 1124,
@@ -264,10 +300,16 @@
     "malhargad.md: लेखात तालुका वेल्हे दिला आहे; किल्ला सोनोरी-सासवडजवळ असल्याचे स्रोत सांगतात, परंतु सोनोरी गावाची सध्याची महसुली तालुका नोंद थेट अधिकृत स्रोताने या बॅचमध्ये पडताळता आली नाही. तालुका बदललेला नाही.",
     "manikgad.md: किल्ल्याची उभारणी, कान्होजी आंग्रे यांना 1718 मध्ये हस्तांतरण, अचूक उंची व प्रवेशमार्ग यांना या बॅचमध्ये विशिष्ट अधिकृत प्राथमिक स्रोत मिळाला नाही; दावे बदललेले नाहीत.",
     "malaysia.md: 31 ऑगस्ट हा National Day आणि 16 सप्टेंबर हा Malaysia Day असा भेद अधिक स्पष्ट करता येईल; सध्याचा 31 ऑगस्टचा National Day उल्लेख चुकीचा नाही.",
-    "malkapur-taluka.md: हा legacy slug build.js मधील redirect map ने malkapur-buldhana-taluka कडे वळवला जातो; त्यामुळे समान frontmatter title असूनही स्वतंत्र duplicate page तयार होत नाही."
+    "malkapur-taluka.md: हा legacy slug build.js मधील redirect map ने malkapur-buldhana-taluka कडे वळवला जातो; त्यामुळे समान frontmatter title असूनही स्वतंत्र duplicate page तयार होत नाही.",
+    "palk-strait.md: सामुद्रधुनीची अचूक लांबी/रुंदी आणि नावाच्या व्यक्तिनाम-व्युत्पत्तीला या बॅचमध्ये निर्विवाद प्राथमिक आधार मिळाला नाही; अप्रमाणित मोजमाप व व्यक्तिनाम काढले. भूगोलासाठी IUCN चा प्रादेशिक स्रोत वापरला.",
+    "panhala-fort.md: उंची 977 मीटर हा महाराष्ट्र पर्यटन विभागाच्या 2025 माहितीपुस्तिकेतील आकड्यानुसार केला; 845 मीटरचा विसंगत आकडा काढला. बोगद्यांची संख्या/लांबी व सज्जा कोठीच्या बांधकामवर्षाबाबत ठोस अधिकृत पुरावा नसल्याने अचूक दावे ठेवले नाहीत.",
+    "pandharpur.md: पादस्पर्श दर्शनाची प्रतीक्षा वेळ आणि दर्शनाचे वेळापत्रक सामान्य दिवस, एकादशी व यात्राकाळानुसार बदलते; लेखात स्थिर वेळा न देता उपलब्धतेतील बदल स्पष्ट केले.",
+    "panama-canal.md: प्रत्येक जहाजासाठी सुमारे 20 कोटी लिटर पाणी लागते हा एकच आकडा सर्व कुलूपप्रकारांना लागू होत नाही; लेखात विस्तारित कुलूपांतील 60 टक्क्यांपर्यंत पाणी-पुनर्वापर स्पष्ट केला.",
+    "panchatantra.md: संस्कृत मूळ ग्रंथाचा अचूक रचनाकाल निश्चित नाही; तो विशिष्ट इ.स.पू. तिसऱ्या शतकात ठेवणारा आकडा काढला. मध्य पर्शियन अनुवादाच्या श्रेयाबाबत बोर्झूया/बोझोर्गमेहर परंपरांतील मतभेद नोंदवले."
   ],
-  "next_file": "palk-strait.md",
-  "last_verified_main": "24717a75f25598730850b58e64ab305743216d59",
+  "next_file": "panipat-third-battle.md",
+  "last_verified_main": "8870a6d2ad760a4718ab7f959353dfabbb7d11ee",
   "index_note": "content/index.md is a short shell; build.js generates the article listing from content/*.md. Legacy aliases are handled by the redirect map, including malkapur-taluka -> malkapur-buldhana-taluka and hatkanangale-taluka -> hatkanangle-taluka.",
-  "last_checkpoint_commit": "24717a75f25598730850b58e64ab305743216d59"
+  "last_checkpoint_commit": "8870a6d2ad760a4718ab7f959353dfabbb7d11ee",
+  "last_run_date": "2026-11-11"
 }
