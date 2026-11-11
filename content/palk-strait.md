@@ -49,9 +49,9 @@ description: पाल्कची सामुद्रधुनी, पाल�
 
 1. [IUCN — मन्नारचा आखात व परिसर](https://portals.iucn.org/library/efiles/documents/2012-094.pdf)
 2. [रामसर — मन्नारचा आखात सागरी जीवावरण राखीव](https://rsis.ramsar.org/ris/2472)
-3. [तमिळनाडू वन विभाग — धोरण नोंद २०२५–२६](https://www.forests.tn.gov.in/frontend/gos/Policy_Note_2025-260.pdf)
-4. [भारतीय वन्यजीव संस्था — डुगोंग प्रगती अहवाल](https://v1.wii.gov.in/images/images/documents/species_recovery_programme/annual_report_2021_2023_dugong_recovery_project_revised.pdf)
-5. [तमिळनाडू शासन — पर्यावरणविषयक शासन आदेशांचा संग्रह](https://www.tngcc.tn.gov.in/wp-content/uploads/2025/10/COMPENDIUM-of-G.O-2021-23.pdf)
+3. [CMS — पाल्क उपसागरातील डुगोंग संवर्धन राखीव](https://dugong.cms.int/es/node/29863)
+4. [भारतीय वन्यजीव संस्था — डुगोंग प्रगती अहवाल २०२१–२३](https://digitalrepository.wii.gov.in/items/68ae17a6-1eb8-47b6-948c-3fd80bdab9f4)
+5. [तमिळनाडू शासन — डुगोंग संवर्धन राखीव अधिसूचना](https://www.tngcc.tn.gov.in/wp-content/uploads/2025/10/COMPENDIUM-of-G.O-2021-23.pdf)
 
 ---
 
