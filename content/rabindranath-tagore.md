@@ -50,4 +50,4 @@ description: रवींद्रनाथ टागोर यांचे ज�
 4. [साहित्य अकादमी](https://sahitya-akademi.gov.in/)
 5. [भारत सरकार – संस्कृती](https://www.nobelprize.org/prizes/literature/1913/tagore/article/)
 
-*शेवटचे संपादन: ६ नोव्हेंबर २०२६*
+*शेवटचे संपादन: १२ नोव्हेंबर २०२६*

@@ -52,4 +52,4 @@ description: दिल्लीतील कुतुबमिनार सं�
 4. [दिल्ली पर्यटन](https://delhitourism.gov.in/)
 5. [भारताचा जागतिक वारसा](https://whc.unesco.org/en/statesparties/IN)
 
-*शेवटचे संपादन: ६ नोव्हेंबर २०२६*
+*शेवटचे संपादन: १२ नोव्हेंबर २०२६*
