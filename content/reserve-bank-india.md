@@ -68,4 +68,4 @@ description: भारतीय रिझर्व्ह बँकेची स�
 3. [RBI – FAQs](https://www.rbi.org.in/Scripts/FAQView.aspx)
 4. [RBI – Monetary Policy Statement, October 2026](https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63742)
 
-*शेवटचे संपादन: ७ नोव्हेंबर २०२६*
+*शेवटचे संपादन: १२ नोव्हेंबर २०२६*
