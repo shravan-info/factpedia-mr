@@ -52,4 +52,4 @@ description: सावित्रीबाई फुले यांचे ज�
 4. [भारत सरकार – शिक्षण](https://www.education.gov.in/)
 5. [PIB – सामाजिक विषय](https://indianexpress.com/article/explained/explained-culture/who-was-savitribai-phule-192nd-birth-anniversary-8357861/)
 
-*शेवटचे संपादन: ६ नोव्हेंबर २०२६*
+*शेवटचे संपादन: १२ नोव्हेंबर २०२६*
