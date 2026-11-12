@@ -75,4 +75,4 @@ description: दिल्लीतील लाल किल्ल्याच�
 2. [Archaeological Survey of India](https://asi.nic.in/)
 3. [Delhi Tourism](https://delhitourism.gov.in/)
 
-*शेवटचे संपादन: ६ नोव्हेंबर २०२६*
+*शेवटचे संपादन: १२ नोव्हेंबर २०२६*
