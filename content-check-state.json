@@ -1,5 +1,5 @@
 {
-  "next_index": 750,
+  "next_index": 908,
   "cycle": 1,
   "runs": [
     {
@@ -325,9 +325,30 @@
       "next_file": "patan-taluka.md",
       "cycle": 1,
       "base_commit": "e556bd0c20a991075bea58ff23897f4f682e5eed"
+    },
+    {
+      "date": "2026-11-12",
+      "checked": 150,
+      "range": [
+        "patan-taluka.md",
+        "sebi.md"
+      ],
+      "updated_articles": [
+        "renewable-energy.md",
+        "sahitya-akademi-award.md",
+        "pv-sindhu.md"
+      ],
+      "unchanged_articles_count": 147,
+      "internal_links_checked": 25,
+      "broken_internal_links": 0,
+      "footer_dates_refreshed": 148,
+      "next_index": 908,
+      "next_file": "senegal.md",
+      "cycle": 1,
+      "base_commit": "ffe6c3a"
     }
   ],
-  "total_articles": 1124,
+  "total_articles": 1134,
   "human_review": [
     "dadabhai-naoroji.md: जन्मस्थळाबाबत Azim Premji University मुंबई सांगते, तर गुजरात शासनाचे Navsari पृष्ठ नवसारी सांगते; अतिरिक्त प्राथमिक पुरावा मिळेपर्यंत मजकूर बदललेला नाही.",
     "dadasaheb-phalke-award.md: अधिकृत DFF/PIB पानांवर ₹10 लाख, तर 18 सप्टेंबर 2026 च्या Gazette मजकूराच्या उपलब्ध प्रतिलिपीत ₹15 लाख दिसते; मूळ eGazette PDF पडताळता न आल्याने रक्कम बदललेली नाही.",
@@ -361,9 +382,9 @@
     "param-vir-chakra.md: वीरता सन्मानांची क्रमवारी (परमवीर चक्र, अशोक चक्र, महावीर चक्र, कीर्ती चक्र, वीर चक्र, शौर्य चक्र) यासाठी अद्ययावत अधिकृत पूर्वक्रम दस्तऐवज स्वतंत्ररीत्या पडताळणे बाकी; या बॅचमध्ये तो दावा बदललेला नाही.",
     "panvel-taluka.md: विमानतळाच्या व्यावसायिक व आंतरराष्ट्रीय सेवा सुरू होण्याच्या तारखा विमानतळ चालकाच्या प्रसिद्धिपत्रकांवरून घेतल्या; उड्डाणांचे वेळापत्रक व मार्ग सतत बदलू शकतात."
   ],
-  "next_file": "patan-taluka.md",
+  "next_file": "senegal.md",
   "last_verified_main": "e556bd0c20a991075bea58ff23897f4f682e5eed",
   "index_note": "content/index.md is a short shell; build.js generates the article listing from content/*.md. Legacy aliases are handled by the redirect map, including malkapur-taluka -> malkapur-buldhana-taluka and hatkanangale-taluka -> hatkanangle-taluka.",
   "last_checkpoint_commit": "e556bd0c20a991075bea58ff23897f4f682e5eed",
-  "last_run_date": "2026-11-11"
+  "last_run_date": "2026-11-12"
 }
