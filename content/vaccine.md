@@ -71,7 +71,7 @@ description: रोगप्रतिकारक तत्त्वावर �
 
 ## संदर्भ
 
-1. [जागतिक आरोग्य संघटना — लसीकरण म्हणजे काय?](https://www.who.int/news-room/questions-and-answers/item/vaccines-and-immunization-what-is-vaccination)
+1. [जागतिक आरोग्य संघटना — लसींमध्ये काय असते?](https://www.who.int/news-room/feature-stories/detail/how-are-vaccines-developed)
 2. [जागतिक आरोग्य संघटना — देवीचे उच्चाटन](https://www.who.int/health-topics/smallpox)
 3. [जागतिक आरोग्य संघटना — भारतातील पोलिओ निर्मूलन](https://www.who.int/india/news-room/feature-stories/detail/a-push-to-vaccinate-every-child-everywhere-ended-polio-in-india)
 4. [भारत सरकार — सार्वत्रिक लसीकरण कार्यक्रम](https://nhm.gov.in/index1.php?lang=1&level=2&sublinkid=824&lid=220)

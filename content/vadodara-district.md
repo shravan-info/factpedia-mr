@@ -62,7 +62,7 @@ description: वडोदरा जिल्हा हा गुजरात र
 
 1. [वडोदरा जिल्हा प्रशासन — लोकसंख्या व क्षेत्रफळ](https://vadodara.nic.in/demography/)
 2. [वडोदरा जिल्हा प्रशासन — इतिहास](https://vadodara.nic.in/history/)
-3. [वडोदरा जिल्हा प्रशासन — पर्यटन](https://vadodara.nic.in/tourism/)
+3. [वडोदरा जिल्हा प्रशासन — पर्यटन](https://vadodara.nic.in/tourist-places/)
 4. [भारताची जनगणना — वडोदरा जिल्हा जनगणना पुस्तिका २०११](https://censusindia.mha.gov.in/nada/index.php/catalog/399)
 
 ---
