@@ -68,4 +68,4 @@ description: भारतीय सर्वोच्च न्यायाल�
 2. [Constitution of India](https://www.indiacode.nic.in/)
 3. [India Code](https://www.indiacode.nic.in/)
 
-*शेवटचे संपादन: ६ नोव्हेंबर २०२६*
+*शेवटचे संपादन: १३ नोव्हेंबर २०२६*

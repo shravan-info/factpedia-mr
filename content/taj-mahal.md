@@ -92,4 +92,4 @@ description: आग्रा येथील ताजमहालचा इत�
 १८. [Proceedings of the Institution of Civil Engineers – Investigation of construction techniques used for the foundation of the Taj Mahal](https://www.sciencedirect.com/science/article/pii/S1757943018000060)
 १९. [आग्रा जिल्हा प्रशासन – Taj Mahal](https://agra.nic.in/tourist-place/tajmahal/)
 
-*शेवटचे संपादन: ६ नोव्हेंबर २०२६*
+*शेवटचे संपादन: १३ नोव्हेंबर २०२६*
