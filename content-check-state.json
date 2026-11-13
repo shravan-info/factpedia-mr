@@ -1,5 +1,5 @@
 {
-  "next_index": 1058,
+  "next_index": 1070,
   "cycle": 1,
   "runs": [
     {
@@ -367,6 +367,50 @@
       "next_file": "uran-taluka.md",
       "cycle": 1,
       "base_commit": "c665832"
+    },
+    {
+      "date": "2026-11-13",
+      "checked": 12,
+      "reviewed_files": [
+        "uran-taluka.md",
+        "uttar-pradesh.md",
+        "uttarakhand.md",
+        "v-shantaram.md",
+        "vaccine.md",
+        "vadodara-district.md",
+        "varanasi-city.md",
+        "varanasi-district.md",
+        "vasai-fort.md",
+        "vasai-taluka.md",
+        "vasant-gowariker.md",
+        "vasantdada-patil.md"
+      ],
+      "updated_articles": [
+        "uran-taluka.md",
+        "uttarakhand.md",
+        "v-shantaram.md",
+        "vaccine.md",
+        "vadodara-district.md",
+        "varanasi-district.md",
+        "vasai-fort.md",
+        "vasai-taluka.md",
+        "vasant-gowariker.md",
+        "vasantdada-patil.md"
+      ],
+      "unchanged_articles": [
+        "uttar-pradesh.md",
+        "varanasi-city.md"
+      ],
+      "internal_links_checked": 2,
+      "broken_internal_links": 0,
+      "next_index": 1070,
+      "next_file": "vasco-da-gama.md",
+      "cycle": 1,
+      "human_review_flags": [
+        "uran-taluka.md: verify the 2011 sub-district population row directly against the downloadable PCA workbook",
+        "vasai-taluka.md: verify the 2011 sub-district population row directly against the Thane District Census Handbook",
+        "vasantdada-patil.md: birthplace Anklakhop needs stronger primary-source corroboration; Rajasthan Lok Bhavan page has conflicting heading/body dates for governor tenure"
+      ]
     }
   ],
   "total_articles": 1134,
@@ -403,9 +447,10 @@
     "param-vir-chakra.md: वीरता सन्मानांची क्रमवारी (परमवीर चक्र, अशोक चक्र, महावीर चक्र, कीर्ती चक्र, वीर चक्र, शौर्य चक्र) यासाठी अद्ययावत अधिकृत पूर्वक्रम दस्तऐवज स्वतंत्ररीत्या पडताळणे बाकी; या बॅचमध्ये तो दावा बदललेला नाही.",
     "panvel-taluka.md: विमानतळाच्या व्यावसायिक व आंतरराष्ट्रीय सेवा सुरू होण्याच्या तारखा विमानतळ चालकाच्या प्रसिद्धिपत्रकांवरून घेतल्या; उड्डाणांचे वेळापत्रक व मार्ग सतत बदलू शकतात."
   ],
-  "next_file": "uran-taluka.md",
+  "next_file": "vasco-da-gama.md",
   "last_verified_main": "e556bd0c20a991075bea58ff23897f4f682e5eed",
   "index_note": "content/index.md is a short shell; build.js generates the article listing from content/*.md. Legacy aliases are handled by the redirect map, including malkapur-taluka -> malkapur-buldhana-taluka and hatkanangale-taluka -> hatkanangle-taluka.",
   "last_checkpoint_commit": "e556bd0c20a991075bea58ff23897f4f682e5eed",
-  "last_run_date": "2026-11-13"
+  "last_run_date": "2026-11-13",
+  "last_updated": "2026-11-13"
 }

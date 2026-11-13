@@ -43,8 +43,8 @@ description: वसई तालुक्याचे स्थान, भूग
 1. [पालघर जिल्हा प्रशासन — अधिकृत संकेतस्थळ](https://palghar.gov.in/en/about-district/)
 2. [महाराष्ट्र शासन — महाभूमी तालुका व गाव निर्देशिका](https://mahavillages.mahabhumi.gov.in/all_list.php)
 3. [महाराष्ट्र शासन — जिल्हा सामाजिक व आर्थिक समालोचन](https://mahades.maharashtra.gov.in/)
-4. [भारताची जनगणना — २०११](https://censusindia.gov.in/)
+4. [भारताची जनगणना — ठाणे जिल्हा जनगणना पुस्तिका २०११](https://censusindia.mha.gov.in/nada/index.php/catalog/835)
 
 ---
 
-*शेवटचे संपादन: ८ नोव्हेंबर २०२६*
+*शेवटचे संपादन: १३ नोव्हेंबर २०२६*
