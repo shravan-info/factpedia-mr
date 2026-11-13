@@ -1,5 +1,5 @@
 {
-  "next_index": 908,
+  "next_index": 1058,
   "cycle": 1,
   "runs": [
     {
@@ -346,6 +346,27 @@
       "next_file": "senegal.md",
       "cycle": 1,
       "base_commit": "ffe6c3a"
+    },
+    {
+      "date": "2026-11-13",
+      "checked": 150,
+      "range": [
+        "senegal.md",
+        "upi.md"
+      ],
+      "updated_articles": [
+        "shah-rukh-khan.md",
+        "shubman-gill.md",
+        "tansen-samman.md"
+      ],
+      "unchanged_articles_count": 147,
+      "internal_links_checked": 22,
+      "broken_internal_links": 0,
+      "footer_dates_refreshed": 150,
+      "next_index": 1058,
+      "next_file": "uran-taluka.md",
+      "cycle": 1,
+      "base_commit": "c665832"
     }
   ],
   "total_articles": 1134,
@@ -382,9 +403,9 @@
     "param-vir-chakra.md: वीरता सन्मानांची क्रमवारी (परमवीर चक्र, अशोक चक्र, महावीर चक्र, कीर्ती चक्र, वीर चक्र, शौर्य चक्र) यासाठी अद्ययावत अधिकृत पूर्वक्रम दस्तऐवज स्वतंत्ररीत्या पडताळणे बाकी; या बॅचमध्ये तो दावा बदललेला नाही.",
     "panvel-taluka.md: विमानतळाच्या व्यावसायिक व आंतरराष्ट्रीय सेवा सुरू होण्याच्या तारखा विमानतळ चालकाच्या प्रसिद्धिपत्रकांवरून घेतल्या; उड्डाणांचे वेळापत्रक व मार्ग सतत बदलू शकतात."
   ],
-  "next_file": "senegal.md",
+  "next_file": "uran-taluka.md",
   "last_verified_main": "e556bd0c20a991075bea58ff23897f4f682e5eed",
   "index_note": "content/index.md is a short shell; build.js generates the article listing from content/*.md. Legacy aliases are handled by the redirect map, including malkapur-taluka -> malkapur-buldhana-taluka and hatkanangale-taluka -> hatkanangle-taluka.",
   "last_checkpoint_commit": "e556bd0c20a991075bea58ff23897f4f682e5eed",
-  "last_run_date": "2026-11-12"
+  "last_run_date": "2026-11-13"
 }
