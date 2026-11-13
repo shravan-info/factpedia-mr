@@ -72,4 +72,4 @@ description: संयुक्त राष्ट्रसंघाची स�
 3. [UN History](https://www.un.org/en/about-us/history-of-the-un)
 4. [UN Sustainable Development](https://sdgs.un.org/goals)
 
-*शेवटचे संपादन: ६ नोव्हेंबर २०२६*
+*शेवटचे संपादन: १३ नोव्हेंबर २०२६*
