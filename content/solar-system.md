@@ -74,4 +74,4 @@ description: सूर्य, आठ ग्रह, बटुग्रह, उप
 3. [NASA – Sun](https://science.nasa.gov/sun/)
 4. [IAU](https://www.iau.org/)
 
-*शेवटचे संपादन: ६ नोव्हेंबर २०२६*
+*शेवटचे संपादन: १३ नोव्हेंबर २०२६*
