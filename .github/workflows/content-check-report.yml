@@ -1,0 +1,48 @@
+name: Content check report
+
+# Records one daily content-check run: appends the Marathi report to
+# UPDATE-LOG.md and updates content-check-state.json.
+# Triggered by the daily content-check run with a single JSON payload, e.g.
+#   {"table_row": "...", "report_md": "...", "header_total": "...", "state": {...}}
+
+on:
+  workflow_dispatch:
+    inputs:
+      payload:
+        description: "JSON payload for scripts/append-report.mjs"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  record:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Write payload
+        env:
+          PAYLOAD: ${{ inputs.payload }}
+        run: printf '%s' "$PAYLOAD" > /tmp/payload.json
+
+      - name: Apply report
+        run: node scripts/append-report.mjs /tmp/payload.json
+
+      - name: Commit and push
+        run: |
+          git config user.name "factpedia-bot"
+          git config user.email "factpedia-bot@users.noreply.github.com"
+          git add UPDATE-LOG.md content-check-state.json
+          if git diff --cached --quiet; then
+            echo "No log changes needed."
+            exit 0
+          fi
+          git commit -m "तपासणी नोंद: दैनंदिन अहवाल व content-check-state अद्ययावत"
+          git push
