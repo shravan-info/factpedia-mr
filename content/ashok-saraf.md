@@ -40,6 +40,12 @@ description: मराठी चित्रपटसृष्टीतील �
 
 नवरा माझा नवसाचा (२००४) मध्ये त्यांनी सचिन पिळगांवकर यांच्यासोबत काम केले आणि तो चित्रपट मोठा यशस्वी ठरला. हिंदी चित्रपटांतही त्यांनी करण अर्जुन, येस बॉस आणि सिंघम यांसारख्या चित्रपटांत सहाय्यक भूमिका केल्या.
 
+## अलीकडील काम
+
+१२ नोव्हेंबर २०२६ रोजी 'आदि अनंत' हा चित्रपट प्रदर्शित झाला. महेश लिमये दिग्दर्शित या चित्रपटात अशोक सराफ यांनी आजोबांची भूमिका केली असून संकर्षण कऱ्हाडे, सखी गोखले, वैदेही परशुरामी, योगेश शिरसाट आणि कविता लाड यांनीही भूमिका केल्या. आजोबा आणि नातवाच्या नात्यावर हा चित्रपट आधारित आहे.
+
+नोव्हेंबर २०२६ मध्ये दिलेल्या मुलाखतींत त्यांनी अजूनही खलनायकी आणि वेडसर व्यक्तीच्या भूमिका करण्याची इच्छा व्यक्त केली.
+
 ## अभिनयाची शैली
 
 अशोक सराफ यांची शैली सहज विनोदावर आधारित आहे. ते देहबोली, चेहऱ्यावरील हावभाव आणि संवादातील विराम यांचा अचूक वापर करतात. विनोदी भूमिकांमध्येही त्यांचा अभिनय अतिशयोक्तीकडे जात नाही.
@@ -63,6 +69,8 @@ description: मराठी चित्रपटसृष्टीतील �
 1. [अशोक सराफ — मराठी विकिपीडिया](https://mr.wikipedia.org/wiki/अशोक_सराफ)
 2. [Ashok Saraf — English Wikipedia](https://en.wikipedia.org/wiki/Ashok_Saraf)
 3. [Ashi Hi Banwa Banwi — English Wikipedia](https://en.wikipedia.org/wiki/Ashi_Hi_Banwa_Banwi)
+4. [TV9 मराठी — 'आदि अनंत' चित्रपट (११ नोव्हेंबर २०२६)](https://www.tv9marathi.com/entertainment/ashok-saraf-breaks-silence-on-relationship-of-grandson-and-grandfathe-aadi-anant-film-sankarshan-karhade-sakhee-gokhale-mahesh-limaye-1801613.html)
+5. [ABP माझा — अशोक सराफ यांची मुलाखत (८ नोव्हेंबर २०२६)](https://marathi.abplive.com/entertainment/ashok-saraf-said-he-waiting-for-role-of-villain-and-mentally-disturbed-person-character-marathi-news-1444896)
 
 ---
 
