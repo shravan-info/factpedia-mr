@@ -82,7 +82,7 @@ description: सूर्यवारे, पृथ्वीचे चुंब�
 2. [NOAA — अंतराळ हवामान शब्दकोश](https://www.spaceweather.gov/content/space-weather-glossary)
 3. [NOAA — १८५९ ची कॅरिंग्टन घटना](https://www.nesdis.noaa.gov/about/k-12-education/space-weather/what-was-the-carrington-event)
 4. [NASA — ऑरोरल ओव्हल](https://science.nasa.gov/science-research/planetary-science/bullet2/)
-5. [Canadian Space Agency — ध्रुवीय प्रकाशाचे रंग](https://www.asc-csa.gc.ca/eng/astronomy/northern-lights/colours-of-northern-lights.asp)
+5. [Royal Belgian Institute for Space Aeronomy — ऑरोराचे रंग](https://www.iasb.be/en/encyclopedia/aurora-or-polar-lights-secret-colours)
 
 ---
 

@@ -73,7 +73,7 @@ description: अणूची प्राचीन कल्पना, डाल
 
 1. [IUPAC — अणूची व्याख्या](https://goldbook.iupac.org/terms/view/A00493)
 2. [OpenStax — अणुसिद्धांताचा विकास](https://openstax.org/books/chemistry-atoms-first-2e/pages/2-2-evolution-of-atomic-theory)
-3. [OpenStax — इलेक्ट्रॉन संरचना](https://openstax.org/books/chemistry-atoms-first-2e/pages/6-1-electron-configuration)
+3. [OpenStax — इलेक्ट्रॉन संरचना](https://openstax.org/books/chemistry-atoms-first-2e/pages/3-4-electronic-structure-of-atoms-electron-configurations)
 4. [OpenStax — आयनिक बंध](https://openstax.org/books/chemistry-atoms-first-2e/pages/4-1-ionic-bonding)
 5. [Max Planck Institute — केंद्रकीय विखंडनाचा शोध](https://www.mpic.de/4469988/die-entdeckung-der-kernspaltung)
 6. [BARC — भारताचा अणुऊर्जा कार्यक्रम](https://www.barc.gov.in/randd/artnp.html)

@@ -464,7 +464,9 @@
         "atlantic-ocean.md: corrected global ridge-system length, spreading-rate range, port geography and hurricane-season dates",
         "atom.md: corrected hydrogen-1 neutron exception, electron-orbital description, NaCl ionic lattice, atomic scale and fission history",
         "atpadi-taluka.md: added 2011 population and official Vita subdivision",
-        "aurora.md: corrected auroral oval to magnetic latitude, particle-guidance explanation and north/south symmetry claim"
+        "aurora.md: corrected auroral oval to magnetic latitude, particle-guidance explanation and north/south symmetry claim",
+        "atom.md: corrected the OpenStax electronic-structure reference URL",
+        "aurora.md: replaced a color reference with a source consistent with the cited altitude/color explanation"
       ]
     }
   ],
@@ -503,9 +505,9 @@
     "panvel-taluka.md: विमानतळाच्या व्यावसायिक व आंतरराष्ट्रीय सेवा सुरू होण्याच्या तारखा विमानतळ चालकाच्या प्रसिद्धिपत्रकांवरून घेतल्या; उड्डाणांचे वेळापत्रक व मार्ग सतत बदलू शकतात."
   ],
   "next_file": "australia.md",
-  "last_verified_main": "a701ab377ca837e9b1189099da0a40909d851d6d",
+  "last_verified_main": "bca9555d807e925cc89837a9cb4614ac585e4bc9",
   "index_note": "content/index.md is a short shell; build.js generates the article listing from content/*.md. Legacy aliases are handled by the redirect map, including malkapur-taluka -> malkapur-buldhana-taluka and hatkanangale-taluka -> hatkanangle-taluka.",
-  "last_checkpoint_commit": "e556bd0c20a991075bea58ff23897f4f682e5eed",
+  "last_checkpoint_commit": "bca9555d807e925cc89837a9cb4614ac585e4bc9",
   "last_run_date": "2026-11-14",
   "last_updated": "2026-11-14T19:06:04+05:30"
 }
