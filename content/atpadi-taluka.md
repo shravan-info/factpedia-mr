@@ -15,7 +15,11 @@ description: आटपाडी तालुक्याचे स्थान, 
 | जिल्हा | सांगली |
 | राज्य | महाराष्ट्र |
 | विभाग | पुणे |
+| महसूल उपविभाग | विटा |
+| लोकसंख्या (२०११) | १,३८,४५५ |
 | प्रमुख भाषा | मराठी |
+
+लोकसंख्येचा आकडा सांगली जिल्हा प्रशासनाच्या २०११ च्या जिल्हा-प्रोफाइलमधील तालुकानिहाय नोंदीनुसार आहे; तो वर्तमान लोकसंख्येचा अंदाज नाही.
 
 ## भौगोलिक स्थान
 
@@ -39,10 +43,13 @@ description: आटपाडी तालुक्याचे स्थान, 
 
 ## संदर्भ
 
-1. [सांगली जिल्हा परिषद — जिल्ह्याची माहिती](https://zpsangli.maharashtra.gov.in/en/about-department/introduction/)
-2. [महाराष्ट्र शासन — महाभूमी तालुका व गाव निर्देशिका](https://mahavillages.mahabhumi.gov.in/all_list.php)
-3. [महाराष्ट्र शासन — जिल्हा सामाजिक व आर्थिक समालोचन](https://mahades.maharashtra.gov.in/)
+1. [सांगली जिल्हा प्रशासन — जिल्हा प्रोफाइल](https://sangli.nic.in/en/district-profile/)
+2. [सांगली जिल्हा प्रशासन — तालुके](https://sangli.nic.in/en/tehsils/)
+3. [सांगली जिल्हा प्रशासन — उपविभाग](https://sangli.nic.in/en/sub-division/)
+4. [भारताची जनगणना २०११ — सांगली जिल्हा जनगणना पुस्तिका](https://censusindia.gov.in/nada/index.php/catalog/827)
+5. [महाराष्ट्र शासन — महाभूमी तालुका व गाव निर्देशिका](https://mahavillages.mahabhumi.gov.in/all_list.php)
+6. [सांगली जिल्हा परिषद — जिल्ह्याची माहिती](https://zpsangli.maharashtra.gov.in/en/about-department/introduction/)
 
 ---
 
-*शेवटचे संपादन: ८ नोव्हेंबर २०२६*
+*शेवटचे संपादन: १४ नोव्हेंबर २०२६*
