@@ -44,7 +44,15 @@ if (payload.table_row) {
 }
 
 if (payload.report_md) {
-  log = log.replace(/\s*$/, "\n") + "\n" + payload.report_md.trim() + "\n";
+  const md = payload.report_md.trim();
+  const heading = md.split("\n")[0].trim();
+  const existing = log.indexOf(heading);
+  // The daily report is always the last section: if this run's heading is
+  // already present, replace it instead of appending a duplicate.
+  log =
+    existing === -1
+      ? log.replace(/\s*$/, "\n") + "\n" + md + "\n"
+      : log.slice(0, existing).replace(/\s*$/, "\n") + "\n" + md + "\n";
 }
 
 fs.writeFileSync(logPath, log);
