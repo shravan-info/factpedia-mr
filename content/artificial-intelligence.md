@@ -73,4 +73,4 @@ AI कडून मिळालेली माहिती महत्त्�
 3. [NIST AI Framework](https://www.nist.gov/itl/ai-risk-management-framework)
 4. [UNESCO AI Ethics](https://www.unesco.org/en/artificial-intelligence/recommendation-ethics)
 
-*शेवटचे संपादन: ८ नोव्हेंबर २०२६*
+*शेवटचे संपादन: १४ नोव्हेंबर २०२६*
