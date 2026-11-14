@@ -962,6 +962,91 @@ footer{max-width:100%;border-top:1px solid var(--border);text-align:left;margin-
 }
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}}
 
+
+/* Final Wikipedia Vector-style layout: simple, readable and responsive */
+:root{--bg:#fff;--text:#202122;--text-secondary:#54595d;--border:#a2a9b1;--border-light:#eaecf0;--card-bg:#fff;--link:#0645ad;--header-bg:#fff;--code-bg:#f8f9fa;--search-bg:#fff;--fp-panel:#f8f9fa}
+html.dark{--bg:#202122;--text:#eaecf0;--text-secondary:#a2a9b1;--border:#54595d;--border-light:#3b3d3f;--card-bg:#202122;--link:#8ab4f8;--header-bg:#202122;--code-bg:#27292b;--search-bg:#27292b;--fp-panel:#27292b}
+html,body{width:100%;max-width:100%;overflow-x:hidden}
+body{margin:0;background:var(--bg);color:var(--text);font-family:"Noto Sans Devanagari",Arial,sans-serif;font-size:14px;line-height:1.6;transition:none}
+a{color:var(--link);text-decoration:none}a:hover{text-decoration:underline}
+header{position:sticky;top:0;z-index:50;background:var(--header-bg);border-bottom:1px solid var(--border-light);box-shadow:none}
+.header-inner{width:100%;max-width:1440px;height:64px;margin:0 auto;padding:8px 24px;display:flex;align-items:center;justify-content:flex-start;gap:18px}
+.brand{display:flex;align-items:center;gap:9px;min-width:max-content;color:var(--text);font-family:Georgia,"Noto Sans Devanagari",serif;font-size:21px;font-weight:600;letter-spacing:0}
+.brand img{width:34px;height:34px;object-fit:contain;border-radius:0}
+.header-actions{margin-left:auto;display:flex;align-items:center;gap:5px}
+.icon-btn{width:38px;height:38px;border:1px solid transparent;border-radius:3px;background:transparent;color:var(--text);display:grid;place-items:center}
+.icon-btn:hover{background:var(--fp-panel);border-color:var(--border-light)}
+.icon-btn svg{width:21px;height:21px}
+.search-wrap{max-width:560px;flex:1 1 420px;margin:0;padding:0;max-height:none;opacity:1;overflow:visible}
+.search-wrap.open{max-height:none;opacity:1}
+.container{width:100%;max-width:1440px;margin:0 auto;padding:0 28px 48px}
+main{min-width:0;padding-top:22px}
+#mainContent{width:100%;max-width:960px;min-width:0;margin:0 auto}
+#mainContent>*{max-width:100%}
+#mainContent>h1{font-family:Georgia,"Noto Sans Devanagari",serif;font-size:clamp(1.8rem,3vw,2.15rem);font-weight:400;line-height:1.3;letter-spacing:0;margin:0 0 14px;padding:0 0 8px;border-bottom:1px solid var(--border)}
+#mainContent>h2{font-family:Georgia,"Noto Sans Devanagari",serif;font-size:1.45rem;font-weight:400;line-height:1.35;margin:28px 0 10px;padding:0 0 5px;border-bottom:1px solid var(--border)}
+#mainContent>h3{font-size:1.12rem;font-weight:600;margin:22px 0 8px}
+#mainContent p{font-size:14px;line-height:1.75;margin:0 0 12px}
+#mainContent ul,#mainContent ol{padding-left:2em;margin:8px 0 16px}
+#mainContent li{padding:2px 0}
+#mainContent img{max-width:100%;height:auto}
+#mainContent table{width:auto;max-width:100%;border-collapse:collapse;border:1px solid var(--border);border-radius:0;box-shadow:none;font-size:14px}
+#mainContent th{background:var(--fp-panel);font-weight:700}
+#mainContent th,#mainContent td{border:1px solid var(--border);padding:7px 10px}
+#mainContent blockquote{margin:14px 0;padding:8px 14px;border-left:3px solid var(--border);background:var(--fp-panel);border-radius:0}
+footer{max-width:960px;margin:36px auto 0;padding:14px 0;border-top:1px solid var(--border-light);color:var(--text-secondary);font-size:12px}
+.fp-wiki-sidebar,.fp-sidebar-scrim,.fp-menu-button,.article-toc,.fp-tool-panel,.fp-page-tabs{display:none!important}
+.article-shell{display:block!important;width:100%;max-width:960px!important;margin:0 auto!important;padding:0!important}
+.article-shell #mainContent{width:100%;max-width:960px;margin:0 auto}
+body:not(.homepage) .container{max-width:1440px;padding:0 28px 48px}
+body:not(.homepage) main{padding-top:22px}
+.reading-progress{height:2px}
+.search-box{border:1px solid var(--border);border-radius:3px;background:var(--search-bg);box-shadow:none}
+.search-box:focus-within{border-color:var(--link);box-shadow:inset 0 0 0 1px var(--link)}
+/* Homepage: encyclopedia portal, not a large app-style landing screen */
+body.homepage .container{max-width:1440px;padding:0 28px 48px}
+body.homepage .search-hero{max-width:960px;margin:24px auto 22px;padding:16px 18px;background:var(--fp-panel);border:1px solid var(--border-light);text-align:center}
+body.homepage .hero-wordmark{font-family:Georgia,"Noto Sans Devanagari",serif;font-size:2rem;font-weight:400;line-height:1.3;letter-spacing:0;margin:0 0 4px;text-align:center}
+body.homepage .hero-wordmark:after{display:none}
+body.homepage .hero-tagline{font-size:13px;color:var(--text-secondary);margin:0 0 12px;text-align:center}
+body.homepage .search-hero .hero-search{width:100%;max-width:620px;min-height:40px;margin:10px auto 0;padding:3px 8px;border:1px solid var(--border);border-radius:3px;background:var(--bg);box-shadow:none}
+body.homepage .search-hero .hero-search input{font-size:14px;padding:7px 4px}
+body.homepage .search-results{max-width:960px;margin:0 auto 20px}
+body.homepage .search-result{display:block;padding:10px 4px;border:0;border-bottom:1px solid var(--border-light);border-radius:0;background:transparent;box-shadow:none}
+body.homepage .search-result:hover{background:var(--fp-panel);transform:none}
+body.homepage #mainContent{max-width:960px}
+body.homepage #mainContent>h1{font-size:1.55rem;font-weight:600}
+body.homepage #mainContent>h2{font-size:1.3rem;font-weight:600;background:var(--fp-panel);border:1px solid var(--border-light);padding:5px 9px;margin-top:22px}
+body.homepage #mainContent>ol{display:block;columns:2;column-gap:38px;padding-left:28px}
+body.homepage #mainContent>ol li{break-inside:avoid;padding:5px 3px;border-bottom:1px solid var(--border-light)}
+body.homepage .article-count{display:flex;align-items:baseline;justify-content:flex-start;gap:8px;margin:14px 0;padding:0;border:0;background:transparent;text-align:left}
+body.homepage .article-count strong{font-size:1.1rem;font-weight:700}
+body.homepage .home-version{display:none!important}
+body.homepage .header-inner{justify-content:flex-start}
+@media(max-width:900px){
+ .header-inner{height:58px;padding:7px 14px;gap:10px}
+ .brand{font-size:19px}.brand img{width:31px;height:31px}
+ .container,body:not(.homepage) .container,body.homepage .container{padding-left:18px;padding-right:18px}
+ #mainContent,.article-shell #mainContent,body.homepage #mainContent{max-width:100%;width:100%}
+ body.homepage .search-hero{margin:18px auto 18px;padding:13px 12px}
+ body.homepage #mainContent>ol{columns:1}
+ .search-wrap{flex:1 1 180px;max-width:none}
+}
+@media(max-width:520px){
+ .header-inner{padding:6px 10px;gap:7px}
+ .brand{font-size:17px;gap:6px}.brand img{width:29px;height:29px}
+ .header-actions{gap:1px}.icon-btn{width:34px;height:34px}
+ .container,body:not(.homepage) .container,body.homepage .container{padding-left:14px;padding-right:14px}
+ main,body:not(.homepage) main{padding-top:14px}
+ #mainContent>h1{font-size:1.7rem}
+ #mainContent>h2{font-size:1.3rem;margin-top:24px}
+ #mainContent p{font-size:14px;line-height:1.75}
+ body.homepage .search-hero{margin:12px auto 16px;padding:12px 10px}
+ body.homepage .hero-wordmark{font-size:1.7rem}
+ body.homepage #mainContent>ol{padding-left:24px}
+ footer{margin-top:28px}
+}
+
 </style>
 </head>
 <body class="homepage">
@@ -1193,39 +1278,6 @@ footer{max-width:100%;border-top:1px solid var(--border);text-align:left;margin-
   })();
 </script>
 
-
-
-<script>
-(function(){
- const body=document.body,header=document.querySelector('header'),inner=header&&header.querySelector('.header-inner');
- if(!header||!inner)return;
- const ns='http://www.w3.org/2000/svg';
- function makeIcon(path){const s=document.createElementNS(ns,'svg');s.setAttribute('viewBox','0 0 24 24');s.setAttribute('fill','none');s.setAttribute('stroke','currentColor');s.setAttribute('stroke-width','1.8');s.setAttribute('stroke-linecap','round');s.setAttribute('stroke-linejoin','round');const p=document.createElementNS(ns,'path');p.setAttribute('d',path);s.appendChild(p);return s;}
- const menu=document.createElement('button');menu.className='fp-menu-button';menu.type='button';menu.setAttribute('aria-label','मुख्य मेनू');menu.setAttribute('aria-expanded','false');menu.appendChild(makeIcon('M4 6h16M4 12h16M4 18h16'));inner.insertBefore(menu,inner.firstChild);
- const brand=inner.querySelector('.brand');
- if(brand&&!brand.querySelector('img')){const img=document.createElement('img');img.src='/favicon.svg';img.alt='';img.width=36;img.height=36;brand.prepend(img);}
- if(brand&&!brand.textContent.trim())brand.append(document.createTextNode('Factpedia'));
- const sidebar=document.createElement('aside');sidebar.className='fp-wiki-sidebar';sidebar.id='fpWikiSidebar';
- const isHome=body.classList.contains('homepage');
- sidebar.innerHTML='<div class="fp-sidebar-brand"><img src="/favicon.svg" alt="">Factpedia</div><div class="fp-nav-label">नेव्हिगेशन</div><a href="/" class="'+(isHome?'fp-nav-current':'')+'">मुख्यपृष्ठ</a><a href="/#mainContent">सर्व लेख</a>';
- if(!isHome){
-   const toc=document.querySelector('.article-toc');
-   if(toc){
-     const label=document.createElement('div');label.className='fp-nav-label';label.textContent='या लेखात';
-     sidebar.append(label);
-     toc.querySelectorAll('a[href^="#"]').forEach(a=>{const link=a.cloneNode(true);sidebar.append(link);});
-   }
- }
- body.appendChild(sidebar);
- const scrim=document.createElement('div');scrim.className='fp-sidebar-scrim';body.appendChild(scrim);
- const close=()=>{body.classList.remove('fp-sidebar-open');menu.setAttribute('aria-expanded','false');};
- menu.addEventListener('click',()=>{const open=body.classList.toggle('fp-sidebar-open');menu.setAttribute('aria-expanded',String(open));});
- scrim.addEventListener('click',close);sidebar.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));
- const searchBtn=document.getElementById('searchBtn'),searchWrap=document.getElementById('searchWrap'),searchInput=document.getElementById('searchInput');
- if(searchWrap){inner.insertBefore(searchWrap,inner.querySelector('.header-actions'));if(searchBtn)searchBtn.addEventListener('click',()=>{searchWrap.classList.toggle('open');if(searchWrap.classList.contains('open'))searchInput.focus();});}
- else if(searchBtn&&searchInput){searchBtn.addEventListener('click',()=>{searchInput.focus();searchInput.scrollIntoView({behavior:'smooth',block:'center'});});}
-})();
-</script>
 
 
 </body>
