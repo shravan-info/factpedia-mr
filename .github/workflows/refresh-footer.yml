@@ -1,0 +1,51 @@
+name: Refresh article footer dates
+
+# Manually triggered helper used by the daily content-check run.
+# It walks the alphabetically sorted content/*.md list from `start`,
+# covers `count` articles (wrapping at the end of the list) and sets the
+# footer line "*शेवटचे संपादन: <date>*" on each of them.
+
+on:
+  workflow_dispatch:
+    inputs:
+      start:
+        description: "0-based index into the sorted content/*.md list"
+        required: true
+        default: "0"
+      count:
+        description: "How many articles to cover (wraps around the list)"
+        required: true
+        default: "150"
+      date:
+        description: "Marathi date text, e.g. १४ नोव्हेंबर २०२६"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Refresh footer dates
+        run: node scripts/refresh-footer.mjs "${{ inputs.start }}" "${{ inputs.count }}" "${{ inputs.date }}"
+
+      - name: Commit and push
+        run: |
+          git config user.name "factpedia-bot"
+          git config user.email "factpedia-bot@users.noreply.github.com"
+          git add -A content
+          if git diff --cached --quiet; then
+            echo "No footer changes needed."
+            exit 0
+          fi
+          git commit -m "तपासणी: ${{ inputs.count }} लेखांची तळटीप तारीख ${{ inputs.date }} अद्ययावत"
+          git push
