@@ -2,14 +2,15 @@ name: Content check report
 
 # Records one daily content-check run: appends the Marathi report to
 # UPDATE-LOG.md and updates content-check-state.json.
-# Triggered by the daily content-check run with a single JSON payload, e.g.
+# Triggered by the daily content-check run with a single base64-encoded JSON
+# payload for scripts/append-report.mjs, e.g.
 #   {"table_row": "...", "report_md": "...", "header_total": "...", "state": {...}}
 
 on:
   workflow_dispatch:
     inputs:
-      payload:
-        description: "JSON payload for scripts/append-report.mjs"
+      payload_b64:
+        description: "base64-encoded JSON payload for scripts/append-report.mjs"
         required: true
 
 permissions:
@@ -29,8 +30,8 @@ jobs:
 
       - name: Write payload
         env:
-          PAYLOAD: ${{ inputs.payload }}
-        run: printf '%s' "$PAYLOAD" > /tmp/payload.json
+          PAYLOAD_B64: ${{ inputs.payload_b64 }}
+        run: printf '%s' "$PAYLOAD_B64" | base64 -d > /tmp/payload.json
 
       - name: Apply report
         run: node scripts/append-report.mjs /tmp/payload.json
