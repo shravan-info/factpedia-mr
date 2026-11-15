@@ -522,7 +522,9 @@
         "decolonisation.md: specified Belgian Congo/DR Congo, clarified Ghana's colonial-independence distinction and Vietnam's temporary 1954 division, and replaced an incorrect UN member-states link with resolution 1514 and the UN Bandung communiqué",
         "dehradun-city.md: removed the incorrect High Court bench reference; clarified that the High Court's principal seat is at Nainital and added the Gazette notification",
         "delhi-metro.md: corrected the gauge specification to include broad and standard gauge, recorded the 2026 Phase 4 openings, narrowed the carbon-credit claim to the UNFCCC CDM project, removed an unsupported annual vehicle estimate, and replaced generic references with DMRC/JICA documents",
-        "delhi.md: added Punjabi and Urdu as second official languages, clarified the 69th Amendment's 1 February 1992 commencement, updated Rajpath to Kartavya Path, and added Delhi Government, Gazette, PIB and UNESCO references"
+        "delhi.md: added Punjabi and Urdu as second official languages, clarified the 69th Amendment's 1 February 1992 commencement, updated Rajpath to Kartavya Path, and added Delhi Government, Gazette, PIB and UNESCO references",
+        "decolonisation.md: replaced the UN Mandates URL with the accessible UN Audiovisual Library page documenting resolution 1514 (XV)",
+        "delhi-metro.md: refined the combined operational network figure to 416.49 km and 303 stations using the 2026–27 Government of NCT of Delhi document"
       ]
     }
   ],
@@ -558,12 +560,14 @@
     "panchatantra.md: संस्कृत मूळ ग्रंथाचा अचूक रचनाकाल निश्चित नाही; तो विशिष्ट इ.स.पू. तिसऱ्या शतकात ठेवणारा आकडा काढला. मध्य पर्शियन अनुवादाच्या श्रेयाबाबत बोर्झूया/बोझोर्गमेहर परंपरांतील मतभेद नोंदवले.",
     "parbhani-district.md: गावांची व नागरी स्थानिक संस्थांची संख्या जिल्हा प्रशासनाच्या 05.05.2018 रोजी अद्ययावत केलेल्या पृष्ठावरून घेतली आहे; नवीन प्रशासकीय बदल झाल्यास आकडे पुन्हा तपासावेत. 2011 लिंग गुणोत्तर व पर्जन्यमानाच्या तपशीलासाठी पुढील बॅचमध्ये Census DCHB/राज्य स्रोताशी पुनर्पडताळणी करावी.",
     "param-vir-chakra.md: वीरता सन्मानांची क्रमवारी (परमवीर चक्र, अशोक चक्र, महावीर चक्र, कीर्ती चक्र, वीर चक्र, शौर्य चक्र) यासाठी अद्ययावत अधिकृत पूर्वक्रम दस्तऐवज स्वतंत्ररीत्या पडताळणे बाकी; या बॅचमध्ये तो दावा बदललेला नाही.",
-    "panvel-taluka.md: विमानतळाच्या व्यावसायिक व आंतरराष्ट्रीय सेवा सुरू होण्याच्या तारखा विमानतळ चालकाच्या प्रसिद्धिपत्रकांवरून घेतल्या; उड्डाणांचे वेळापत्रक व मार्ग सतत बदलू शकतात."
+    "panvel-taluka.md: विमानतळाच्या व्यावसायिक व आंतरराष्ट्रीय सेवा सुरू होण्याच्या तारखा विमानतळ चालकाच्या प्रसिद्धिपत्रकांवरून घेतल्या; उड्डाणांचे वेळापत्रक व मार्ग सतत बदलू शकतात.",
+    "deccan-plateau.md: IndiaWRIS, IMD and ICAR references remain broad portal links; more specific hydrology, climate and soil pages should replace them only when a directly matching official source is verified.",
+    "decolonisation.md: the Non-Aligned Movement reference still points to the movement's general homepage; a specific official historical page for the 1961 founding was not verified in this run."
   ],
   "next_file": "denmark.md",
-  "last_verified_main": "8e818e19ba261c6ea850bb58062b62c44f67395a",
+  "last_verified_main": "a3e3613d176f9b39c4bf9906280457a5c4a5c8e2",
   "index_note": "content/index.md is a short shell; build.js generates the article listing from content/*.md. Legacy aliases are handled by the redirect map, including malkapur-taluka -> malkapur-buldhana-taluka and hatkanangale-taluka -> hatkanangle-taluka.",
-  "last_checkpoint_commit": "8e818e19ba261c6ea850bb58062b62c44f67395a",
+  "last_checkpoint_commit": "a3e3613d176f9b39c4bf9906280457a5c4a5c8e2",
   "last_run_date": "2026-11-15",
   "last_updated": "2026-11-15T19:46:02+05:30"
 }
