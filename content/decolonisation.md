@@ -70,7 +70,7 @@ description: दुसऱ्या महायुद्धानंतर आ�
 
 ## संदर्भ
 
-1. [संयुक्त राष्ट्रसंघ — ठराव १५१४ (XV), १४ डिसेंबर १९६०](https://mandates.un.org/mandate/A/RES/1514(XV))
+1. [संयुक्त राष्ट्रसंघ — ठराव १५१४ (XV) आणि वसाहतमुक्ती](https://legal.un.org/avl/ha/dicc/dicc.html)
 2. [संयुक्त राष्ट्रसंघ — वसाहतमुक्तीविषयक माहिती](https://www.un.org/en/global-issues/decolonization)
 3. [एन्सायक्लोपीडिया ब्रिटॅनिका — वसाहतमुक्ती](https://www.britannica.com/topic/decolonization)
 4. [संयुक्त राष्ट्रसंघ — बांडुंग परिषदेचे अंतिम निवेदन (१८–२४ एप्रिल १९५५)](https://digitallibrary.un.org/record/860963/files/1955-E.pdf)
