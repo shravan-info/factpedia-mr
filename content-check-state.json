@@ -1,5 +1,5 @@
 {
-  "next_index": 92,
+  "next_index": 241,
   "cycle": 2,
   "runs": [
     {
@@ -468,9 +468,28 @@
         "atom.md: corrected the OpenStax electronic-structure reference URL",
         "aurora.md: replaced a color reference with a source consistent with the cited altitude/color explanation"
       ]
+    },
+    {
+      "date": "2026-11-15",
+      "checked": 150,
+      "range": [
+        "australia.md",
+        "dead-sea.md"
+      ],
+      "cycle": 2,
+      "updated_articles": [
+        "brics.md",
+        "commonwealth-games.md"
+      ],
+      "unchanged_articles_count": 148,
+      "internal_links_checked": 23,
+      "broken_internal_links": 0,
+      "footer_dates_refreshed": 150,
+      "next_index": 241,
+      "next_file": "deccan-plateau.md"
     }
   ],
-  "total_articles": 1134,
+  "total_articles": 1135,
   "human_review": [
     "dadabhai-naoroji.md: जन्मस्थळाबाबत Azim Premji University मुंबई सांगते, तर गुजरात शासनाचे Navsari पृष्ठ नवसारी सांगते; अतिरिक्त प्राथमिक पुरावा मिळेपर्यंत मजकूर बदललेला नाही.",
     "dadasaheb-phalke-award.md: अधिकृत DFF/PIB पानांवर ₹10 लाख, तर 18 सप्टेंबर 2026 च्या Gazette मजकूराच्या उपलब्ध प्रतिलिपीत ₹15 लाख दिसते; मूळ eGazette PDF पडताळता न आल्याने रक्कम बदललेली नाही.",
@@ -504,10 +523,10 @@
     "param-vir-chakra.md: वीरता सन्मानांची क्रमवारी (परमवीर चक्र, अशोक चक्र, महावीर चक्र, कीर्ती चक्र, वीर चक्र, शौर्य चक्र) यासाठी अद्ययावत अधिकृत पूर्वक्रम दस्तऐवज स्वतंत्ररीत्या पडताळणे बाकी; या बॅचमध्ये तो दावा बदललेला नाही.",
     "panvel-taluka.md: विमानतळाच्या व्यावसायिक व आंतरराष्ट्रीय सेवा सुरू होण्याच्या तारखा विमानतळ चालकाच्या प्रसिद्धिपत्रकांवरून घेतल्या; उड्डाणांचे वेळापत्रक व मार्ग सतत बदलू शकतात."
   ],
-  "next_file": "australia.md",
+  "next_file": "deccan-plateau.md",
   "last_verified_main": "bca9555d807e925cc89837a9cb4614ac585e4bc9",
   "index_note": "content/index.md is a short shell; build.js generates the article listing from content/*.md. Legacy aliases are handled by the redirect map, including malkapur-taluka -> malkapur-buldhana-taluka and hatkanangale-taluka -> hatkanangle-taluka.",
   "last_checkpoint_commit": "bca9555d807e925cc89837a9cb4614ac585e4bc9",
-  "last_run_date": "2026-11-14",
-  "last_updated": "2026-11-14T19:06:04+05:30"
+  "last_run_date": "2026-11-15",
+  "last_updated": "2026-11-15T09:08:00+05:30"
 }
