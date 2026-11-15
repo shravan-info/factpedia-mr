@@ -1,5 +1,5 @@
 {
-  "next_index": 241,
+  "next_index": 246,
   "cycle": 2,
   "runs": [
     {
@@ -487,9 +487,46 @@
       "footer_dates_refreshed": 150,
       "next_index": 241,
       "next_file": "deccan-plateau.md"
+    },
+    {
+      "date": "2026-11-15",
+      "checked": 5,
+      "reviewed_files": [
+        "deccan-plateau.md",
+        "decolonisation.md",
+        "dehradun-city.md",
+        "delhi-metro.md",
+        "delhi.md"
+      ],
+      "updated_articles": [
+        "deccan-plateau.md",
+        "decolonisation.md",
+        "dehradun-city.md",
+        "delhi-metro.md",
+        "delhi.md"
+      ],
+      "unchanged_articles": [],
+      "internal_links_checked": 0,
+      "broken_internal_links": 0,
+      "footer_dates_refreshed": 5,
+      "next_index": 246,
+      "next_file": "denmark.md",
+      "cycle": 2,
+      "base_commit": "77de19dbac35a3cccbdd2422065cb31de4d778c4",
+      "index_checked": true,
+      "index_changed": false,
+      "title_frontmatter_checks": 5,
+      "aliases_checked": [],
+      "corrections": [
+        "deccan-plateau.md: corrected the plateau's extent using the Narmada boundary, added its approximate mean elevation and eastward slope, and replaced a generic Ministry homepage with a Central Water Commission report",
+        "decolonisation.md: specified Belgian Congo/DR Congo, clarified Ghana's colonial-independence distinction and Vietnam's temporary 1954 division, and replaced an incorrect UN member-states link with resolution 1514 and the UN Bandung communiqué",
+        "dehradun-city.md: removed the incorrect High Court bench reference; clarified that the High Court's principal seat is at Nainital and added the Gazette notification",
+        "delhi-metro.md: corrected the gauge specification to include broad and standard gauge, recorded the 2026 Phase 4 openings, narrowed the carbon-credit claim to the UNFCCC CDM project, removed an unsupported annual vehicle estimate, and replaced generic references with DMRC/JICA documents",
+        "delhi.md: added Punjabi and Urdu as second official languages, clarified the 69th Amendment's 1 February 1992 commencement, updated Rajpath to Kartavya Path, and added Delhi Government, Gazette, PIB and UNESCO references"
+      ]
     }
   ],
-  "total_articles": 1135,
+  "total_articles": 1134,
   "human_review": [
     "dadabhai-naoroji.md: जन्मस्थळाबाबत Azim Premji University मुंबई सांगते, तर गुजरात शासनाचे Navsari पृष्ठ नवसारी सांगते; अतिरिक्त प्राथमिक पुरावा मिळेपर्यंत मजकूर बदललेला नाही.",
     "dadasaheb-phalke-award.md: अधिकृत DFF/PIB पानांवर ₹10 लाख, तर 18 सप्टेंबर 2026 च्या Gazette मजकूराच्या उपलब्ध प्रतिलिपीत ₹15 लाख दिसते; मूळ eGazette PDF पडताळता न आल्याने रक्कम बदललेली नाही.",
@@ -523,10 +560,10 @@
     "param-vir-chakra.md: वीरता सन्मानांची क्रमवारी (परमवीर चक्र, अशोक चक्र, महावीर चक्र, कीर्ती चक्र, वीर चक्र, शौर्य चक्र) यासाठी अद्ययावत अधिकृत पूर्वक्रम दस्तऐवज स्वतंत्ररीत्या पडताळणे बाकी; या बॅचमध्ये तो दावा बदललेला नाही.",
     "panvel-taluka.md: विमानतळाच्या व्यावसायिक व आंतरराष्ट्रीय सेवा सुरू होण्याच्या तारखा विमानतळ चालकाच्या प्रसिद्धिपत्रकांवरून घेतल्या; उड्डाणांचे वेळापत्रक व मार्ग सतत बदलू शकतात."
   ],
-  "next_file": "deccan-plateau.md",
-  "last_verified_main": "95c515cef8de9106dea6ef36460b2428f81c8e41",
+  "next_file": "denmark.md",
+  "last_verified_main": "8e818e19ba261c6ea850bb58062b62c44f67395a",
   "index_note": "content/index.md is a short shell; build.js generates the article listing from content/*.md. Legacy aliases are handled by the redirect map, including malkapur-taluka -> malkapur-buldhana-taluka and hatkanangale-taluka -> hatkanangle-taluka.",
-  "last_checkpoint_commit": "95c515cef8de9106dea6ef36460b2428f81c8e41",
+  "last_checkpoint_commit": "8e818e19ba261c6ea850bb58062b62c44f67395a",
   "last_run_date": "2026-11-15",
-  "last_updated": "2026-11-15T09:08:00+05:30"
+  "last_updated": "2026-11-15T19:46:02+05:30"
 }
