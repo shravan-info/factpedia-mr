@@ -68,4 +68,4 @@ description: भारतीय रुपयाचा इतिहास, चल
 2. [RBI – Digital Rupee FAQ](https://www.rbi.org.in/commonman/Upload/English/FAQs/PDFs/DigitalRupee09012025.pdf)
 3. [India Code](https://www.indiacode.nic.in/)
 
-*शेवटचे संपादन: ६ नोव्हेंबर २०२६*
+*शेवटचे संपादन: १६ नोव्हेंबर २०२६*

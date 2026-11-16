@@ -105,4 +105,4 @@ description: भारतीय संसदेची घटनात्मक �
 १९. [Central Public Works Department – New Parliament Building: Design and Construction](https://cpwd.gov.in/Publication/Technical_Seminar_Book_2023.pdf)
 २०. [Prime Minister of India – New Parliament Building Inauguration](https://www.pmindia.gov.in/en/news_updates/pm-dedicates-new-parliament-house-to-the-nation/)
 
-*शेवटचे संपादन: ६ नोव्हेंबर २०२६*
+*शेवटचे संपादन: १६ नोव्हेंबर २०२६*

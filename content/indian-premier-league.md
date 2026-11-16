@@ -83,4 +83,4 @@ IPL च्या सामन्यांना मैदानावर आण�
 3. [ICC](https://www.icc-cricket.com/)
 4. [IPL 2026 अंतिम सामना अहवाल](https://www.iplt20.com/news/article/tata-ipl-2026-final-rcb-v-gt-match-report)
 
-*शेवटचे संपादन: ७ नोव्हेंबर २०२६*
+*शेवटचे संपादन: १६ नोव्हेंबर २०२६*

@@ -1,5 +1,5 @@
 {
-  "next_index": 246,
+  "next_index": 398,
   "cycle": 2,
   "runs": [
     {
@@ -526,6 +526,46 @@
         "decolonisation.md: replaced the UN Mandates URL with the accessible UN Audiovisual Library page documenting resolution 1514 (XV)",
         "delhi-metro.md: refined the combined operational network figure to 416.49 km and 303 stations using the 2026–27 Government of NCT of Delhi document"
       ]
+    },
+    {
+      "date": "2026-11-16",
+      "checked": 150,
+      "range": [
+        "denmark.md",
+        "indian-rupee.md"
+      ],
+      "cycle": 2,
+      "updated_articles": [
+        "gaganyaan.md",
+        "gautam-gambhir.md",
+        "gst-india.md"
+      ],
+      "unchanged_articles_count": 147,
+      "internal_links_checked": 9,
+      "broken_internal_links": 0,
+      "footer_dates_refreshed": 149,
+      "skipped_files": [
+        "index.md"
+      ],
+      "next_index": 398,
+      "next_file": "indira-gandhi-peace-prize.md",
+      "base_commit": "d026407991172e35be292e8921298e33b4a39e2d",
+      "corrections": [
+        "gst-india.md: the two-slab rate structure was moved from a future possibility to a dated record — 56th GST Council meeting of 3 September 2025, 5%/18% from 22 September 2025, 40% demerit rate for tobacco, pan masala, aerated drinks and ultra-luxury goods",
+        "gautam-gambhir.md: added that his current BCCI contract runs to the 2027 ODI World Cup",
+        "gaganyaan.md: added ISRO chairman V. Narayanan's 24 October 2026 statement that the G1 uncrewed flight was about two months away"
+      ],
+      "verified_no_change": [
+        "haryana.md",
+        "g20.md",
+        "election-commission-india.md",
+        "election-commission-of-india.md",
+        "diwali.md",
+        "hardik-pandya.md",
+        "harmanpreet-kaur.md",
+        "indian-premier-league.md",
+        "indian-rupee.md"
+      ]
     }
   ],
   "total_articles": 1134,
@@ -567,10 +607,10 @@
     "ada-lovelace.md: नंतरच्या संगणकीय चाचणीत त्रुटी आढळल्याचा दावा अजूनही विश्वासार्ह प्राथमिक स्रोताने पुष्टी झालेला नाही; मानवी पडताळणी आवश्यक.",
     "वारसा स्थळांच्या लेखांमध्ये प्रवेश, वेळा, बंद-दिवस किंवा सफारी/पर्यटन नियम दिले असल्यास ते अद्ययावत अधिकृत प्रशासन/ASI/वनविभाग स्रोतांवरून पुन्हा तपासावेत."
   ],
-  "next_file": "denmark.md",
-  "last_verified_main": "a3e3613d176f9b39c4bf9906280457a5c4a5c8e2",
+  "next_file": "indira-gandhi-peace-prize.md",
+  "last_verified_main": "d026407991172e35be292e8921298e33b4a39e2d",
   "index_note": "content/index.md is a short shell; build.js generates the article listing from content/*.md. Legacy aliases are handled by the redirect map, including malkapur-taluka -> malkapur-buldhana-taluka and hatkanangale-taluka -> hatkanangle-taluka.",
-  "last_checkpoint_commit": "a3e3613d176f9b39c4bf9906280457a5c4a5c8e2",
-  "last_run_date": "2026-11-15",
-  "last_updated": "2026-11-15T19:46:02+05:30"
+  "last_checkpoint_commit": "d026407991172e35be292e8921298e33b4a39e2d",
+  "last_run_date": "2026-11-16",
+  "last_updated": "2026-11-16T09:15:00+05:30"
 }

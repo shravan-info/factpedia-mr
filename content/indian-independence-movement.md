@@ -47,4 +47,4 @@ description: भारतीय स्वातंत्र्यलढा ह�
 1. [नेहरू पोर्टल – स्वातंत्र्यलढा](https://nehruportal.nic.in/freedom-struggle)
 2. [पत्र सूचना कार्यालय – स्वातंत्र्यलढ्यातील शहीद](https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=189318)
 
-*शेवटचे संपादन: ५ नोव्हेंबर २०२६*
+*शेवटचे संपादन: १६ नोव्हेंबर २०२६*
