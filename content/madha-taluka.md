@@ -39,9 +39,9 @@ description: माढा तालुक्याचे स्थान, भू
 
 ## संदर्भ
 
-2. [सोलापूर जिल्हा प्रशासन — तहसील रचना](https://solapur.gov.in/en/tehsil-structure/)
-3. [सोलापूर जिल्हा प्रशासन — तहसील नकाशा](https://solapur.gov.in/en/tehsil-map/)
-4. [महाराष्ट्र शासन — महाभूमी तालुका व गाव निर्देशिका](https://mahavillages.mahabhumi.gov.in/all_list.php)
+1. [सोलापूर जिल्हा प्रशासन — तहसील रचना](https://solapur.gov.in/en/tehsil-structure/)
+2. [सोलापूर जिल्हा प्रशासन — तहसील नकाशा](https://solapur.gov.in/en/tehsil-map/)
+3. [महाराष्ट्र शासन — महाभूमी तालुका व गाव निर्देशिका](https://mahavillages.mahabhumi.gov.in/all_list.php)
 
 ---
 
