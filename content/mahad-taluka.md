@@ -40,11 +40,12 @@ description: महाड तालुक्याचे स्थान, भू
 
 ## संदर्भ
 
-1. [रायगड जिल्हा प्रशासन — अधिकृत संकेतस्थळ](https://raigad.gov.in/)
-2. [महाराष्ट्र शासन — महाभूमी तालुका व गाव निर्देशिका](https://mahavillages.mahabhumi.gov.in/all_list.php)
-3. [महाराष्ट्र शासन — जिल्हा सामाजिक व आर्थिक समालोचन](https://mahades.maharashtra.gov.in/)
-4. [भारताची जनगणना — २०११](https://censusindia.gov.in/)
+1. [रायगड जिल्हा प्रशासन — २०११ जनगणना व जिल्ह्याची लोकसंख्या](https://raigad.gov.in/en/demography/)
+2. [भारताची जनगणना — Raigad District Census Handbook, Part B (२०११)](https://cdn.s3waas.gov.in/s344c4c17332cace2124a1a836d9fc4b6f/uploads/2025/04/2025043049.pdf)
+3. [भारताचे सर्वोच्च न्यायालय — महाड चवदार तळे सत्याग्रह](https://api.sci.gov.in/AMB/mahadsatyagraha.php)
+4. [रायगड जिल्हा प्रशासन — जिल्हा सामाजिक व आर्थिक समालोचन २०२४](https://raigad.gov.in/en/district-social-and-economic-review-2024/)
+5. [रायगड जिल्हा प्रशासन — सर्व तहसीलांचा नकाशा](https://raigad.gov.in/en/other-maps/)
 
 ---
 
-*शेवटचे संपादन: ८ नोव्हेंबर २०२६*
+*शेवटचे संपादन: १७ नोव्हेंबर २०२६*
