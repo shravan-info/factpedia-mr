@@ -733,7 +733,7 @@
         "madrid-city.md: replaced a broken 2025 investor-presentation URL with the Madrid City Council's 2023 Statistical Yearbook, supporting the rounded 605 km² area and 21 districts.",
         "madurai-district.md: removed the incorrect attribution of Sirumalai Hills to Madurai district and removed an over-generalized flat-plain/100 m description.",
         "magna-carta.md: clarified that the three provisions still in force refer to the 1297 statute in the UK except Scotland, not three clauses of the 1215 original; merged a repeated paragraph on the American independence movement.",
-        "madhuri-dixit.md: replaced the media report for the 2008 Padma Shri with the Government of India's official Padma Awards Gazette notification.",
+        "madhuri-dixit.md: replaced the Padma Shri reference with the PIB's official 25 January 2008 announcement, which explicitly lists Madhuri Dixit; the previously used Gazette PDF did not contain her entry.",
         "mahabaleshwar-taluka.md: replaced generic/broken administrative references with Satara District Administration's current Tehsils page and its taluka-wise village-count page."
       ],
       "concurrent_changes_reviewed": [
@@ -745,6 +745,13 @@
       "human_review_flags": [
         "madhubani-painting.md: IP India GI नोंदीत अर्ज क्र. 37 ची स्थिती Registered आणि प्रमाणपत्र तारीख 16-05-2007 आहे; परंतु त्याच नोंदीत Registration Valid Upto 21-08-2025 व 26-11-2024 चा renewal notice दिसतो. नूतनीकरणाचा अंतिम परिणाम सार्वजनिक नोंदीत स्पष्ट नसल्याने वर्तमान वैधता मानवी पडताळणीसाठी प्रलंबित.",
         "mahabodhi-temple.md: मंदिराच्या उंचीबाबत UNESCO 50 मीटर तर भारतीय पुरातत्त्व सर्वेक्षण विभाग 55 मीटर नोंदवतो. प्राथमिक संस्थांच्या आकड्यांत विसंगती असल्याने लेखातील सुमारे 50 मीटरचा आकडा बदललेला नाही; मूळ सर्वेक्षण/मोजमापातून मानवी पडताळणी आवश्यक."
+      ],
+      "follow_up_commits": [
+        {
+          "path": "madhuri-dixit.md",
+          "commit_sha": "af97d4bd77f3ec7be7298c490acf029ece351601",
+          "reason": "replace a non-supporting Gazette PDF with the official PIB award announcement"
+        }
       ]
     }
   ],
@@ -796,9 +803,9 @@
     "mahabodhi-temple.md: मंदिराच्या उंचीबाबत UNESCO 50 मीटर तर भारतीय पुरातत्त्व सर्वेक्षण विभाग 55 मीटर नोंदवतो. प्राथमिक संस्थांच्या आकड्यांत विसंगती असल्याने लेखातील सुमारे 50 मीटरचा आकडा बदललेला नाही; मूळ सर्वेक्षण/मोजमापातून मानवी पडताळणी आवश्यक."
   ],
   "next_file": "major-dhyan-chand.md",
-  "last_verified_main": "09a6554296318d180ac3422b08ac8a736e91e5f6",
+  "last_verified_main": "af97d4bd77f3ec7be7298c490acf029ece351601",
   "index_note": "content/index.md is a short shell; build.js recursively generates the homepage article list from all content/*.md files except index.md, sorts by title, and excludes legacy redirect slugs. Current main tree contains 1,154 article Markdown files.",
-  "last_checkpoint_commit": "09a6554296318d180ac3422b08ac8a736e91e5f6",
+  "last_checkpoint_commit": "af97d4bd77f3ec7be7298c490acf029ece351601",
   "last_run_date": "2026-11-17",
   "last_updated": "2026-11-17T19:35:18+05:30",
   "reviewed_files": [
