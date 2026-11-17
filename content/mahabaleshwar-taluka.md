@@ -40,8 +40,8 @@ description: महाबळेश्वर तालुक्याचे स�
 ## संदर्भ
 
 1. [सातारा जिल्हा प्रशासन — महाबळेश्वर तालुका व पर्यटन माहिती](https://www.satara.gov.in/en/tourist-place/mahableshwar-taluka/)
-2. [सातारा जिल्हा प्रशासन — तालुक्यांची प्रशासकीय माहिती](https://www.satara.gov.in/en/subdivision-blocks/)
-3. [महाराष्ट्र शासन — महाभूमी तालुका व गाव निर्देशिका](https://mahavillages.mahabhumi.gov.in/all_list.php)
+2. [सातारा जिल्हा प्रशासन — तालुक्यांची प्रशासकीय माहिती](https://www.satara.gov.in/en/tehsil/)
+3. [सातारा जिल्हा प्रशासन — तालुकानिहाय गावांची संख्या](https://www.satara.gov.in/en/villages/)
 
 ---
 
