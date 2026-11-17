@@ -13,7 +13,6 @@ description: तमिळनाडूमधील प्राचीन जि�
 | --- | --- |
 | मुख्यालय | मदुरै |
 | राज्य | तमिळनाडू |
-| विभाग | मदुरै महसूल विभाग |
 | क्षेत्रफळ | ३,७१० चौ. किमी |
 | लोकसंख्या (२०११) | ३०,३८,२५२ |
 | लोकसंख्या घनता | ८१९ व्यक्ती प्रति चौ. किमी |
@@ -65,12 +64,12 @@ description: तमिळनाडूमधील प्राचीन जि�
 ## संदर्भ
 
 1. [मदुरै जिल्हा प्रशासन — जिल्हा प्रोफाइल](https://madurai.nic.in/district-profile/)
-2. [मदुरै जिल्हा प्रशासन — महसूल प्रशासन](https://madurai.nic.in/administrative-setup/revenue-administration/)
-3. [मदुरै जिल्हा प्रशासन — जिल्हा नकाशा](https://madurai.nic.in/map-of-district/)
-4. [तमिळनाडू अभिलेखागार — राज्याचे नामकरण](https://tamilnaduarchives.tn.gov.in/WEB/EN/RECORDS/ARCHIVEINDEX)
-5. [भारताची जनगणना — Population Finder](https://censusindia.mha.gov.in/census.website/en/data/population-finder)
+2. [मदुरै जिल्हा प्रशासन — २०११ जनगणना व लोकसंख्याशास्त्र](https://madurai.nic.in/demography/)
+3. [मदुरै जिल्हा प्रशासन — महसूल प्रशासन व तालुके](https://madurai.nic.in/administrative-setup/revenue-administration/)
+4. [मदुरै जिल्हा प्रशासन — जिल्हा नकाशा](https://madurai.nic.in/map-of-district/)
+5. [तमिळनाडू अभिलेखागार — राज्याचे नामकरण](https://tamilnaduarchives.tn.gov.in/WEB/EN/RECORDS/ARCHIVEINDEX)
 6. [मदुरै जिल्हा प्रशासन — इतिहास](https://madurai.nic.in/history/)
 
 ---
 
-*शेवटचे संपादन: १० नोव्हेंबर २०२६*
+*शेवटचे संपादन: १७ नोव्हेंबर २०२६*
