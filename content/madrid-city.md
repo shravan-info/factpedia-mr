@@ -44,17 +44,18 @@ description: स्पेनची राजधानी माद्रिद�
 
 माद्रिद हे स्पेनमधील प्रमुख पर्यटन केंद्र आहे. राजवाडा, मायोर चौक, बुएन रेतीरो उद्यान व प्रमुख संग्रहालये ही मुख्य आकर्षणे आहेत. शहरातील खाद्यसंस्कृती, सांस्कृतिक कार्यक्रम व संगीत महोत्सवही पर्यटकांना आकर्षित करतात.
 
-माद्रिद हे स्पेनमधील प्रमुख आर्थिक केंद्र असल्याने देशांतर्गत व आंतरराष्ट्रीय कंपन्यांची कार्यालये येथे मोठ्या संख्येने आहेत. शहराचे वित्तीय क्षेत्र व बँकिंग व्यवस्था देशाच्या अर्थव्यवस्थेत महत्त्वाची भूमिका बजावते. पर्यटनाबरोबरच परिषदा व व्यापारी बैठका यांमुळेही उत्पन्न मिळते. उच्च शिक्षणाच्या संस्था व संशोधन केंद्रे शहरात केंद्रित असून विद्यार्थ्यांची संख्या मोठी आहे. हवामानातील उष्णता व वायू प्रदूषण यांवर उपाययोजना करण्यासाठी हरित क्षेत्रे व सार्वजनिक वाहतुकीचा विस्तार सुरू आहे.
-
 ## संदर्भ
 
-1. [माद्रिद शहराची नगरनोंद २०२६](https://diario.madrid.es/blog/notas-de-prensa/los-nacimientos-superaron-a-las-defunciones-en-564-personas-en-2025-un-crecimiento-vegetativo-que-no-se-producia-en-madrid-desde-hacia-seis-anos/)
-2. [माद्रिद स्वायत्त प्रदेशाची लोकसंख्या २०२५](https://www.comunidad.madrid/noticias/2026/02/23/comunidad-madrid-aumenta-16-poblacion-municipios-menos-2500-habitantes-14-inferiores-5000)
-3. [स्पेनचे संविधान १९७८](https://www.boe.es/eli/es/c/1978/12/27/(1))
-4. [माद्रिद नगरपालिका — Casa de Campo](https://www.madrid.es/portales/munimadrid/es/Inicio/El-Ayuntamiento/Villa-de-Vallecas/Programacion-cultural-de-Villa-de-Vallecas/Actividades-en-el-Centro-Cultural-Benjamin-Palencia/Parque-de-la-Casa-de-Campo/?vgnextchannel=b5b3bf80a7cdc910VgnVCM100000891ecb1aRCRD&vgnextfmt=default&vgnextoid=482a315919a9e210VgnVCM1000000b205a0aRCRD)
-5. [प्रादो संग्रहालय](https://www.museodelprado.es/en)
-6. [युनेस्को — प्रादो व बुएन रेतीरो](https://whc.unesco.org/en/list/1618/)
+1. [माद्रिद नगरपालिका — १ जानेवारी २०२६ ची नगरनोंद (PDF)](https://www.madrid.es/UnidadesDescentralizadas/UDCEstadistica/Nuevaweb/Demograf%C3%ADa%20y%20poblaci%C3%B3n/Cifras%20de%20poblaci%C3%B3n/PMH/Avance/Primeros_resultados_2026.pdf)
+2. [माद्रिद स्वायत्त प्रदेश — २०२५ लोकसंख्या](https://www.comunidad.madrid/noticias/2026/02/23/comunidad-madrid-aumenta-16-poblacion-municipios-menos-2500-habitantes-14-inferiores-5000)
+3. [माद्रिद नगरपालिका — शहराचे क्षेत्रफळ व २१ जिल्हे (२०२५ अहवाल)](https://www.madrid.es/UnidadesDescentralizadas/Sostenibilidad/Ruido/PlanAccionContaminacionAcustica/2025/PAMCA2025Memoria.pdf)
+4. [स्पेनचे संविधान १९७८](https://www.boe.es/eli/es/c/1978/12/27/(1))
+5. [माद्रिद नगरपालिका — Casa de Campo](https://www.madrid.es/portales/munimadrid/es/Inicio/El-Ayuntamiento/Villa-de-Vallecas/Programacion-cultural-de-Villa-de-Vallecas/Actividades-en-el-Centro-Cultural-Benjamin-Palencia/Parque-de-la-Casa-de-Campo/?vgnextchannel=b5b3bf80a7cdc910VgnVCM100000891ecb1aRCRD&vgnextfmt=default&vgnextoid=482a315919a9e210VgnVCM1000000b205a0aRCRD)
+6. [माद्रिदचे अधिकृत पर्यटन संकेतस्थळ — मुस्लिम काळातील माद्रिद](https://www.esmadrid.com/en/in-the-footsteps-of-muslim-madrid)
+7. [माद्रिद प्रादेशिक सरकार — मेट्रोच्या पहिल्या मार्गाचा इतिहास](https://www.comunidad.madrid/infraestructuras/linea-1-metro-madrid)
+8. [प्राडो संग्रहालय — १८१९ मध्ये संग्रहालयाचे उद्घाटन](https://www.museodelprado.es/actualidad/actividad/reencuentros-parada-v-una-corte-a-nuestro/9923c5c9-1156-4e95-a284-8689954e4222)
+9. [युनेस्को — Paseo del Prado आणि Buen Retiro](https://whc.unesco.org/en/list/1618/)
 
 ---
 
-*शेवटचे संपादन: १० नोव्हेंबर २०२६*
+*शेवटचे संपादन: १७ नोव्हेंबर २०२६*
