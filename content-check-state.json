@@ -1,5 +1,5 @@
 {
-  "next_index": 398,
+  "next_index": 551,
   "cycle": 2,
   "runs": [
     {
@@ -566,9 +566,52 @@
         "indian-premier-league.md",
         "indian-rupee.md"
       ]
+    },
+    {
+      "date": "2026-11-17",
+      "checked": 150,
+      "range": [
+        "indira-gandhi-peace-prize.md",
+        "lucknow-city.md"
+      ],
+      "cycle": 2,
+      "updated_articles": [
+        "jasprit-bumrah.md",
+        "jnanpith-award.md",
+        "isro.md"
+      ],
+      "extra_fixes": [
+        "content/cuttack-city.md",
+        "content/cv-raman.md"
+      ],
+      "unchanged_articles_count": 147,
+      "footer_dates_refreshed": 150,
+      "internal_links_checked": 0,
+      "broken_internal_links": 0,
+      "next_index": 551,
+      "next_file": "lucknow-district.md",
+      "base_commit": "e418dccf15670d7c511c4a2e3ba619f0ba348ea1",
+      "corrections": [
+        "jasprit-bumrah.md: added India's 2026 T20 World Cup title (final 8 March 2026, Ahmedabad, won by 96 runs vs New Zealand; India's third title, first back-to-back), his squad selection, and his November 2026 return to first-class cricket ahead of the New Zealand Tests; three references added",
+        "jnanpith-award.md: added the 60th Jnanpith Award for 2025 to R. Vairamuthu (Tamil), announced 14 March 2026; third Tamil winner after Akilan (1975) and Jayakanthan (2002); clarified that announcement year and award year differ",
+        "isro.md: Gaganyaan G1 targeted for December 2026 per November 2026 reports; no exact date announced",
+        "cuttack-city.md, cv-raman.md: removed a stale duplicate footer line left by an earlier run"
+      ],
+      "verified_no_change": [
+        "kerala.md",
+        "karnataka.md",
+        "jharkhand.md",
+        "jammu-kashmir.md",
+        "indonesia.md",
+        "ins-vikrant.md",
+        "kl-rahul.md",
+        "lk-advani.md",
+        "indus-river.md",
+        "indore-district.md"
+      ]
     }
   ],
-  "total_articles": 1134,
+  "total_articles": 1154,
   "human_review": [
     "dadabhai-naoroji.md: जन्मस्थळाबाबत Azim Premji University मुंबई सांगते, तर गुजरात शासनाचे Navsari पृष्ठ नवसारी सांगते; अतिरिक्त प्राथमिक पुरावा मिळेपर्यंत मजकूर बदललेला नाही.",
     "dadasaheb-phalke-award.md: अधिकृत DFF/PIB पानांवर ₹10 लाख, तर 18 सप्टेंबर 2026 च्या Gazette मजकूराच्या उपलब्ध प्रतिलिपीत ₹15 लाख दिसते; मूळ eGazette PDF पडताळता न आल्याने रक्कम बदललेली नाही.",
@@ -607,10 +650,10 @@
     "ada-lovelace.md: नंतरच्या संगणकीय चाचणीत त्रुटी आढळल्याचा दावा अजूनही विश्वासार्ह प्राथमिक स्रोताने पुष्टी झालेला नाही; मानवी पडताळणी आवश्यक.",
     "वारसा स्थळांच्या लेखांमध्ये प्रवेश, वेळा, बंद-दिवस किंवा सफारी/पर्यटन नियम दिले असल्यास ते अद्ययावत अधिकृत प्रशासन/ASI/वनविभाग स्रोतांवरून पुन्हा तपासावेत."
   ],
-  "next_file": "indira-gandhi-peace-prize.md",
+  "next_file": "lucknow-district.md",
   "last_verified_main": "d026407991172e35be292e8921298e33b4a39e2d",
   "index_note": "content/index.md is a short shell; build.js generates the article listing from content/*.md. Legacy aliases are handled by the redirect map, including malkapur-taluka -> malkapur-buldhana-taluka and hatkanangale-taluka -> hatkanangle-taluka.",
   "last_checkpoint_commit": "d026407991172e35be292e8921298e33b4a39e2d",
-  "last_run_date": "2026-11-16",
-  "last_updated": "2026-11-16T09:15:00+05:30"
+  "last_run_date": "2026-11-17",
+  "last_updated": "2026-11-17T09:05:00+05:30"
 }

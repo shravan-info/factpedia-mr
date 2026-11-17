@@ -98,6 +98,14 @@ description: भारतीय भाषेतील लेखकाला त�
 
 **मरणोत्तर पुरस्कार मिळतो का?** नाही. केवळ जिवंत लेखकाचा विचार केला जातो.
 
+## अलीकडील पुरस्कार
+
+सहसष्टावा (६० वा) ज्ञानपीठ पुरस्कार २०२५ साठी तमिळ कवी, गीतकार आणि लेखक आर. वैरमुथु यांची निवड झाली. भारतीय ज्ञानपीठाच्या निवड समितीने १४ मार्च २०२६ रोजी ही घोषणा केली आणि पुरस्कार त्यानंतर झालेल्या दिल्लीतील समारंभात प्रदान करण्यात आला.
+
+तमिळ भाषेला हा पुरस्कार मिळण्याची ही तिसरी वेळ आहे. यापूर्वी पी. व्ही. अकिलन (१९७५) आणि डी. जयकांतन (२००२) यांना हा सन्मान मिळाला होता. पुरस्काराची रक्कम ११ लाख रुपये, वाग्देवीची कांस्य प्रतिकृती आणि प्रशस्तिपत्र असेच स्वरूप या वेळीही कायम होते.
+
+पुरस्काराची घोषणा सहसा पुरस्काराच्या वर्षानंतरच्या काही महिन्यांत होते; त्यामुळे कोणत्या वर्षाचा पुरस्कार कोणाला मिळाला, हे तपासताना घोषणेचे वर्ष आणि पुरस्काराचे वर्ष वेगळे ठेवून पाहणे आवश्यक आहे.
+
 ## संदर्भ
 
 1. [Jnanpith Award — Bharatiya Jnanpith (official)](http://www.jnanpith.net/award.html?id=3&title=jnanpith)
@@ -106,7 +114,9 @@ description: भारतीय भाषेतील लेखकाला त�
 4. [Onmanorama — Jnanpith selection process](https://www.onmanorama.com/upsc/current-affairs/2026/03/17/selection-process-for-jnanpith-award.html)
 5. [Ministry of Culture, Government of India](https://www.indiaculture.gov.in/)
 6. [Sahitya Akademi — Official website](https://sahitya-akademi.gov.in/)
+7. [NDTV — २०२५ चा ज्ञानपीठ पुरस्कार वैरमुथु यांना (१४ मार्च २०२६)](https://www.ndtv.com/india-news/tamil-lyricist-vairamuthu-named-2025-jnanpith-award-winner-11215028)
+8. [Bharatiya Jnanpith — पुरस्कार विजेते](http://www.jnanpith.net/award.html?id=3&title=jnanpith)
 
 ---
 
-*शेवटचे संपादन: १० नोव्हेंबर २०२६*
+*शेवटचे संपादन: १७ नोव्हेंबर २०२६*
