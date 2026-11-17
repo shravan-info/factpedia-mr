@@ -638,7 +638,8 @@
       "next_file": "madha-taluka.md",
       "base_commit": "a770760a113228f0d22ac51606a8a31034e50215",
       "commit_chain": [
-        "c0849787138c33e29517d1f1cab397cd2192c918"
+        "c0849787138c33e29517d1f1cab397cd2192c918",
+        "376dbc01ffd312857672b9a770c2de566809828f"
       ],
       "corrections": [
         "lucknow-district.md: corrected 2011 literacy to 77.3% and density to 1,816/km²; clarified five current tehsils using Lucknow district administration; replaced Wikipedia and generic Census links with the Census DCHB PDF and official district pages.",
@@ -702,9 +703,9 @@
     "Machu Picchu: पर्यटक मर्यादा, प्रवेशमार्ग व तिकीट नियम बदलतात; लेखात स्थिर संख्या न देता पेरूच्या सांस्कृतिक मंत्रालयाची अद्ययावत माहिती तपासण्याची सूचना ठेवली."
   ],
   "next_file": "madha-taluka.md",
-  "last_verified_main": "c0849787138c33e29517d1f1cab397cd2192c918",
+  "last_verified_main": "376dbc01ffd312857672b9a770c2de566809828f",
   "index_note": "content/index.md is a short shell; build.js recursively generates the homepage article list from all content/*.md files except index.md, sorts by title, and excludes legacy redirect slugs. Current main tree contains 1,154 article Markdown files.",
-  "last_checkpoint_commit": "c0849787138c33e29517d1f1cab397cd2192c918",
+  "last_checkpoint_commit": "376dbc01ffd312857672b9a770c2de566809828f",
   "last_run_date": "2026-11-17",
   "last_updated": "2026-11-17T19:35:18+05:30"
 }
