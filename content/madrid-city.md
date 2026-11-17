@@ -48,12 +48,12 @@ description: स्पेनची राजधानी माद्रिद�
 
 1. [माद्रिद नगरपालिका — १ जानेवारी २०२६ ची नगरनोंद (PDF)](https://www.madrid.es/UnidadesDescentralizadas/UDCEstadistica/Nuevaweb/Demograf%C3%ADa%20y%20poblaci%C3%B3n/Cifras%20de%20poblaci%C3%B3n/PMH/Avance/Primeros_resultados_2026.pdf)
 2. [माद्रिद स्वायत्त प्रदेश — २०२५ लोकसंख्या](https://www.comunidad.madrid/noticias/2026/02/23/comunidad-madrid-aumenta-16-poblacion-municipios-menos-2500-habitantes-14-inferiores-5000)
-3. [माद्रिद नगरपालिका — शहराचे क्षेत्रफळ व २१ जिल्हे (२०२५ अहवाल)](https://www.madrid.es/UnidadesDescentralizadas/Sostenibilidad/Ruido/PlanAccionContaminacionAcustica/2025/PAMCA2025Memoria.pdf)
+3. [माद्रिद नगरपालिका — शहराचे क्षेत्रफळ व २१ जिल्हे (२०२५ अहवाल)](https://www.madrid.es/UnidadWeb/Contenidos/EspecialInformativo/PortalContribuyente/InfoFinanciera/Actualidad/investorpresentation2025.pdf)
 4. [स्पेनचे संविधान १९७८](https://www.boe.es/eli/es/c/1978/12/27/(1))
 5. [माद्रिद नगरपालिका — Casa de Campo](https://www.madrid.es/portales/munimadrid/es/Inicio/El-Ayuntamiento/Villa-de-Vallecas/Programacion-cultural-de-Villa-de-Vallecas/Actividades-en-el-Centro-Cultural-Benjamin-Palencia/Parque-de-la-Casa-de-Campo/?vgnextchannel=b5b3bf80a7cdc910VgnVCM100000891ecb1aRCRD&vgnextfmt=default&vgnextoid=482a315919a9e210VgnVCM1000000b205a0aRCRD)
 6. [माद्रिदचे अधिकृत पर्यटन संकेतस्थळ — मुस्लिम काळातील माद्रिद](https://www.esmadrid.com/en/in-the-footsteps-of-muslim-madrid)
 7. [माद्रिद प्रादेशिक सरकार — मेट्रोच्या पहिल्या मार्गाचा इतिहास](https://www.comunidad.madrid/infraestructuras/linea-1-metro-madrid)
-8. [प्राडो संग्रहालय — १८१९ मध्ये संग्रहालयाचे उद्घाटन](https://www.museodelprado.es/actualidad/actividad/reencuentros-parada-v-una-corte-a-nuestro/9923c5c9-1156-4e95-a284-8689954e4222)
+8. [प्राडो संग्रहालय — १८१९ मध्ये संग्रहालयाचे उद्घाटन](https://servicios.museodelprado.es/doclinks/pdf/visita/plano/m/2025/plano_ing.pdf?v=20250314)
 9. [युनेस्को — Paseo del Prado आणि Buen Retiro](https://whc.unesco.org/en/list/1618/)
 
 ---
