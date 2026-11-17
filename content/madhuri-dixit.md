@@ -26,7 +26,7 @@ description: हिंदी चित्रपटसृष्टीतील �
 
 माधुरी दीक्षित यांचे वडील शंकर दीक्षित आणि आई स्नेहलता दीक्षित हे मराठी कुटुंबातील होते. त्या मुंबईत लहानाच्या मोठ्या झाल्या. वयाच्या तिसऱ्या वर्षापासून त्यांना नृत्याची आवड निर्माण झाली.
 
-त्यांनी कथ्थक नृत्याचे आठ वर्षे शिक्षण घेतले आणि पुढे त्या प्रशिक्षित कथ्थक नर्तिका बनल्या. त्यांनी महाविद्यालयात सूक्ष्मजीवशास्त्राचा अभ्यास सुरू केला; चित्रपट कारकीर्दीमुळे त्यांनी पदवी पूर्ण केली नाही.
+त्यांनी कथ्थक नृत्याचे आठ वर्षे शिक्षण घेतले आणि पुढे त्या प्रशिक्षित कथ्थक नर्तिका बनल्या. १९८४ मध्ये 'अबोध'साठी स्क्रीन टेस्ट दिली तेव्हा त्या बारावीच्या वर्गात सूक्ष्मजीवशास्त्र विषयाचा अभ्यास करत होत्या. पुढे चित्रपट कारकीर्दीमुळे त्यांनी महाविद्यालयीन शिक्षण पूर्ण केले नाही.
 
 ## चित्रपट कारकीर्द
 
@@ -64,6 +64,7 @@ description: हिंदी चित्रपटसृष्टीतील �
 2. [Filmfare — पुरस्कार विजेत्यांची अधिकृत यादी](https://www.filmfare.com/awards/filmfare-awards/winners)
 3. [India Today — माधुरी दीक्षित यांची १९९३ मधील मुलाखत व कारकीर्द](https://www.indiatoday.in/amp/india-today-insight/story/from-the-india-today-archives-1993-the-everlasting-magic-of-madhuri-dixit-2291213-2022-10-30)
 4. [Hindustan Times / IANS — माधुरी दीक्षित यांना पद्मश्री, २००८](https://www.hindustantimes.com/entertainment/i-m-being-honoured-for-my-hardwork-madhuri/story-SA1sCZoN8ti3nRbT9UtnZI.html)
+5. [Business Standard / IANS — माधुरी दीक्षित यांचे आठ वर्षांचे कथ्थक प्रशिक्षण](https://www.business-standard.com/article/news-ians/classical-dance-makes-dancers-foundation-strong-madhuri-dixit-118070100246_1.html)
 
 ---
 
