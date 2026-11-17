@@ -1,5 +1,5 @@
 {
-  "next_index": 551,
+  "next_index": 561,
   "cycle": 2,
   "runs": [
     {
@@ -609,6 +609,50 @@
         "indus-river.md",
         "indore-district.md"
       ]
+    },
+    {
+      "date": "2026-11-17",
+      "checked": 10,
+      "range": [
+        "lucknow-district.md",
+        "madan-mohan-malaviya.md"
+      ],
+      "cycle": 2,
+      "updated_articles": [
+        "lucknow-district.md",
+        "m-f-husain.md",
+        "m-karunanidhi.md",
+        "m-s-subbulakshmi.md",
+        "m-s-swaminathan.md",
+        "m-visvesvaraya.md",
+        "machu-picchu.md",
+        "madagascar.md",
+        "madam-bhikaiji-cama.md",
+        "madan-mohan-malaviya.md"
+      ],
+      "unchanged_articles_count": 0,
+      "footer_dates_refreshed": 10,
+      "internal_links_checked": 0,
+      "broken_internal_links": 0,
+      "next_index": 561,
+      "next_file": "madha-taluka.md",
+      "base_commit": "a770760a113228f0d22ac51606a8a31034e50215",
+      "commit_chain": [
+        "c0849787138c33e29517d1f1cab397cd2192c918"
+      ],
+      "corrections": [
+        "lucknow-district.md: corrected 2011 literacy to 77.3% and density to 1,816/km²; clarified five current tehsils using Lucknow district administration; replaced Wikipedia and generic Census links with the Census DCHB PDF and official district pages.",
+        "m-f-husain.md: corrected birth year to 1913 per DAG; clarified incomplete art-school study; corrected feature-film titles to Gaja Gamini and Meenaxi: A Tale of Three Cities; removed unsupported exhibition and market superlatives.",
+        "m-karunanidhi.md: corrected 'निधीनंतर' to 'निधनानंतर'; removed the wrongly attributed school midday-meal scheme and replaced it with verified free agricultural electricity, Namakku Naame, Samathuvapuram and ₹1/kg rice references.",
+        "m-s-subbulakshmi.md: corrected UNPA commemorative stamp year to 2016; clarified she was the first Indian musician to perform at the UN General Assembly; removed unsupported exact count of 200 benefit concerts.",
+        "m-s-swaminathan.md: corrected MSSRF founding year to 1988 and added direct MSSRF, IUCN and World Food Prize sources; verified the 2007–2017 Selection Committee chair role.",
+        "m-visvesvaraya.md: corrected Bombay PWD appointment to 1884 and Block System to 1903; standardized death date to 14 April 1962 based on ICE and biographical references; removed unsupported royalty and 'thousands of schools' claims.",
+        "machu-picchu.md: clarified local communities knew the site and Bingham brought it to wider international attention; removed unsupported east/west zoning and corrected 'prehistoric' to 'pre-Columbian'; made visitor-rule guidance subject to current Peruvian Ministry of Culture rules.",
+        "madagascar.md: replaced rounded area with 587,295 km²; added 2024 INSTAT population projection 30,933,859 and highest point 2,876 m; removed repeated environment and development sections.",
+        "madam-bhikaiji-cama.md: corrected birthplace from Navsari to Mumbai; changed 'first person' to 'first woman' to match Government of India account; removed unsupported flag-color and periodical details.",
+        "madan-mohan-malaviya.md: corrected Provincial Legislative Council (1902) vs Imperial Legislative Council (1909); removed unsupported parents-death claim; corrected newspaper history and BHU Vice-Chancellor dates; replaced Wikipedia references."
+      ],
+      "verified_no_change": []
     }
   ],
   "total_articles": 1154,
@@ -648,12 +692,19 @@
     "decolonisation.md: the Non-Aligned Movement reference still points to the movement's general homepage; a specific official historical page for the 1961 founding was not verified in this run.",
     "ahilyabai-holkar.md: लेखात मृत्यूस्थळ महेश्वर दिले आहे, तर Devi Ahilya Vishwavidyalaya च्या पृष्ठावर इंदूर नमूद आहे; अतिरिक्त विश्वासार्ह प्राथमिक पुष्टी मिळेपर्यंत दावा बदलू नये.",
     "ada-lovelace.md: नंतरच्या संगणकीय चाचणीत त्रुटी आढळल्याचा दावा अजूनही विश्वासार्ह प्राथमिक स्रोताने पुष्टी झालेला नाही; मानवी पडताळणी आवश्यक.",
-    "वारसा स्थळांच्या लेखांमध्ये प्रवेश, वेळा, बंद-दिवस किंवा सफारी/पर्यटन नियम दिले असल्यास ते अद्ययावत अधिकृत प्रशासन/ASI/वनविभाग स्रोतांवरून पुन्हा तपासावेत."
+    "वारसा स्थळांच्या लेखांमध्ये प्रवेश, वेळा, बंद-दिवस किंवा सफारी/पर्यटन नियम दिले असल्यास ते अद्ययावत अधिकृत प्रशासन/ASI/वनविभाग स्रोतांवरून पुन्हा तपासावेत.",
+    "M. F. Husain: डीएजीच्या चरित्रात जन्मवर्ष 1913 दिले आहे; काही जुन्या स्रोतांत 1915 किंवा 1911 दिसते. लेख 1913 नुसार दुरुस्त केला; स्रोतांतील ऐतिहासिक फरक नोंदवला.",
+    "M. F. Husain: मुंबईत आगमनासाठी डीएजीच्या चरित्राच्या वेगवेगळ्या भागांत 1936 आणि 1937 अशी दोन्ही वर्षे दिसतात; लेखातील 1937 बदललेले नाही, अतिरिक्त प्राथमिक पुरावा आवश्यक.",
+    "M. S. Subbulakshmi: निधनतारीख 11 डिसेंबर 2004 अनेक चरित्रांत आहे, तर राष्ट्रपतींच्या एका श्रद्धांजलीत 12 डिसेंबर नमूद आहे; लेखातील 11 डिसेंबर बदललेला नाही.",
+    "M. S. Subbulakshmi: तिरुपतीतील कांस्यपुतळा 2006 मध्ये उभारल्याचा दावा दुय्यम स्रोतांत आढळतो; TTD/TUDA चा थेट प्राथमिक स्रोत मिळेपर्यंत मानवी पडताळणी आवश्यक.",
+    "M. Visvesvaraya: निधनतारीख 14 एप्रिल 1962 ICE आणि इतर चरित्रांत आहे, तर एका अलीकडील संदर्भात 12 एप्रिल दिसते; लेख 14 एप्रिलनुसार दुरुस्त केला, मूळ अभिलेखाची स्वतंत्र पुष्टी आवश्यक.",
+    "Madagascar: SADC चा 2025 देश-प्रोफाइल 2025 मधील राजकीय बदलांपूर्वीचा आहे; 2025 च्या सत्तांतरानंतरची सध्याची संक्रमणकालीन राज्यव्यवस्था अधिकृत सरकारी/घटनात्मक स्रोतांवरून स्वतंत्रपणे पडताळणे आवश्यक.",
+    "Machu Picchu: पर्यटक मर्यादा, प्रवेशमार्ग व तिकीट नियम बदलतात; लेखात स्थिर संख्या न देता पेरूच्या सांस्कृतिक मंत्रालयाची अद्ययावत माहिती तपासण्याची सूचना ठेवली."
   ],
-  "next_file": "lucknow-district.md",
-  "last_verified_main": "d026407991172e35be292e8921298e33b4a39e2d",
-  "index_note": "content/index.md is a short shell; build.js generates the article listing from content/*.md. Legacy aliases are handled by the redirect map, including malkapur-taluka -> malkapur-buldhana-taluka and hatkanangale-taluka -> hatkanangle-taluka.",
-  "last_checkpoint_commit": "d026407991172e35be292e8921298e33b4a39e2d",
+  "next_file": "madha-taluka.md",
+  "last_verified_main": "c0849787138c33e29517d1f1cab397cd2192c918",
+  "index_note": "content/index.md is a short shell; build.js recursively generates the homepage article list from all content/*.md files except index.md, sorts by title, and excludes legacy redirect slugs. Current main tree contains 1,154 article Markdown files.",
+  "last_checkpoint_commit": "c0849787138c33e29517d1f1cab397cd2192c918",
   "last_run_date": "2026-11-17",
-  "last_updated": "2026-11-17T09:05:00+05:30"
+  "last_updated": "2026-11-17T19:35:18+05:30"
 }
