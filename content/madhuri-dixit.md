@@ -63,7 +63,7 @@ description: हिंदी चित्रपटसृष्टीतील �
 1. [Filmfare — माधुरी दीक्षित यांचे फिल्मफेअर पुरस्कार](https://www.filmfare.com/news/bollywood/birthday-special-madhuri-dixit-nenes-journey-with-filmfare-through-the-years-83917.html)
 2. [Filmfare — पुरस्कार विजेत्यांची अधिकृत यादी](https://www.filmfare.com/awards/filmfare-awards/winners)
 3. [India Today — माधुरी दीक्षित यांची १९९३ मधील मुलाखत व कारकीर्द](https://www.indiatoday.in/amp/india-today-insight/story/from-the-india-today-archives-1993-the-everlasting-magic-of-madhuri-dixit-2291213-2022-10-30)
-4. [भारत सरकार — पद्म पुरस्कार २००८ अधिसूचना](https://www.padmaawards.gov.in/Document/pdf/notifications/PadmaAwards/2008.pdf)
+4. [प्रेस माहिती ब्युरो — पद्म पुरस्कारांची घोषणा (२५ जानेवारी २००८)](https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=34924)
 5. [Business Standard / IANS — माधुरी दीक्षित यांचे आठ वर्षांचे कथ्थक प्रशिक्षण](https://www.business-standard.com/article/news-ians/classical-dance-makes-dancers-foundation-strong-madhuri-dixit-118070100246_1.html)
 
 ---
