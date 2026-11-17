@@ -1,5 +1,5 @@
 {
-  "next_index": 561,
+  "next_index": 578,
   "cycle": 2,
   "runs": [
     {
@@ -654,6 +654,98 @@
         "madan-mohan-malaviya.md: corrected Provincial Legislative Council (1902) vs Imperial Legislative Council (1909); removed unsupported parents-death claim; corrected newspaper history and BHU Vice-Chancellor dates; replaced Wikipedia references."
       ],
       "verified_no_change": []
+    },
+    {
+      "date": "2026-11-17",
+      "checked": 12,
+      "range": [
+        "madha-taluka.md",
+        "mahadev-govind-ranade.md"
+      ],
+      "reviewed_files": [
+        "madha-taluka.md",
+        "madhubani-painting.md",
+        "madhuri-dixit.md",
+        "madhya-pradesh.md",
+        "madrid-city.md",
+        "madurai-district.md",
+        "magna-carta.md",
+        "mahabaleshwar-taluka.md",
+        "mahabaleshwar.md",
+        "mahabodhi-temple.md",
+        "mahad-taluka.md",
+        "mahadev-govind-ranade.md"
+      ],
+      "updated_articles": [
+        "madrid-city.md",
+        "madurai-district.md",
+        "magna-carta.md",
+        "madhuri-dixit.md",
+        "mahabaleshwar-taluka.md"
+      ],
+      "unchanged_articles": [
+        "madha-taluka.md",
+        "madhubani-painting.md",
+        "madhya-pradesh.md",
+        "mahabaleshwar.md",
+        "mahabodhi-temple.md",
+        "mahad-taluka.md",
+        "mahadev-govind-ranade.md"
+      ],
+      "internal_links_checked": 3,
+      "broken_internal_links": 0,
+      "footer_dates_refreshed": 0,
+      "index_checked": true,
+      "index_changed": false,
+      "title_frontmatter_checks": 12,
+      "next_index": 578,
+      "next_file": "major-dhyan-chand.md",
+      "cycle": 2,
+      "base_commit": "ab3f633c4b1723ce3b6430d21b63bebbf8d11c09",
+      "article_commit_shas": [
+        {
+          "path": "madrid-city.md",
+          "commit": "9e8429d52d5487aaee838f2615caa60ad6c5e593",
+          "blob": "3e74be70a0f9c7c273d3bcac74a187bf52c3fac9"
+        },
+        {
+          "path": "madurai-district.md",
+          "commit": "ac8616fa9bd87372e42aa422536f0847cc5fa816",
+          "blob": "8091fddea4d50fcd1ece44012bfd337080206903"
+        },
+        {
+          "path": "magna-carta.md",
+          "commit": "af3ea26c032465e7859074957c6a760158458cce",
+          "blob": "f17b529ae3a20d6f9275b2b17105db9f2d429318"
+        },
+        {
+          "path": "madhuri-dixit.md",
+          "commit": "4da824e050e9aa3b71bf2c26d11a0b070642e07d",
+          "blob": "0682c8db87a94404e1e961ed355dfd0c1f7807bb"
+        },
+        {
+          "path": "mahabaleshwar-taluka.md",
+          "commit": "09a6554296318d180ac3422b08ac8a736e91e5f6",
+          "blob": "bf7cf8bab1bea5ef31b7d82fc349f9f90df86f67"
+        }
+      ],
+      "corrections": [
+        "madrid-city.md: replaced a broken 2025 investor-presentation URL with the Madrid City Council's 2023 Statistical Yearbook, supporting the rounded 605 km² area and 21 districts.",
+        "madurai-district.md: removed the incorrect attribution of Sirumalai Hills to Madurai district and removed an over-generalized flat-plain/100 m description.",
+        "magna-carta.md: clarified that the three provisions still in force refer to the 1297 statute in the UK except Scotland, not three clauses of the 1215 original; merged a repeated paragraph on the American independence movement.",
+        "madhuri-dixit.md: replaced the media report for the 2008 Padma Shri with the Government of India's official Padma Awards Gazette notification.",
+        "mahabaleshwar-taluka.md: replaced generic/broken administrative references with Satara District Administration's current Tehsils page and its taluka-wise village-count page."
+      ],
+      "concurrent_changes_reviewed": [
+        "mahabaleshwar.md",
+        "mahabodhi-temple.md",
+        "mahad-taluka.md",
+        "mahadev-govind-ranade.md"
+      ],
+      "human_review_flags": [
+        "madhubani-painting.md: IP India GI नोंदीत अर्ज क्र. 37 ची स्थिती Registered आणि प्रमाणपत्र तारीख 16-05-2007 आहे; परंतु त्याच नोंदीत Registration Valid Upto 21-08-2025 व 26-11-2024 चा renewal notice दिसतो. नूतनीकरणाचा अंतिम परिणाम सार्वजनिक नोंदीत स्पष्ट नसल्याने वर्तमान वैधता मानवी पडताळणीसाठी प्रलंबित.",
+        "mahabodhi-temple.md: मंदिराच्या उंचीबाबत UNESCO 50 मीटर तर भारतीय पुरातत्त्व सर्वेक्षण विभाग 55 मीटर नोंदवतो. प्राथमिक संस्थांच्या आकड्यांत विसंगती असल्याने लेखातील सुमारे 50 मीटरचा आकडा बदललेला नाही; मूळ सर्वेक्षण/मोजमापातून मानवी पडताळणी आवश्यक."
+      ]
     }
   ],
   "total_articles": 1154,
@@ -673,7 +765,6 @@
     "mahad-taluka.md: 2011 ची लोकसंख्या व इतर तालुकास्तरीय आकडे मूळ जनगणना तक्त्याशी पुन्हा जुळवणे बाकी.",
     "maharashtra.md: काही संदर्भ सर्वसाधारण शासन संकेतस्थळांकडे जातात; संबंधित दाव्यांशी जुळणारे विशिष्ट अधिकृत पृष्ठ मिळाल्यावरच बदल करावा.",
     "mahatma-gandhi.md: दोन संदर्भ आहेत; लेखातील सर्व कालखंड, संस्थात्मक काम आणि तारखांसाठी अधिक विशिष्ट प्राथमिक स्रोतांची पुढील बॅचमध्ये पडताळणी आवश्यक.",
-    "mahabaleshwar-taluka.md: संदर्भांपैकी काही सर्वसाधारण पोर्टल पृष्ठे आहेत; तालुक्याची सीमा, गावसंख्या आणि प्रशासकीय तपशीलांसाठी थेट अधिकृत स्रोत जोडणे बाकी.",
     "make-in-india.md: संदर्भ यादीत Wikipedia आहे आणि इतर काही दुवे सर्वसाधारण homepage आहेत; कार्यक्रमाच्या टप्प्यांनुसार DPIIT/सरकारी दस्तऐवजांशी दावे जुळवणे बाकी.",
     "malawi.md: SADC च्या देश-प्रोफाइलच्या सारांशात इंग्रजी व चिचेवा दोन्ही अधिकृत भाषा म्हटल्या आहेत, तर त्याच पृष्ठाच्या वर्णनात इंग्रजी अधिकृत व चिचेवा राष्ट्रीय भाषा म्हटली आहे. लेखातील सध्याची मांडणी कायम ठेवली; मलावीच्या संविधान/सरकारी कायद्यातून स्वतंत्र पुष्टी आवश्यक.",
     "malegaon-taluka.md: मालेगाव किल्ल्याच्या बांधकामाची सुरुवात सुमारे 1740 मध्ये नरोशंकर राजे बहादूर यांनी केली हा दावा या बॅचमध्ये विशिष्ट अधिकृत ऐतिहासिक स्रोताने पडताळता आला नाही; मजकूर बदललेला नाही.",
@@ -700,12 +791,44 @@
     "M. S. Subbulakshmi: तिरुपतीतील कांस्यपुतळा 2006 मध्ये उभारल्याचा दावा दुय्यम स्रोतांत आढळतो; TTD/TUDA चा थेट प्राथमिक स्रोत मिळेपर्यंत मानवी पडताळणी आवश्यक.",
     "M. Visvesvaraya: निधनतारीख 14 एप्रिल 1962 ICE आणि इतर चरित्रांत आहे, तर एका अलीकडील संदर्भात 12 एप्रिल दिसते; लेख 14 एप्रिलनुसार दुरुस्त केला, मूळ अभिलेखाची स्वतंत्र पुष्टी आवश्यक.",
     "Madagascar: SADC चा 2025 देश-प्रोफाइल 2025 मधील राजकीय बदलांपूर्वीचा आहे; 2025 च्या सत्तांतरानंतरची सध्याची संक्रमणकालीन राज्यव्यवस्था अधिकृत सरकारी/घटनात्मक स्रोतांवरून स्वतंत्रपणे पडताळणे आवश्यक.",
-    "Machu Picchu: पर्यटक मर्यादा, प्रवेशमार्ग व तिकीट नियम बदलतात; लेखात स्थिर संख्या न देता पेरूच्या सांस्कृतिक मंत्रालयाची अद्ययावत माहिती तपासण्याची सूचना ठेवली."
+    "Machu Picchu: पर्यटक मर्यादा, प्रवेशमार्ग व तिकीट नियम बदलतात; लेखात स्थिर संख्या न देता पेरूच्या सांस्कृतिक मंत्रालयाची अद्ययावत माहिती तपासण्याची सूचना ठेवली.",
+    "madhubani-painting.md: IP India GI नोंदीत अर्ज क्र. 37 ची स्थिती Registered आणि प्रमाणपत्र तारीख 16-05-2007 आहे; परंतु त्याच नोंदीत Registration Valid Upto 21-08-2025 व 26-11-2024 चा renewal notice दिसतो. नूतनीकरणाचा अंतिम परिणाम सार्वजनिक नोंदीत स्पष्ट नसल्याने वर्तमान वैधता मानवी पडताळणीसाठी प्रलंबित.",
+    "mahabodhi-temple.md: मंदिराच्या उंचीबाबत UNESCO 50 मीटर तर भारतीय पुरातत्त्व सर्वेक्षण विभाग 55 मीटर नोंदवतो. प्राथमिक संस्थांच्या आकड्यांत विसंगती असल्याने लेखातील सुमारे 50 मीटरचा आकडा बदललेला नाही; मूळ सर्वेक्षण/मोजमापातून मानवी पडताळणी आवश्यक."
   ],
-  "next_file": "madha-taluka.md",
-  "last_verified_main": "376dbc01ffd312857672b9a770c2de566809828f",
+  "next_file": "major-dhyan-chand.md",
+  "last_verified_main": "09a6554296318d180ac3422b08ac8a736e91e5f6",
   "index_note": "content/index.md is a short shell; build.js recursively generates the homepage article list from all content/*.md files except index.md, sorts by title, and excludes legacy redirect slugs. Current main tree contains 1,154 article Markdown files.",
-  "last_checkpoint_commit": "376dbc01ffd312857672b9a770c2de566809828f",
+  "last_checkpoint_commit": "09a6554296318d180ac3422b08ac8a736e91e5f6",
   "last_run_date": "2026-11-17",
-  "last_updated": "2026-11-17T19:35:18+05:30"
+  "last_updated": "2026-11-17T19:35:18+05:30",
+  "reviewed_files": [
+    "madha-taluka.md",
+    "madhubani-painting.md",
+    "madhuri-dixit.md",
+    "madhya-pradesh.md",
+    "madrid-city.md",
+    "madurai-district.md",
+    "magna-carta.md",
+    "mahabaleshwar-taluka.md",
+    "mahabaleshwar.md",
+    "mahabodhi-temple.md",
+    "mahad-taluka.md",
+    "mahadev-govind-ranade.md"
+  ],
+  "updated_files": [
+    "madrid-city.md",
+    "madurai-district.md",
+    "magna-carta.md",
+    "madhuri-dixit.md",
+    "mahabaleshwar-taluka.md"
+  ],
+  "verified_no_change": [
+    "madha-taluka.md",
+    "madhubani-painting.md",
+    "madhya-pradesh.md",
+    "mahabaleshwar.md",
+    "mahabodhi-temple.md",
+    "mahad-taluka.md",
+    "mahadev-govind-ranade.md"
+  ]
 }
