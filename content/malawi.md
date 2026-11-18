@@ -18,7 +18,7 @@ description: मलावी हा आग्नेय आफ्रिकेत�
 | क्षेत्रफळ | १,१८,४८४ चौ. किमी [१] |
 | शासनप्रणाली | अध्यक्षीय प्रजासत्ताक |
 | अधिकृत भाषा | इंग्रजी |
-| राष्ट्रीय भाषा | चिचेवा |
+| सर्वसाधारणपणे वापरली जाणारी भाषा | चिचेवा |
 | चलन | मलावी क्वाचा |
 | प्रमुख सरोवर | मलावी सरोवर |
 | स्वातंत्र्य दिन | ६ जुलै |
@@ -47,7 +47,7 @@ description: मलावी हा आग्नेय आफ्रिकेत�
 
 ## लोकसंख्या आणि समाज
 
-चिचेवा ही राष्ट्रीय भाषा असून इंग्रजी अधिकृत भाषा आहे. याओ, तुंबुका, लोम्वे आणि इतर स्थानिक भाषा वापरल्या जातात. लिलोंग्वे, ब्लँटायर, मझुझू आणि झोम्बा ही महत्त्वाची शहरे आहेत. ख्रिश्चन धर्माचा प्रभाव मोठा आहे; मुस्लिम समुदायही विशेषतः दक्षिणेकडील भागांत आढळतो. [३]
+इंग्रजी ही अधिकृत भाषा असून चिचेवा ही सर्वसाधारणपणे वापरली जाणारी भाषा आहे. याओ, तुंबुका, लोम्वे आणि इतर स्थानिक भाषा वापरल्या जातात. लिलोंग्वे, ब्लँटायर, मझुझू आणि झोम्बा ही महत्त्वाची शहरे आहेत. ख्रिश्चन धर्माचा प्रभाव मोठा आहे; मुस्लिम समुदायही विशेषतः दक्षिणेकडील भागांत आढळतो. [३]
 
 ## संस्कृती आणि पर्यटन
 
@@ -69,11 +69,12 @@ description: मलावी हा आग्नेय आफ्रिकेत�
 
 ## संदर्भ
 
-१. [SADC — Malawi Country Profile](https://www.sadc.int/member-states/malawi)
+१. [मलावी सरकार — About Malawi](https://www.malawi.gov.mw/)
 २. [Encyclopaedia Britannica — Malawi](https://www.britannica.com/place/Malawi)
 ३. [National Statistical Office of Malawi](https://www.nsomalawi.mw/)
 ४. [World Bank — Malawi Data](https://data.worldbank.org/country/malawi)
-५. [COMESA — The Republic of Malawi](https://www.comesa.int/the-republic-of-malawi/)
+५. [SADC — Malawi Country Profile](https://www.sadc.int/member-states/malawi)
+६. [COMESA — The Republic of Malawi](https://www.comesa.int/the-republic-of-malawi/)
 
 ---
 
