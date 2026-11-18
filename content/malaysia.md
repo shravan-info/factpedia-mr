@@ -68,12 +68,13 @@ description: मलेशिया हा आग्नेय आशियात�
 
 ## संदर्भ
 
-१. [मलेशियाचे पंतप्रधान कार्यालय — राष्ट्रीय दिन व मलेशिया दिन २०२३](https://www.pmo.gov.my/ms/ucapanterkini/ucapan-khas-perdana-menteri-sempena-hari-kebangsaan-dan-hari-malaysia-2023/)
-२. [सबा राज्य ग्रंथालय — Hari Malaysia](https://library.sabah.gov.my/index.php/ms/pautan/paparan-artikel/hari-malaysia)
-३. [Encyclopaedia Britannica — Malaysia: History](https://www.britannica.com/place/Malaysia)
-४. [UNESCO — Malaysia, World Heritage Convention](https://whc.unesco.org/en/statesparties/my)
-५. [Department of Statistics Malaysia](https://www.dosm.gov.my/)
-६. [World Bank — Malaysia Data](https://data.worldbank.org/country/malaysia)
+१. [मलेशियाचे राष्ट्रीय अभिलेखागार — Pemasyhuran Malaysia: Lahirnya Sebuah Negara](https://pustakailmu.arkib.gov.my/index.php/ms/pustaka-ilmu/imbasan-fakta/pemasyhuran-malaysia-lahirnya-sebuah-negara)
+२. [मलेशियाचे राष्ट्रीय अभिलेखागार — Dokumen Perisytiharan Kemerdekaan](https://pustakailmu.arkib.gov.my/index.php/ms/pustaka-ilmu/imbasan-fakta/dokumen-perisytiharan-kemerdekaan)
+३. [सबा राज्य ग्रंथालय — Hari Malaysia](https://library.sabah.gov.my/index.php/ms/pautan/paparan-artikel/hari-malaysia)
+४. [Encyclopaedia Britannica — Malaysia: History](https://www.britannica.com/place/Malaysia)
+५. [UNESCO — Malaysia, World Heritage Convention](https://whc.unesco.org/en/statesparties/my)
+६. [Department of Statistics Malaysia](https://www.dosm.gov.my/)
+७. [World Bank — Malaysia Data](https://data.worldbank.org/country/malaysia)
 
 ---
 
