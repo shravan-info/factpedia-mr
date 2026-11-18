@@ -63,4 +63,4 @@ description: मोहनदास करमचंद गांधी हे भ
 1. [संस्कृती मंत्रालय – महात्मा गांधी](https://culture.gov.in/mahatma-gandhi)
 2. [नेहरू पोर्टल – स्वातंत्र्यलढा](https://nehruportal.nic.in/freedom-struggle)
 
-*शेवटचे संपादन: ५ नोव्हेंबर २०२६*
+*शेवटचे संपादन: १८ नोव्हेंबर २०२६*
