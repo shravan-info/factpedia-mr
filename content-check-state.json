@@ -1,5 +1,5 @@
 {
-  "next_index": 578,
+  "next_index": 728,
   "cycle": 2,
   "runs": [
     {
@@ -753,6 +753,32 @@
           "reason": "replace a non-supporting Gazette PDF with the official PIB award announcement"
         }
       ]
+    },
+    {
+      "date": "2026-11-18",
+      "checked": 150,
+      "range": [
+        "mahad-taluka.md",
+        "nifty-50.md"
+      ],
+      "cycle": 2,
+      "updated_articles": [
+        "national-film-awards.md",
+        "myanmar.md",
+        "mercury-planet.md"
+      ],
+      "unchanged_articles_count": 147,
+      "footer_dates_refreshed": 150,
+      "internal_links_checked": 22,
+      "broken_internal_links": 0,
+      "next_index": 728,
+      "next_file": "nigeria.md",
+      "base_commit": "c6c4f1cd6983110037aeedaeba3bf81d6460828b",
+      "corrections": [
+        "national-film-awards.md: 72nd National Film Awards announced 18 July 2026 and conferred 22 September 2026 at Ekta Nagar, Kevadia (first ceremony outside Delhi); added winners table and Anant Nag's Dadasaheb Phalke Award (2024).",
+        "myanmar.md: added December 2025-January 2026 elections, USDP majority, Min Aung Hlaing sworn in as president in April 2026, Ye Win Oo as commander-in-chief; updated governance line in infobox.",
+        "mercury-planet.md: BepiColombo MTM separation 3 September 2026, Mercury orbit insertion 21 November 2026, science phase April 2027, first mission with two orbiters at Mercury."
+      ]
     }
   ],
   "total_articles": 1154,
@@ -802,7 +828,7 @@
     "madhubani-painting.md: IP India GI नोंदीत अर्ज क्र. 37 ची स्थिती Registered आणि प्रमाणपत्र तारीख 16-05-2007 आहे; परंतु त्याच नोंदीत Registration Valid Upto 21-08-2025 व 26-11-2024 चा renewal notice दिसतो. नूतनीकरणाचा अंतिम परिणाम सार्वजनिक नोंदीत स्पष्ट नसल्याने वर्तमान वैधता मानवी पडताळणीसाठी प्रलंबित.",
     "mahabodhi-temple.md: मंदिराच्या उंचीबाबत UNESCO 50 मीटर तर भारतीय पुरातत्त्व सर्वेक्षण विभाग 55 मीटर नोंदवतो. प्राथमिक संस्थांच्या आकड्यांत विसंगती असल्याने लेखातील सुमारे 50 मीटरचा आकडा बदललेला नाही; मूळ सर्वेक्षण/मोजमापातून मानवी पडताळणी आवश्यक."
   ],
-  "next_file": "major-dhyan-chand.md",
+  "next_file": "nigeria.md",
   "last_verified_main": "af97d4bd77f3ec7be7298c490acf029ece351601",
   "index_note": "content/index.md is a short shell; build.js recursively generates the homepage article list from all content/*.md files except index.md, sorts by title, and excludes legacy redirect slugs. Current main tree contains 1,154 article Markdown files.",
   "last_checkpoint_commit": "af97d4bd77f3ec7be7298c490acf029ece351601",
