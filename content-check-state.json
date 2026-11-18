@@ -1,5 +1,5 @@
 {
-  "next_index": 728,
+  "next_index": 584,
   "cycle": 2,
   "runs": [
     {
@@ -771,17 +771,89 @@
       "footer_dates_refreshed": 150,
       "internal_links_checked": 22,
       "broken_internal_links": 0,
-      "next_index": 728,
-      "next_file": "nigeria.md",
+      "next_index": 578,
+      "next_file": "major-dhyan-chand.md",
       "base_commit": "c6c4f1cd6983110037aeedaeba3bf81d6460828b",
       "corrections": [
         "national-film-awards.md: 72nd National Film Awards announced 18 July 2026 and conferred 22 September 2026 at Ekta Nagar, Kevadia (first ceremony outside Delhi); added winners table and Anant Nag's Dadasaheb Phalke Award (2024).",
         "myanmar.md: added December 2025-January 2026 elections, USDP majority, Min Aung Hlaing sworn in as president in April 2026, Ye Win Oo as commander-in-chief; updated governance line in infobox.",
         "mercury-planet.md: BepiColombo MTM separation 3 September 2026, Mercury orbit insertion 21 November 2026, science phase April 2027, first mission with two orbiters at Mercury."
-      ]
+      ],
+      "footer_refresh_only": true,
+      "content_audit_advance": 0,
+      "note": "ही 150-फाइल बॅच फक्त footer-date refresh होती; तिने पूर्ण तथ्य-पडताळणीचा क्रमांक पुढे नेलेला नाही."
+    },
+    {
+      "date": "2026-11-18",
+      "checked": 10,
+      "reviewed_files": [
+        "content/ayurveda.md",
+        "content/chola-dynasty.md",
+        "content/dal-lake.md",
+        "content/eastern-ghats.md",
+        "content/jallianwala-bagh-massacre.md",
+        "content/jantar-mantar.md",
+        "content/mohenjo-daro.md",
+        "content/national-flag-of-india.md",
+        "content/tansen.md",
+        "content/vijayanagara-empire.md"
+      ],
+      "updated_articles": [
+        "content/chola-dynasty.md",
+        "content/dal-lake.md",
+        "content/eastern-ghats.md",
+        "content/jallianwala-bagh-massacre.md",
+        "content/jantar-mantar.md",
+        "content/mohenjo-daro.md",
+        "content/national-flag-of-india.md",
+        "content/tansen.md",
+        "content/vijayanagara-empire.md"
+      ],
+      "unchanged_articles": [
+        "content/ayurveda.md"
+      ],
+      "footer_dates_refreshed": 0,
+      "internal_links_checked": 0,
+      "broken_internal_links": 0,
+      "title_h1_checks": 10,
+      "title_h1_matches_after_suffix_normalization": 10,
+      "references_sections_checked": 10,
+      "index_checked": true,
+      "index_changed": false,
+      "index_articles": 1164,
+      "duplicate_slugs": 0,
+      "new_articles_added": 0,
+      "new_files_reviewed_out_of_order": [
+        "content/ayurveda.md",
+        "content/chola-dynasty.md",
+        "content/dal-lake.md",
+        "content/eastern-ghats.md",
+        "content/jallianwala-bagh-massacre.md",
+        "content/jantar-mantar.md",
+        "content/mohenjo-daro.md",
+        "content/national-flag-of-india.md",
+        "content/tansen.md",
+        "content/vijayanagara-empire.md"
+      ],
+      "next_index": 584,
+      "next_file": "major-dhyan-chand.md",
+      "base_commit": "3b6a8ad5852f01fabebda2fb35ec8a93e982d99b",
+      "corrections": [
+        "चोल साम्राज्य: कालमर्यादा 13व्या शतकापर्यंत स्पष्ट केली; Great Living Chola Temples चा 1987 प्रारंभिक दर्जा व 2004 विस्तार दुरुस्त केला; उत्तरमेरूर ग्रामसभेच्या नियमांना आधुनिक सार्वत्रिक लोकशाही न मानण्याची नोंद जोडली.",
+        "दाल सरोवर: LC&MA चे सध्याचे नाव, 1,583 मीटर उंची, क्षेत्रफळाच्या वेगवेगळ्या व्याख्या, 2007–2020 मधील उघड्या पाण्याचे क्षेत्र कमी झाल्याची CAG नोंद आणि स्रोतांतील basin-name फरक स्पष्ट केले.",
+        "पूर्व घाट: नल्लमला पर्वतरांगेला अभयारण्य म्हणून न दाखवता NTCA-नोंदित नागार्जुनसागर–श्रीशैलम व सिमिलीपाल व्याघ्र प्रकल्प दाखवले.",
+        "जलियनवाला बाग: 1951 कायद्यातील Trust व व्यवस्थापन समितीची तरतूद स्पष्ट केली; 2013 मधील David Cameron भेटीचे वर्णन अचूक केले.",
+        "जंतर मंतर: युरोपातून 1730 मध्ये परतलेल्या प्रतिनिधीमंडळाची नोंद, Zij-i Muhammad Shahi चे मुहम्मद शाह यांना अर्पण, बांधकाम साहित्य व राजस्थानमधील व्यवस्थापन दुरुस्त केले.",
+        "मोहेंजोदडो: 240 हेक्टरपैकी सुमारे एक-तृतीयांश उत्खनन, 2022 पुरानंतरची संवर्धनस्थिती आणि 'पुरोहित-राजा'/'पशुपती' या अनिश्चित ओळखी स्पष्ट केल्या.",
+        "भारतीय राष्ट्रध्वज: 2021 मधील मशीननिर्मित/पॉलिस्टर ध्वज परवानगी व 2022 मधील दिवस-रात्र प्रदर्शन दुरुस्त केले; केवळ खादी व एकमेव उत्पादकाचा दावा काढला.",
+        "तानसेन: 'नवरत्न' हा लोकप्रिय परंपरेतील उल्लेख असल्याचे स्पष्ट केले; तानसेन समारोहाचे बेहट, ग्वाल्हेर जिल्ह्यातील स्थान नोंदवले.",
+        "विजयनगर साम्राज्य: इब्न बतूताच्या भेटीचा अपुष्ट उल्लेख काढून ASI-नोंदित समकालीन प्रवासी प्रदेशांचा उल्लेख केला; कृष्णदेवरायांचा कालावधी 1509–1530 केला.",
+        "आयुर्वेद: लेख वाचून तपासला; पुराव्याअभावी कोणताही बदल केला नाही."
+      ],
+      "notes": "ही बॅच मागील checkpoint नंतर main मध्ये जोडलेल्या/बदललेल्या 10 लेखांची पडताळणी होती. 150-फाइल footer-date refresh ला पूर्ण तथ्य-पडताळणी म्हणून मोजले नाही. पुढील क्रमांक major-dhyan-chand.md पासून सुरू राहील."
     }
   ],
-  "total_articles": 1154,
+  "total_articles": 1164,
   "human_review": [
     "dadabhai-naoroji.md: जन्मस्थळाबाबत Azim Premji University मुंबई सांगते, तर गुजरात शासनाचे Navsari पृष्ठ नवसारी सांगते; अतिरिक्त प्राथमिक पुरावा मिळेपर्यंत मजकूर बदललेला नाही.",
     "dadasaheb-phalke-award.md: अधिकृत DFF/PIB पानांवर ₹10 लाख, तर 18 सप्टेंबर 2026 च्या Gazette मजकूराच्या उपलब्ध प्रतिलिपीत ₹15 लाख दिसते; मूळ eGazette PDF पडताळता न आल्याने रक्कम बदललेली नाही.",
@@ -826,42 +898,46 @@
     "Madagascar: SADC चा 2025 देश-प्रोफाइल 2025 मधील राजकीय बदलांपूर्वीचा आहे; 2025 च्या सत्तांतरानंतरची सध्याची संक्रमणकालीन राज्यव्यवस्था अधिकृत सरकारी/घटनात्मक स्रोतांवरून स्वतंत्रपणे पडताळणे आवश्यक.",
     "Machu Picchu: पर्यटक मर्यादा, प्रवेशमार्ग व तिकीट नियम बदलतात; लेखात स्थिर संख्या न देता पेरूच्या सांस्कृतिक मंत्रालयाची अद्ययावत माहिती तपासण्याची सूचना ठेवली.",
     "madhubani-painting.md: IP India GI नोंदीत अर्ज क्र. 37 ची स्थिती Registered आणि प्रमाणपत्र तारीख 16-05-2007 आहे; परंतु त्याच नोंदीत Registration Valid Upto 21-08-2025 व 26-11-2024 चा renewal notice दिसतो. नूतनीकरणाचा अंतिम परिणाम सार्वजनिक नोंदीत स्पष्ट नसल्याने वर्तमान वैधता मानवी पडताळणीसाठी प्रलंबित.",
-    "mahabodhi-temple.md: मंदिराच्या उंचीबाबत UNESCO 50 मीटर तर भारतीय पुरातत्त्व सर्वेक्षण विभाग 55 मीटर नोंदवतो. प्राथमिक संस्थांच्या आकड्यांत विसंगती असल्याने लेखातील सुमारे 50 मीटरचा आकडा बदललेला नाही; मूळ सर्वेक्षण/मोजमापातून मानवी पडताळणी आवश्यक."
+    "mahabodhi-temple.md: मंदिराच्या उंचीबाबत UNESCO 50 मीटर तर भारतीय पुरातत्त्व सर्वेक्षण विभाग 55 मीटर नोंदवतो. प्राथमिक संस्थांच्या आकड्यांत विसंगती असल्याने लेखातील सुमारे 50 मीटरचा आकडा बदललेला नाही; मूळ सर्वेक्षण/मोजमापातून मानवी पडताळणी आवश्यक.",
+    "chola-dynasty.md: कोरकै (Korkai) हे चोलांच्या प्रमुख बंदरांमध्ये दिले आहे; त्याचा पांड्यांशी असलेला ऐतिहासिक संबंध लक्षात घेता तमिळनाडू पुरातत्त्व/शिलालेखांच्या विशिष्ट प्राथमिक स्रोतावरून हा दावा मानवी पडताळणीसाठी प्रलंबित.",
+    "dal-lake.md: क्षेत्रफळाच्या व्याख्या व उपखोऱ्यांची नावे स्रोतांनुसार बदलतात. लेखात Divisional Commissioner ची 18/21.1 चौ.कि.मी. मोजणी आणि CAGची 2020 नकाशीकरणातील 24.605 चौ.कि.मी. एकूण/12.907 चौ.कि.मी. उघडे पाणी ही वेगळी मोजणी स्पष्ट केली आहे; जलवैज्ञानिक सीमांची पुढील पडताळणी आवश्यक.",
+    "eastern-ghats.md: सर्वोच्च शिखराच्या नाव/उंचीबाबत Arma Konda व Jindhagada आणि 1,680/1,690 मीटर अशी स्रोतांतील विसंगती आहे; लेखातील सध्याची नोंद बदललेली नाही. Survey of India नकाशा किंवा अधिकृत स्थलाकृतिक मोजमाप आवश्यक.",
+    "jallianwala-bagh-massacre.md: मृत्यू-जखमींचे अचूक विभाजन, सैन्यतुकडीची संख्या व गोळीबाराच्या तपशीलांसाठी Hunter Committee चा मूळ अहवाल पूर्णपणे पडताळणे बाकी. Amritsar District च्या एका पृष्ठावर Reginald Dyer ऐवजी Michael O'Dwyer यांना कमांड दिल्याचा चुकीचा उल्लेख असल्याने तो स्रोत वापरलेला नाही. 2021 स्मारक नूतनीकरणाच्या दाव्यासाठीही विशिष्ट अधिकृत प्रसिद्धिपत्रक आवश्यक.",
+    "mohenjo-daro.md: अन्नधान्यांच्या यादीतील तांदळाचा उल्लेख या स्थळासाठी विशिष्ट पुरातत्त्वीय/वनस्पतिशास्त्रीय स्रोताने पुष्टी झालेला नाही; दावा बदललेला नाही.",
+    "tansen.md: तानसेन यांच्या जन्मवर्ष व मृत्यूवर्षाबाबत दुय्यम चरित्रस्रोतांत फरक आहे; सध्याचे 1586 वर्ष बदललेले नाही. प्राथमिक/समकालीन पुरावा आवश्यक.",
+    "ayurveda.md: काही दीर्घकालीन आजारांवरील आयुर्वेदीय उपचारांच्या परिणामकारकतेविषयीचे व्यापक दावे विशिष्ट पद्धतशीर पुनरावलोकनांशी जोडणे आवश्यक; या बॅचमध्ये अपुरा पुरावा असल्याने लेख बदललेला नाही.",
+    "jantar-mantar.md: विशिष्ट प्रवेशवेळा किंवा शुल्क लेखात दिलेले नाही; भविष्यात अशी माहिती जोडताना राजस्थान पर्यटन विभागाची अद्ययावत अधिकृत नोंद तपासावी."
   ],
-  "next_file": "nigeria.md",
-  "last_verified_main": "af97d4bd77f3ec7be7298c490acf029ece351601",
-  "index_note": "content/index.md is a short shell; build.js recursively generates the homepage article list from all content/*.md files except index.md, sorts by title, and excludes legacy redirect slugs. Current main tree contains 1,154 article Markdown files.",
-  "last_checkpoint_commit": "af97d4bd77f3ec7be7298c490acf029ece351601",
-  "last_run_date": "2026-11-17",
-  "last_updated": "2026-11-17T19:35:18+05:30",
+  "next_file": "major-dhyan-chand.md",
+  "last_verified_main": "3b6a8ad5852f01fabebda2fb35ec8a93e982d99b",
+  "index_note": "content/index.md हा फक्त frontmatter व 'सर्व लेख' शीर्षक असलेला shell आहे. build.js content/ मधील index.md वगळून सर्व Markdown लेख recursively गोळा करतो आणि homepage यादी तयार करतो. सध्याच्या main tree मध्ये 1,164 लेख Markdown फाइल्स आहेत; filename-slug duplicate नाहीत. या बॅचमधील 10 लेखांचे H1 व frontmatter title ( | Factpedia suffix वगळून) जुळतात. संपूर्ण repository मधील title-to-frontmatter पडताळणी अद्याप बाकी आहे.",
+  "last_checkpoint_commit": "3b6a8ad5852f01fabebda2fb35ec8a93e982d99b",
+  "last_run_date": "2026-11-18",
+  "last_updated": "2026-11-18T19:50:58+05:30",
   "reviewed_files": [
-    "madha-taluka.md",
-    "madhubani-painting.md",
-    "madhuri-dixit.md",
-    "madhya-pradesh.md",
-    "madrid-city.md",
-    "madurai-district.md",
-    "magna-carta.md",
-    "mahabaleshwar-taluka.md",
-    "mahabaleshwar.md",
-    "mahabodhi-temple.md",
-    "mahad-taluka.md",
-    "mahadev-govind-ranade.md"
+    "content/ayurveda.md",
+    "content/chola-dynasty.md",
+    "content/dal-lake.md",
+    "content/eastern-ghats.md",
+    "content/jallianwala-bagh-massacre.md",
+    "content/jantar-mantar.md",
+    "content/mohenjo-daro.md",
+    "content/national-flag-of-india.md",
+    "content/tansen.md",
+    "content/vijayanagara-empire.md"
   ],
   "updated_files": [
-    "madrid-city.md",
-    "madurai-district.md",
-    "magna-carta.md",
-    "madhuri-dixit.md",
-    "mahabaleshwar-taluka.md"
+    "content/chola-dynasty.md",
+    "content/dal-lake.md",
+    "content/eastern-ghats.md",
+    "content/jallianwala-bagh-massacre.md",
+    "content/jantar-mantar.md",
+    "content/mohenjo-daro.md",
+    "content/national-flag-of-india.md",
+    "content/tansen.md",
+    "content/vijayanagara-empire.md"
   ],
   "verified_no_change": [
-    "madha-taluka.md",
-    "madhubani-painting.md",
-    "madhya-pradesh.md",
-    "mahabaleshwar.md",
-    "mahabodhi-temple.md",
-    "mahad-taluka.md",
-    "mahadev-govind-ranade.md"
+    "content/ayurveda.md"
   ]
 }
