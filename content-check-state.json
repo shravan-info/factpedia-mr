@@ -1,5 +1,5 @@
 {
-  "next_index": 584,
+  "next_index": 594,
   "cycle": 2,
   "runs": [
     {
@@ -851,6 +851,130 @@
         "आयुर्वेद: लेख वाचून तपासला; पुराव्याअभावी कोणताही बदल केला नाही."
       ],
       "notes": "ही बॅच मागील checkpoint नंतर main मध्ये जोडलेल्या/बदललेल्या 10 लेखांची पडताळणी होती. 150-फाइल footer-date refresh ला पूर्ण तथ्य-पडताळणी म्हणून मोजले नाही. पुढील क्रमांक major-dhyan-chand.md पासून सुरू राहील."
+    },
+    {
+      "date": "2026-11-18",
+      "checked": 6,
+      "range": [
+        "major-dhyan-chand.md",
+        "malkapur-buldhana-taluka.md"
+      ],
+      "reviewed_files": [
+        "content/major-dhyan-chand.md",
+        "content/majuli-island.md",
+        "content/make-in-india.md",
+        "content/malawi.md",
+        "content/malaysia.md",
+        "content/malhargad.md"
+      ],
+      "updated_articles": [
+        "content/major-dhyan-chand.md",
+        "content/majuli-island.md",
+        "content/make-in-india.md",
+        "content/malawi.md",
+        "content/malaysia.md",
+        "content/malhargad.md"
+      ],
+      "unchanged_articles": [],
+      "skipped_previously_reviewed": [
+        "content/makar-sankranti.md",
+        "content/malala-yousafzai.md",
+        "content/malegaon-taluka.md",
+        "content/malkapur-buldhana-taluka.md"
+      ],
+      "footer_dates_refreshed": 0,
+      "internal_links_checked": 0,
+      "broken_internal_links": 0,
+      "title_h1_checks": 6,
+      "title_h1_matches_after_suffix_normalization": 6,
+      "references_sections_checked": 6,
+      "reference_counts": [
+        {
+          "path": "content/major-dhyan-chand.md",
+          "count": 3
+        },
+        {
+          "path": "content/majuli-island.md",
+          "count": 4
+        },
+        {
+          "path": "content/make-in-india.md",
+          "count": 3
+        },
+        {
+          "path": "content/malawi.md",
+          "count": 6
+        },
+        {
+          "path": "content/malaysia.md",
+          "count": 7
+        },
+        {
+          "path": "content/malhargad.md",
+          "count": 2
+        }
+      ],
+      "index_checked": true,
+      "index_changed": false,
+      "index_articles": 1159,
+      "article_files": 1164,
+      "duplicate_slugs": 0,
+      "legacy_redirects": 5,
+      "new_articles_added": 0,
+      "next_index": 594,
+      "next_file": "malkapur-taluka.md",
+      "cycle": 2,
+      "base_commit": "58be915d7124bd7dd19e51220b291065919305f5",
+      "article_commit_shas": [
+        {
+          "path": "content/major-dhyan-chand.md",
+          "commit": "32d27ff1d8a8928f51886056e3ce402756f8cdf2",
+          "blob": "dab401aa337ae66a5faeeb471d835b0d5d7c00be"
+        },
+        {
+          "path": "content/majuli-island.md",
+          "commit": "e55ee938e293ae2cfe5538b264456b2831642692",
+          "blob": "f1c035761389ed54507900be2711a3e4edaacd2c"
+        },
+        {
+          "path": "content/make-in-india.md",
+          "commit": "9cb407f90f654a6fe6fa5c9e198fe8f4efefcb23",
+          "blob": "367a4af007bbd358f24df02a2df1bfb8a1f6c633"
+        },
+        {
+          "path": "content/malawi.md",
+          "commit": "ae3a558090255be43ee861fa45c25745324242b5",
+          "blob": "74997d6e65225bc851d8a80ed16fad6863253041"
+        },
+        {
+          "path": "content/malaysia.md",
+          "commit": "a0ecf5e06815973ef27cf1ced0cea4737989efaa",
+          "blob": "4015f2b8b04dccb1819dc69c4678faf587e57331"
+        },
+        {
+          "path": "content/malhargad.md",
+          "commit": "5248f33371499ba1aa6f7f818ada344c67a89991",
+          "blob": "e248a3e5053a82ff2376a4dc1399ea50208ad7ca"
+        }
+      ],
+      "corrections": [
+        "major-dhyan-chand.md: दुरुस्त केलेला मराठी शब्दप्रयोग; झाशी जिल्हा प्रशासन, PIB चा 1922 लष्कर-प्रवेश/1956 पद्मभूषण लेख आणि Olympics.com चे National Sports Day/ऑलिम्पिक संदर्भ जोडले.",
+        "majuli-island.md: जगातील सर्वात मोठे या अतिव्यापक दाव्याऐवजी आसियातील सर्वात मोठे नदीबेट अशी अधिकृत आसाम पर्यटन नोंदीनुसार मांडणी केली; खेरकुटिया सुती व सुबनसिरीचा नदीसंबंध स्पष्ट केला; जोरहाटहून फेरी आणि दिब्रुगढहून बोगीबील पुलाचा मार्ग अद्ययावत केला.",
+        "make-in-india.md: DPIIT/वाणिज्य विभागाची समन्वयक भूमिका स्पष्ट केली; Make in India 2.0 ची 27 क्षेत्रे (15 उत्पादन, 12 सेवा) दिली; राष्ट्रीय एकल-खिडकी प्रणालीला स्वतंत्र व्यापक गुंतवणूक-सुलभता सुविधा म्हणून स्पष्ट केले; Wikipedia व सर्वसाधारण संदर्भ काढले.",
+        "malawi.md: मलावी सरकारच्या अधिकृत संकेतस्थळानुसार चिचेवा 'राष्ट्रीय भाषा' नसून सर्वसाधारणपणे वापरली जाणारी भाषा असल्याचे दुरुस्त केले; इंग्रजी अधिकृत भाषा म्हणून कायम.",
+        "malaysia.md: 31 ऑगस्टचा National Day आणि 16 सप्टेंबरचा Malaysia Day वेगळे दाखवले; मलेशियाच्या राष्ट्रीय अभिलेखागाराचे 1957 व 1963 च्या मूळ घोषणापत्रांवरील संदर्भ जोडले.",
+        "malhargad.md: सोनोरी गावाच्या अधिकृत महसुली नोंदीनुसार तालुका वेल्हा ऐवजी पुरंदर केला; असंबद्ध पर्यटन/ASI/UNESCO homepage संदर्भ काढून GSDA ची विशिष्ट अधिकृत गाव-तालुका यादी जोडली."
+      ],
+      "human_review_flags_added": [
+        "malhargad.md: महाराष्ट्र राज्य गॅझेटियरच्या शोध-नोंदीत उंची 3,466 फूट आणि बांधकाम सुमारे 1775 असे दिसते; लेखात 3,166 फूट आणि 1757–1760 आहेत. संबंधित गॅझेटियर पृष्ठ या रनमध्ये 404 मुळे पूर्ण उघडता आले नाही, म्हणून हे आकडे बदललेले नाहीत. 'मराठ्यांनी बांधलेला शेवटचा गिरिदुर्ग', 'तरुणगड' नाव, वासुदेव बळवंत फडके यांच्या आश्रयाचा दावा, तसेच पाणी, मुक्काम आणि पर्यटकांसाठीच्या सध्याच्या सुविधांची माहिती अधिकृत किंवा समकालीन स्रोतांतून तपासावी."
+      ],
+      "human_review_flags_resolved": [
+        "make-in-india.md: Wikipedia व सर्वसाधारण homepage संदर्भांबाबतचा flag — विशिष्ट PIB/DPIIT स्रोत जोडले.",
+        "malawi.md: इंग्रजी/चिचेवा भाषास्थितीबाबतचा flag — मलावी सरकारच्या अधिकृत पृष्ठाने निराकरण.",
+        "malaysia.md: National Day आणि Malaysia Day यांतील फरकाबाबतचा flag — राष्ट्रीय अभिलेखागार व सरकारी ग्रंथालय स्रोत जोडले.",
+        "malhargad.md: सोनोरी गावाचा तालुका न पडताळल्याचा flag — GSDA अधिकृत यादीत Pune / Purandar / Sonori नोंद आढळली."
+      ],
+      "notes": "चार लेख (makar-sankranti.md, malala-yousafzai.md, malegaon-taluka.md, malkapur-buldhana-taluka.md) यापूर्वी तपासलेले असल्याने आणि या रनमध्ये नव्या विरोधाभास/मजकूर-बदलाचा पुरावा नसल्याने पूर्ण पुनरावलोकन केले नाही. content/index.md हा shell आहे; build.js content/index.md वगळून 1,164 Markdown फाइल्समधून 1,159 लेखमार्ग तयार करतो आणि पाच legacy slug redirects वगळतो. या बॅचमधील सहा लेखांचे title/H1 जुळतात. संपूर्ण repository मधील title-to-frontmatter तपासणी अद्याप बाकी."
     }
   ],
   "total_articles": 1164,
@@ -870,12 +994,8 @@
     "mahad-taluka.md: 2011 ची लोकसंख्या व इतर तालुकास्तरीय आकडे मूळ जनगणना तक्त्याशी पुन्हा जुळवणे बाकी.",
     "maharashtra.md: काही संदर्भ सर्वसाधारण शासन संकेतस्थळांकडे जातात; संबंधित दाव्यांशी जुळणारे विशिष्ट अधिकृत पृष्ठ मिळाल्यावरच बदल करावा.",
     "mahatma-gandhi.md: दोन संदर्भ आहेत; लेखातील सर्व कालखंड, संस्थात्मक काम आणि तारखांसाठी अधिक विशिष्ट प्राथमिक स्रोतांची पुढील बॅचमध्ये पडताळणी आवश्यक.",
-    "make-in-india.md: संदर्भ यादीत Wikipedia आहे आणि इतर काही दुवे सर्वसाधारण homepage आहेत; कार्यक्रमाच्या टप्प्यांनुसार DPIIT/सरकारी दस्तऐवजांशी दावे जुळवणे बाकी.",
-    "malawi.md: SADC च्या देश-प्रोफाइलच्या सारांशात इंग्रजी व चिचेवा दोन्ही अधिकृत भाषा म्हटल्या आहेत, तर त्याच पृष्ठाच्या वर्णनात इंग्रजी अधिकृत व चिचेवा राष्ट्रीय भाषा म्हटली आहे. लेखातील सध्याची मांडणी कायम ठेवली; मलावीच्या संविधान/सरकारी कायद्यातून स्वतंत्र पुष्टी आवश्यक.",
     "malegaon-taluka.md: मालेगाव किल्ल्याच्या बांधकामाची सुरुवात सुमारे 1740 मध्ये नरोशंकर राजे बहादूर यांनी केली हा दावा या बॅचमध्ये विशिष्ट अधिकृत ऐतिहासिक स्रोताने पडताळता आला नाही; मजकूर बदललेला नाही.",
-    "malhargad.md: लेखात तालुका वेल्हे दिला आहे; किल्ला सोनोरी-सासवडजवळ असल्याचे स्रोत सांगतात, परंतु सोनोरी गावाची सध्याची महसुली तालुका नोंद थेट अधिकृत स्रोताने या बॅचमध्ये पडताळता आली नाही. तालुका बदललेला नाही.",
     "manikgad.md: किल्ल्याची उभारणी, कान्होजी आंग्रे यांना 1718 मध्ये हस्तांतरण, अचूक उंची व प्रवेशमार्ग यांना या बॅचमध्ये विशिष्ट अधिकृत प्राथमिक स्रोत मिळाला नाही; दावे बदललेले नाहीत.",
-    "malaysia.md: 31 ऑगस्ट हा National Day आणि 16 सप्टेंबर हा Malaysia Day असा भेद अधिक स्पष्ट करता येईल; सध्याचा 31 ऑगस्टचा National Day उल्लेख चुकीचा नाही.",
     "malkapur-taluka.md: हा legacy slug build.js मधील redirect map ने malkapur-buldhana-taluka कडे वळवला जातो; त्यामुळे समान frontmatter title असूनही स्वतंत्र duplicate page तयार होत नाही.",
     "palk-strait.md: सामुद्रधुनीची अचूक लांबी/रुंदी आणि नावाच्या व्यक्तिनाम-व्युत्पत्तीला या बॅचमध्ये निर्विवाद प्राथमिक आधार मिळाला नाही; अप्रमाणित मोजमाप व व्यक्तिनाम काढले. भूगोलासाठी IUCN चा प्रादेशिक स्रोत वापरला.",
     "panhala-fort.md: उंचीबाबत 845 आणि 977 मीटर असे विसंगत आकडे दिसले; अधिकृत प्राथमिक मोजमाप या बॅचमध्ये पडताळता न आल्याने अचूक उंची व परिघ काढले. India Cine Hub च्या अधिकृत नोंदीनुसार किल्ला 12व्या शतकात शिलाहार राजघराण्याने उभारला; नेमके वर्ष दिलेले नाही. बोगद्यांची संख्या/लांबी व सज्जा कोठीच्या बांधकामवर्षाबाबत ठोस अधिकृत पुरावा नसल्याने अचूक दावे ठेवले नाहीत.",
@@ -906,38 +1026,30 @@
     "mohenjo-daro.md: अन्नधान्यांच्या यादीतील तांदळाचा उल्लेख या स्थळासाठी विशिष्ट पुरातत्त्वीय/वनस्पतिशास्त्रीय स्रोताने पुष्टी झालेला नाही; दावा बदललेला नाही.",
     "tansen.md: तानसेन यांच्या जन्मवर्ष व मृत्यूवर्षाबाबत दुय्यम चरित्रस्रोतांत फरक आहे; सध्याचे 1586 वर्ष बदललेले नाही. प्राथमिक/समकालीन पुरावा आवश्यक.",
     "ayurveda.md: काही दीर्घकालीन आजारांवरील आयुर्वेदीय उपचारांच्या परिणामकारकतेविषयीचे व्यापक दावे विशिष्ट पद्धतशीर पुनरावलोकनांशी जोडणे आवश्यक; या बॅचमध्ये अपुरा पुरावा असल्याने लेख बदललेला नाही.",
-    "jantar-mantar.md: विशिष्ट प्रवेशवेळा किंवा शुल्क लेखात दिलेले नाही; भविष्यात अशी माहिती जोडताना राजस्थान पर्यटन विभागाची अद्ययावत अधिकृत नोंद तपासावी."
+    "jantar-mantar.md: विशिष्ट प्रवेशवेळा किंवा शुल्क लेखात दिलेले नाही; भविष्यात अशी माहिती जोडताना राजस्थान पर्यटन विभागाची अद्ययावत अधिकृत नोंद तपासावी.",
+    "malhargad.md: महाराष्ट्र राज्य गॅझेटियरच्या शोध-नोंदीत उंची 3,466 फूट आणि बांधकाम सुमारे 1775 असे दिसते; लेखात 3,166 फूट आणि 1757–1760 आहेत. संबंधित गॅझेटियर पृष्ठ या रनमध्ये 404 मुळे पूर्ण उघडता आले नाही, म्हणून हे आकडे बदललेले नाहीत. 'मराठ्यांनी बांधलेला शेवटचा गिरिदुर्ग', 'तरुणगड' नाव, वासुदेव बळवंत फडके यांच्या आश्रयाचा दावा, तसेच पाणी, मुक्काम आणि पर्यटकांसाठीच्या सध्याच्या सुविधांची माहिती अधिकृत किंवा समकालीन स्रोतांतून तपासावी."
   ],
-  "next_file": "major-dhyan-chand.md",
-  "last_verified_main": "3b6a8ad5852f01fabebda2fb35ec8a93e982d99b",
-  "index_note": "content/index.md हा फक्त frontmatter व 'सर्व लेख' शीर्षक असलेला shell आहे. build.js content/ मधील index.md वगळून सर्व Markdown लेख recursively गोळा करतो आणि homepage यादी तयार करतो. सध्याच्या main tree मध्ये 1,164 लेख Markdown फाइल्स आहेत; filename-slug duplicate नाहीत. या बॅचमधील 10 लेखांचे H1 व frontmatter title ( | Factpedia suffix वगळून) जुळतात. संपूर्ण repository मधील title-to-frontmatter पडताळणी अद्याप बाकी आहे.",
-  "last_checkpoint_commit": "3b6a8ad5852f01fabebda2fb35ec8a93e982d99b",
+  "next_file": "malkapur-taluka.md",
+  "last_verified_main": "a0ecf5e06815973ef27cf1ced0cea4737989efaa",
+  "index_note": "content/index.md हा फक्त frontmatter व 'सर्व लेख' शीर्षक असलेला shell आहे. build.js content/ मधील index.md वगळून सर्व Markdown लेख recursively गोळा करतो; पाच legacy slug files redirect map मुळे स्वतंत्र लेखमार्ग म्हणून वगळले जातात. सध्याच्या main tree मध्ये 1,164 लेख Markdown फाइल्स, 1,159 generated article routes आणि 5 legacy redirects आहेत; duplicate slug paths नाहीत. या बॅचमधील सहा लेखांचे H1 व frontmatter title ( | Factpedia suffix वगळून) जुळतात. संपूर्ण repository मधील title-to-frontmatter पडताळणी अद्याप बाकी आहे.",
+  "last_checkpoint_commit": "a0ecf5e06815973ef27cf1ced0cea4737989efaa",
   "last_run_date": "2026-11-18",
-  "last_updated": "2026-11-18T19:50:58+05:30",
+  "last_updated": "2026-11-18T20:18:21+05:30",
   "reviewed_files": [
-    "content/ayurveda.md",
-    "content/chola-dynasty.md",
-    "content/dal-lake.md",
-    "content/eastern-ghats.md",
-    "content/jallianwala-bagh-massacre.md",
-    "content/jantar-mantar.md",
-    "content/mohenjo-daro.md",
-    "content/national-flag-of-india.md",
-    "content/tansen.md",
-    "content/vijayanagara-empire.md"
+    "content/major-dhyan-chand.md",
+    "content/majuli-island.md",
+    "content/make-in-india.md",
+    "content/malawi.md",
+    "content/malaysia.md",
+    "content/malhargad.md"
   ],
   "updated_files": [
-    "content/chola-dynasty.md",
-    "content/dal-lake.md",
-    "content/eastern-ghats.md",
-    "content/jallianwala-bagh-massacre.md",
-    "content/jantar-mantar.md",
-    "content/mohenjo-daro.md",
-    "content/national-flag-of-india.md",
-    "content/tansen.md",
-    "content/vijayanagara-empire.md"
+    "content/major-dhyan-chand.md",
+    "content/majuli-island.md",
+    "content/make-in-india.md",
+    "content/malawi.md",
+    "content/malaysia.md",
+    "content/malhargad.md"
   ],
-  "verified_no_change": [
-    "content/ayurveda.md"
-  ]
+  "verified_no_change": []
 }
