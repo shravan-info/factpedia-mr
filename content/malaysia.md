@@ -21,7 +21,7 @@ description: मलेशिया हा आग्नेय आशियात�
 | अधिकृत भाषा | मलय |
 | चलन | मलेशियन रिंगिट |
 | संघराज्य घटक | १३ राज्ये आणि ३ संघीय प्रदेश |
-| राष्ट्रीय दिन | ३१ ऑगस्ट |
+| राष्ट्रीय दिन (Hari Kebangsaan) | ३१ ऑगस्ट |\n| मलेशिया दिन (Hari Malaysia) | १६ सप्टेंबर |
 
 ## भूगोल आणि हवामान
 
@@ -33,7 +33,7 @@ description: मलेशिया हा आग्नेय आशियात�
 
 मलय द्वीपकल्प प्राचीन काळापासून भारत, चीन आणि अरबी जगाशी जोडलेल्या समुद्री व्यापारमार्गांचा भाग होता. श्रीविजय आणि मलक्का सल्तनत या ऐतिहासिक सत्तांनी व्यापार आणि सांस्कृतिक देवाणघेवाणीत महत्त्वाची भूमिका बजावली. मलक्का हे पंधराव्या शतकात महत्त्वाचे बंदर आणि इस्लामी शिक्षणाचे केंद्र बनले.
 
-सोळाव्या शतकात पोर्तुगीजांनी मलक्का जिंकले; पुढे डच आणि ब्रिटिशांचा प्रभाव वाढला. ब्रिटिश वसाहतवादी प्रशासनाने मलय द्वीपकल्पातील खाणकाम, रबर उत्पादन आणि बंदरांचा विकास केला. दुसऱ्या महायुद्धात जपानी सैन्याने या प्रदेशावर ताबा मिळवला. १९५७ मध्ये मलाया स्वतंत्र झाले. १९६३ मध्ये मलेशियाची स्थापना झाली; सिंगापूर १९६५ मध्ये संघातून वेगळे झाले. [२]
+सोळाव्या शतकात पोर्तुगीजांनी मलक्का जिंकले; पुढे डच आणि ब्रिटिशांचा प्रभाव वाढला. ब्रिटिश वसाहतवादी प्रशासनाने मलय द्वीपकल्पातील खाणकाम, रबर उत्पादन आणि बंदरांचा विकास केला. दुसऱ्या महायुद्धात जपानी सैन्याने या प्रदेशावर ताबा मिळवला. १९५७ मध्ये मलाया स्वतंत्र झाले. ३१ ऑगस्ट हा त्या स्वातंत्र्याचा राष्ट्रीय दिन म्हणून साजरा होतो. १६ सप्टेंबर १९६३ रोजी मलेशियाची स्थापना झाली; हा दिवस मलेशिया दिन म्हणून पाळला जातो. सिंगापूर १९६५ मध्ये संघातून वेगळे झाले. [२][३]
 
 ## राज्यव्यवस्था
 
@@ -68,11 +68,12 @@ description: मलेशिया हा आग्नेय आशियात�
 
 ## संदर्भ
 
-१. Government of Malaysia. https://www.malaysia.gov.my/
-२. Encyclopaedia Britannica — Malaysia: History. https://www.britannica.com/place/Malaysia
-३. UNESCO — Malaysia, World Heritage Convention. https://whc.unesco.org/en/statesparties/my
-४. Department of Statistics Malaysia. https://www.dosm.gov.my/
-५. World Bank — Malaysia Data. https://data.worldbank.org/country/malaysia
+१. [मलेशियाचे पंतप्रधान कार्यालय — राष्ट्रीय दिन व मलेशिया दिन २०२३](https://www.pmo.gov.my/ms/ucapanterkini/ucapan-khas-perdana-menteri-sempena-hari-kebangsaan-dan-hari-malaysia-2023/)
+२. [सबा राज्य ग्रंथालय — Hari Malaysia](https://library.sabah.gov.my/index.php/ms/pautan/paparan-artikel/hari-malaysia)
+३. [Encyclopaedia Britannica — Malaysia: History](https://www.britannica.com/place/Malaysia)
+४. [UNESCO — Malaysia, World Heritage Convention](https://whc.unesco.org/en/statesparties/my)
+५. [Department of Statistics Malaysia](https://www.dosm.gov.my/)
+६. [World Bank — Malaysia Data](https://data.worldbank.org/country/malaysia)
 
 ---
 
