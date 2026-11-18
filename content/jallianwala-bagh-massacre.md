@@ -66,7 +66,7 @@ description: १३ एप्रिल १९१९ रोजी अमृतस
 
 १९४० मध्ये उधमसिंग या स्वातंत्र्यसैनिकाने लंडनमध्ये तत्कालीन पंजाबचे लेफ्टनंट गव्हर्नर मायकेल ओ'ड्वायर यांची हत्या केली. जलियनवाला बागेत झालेल्या गोळीबाराचा बदला घेण्याच्या उद्देशाने त्यांनी हे कृत्य केल्याचे सांगितले जाते. या घटनेमुळे हत्याकांडाची आठवण पुन्हा एकदा जगभराच्या चर्चेत आली.
 
-स्वातंत्र्यानंतरही या घटनेचे पडसाद दिसत राहिले. ब्रिटनच्या पंतप्रधानांनी व राजेशाहीतील सदस्यांनी अमृतसरला भेट देऊन या घटनेबद्दल खेद व्यक्त केला आहे. मात्र अधिकृत माफीची मागणी अनेक संस्थांनी वेळोवेळी केली आहे आणि हा विषय आजही चर्चेत राहतो.
+स्वातंत्र्यानंतरही या घटनेचे पडसाद दिसत राहिले. २०१३ मध्ये ब्रिटनचे तत्कालीन पंतप्रधान डेव्हिड कॅमेरॉन यांनी स्मारकाला भेट देऊन या घटनेला ब्रिटिश इतिहासातील 'अत्यंत लज्जास्पद प्रसंग' म्हटले; मात्र औपचारिक माफी मागितली नाही.
 
 ## ऐतिहासिक महत्त्व
 
@@ -83,8 +83,7 @@ description: १३ एप्रिल १९१९ रोजी अमृतस
 ## संदर्भ
 
 1. [India Code — The Jallianwala Bagh National Memorial Act, 1951](https://www.indiacode.nic.in/bitstream/123456789/2052/1/a1951-25.pdf)
-2. [The Guardian — David Cameron defends lack of apology for British massacre at Amritsar, 20 February 2013](https://www.theguardian.com/politics/2013/feb/20/david-cameron-amritsar-massacre-india)
-3. [Encyclopaedia Britannica — Jallianwala Bagh Massacre](https://www.britannica.com/event/Amritsar-Massacre)
+2. [The Guardian — David Cameron's 2013 visit to Jallianwala Bagh](https://www.theguardian.com/politics/2013/feb/20/david-cameron-amritsar-massacre-india)
 ---
 
 *शेवटचे संपादन: १८ नोव्हेंबर २०२६*
