@@ -39,8 +39,9 @@ description: माण तालुक्याचे स्थान, भूग
 
 ## संदर्भ
 
-1. [सातारा जिल्हा प्रशासन — उपविभाग व तालुक्यांची प्रशासकीय माहिती](https://www.satara.gov.in/en/subdivision-blocks/)
-2. [महाराष्ट्र शासन — महाभूमी तालुका व गाव निर्देशिका](https://mahavillages.mahabhumi.gov.in/all_list.php)
+1. [सातारा जिल्हा प्रशासन — माण तालुका](https://www.satara.gov.in/en/tourist-place/man-taluka/)
+2. [सातारा जिल्हा प्रशासन — एसटीडी व पिन कोड](https://www.satara.gov.in/en/std-and-pin-code/)
+3. [महाराष्ट्र शासन — महाभूमी तालुका व गाव निर्देशिका](https://mahavillages.mahabhumi.gov.in/all_list.php)
 
 ---
 

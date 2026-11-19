@@ -40,8 +40,9 @@ description: मंडणगड तालुक्याचे स्थान, 
 ## संदर्भ
 
 1. [रत्नागिरी जिल्हा प्रशासन — प्रशासकीय रचना](https://ratnagiri.gov.in/en/administrative-setup/)
-2. [रत्नागिरी जिल्हा प्रशासन — उपविभाग](https://ratnagiri.gov.in/en/sub-divisions/)
-3. [महाराष्ट्र शासन — महाभूमी तालुका व गाव निर्देशिका](https://mahavillages.mahabhumi.gov.in/all_list.php)
+2. [रत्नागिरी जिल्हा प्रशासन — भौगोलिक माहिती](https://ratnagiri.gov.in/en/geographical-information/)
+3. [रत्नागिरी जिल्हा प्रशासन — उपविभाग](https://ratnagiri.gov.in/en/sub-divisions/)
+4. [महाराष्ट्र शासन — महाभूमी तालुका व गाव निर्देशिका](https://mahavillages.mahabhumi.gov.in/all_list.php)
 
 ---
 
