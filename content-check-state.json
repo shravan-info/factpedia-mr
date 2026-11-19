@@ -1,5 +1,5 @@
 {
-  "next_index": 594,
+  "next_index": 600,
   "cycle": 2,
   "runs": [
     {
@@ -975,6 +975,119 @@
         "malhargad.md: सोनोरी गावाचा तालुका न पडताळल्याचा flag — GSDA अधिकृत यादीत Pune / Purandar / Sonori नोंद आढळली."
       ],
       "notes": "चार लेख (makar-sankranti.md, malala-yousafzai.md, malegaon-taluka.md, malkapur-buldhana-taluka.md) यापूर्वी तपासलेले असल्याने आणि या रनमध्ये नव्या विरोधाभास/मजकूर-बदलाचा पुरावा नसल्याने पूर्ण पुनरावलोकन केले नाही. content/index.md हा shell आहे; build.js content/index.md वगळून 1,164 Markdown फाइल्समधून 1,159 लेखमार्ग तयार करतो आणि पाच legacy slug redirects वगळतो. या बॅचमधील सहा लेखांचे title/H1 जुळतात. संपूर्ण repository मधील title-to-frontmatter तपासणी अद्याप बाकी."
+    },
+    {
+      "date": "2026-11-19",
+      "checked": 6,
+      "range": [
+        "malkapur-taluka.md",
+        "mangalwedha-taluka.md"
+      ],
+      "reviewed_files": [
+        "content/malkapur-taluka.md",
+        "content/malshiras-taluka.md",
+        "content/man-taluka.md",
+        "content/manas-national-park.md",
+        "content/mandangad-taluka.md",
+        "content/mangalwedha-taluka.md"
+      ],
+      "updated_articles": [
+        "content/malkapur-taluka.md",
+        "content/malshiras-taluka.md",
+        "content/man-taluka.md",
+        "content/manas-national-park.md",
+        "content/mandangad-taluka.md",
+        "content/mangalwedha-taluka.md"
+      ],
+      "unchanged_articles": [],
+      "skipped_previously_reviewed": [],
+      "footer_dates_refreshed": 6,
+      "internal_links_checked": 5,
+      "broken_internal_links": 0,
+      "title_h1_checks": 6,
+      "title_h1_matches_after_suffix_normalization": 6,
+      "references_sections_checked": 6,
+      "reference_counts": [
+        {
+          "path": "content/malkapur-taluka.md",
+          "count": 0
+        },
+        {
+          "path": "content/malshiras-taluka.md",
+          "count": 3
+        },
+        {
+          "path": "content/man-taluka.md",
+          "count": 2
+        },
+        {
+          "path": "content/manas-national-park.md",
+          "count": 5
+        },
+        {
+          "path": "content/mandangad-taluka.md",
+          "count": 3
+        },
+        {
+          "path": "content/mangalwedha-taluka.md",
+          "count": 3
+        }
+      ],
+      "index_checked": true,
+      "index_changed": false,
+      "index_articles": 1159,
+      "article_files": 1164,
+      "duplicate_slugs": 0,
+      "legacy_redirects": 5,
+      "new_articles_added": 0,
+      "next_index": 600,
+      "next_file": "mangalyaan.md",
+      "cycle": 2,
+      "base_commit": "1d4db021576ff5faf5d1340895f6c35cf620869c",
+      "article_commit_shas": [
+        {
+          "path": "content/malkapur-taluka.md",
+          "commit": "32ce655e5efb8f63b85b9add97a0b0ad5883980f",
+          "blob": "df3a45b14b76a579adb728e16bead85fd9b9e26f"
+        },
+        {
+          "path": "content/malshiras-taluka.md",
+          "commit": "32ce655e5efb8f63b85b9add97a0b0ad5883980f",
+          "blob": "6fea1671d4fad03cac21ea56056e8823b2e407fd"
+        },
+        {
+          "path": "content/man-taluka.md",
+          "commit": "32ce655e5efb8f63b85b9add97a0b0ad5883980f",
+          "blob": "547e9fb40a884a408363419b42a6cfb3dc2b8b94"
+        },
+        {
+          "path": "content/manas-national-park.md",
+          "commit": "6dc3eadaecf4bc90e56a832cf97f3c5c99120423",
+          "blob": "8d313dbf6fc219c20f27c4e8c5fdc4be2180ac26"
+        },
+        {
+          "path": "content/mandangad-taluka.md",
+          "commit": "32ce655e5efb8f63b85b9add97a0b0ad5883980f",
+          "blob": "bdf40daf058f015db27d67aaef33183acb930ef4"
+        },
+        {
+          "path": "content/mangalwedha-taluka.md",
+          "commit": "32ce655e5efb8f63b85b9add97a0b0ad5883980f",
+          "blob": "2c797a44cb6ac95ce05a1621e407d0210ec5456c"
+        }
+      ],
+      "corrections": [
+        "malkapur-taluka.md: build.js मधील legacy 301 redirect मलकापूर-बुलढाणा मुख्य लेखाकडे जात असल्याची पुष्टी केली; जुन्या duplicate फाइलमधील अपूर्ण गावयादी, अप्रमाणित साक्षरता आकडा आणि कमकुवत संदर्भ काढून मुख्य लेखाकडे निर्देश करणारी नोंद ठेवली.",
+        "malshiras-taluka.md आणि mangalwedha-taluka.md: सर्वसाधारण जिल्हा homepage संदर्भ काढून तहसील रचना, तहसील नकाशा आणि महाभूमीची विशिष्ट अधिकृत पृष्ठे ठेवली.",
+        "man-taluka.md: सामान्य homepage संदर्भ काढून सातारा जिल्हा प्रशासनाच्या उपविभाग/तालुका पृष्ठाला प्राथमिक प्रशासकीय संदर्भ म्हणून ठेवले.",
+        "mandangad-taluka.md: सामान्य homepage आणि generic Census homepage काढले; रत्नागिरी जिल्हा प्रशासनाच्या अद्ययावत प्रशासकीय रचना व उपविभाग पृष्ठांनी संदर्भ बदलले. अधिकृत नोंद मंडणगडला दापोली उपविभागातील महसूल ब्लॉक म्हणून दाखवते.",
+        "manas-national-park.md: १९२८ चा दर्जा अभयारण्य म्हणून स्पष्ट केला; व्याघ्र राखीव क्षेत्राच्या स्थापनेचा कालावधी १९७३–७४ केला; १९८५ UNESCO, १९८९ biosphere reserve आणि १९९० national park कालरेषा स्पष्ट केली. आधार नसलेली २० किमी/१४५ किमी प्रवास-अंतरे काढून आसाम पर्यटन विभागाच्या ४० किमी/१४० किमी माहितीनुसार दुरुस्त केली; अनुपलब्ध वनविभाग दुवा बदलला आणि ५०० चौ. किमी आकड्याचा संदर्भ आसाम पर्यटन पृष्ठाकडे वळवला."
+      ],
+      "human_review_flags_added": [],
+      "human_review_flags_resolved": [
+        "malkapur-taluka.md: legacy duplicate slug आणि stale content बाबतचा flag — build.js मधील 301 redirect व canonical malkapur-buldhana-taluka फाइल तपासून legacy फाइल pointer note मध्ये रूपांतरित केली."
+      ],
+      "notes": "ही बॅच malkapur-taluka.md ते mangalwedha-taluka.md या सलग सहा फाइल्सची होती. सर्व सहा फाइल्स पूर्ण वाचून तपासल्या आणि अद्ययावत केल्या. पाच internal article links तपासले; सर्व लक्ष्य फाइल्स अस्तित्वात आहेत आणि कोणतीही तुटलेली लिंक नाही. content/index.md हा frontmatter व 'सर्व लेख' शीर्षक असलेला shell आहे; लेखयादी build.js मधून तयार होते. मुख्य शाखेत 1,164 article Markdown files, 1,159 generated article routes आणि पाच legacy redirects आहेत. संपूर्ण repository मधील title-to-frontmatter आणि सर्व internal-link पडताळणी अद्याप बाकी आहे. पुढील फाइल mangalyaan.md आहे."
     }
   ],
   "total_articles": 1164,
@@ -996,7 +1109,6 @@
     "mahatma-gandhi.md: दोन संदर्भ आहेत; लेखातील सर्व कालखंड, संस्थात्मक काम आणि तारखांसाठी अधिक विशिष्ट प्राथमिक स्रोतांची पुढील बॅचमध्ये पडताळणी आवश्यक.",
     "malegaon-taluka.md: मालेगाव किल्ल्याच्या बांधकामाची सुरुवात सुमारे 1740 मध्ये नरोशंकर राजे बहादूर यांनी केली हा दावा या बॅचमध्ये विशिष्ट अधिकृत ऐतिहासिक स्रोताने पडताळता आला नाही; मजकूर बदललेला नाही.",
     "manikgad.md: किल्ल्याची उभारणी, कान्होजी आंग्रे यांना 1718 मध्ये हस्तांतरण, अचूक उंची व प्रवेशमार्ग यांना या बॅचमध्ये विशिष्ट अधिकृत प्राथमिक स्रोत मिळाला नाही; दावे बदललेले नाहीत.",
-    "malkapur-taluka.md: हा legacy slug build.js मधील redirect map ने malkapur-buldhana-taluka कडे वळवला जातो; त्यामुळे समान frontmatter title असूनही स्वतंत्र duplicate page तयार होत नाही.",
     "palk-strait.md: सामुद्रधुनीची अचूक लांबी/रुंदी आणि नावाच्या व्यक्तिनाम-व्युत्पत्तीला या बॅचमध्ये निर्विवाद प्राथमिक आधार मिळाला नाही; अप्रमाणित मोजमाप व व्यक्तिनाम काढले. भूगोलासाठी IUCN चा प्रादेशिक स्रोत वापरला.",
     "panhala-fort.md: उंचीबाबत 845 आणि 977 मीटर असे विसंगत आकडे दिसले; अधिकृत प्राथमिक मोजमाप या बॅचमध्ये पडताळता न आल्याने अचूक उंची व परिघ काढले. India Cine Hub च्या अधिकृत नोंदीनुसार किल्ला 12व्या शतकात शिलाहार राजघराण्याने उभारला; नेमके वर्ष दिलेले नाही. बोगद्यांची संख्या/लांबी व सज्जा कोठीच्या बांधकामवर्षाबाबत ठोस अधिकृत पुरावा नसल्याने अचूक दावे ठेवले नाहीत.",
     "pandharpur.md: पादस्पर्श दर्शनाची प्रतीक्षा वेळ आणि दर्शनाचे वेळापत्रक सामान्य दिवस, एकादशी व यात्राकाळानुसार बदलते; लेखात स्थिर वेळा न देता उपलब्धतेतील बदल स्पष्ट केले.",
@@ -1029,27 +1141,27 @@
     "jantar-mantar.md: विशिष्ट प्रवेशवेळा किंवा शुल्क लेखात दिलेले नाही; भविष्यात अशी माहिती जोडताना राजस्थान पर्यटन विभागाची अद्ययावत अधिकृत नोंद तपासावी.",
     "malhargad.md: महाराष्ट्र राज्य गॅझेटियरच्या शोध-नोंदीत उंची 3,466 फूट आणि बांधकाम सुमारे 1775 असे दिसते; लेखात 3,166 फूट आणि 1757–1760 आहेत. संबंधित गॅझेटियर पृष्ठ या रनमध्ये 404 मुळे पूर्ण उघडता आले नाही, म्हणून हे आकडे बदललेले नाहीत. 'मराठ्यांनी बांधलेला शेवटचा गिरिदुर्ग', 'तरुणगड' नाव, वासुदेव बळवंत फडके यांच्या आश्रयाचा दावा, तसेच पाणी, मुक्काम आणि पर्यटकांसाठीच्या सध्याच्या सुविधांची माहिती अधिकृत किंवा समकालीन स्रोतांतून तपासावी."
   ],
-  "next_file": "malkapur-taluka.md",
-  "last_verified_main": "a0ecf5e06815973ef27cf1ced0cea4737989efaa",
-  "index_note": "content/index.md हा फक्त frontmatter व 'सर्व लेख' शीर्षक असलेला shell आहे. build.js content/ मधील index.md वगळून सर्व Markdown लेख recursively गोळा करतो; पाच legacy slug files redirect map मुळे स्वतंत्र लेखमार्ग म्हणून वगळले जातात. सध्याच्या main tree मध्ये 1,164 लेख Markdown फाइल्स, 1,159 generated article routes आणि 5 legacy redirects आहेत; duplicate slug paths नाहीत. या बॅचमधील सहा लेखांचे H1 व frontmatter title ( | Factpedia suffix वगळून) जुळतात. संपूर्ण repository मधील title-to-frontmatter पडताळणी अद्याप बाकी आहे.",
-  "last_checkpoint_commit": "a0ecf5e06815973ef27cf1ced0cea4737989efaa",
-  "last_run_date": "2026-11-18",
-  "last_updated": "2026-11-18T20:18:21+05:30",
+  "next_file": "mangalyaan.md",
+  "last_verified_main": "6dc3eadaecf4bc90e56a832cf97f3c5c99120423",
+  "index_note": "content/index.md हा frontmatter व 'सर्व लेख' शीर्षक असलेला shell आहे; लेखयादी build.js मधून content/ मधील Markdown फाइल्सवरून dynamic तयार होते. सध्याच्या main tree मध्ये 1,164 लेख Markdown फाइल्स, 1,159 generated article routes आणि 5 legacy redirects आहेत; duplicate slug paths नाहीत. या बॅचमधील सहा लेखांचे H1 व frontmatter title ( | Factpedia suffix वगळून) जुळतात. मलकापूरचा legacy slug मुख्य लेखाकडे 301 redirect होतो; त्याची source file आता pointer note आहे. संपूर्ण repository मधील title-to-frontmatter आणि internal-link पडताळणी अद्याप बाकी.",
+  "last_checkpoint_commit": "6dc3eadaecf4bc90e56a832cf97f3c5c99120423",
+  "last_run_date": "2026-11-19",
+  "last_updated": "2026-11-19T19:49:18+05:30",
   "reviewed_files": [
-    "content/major-dhyan-chand.md",
-    "content/majuli-island.md",
-    "content/make-in-india.md",
-    "content/malawi.md",
-    "content/malaysia.md",
-    "content/malhargad.md"
+    "content/malkapur-taluka.md",
+    "content/malshiras-taluka.md",
+    "content/man-taluka.md",
+    "content/manas-national-park.md",
+    "content/mandangad-taluka.md",
+    "content/mangalwedha-taluka.md"
   ],
   "updated_files": [
-    "content/major-dhyan-chand.md",
-    "content/majuli-island.md",
-    "content/make-in-india.md",
-    "content/malawi.md",
-    "content/malaysia.md",
-    "content/malhargad.md"
+    "content/malkapur-taluka.md",
+    "content/malshiras-taluka.md",
+    "content/man-taluka.md",
+    "content/manas-national-park.md",
+    "content/mandangad-taluka.md",
+    "content/mangalwedha-taluka.md"
   ],
   "verified_no_change": []
 }
