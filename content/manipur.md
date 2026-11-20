@@ -94,14 +94,18 @@ description: मणिपूर राज्याचा भूगोल, इत
 
 ## संदर्भ
 
-1. [मुख्य निवडणूक अधिकारी, मणिपूर — State Profile](https://ceomanipur.nic.in/)
-2. [मणिपूर पर्यटन विभाग — संस्कृती व पर्यटन](https://manipurtourism.gov.in/about-us/)
+1. [मुख्य निवडणूक अधिकारी, मणिपूर — राज्य प्रोफाइल](https://ceomanipur.nic.in/index)
+2. [मणिपूर पर्यटन विभाग — कला व संस्कृती](https://manipurtourism.gov.in/art-culture/)
 3. [ईशान्य प्रदेश विकास मंत्रालय — मणिपूर प्रोफाइल](https://mdoner.nic.in/about-north-east/manipur)
 4. [भारताची जनगणना — A-01: २०११ मधील राज्य, जिल्हा व उपजिल्हानिहाय लोकसंख्या व क्षेत्रफळ](https://censusindia.gov.in/nada/index.php/catalog/42526)
 5. [अन्नप्रक्रिया उद्योग मंत्रालय — मणिपूर राज्य प्रोफाइल](https://www.mofpi.gov.in/sites/default/files/KnowledgeCentre/State%20Profile/Manipur.pdf)
 6. [भारताचे नियंत्रक व महालेखापरीक्षक — मणिपूर राज्य अहवाल](https://cag.gov.in/uploads/download_audit_report/2025/5.-Chapter-I-%28Overview%29-069c22b6d02d969.30423574.pdf)
-7. [मणिपूर पर्यावरण व हवामान बदल संचालनालय — वार्षिक अहवाल](https://ccmanipur.mn.gov.in/media/docs/pdf/Annual_Report_2022-23.pdf)
-8. [मणिपूरमधील राष्ट्रपती राजवट मागे; नवे मुख्यमंत्री शपथविधी — Mint, ४ फेब्रुवारी २०२६](https://www.livemint.com/politics/presidents-rule-revoked-in-manipur-khemchand-to-be-sworn-in-as-manipur-cm-at-6-pm-today-11770200420344.html)
+7. [मणिपूर पर्यावरण व हवामान बदल संचालनालय — वार्षिक अहवाल २०२२–२३](https://ccmanipur.mn.gov.in/media/docs/pdf/Annual_Report_2022-23.pdf)
+8. [मणिपूर विधानसभा — मंत्रिमंडळ व मुख्यमंत्री](https://assembly.mn.gov.in/council-of-ministers)
+9. [भारताचे राजपत्र — मणिपूरमधील राष्ट्रपती राजवट मागे घेण्याची अधिसूचना, ४ फेब्रुवारी २०२६](https://egazette.gov.in/WriteReadData/2026/269819.pdf)
+10. [मणिपूर विधानसभा — अधिकृत भाषा व आठव्या अनुसूचीसंबंधी ठराव](https://assembly.mn.gov.in/resolutions)
+11. [मणिपूर विधानसभा — Manipur Official Language Act, 1979 आणि संबंधित कायदे](https://assembly.mn.gov.in/acts/acts-enacted-through-bills)
+12. [आकाशवाणी — राष्ट्रपती राजवट मागे; युमनाम खेमचंद सिंह यांचा मुख्यमंत्रीपदाचा शपथविधी, ४ फेब्रुवारी २०२६](https://newsonair.gov.in/presidents-rule-revoked-in-manipur/)
 
 ---
 
