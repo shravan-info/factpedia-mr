@@ -84,13 +84,11 @@ description: माणिकगड हा रायगड जिल्ह्य�
 
 ## संदर्भ
 
-1. [महाराष्ट्र पर्यटन विभाग — किल्ले](https://maharashtratourism.gov.in/mr/fort/vishalgad/)
-2. [रायगड जिल्हा प्रशासन](https://raigad.gov.in/)
-3. [महाराष्ट्र राज्य गॅझेटियर — रायगड जिल्हा](https://gazetteers.maharashtra.gov.in/)
-4. [भारतीय पुरातत्त्व सर्वेक्षण](https://asi.nic.in/)
-5. [महाराष्ट्र वने विभाग](https://mahaforest.gov.in/)
-6. [युनेस्को जागतिक वारसा — मराठा लष्करी भूदृश्ये](https://whc.unesco.org/en/list/1739/)
+1. [रायगड जिल्हा प्रशासन](https://raigad.gov.in/)
+2. [महाराष्ट्र राज्य गॅझेटियर — रायगड जिल्हा](https://gazetteers.maharashtra.gov.in/)
+3. [भारतीय पुरातत्त्व सर्वेक्षण](https://asi.nic.in/)
+4. [महाराष्ट्र वने विभाग](https://mahaforest.gov.in/)
 
 ---
 
-*शेवटचे संपादन: १८ नोव्हेंबर २०२६*
+*शेवटचे संपादन: २० नोव्हेंबर २०२६*
