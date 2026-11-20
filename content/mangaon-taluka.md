@@ -40,11 +40,11 @@ description: माणगाव तालुक्याचे स्थान, 
 
 ## संदर्भ
 
-1. [रायगड जिल्हा प्रशासन — अधिकृत संकेतस्थळ](https://raigad.gov.in/)
-2. [महाराष्ट्र शासन — महाभूमी तालुका व गाव निर्देशिका](https://mahavillages.mahabhumi.gov.in/all_list.php)
-3. [महाराष्ट्र शासन — जिल्हा सामाजिक व आर्थिक समालोचन](https://mahades.maharashtra.gov.in/)
-4. [भारताची जनगणना — २०११](https://censusindia.gov.in/)
+1. [भारताची जनगणना — A-01: २०११ मधील राज्य, जिल्हा व उपजिल्हानिहाय लोकसंख्या व क्षेत्रफळ](https://censusindia.gov.in/nada/index.php/catalog/42526)
+2. [भारताची जनगणना — रायगड जिल्हा जनगणना पुस्तिका, २०११ (भाग ब)](https://censusindia.gov.in/nada/index.php/catalog/823)
+3. [रायगड जिल्हा प्रशासन — उपविभागीय अधिकारी, माणगाव](https://raigad.gov.in/en/divisions/sub-divisional-officers/)
+4. [डॉ. बाबासाहेब आंबेडकर तंत्रशास्त्र विद्यापीठ — लोणेरे, ता. माणगाव](https://dbatu.ac.in/page/3/)
 
 ---
 
-*शेवटचे संपादन: १८ नोव्हेंबर २०२६*
+*शेवटचे संपादन: २० नोव्हेंबर २०२६*
