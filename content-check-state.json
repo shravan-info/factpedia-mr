@@ -1,5 +1,5 @@
 {
-  "next_index": 600,
+  "next_index": 608,
   "cycle": 2,
   "runs": [
     {
@@ -1100,6 +1100,135 @@
       "follow_up_commit_shas": [
         "3c458a437bcb2f4db564e42b1aba469a96e5244a"
       ]
+    },
+    {
+      "date": "2026-11-20",
+      "checked": 8,
+      "range": [
+        "mangalyaan.md",
+        "mao-zedong.md"
+      ],
+      "reviewed_files": [
+        "content/mangalyaan.md",
+        "content/mangaon-taluka.md",
+        "content/manikgad.md",
+        "content/manipur.md",
+        "content/manipuri-dance.md",
+        "content/manmohan-singh.md",
+        "content/manohar-joshi.md",
+        "content/mao-zedong.md"
+      ],
+      "updated_articles": [
+        "content/mangalyaan.md",
+        "content/manipur.md",
+        "content/manipuri-dance.md",
+        "content/manmohan-singh.md",
+        "content/manohar-joshi.md",
+        "content/mao-zedong.md"
+      ],
+      "unchanged_articles": [
+        "content/mangaon-taluka.md",
+        "content/manikgad.md"
+      ],
+      "skipped_previously_reviewed": [],
+      "footer_dates_refreshed": 0,
+      "internal_links_checked": 1,
+      "broken_internal_links": 0,
+      "title_h1_checks": 8,
+      "title_h1_matches_after_suffix_normalization": 8,
+      "references_sections_checked": 8,
+      "reference_counts": [
+        {
+          "path": "content/mangalyaan.md",
+          "count": 6
+        },
+        {
+          "path": "content/mangaon-taluka.md",
+          "count": 4
+        },
+        {
+          "path": "content/manikgad.md",
+          "count": 4
+        },
+        {
+          "path": "content/manipur.md",
+          "count": 12
+        },
+        {
+          "path": "content/manipuri-dance.md",
+          "count": 4
+        },
+        {
+          "path": "content/manmohan-singh.md",
+          "count": 7
+        },
+        {
+          "path": "content/manohar-joshi.md",
+          "count": 3
+        },
+        {
+          "path": "content/mao-zedong.md",
+          "count": 5
+        }
+      ],
+      "index_checked": true,
+      "index_changed": false,
+      "index_articles": 1159,
+      "article_files": 1164,
+      "duplicate_slugs": 0,
+      "legacy_redirects": 5,
+      "new_articles_added": 0,
+      "next_index": 608,
+      "next_file": "marathi-theatre.md",
+      "cycle": 2,
+      "base_commit": "a04320823f4e8d5582acafd8746b8fb11f2e3780",
+      "article_commit_shas": [
+        {
+          "path": "content/mangalyaan.md",
+          "commit": "e57e839ed3118b8eb25d49e5e312d7eedb2abb8e",
+          "blob": "5980a0ae76fb3609e2216b4130205352b9254d0b"
+        },
+        {
+          "path": "content/manipur.md",
+          "commit": "7cfedd0467216e219bca10a3b04ca83bf8de7eaa",
+          "blob": "bd98d467335afb72bd57e73eaf7fea39d29339f4"
+        },
+        {
+          "path": "content/manipuri-dance.md",
+          "commit": "15304ba4a5205cff9b21c9a73bcbd0888b8cfd47",
+          "blob": "cb3a08c1843af85ef29e0fe5b1b72c8865b571a2"
+        },
+        {
+          "path": "content/manmohan-singh.md",
+          "commit": "24ca1b57bab3d0e8e583555dc095b6514adcd2f6",
+          "blob": "402d2934d60d6e502da0f364ea3605c4166979be"
+        },
+        {
+          "path": "content/manohar-joshi.md",
+          "commit": "a8ae28c1a8670e88e5cb68bc8700094bc28df0fa",
+          "blob": "ec167b6745b50a4971ef832421a3046755ebdc03"
+        },
+        {
+          "path": "content/mao-zedong.md",
+          "commit": "43773913ec79e97b8d225a03b0e06ab89d99fcfb",
+          "blob": "e9e17b8fa3d354facf3bb068be5a4bc196883969"
+        }
+      ],
+      "corrections": [
+        "mangalyaan.md: ISROच्या अधिकृत स्रोतांनुसार प्रक्षेपणावेळचे वस्तुमान 1,337 kg आणि कक्षा सुमारे 300 x 71,000 km अशी दुरुस्ती केली; TIS, MENCA आणि LAP उपकरणांची उद्दिष्टे अचूक केली; 'एक दिवस उशीर झाला तर दोन वर्षे' या अतिशयोक्त विधानाऐवजी पुढील प्रक्षेपण-संधी सुमारे 780 दिवसांनी होती असे स्पष्ट केले; इंधन संपल्याचा अप्रमाणित निष्कर्ष काढून एप्रिल 2022 च्या दीर्घ ग्रहणानंतर संपर्क तुटल्याची आणि प्रयत्न निष्फळ ठरल्याची ISRO नोंद दिली.",
+        "manipur.md: 4 फेब्रुवारी 2026 रोजी राष्ट्रपती राजवट मागे घेतल्याची राजपत्र अधिसूचना, सध्याच्या मुख्यमंत्री युमनाम खेमचंद सिंह यांची मणिपूर विधानसभा नोंद आणि मणिपुरी भाषेच्या अधिकृत दर्जासाठी विधानसभा ठराव/कायदे जोडले; सर्वसाधारण Mint संदर्भ काढला.",
+        "manipuri-dance.md: UNESCOने शास्त्रीय मणिपुरी नृत्याला World Heritage दर्जा दिला असा अर्थ होऊ नये म्हणून 2013 मधील Sankirtana नोंद 'मानवतेच्या अमूर्त सांस्कृतिक वारशाच्या प्रतिनिधिक यादीत' असल्याचे दुरुस्त केले; चुकीचा/जुना UNESCO URL बदलून योग्य नोंद जोडली; नुपा पाला व पुंग चोलोमची मांडणी University of the Arts Helsinki स्रोताशी जुळवली; असंबद्ध कलाकार-यादी संदर्भाऐवजी भारत सरकारचा सांस्कृतिक मंत्रालयाचा माहितीपत्रक जोडले.",
+        "manmohan-singh.md: शिक्षणाच्या पदव्या व वर्षे PMOच्या अधिकृत चरित्रानुसार स्पष्ट केली; RBI गव्हर्नरचा अचूक कार्यकाळ RBIच्या यादीशी जुळवला; 1991 सुधारणा नरसिंह राव सरकारच्या काळातील असल्याचे स्पष्ट केले; UIDAI स्थापना (2009) व पहिला आधार क्रमांक (29 सप्टेंबर 2010) वेगळे केले; 2008 अणुकरारासाठी MEA स्रोत जोडला; अप्रमाणित घोटाळे/वैयक्तिक आरोप आणि कर्जफेडीचा अप्रमाणित दावा काढला.",
+        "manohar-joshi.md: मुख्यमंत्रिपदाचा कालावधी अधिकृत चरित्रात दिलेल्या 1995–1999 या वर्षांपुरता ठेवला; जन्म, शिक्षण, शिवसेना प्रवेश, नगरसेवकपद, महापौरपद, कोहिनूर संस्था, 55 उड्डाणपूल, पुणे-मुंबई द्रुतगती मार्ग, झुणका-भाकर, प्रौढ शिक्षण आणि पद्मभूषण यांची मांडणी PIBच्या अधिकृत चरित्रानुसार केली; लोकसभा अध्यक्षपदासाठी संसद संदर्भ जोडला.",
+        "mao-zedong.md: 1949–1954 केंद्रीय जनसरकार अध्यक्ष आणि 1954–1959 चीनचे अध्यक्ष ही पदे वेगळी केली; 1959 नंतर पक्षाध्यक्ष म्हणून प्रभाव कायम राहिल्याचे स्पष्ट केले; महान उडी व सांस्कृतिक क्रांतीची मांडणी अधिक तटस्थ केली; औपनिवेशिक मुक्तीचा अतिव्यापक दावा काढला; UN ठराव 2758 साठी थेट संयुक्त राष्ट्र महासभेचा संदर्भ जोडला."
+      ],
+      "human_review_flags_added": [
+        "mangaon-taluka.md: Census A-01 या अधिकृत 2011 dataset मध्ये माणगाव उपजिल्हा कोड 04181 नोंदलेला आहे; परंतु डाउनलोड होणारी XLSX फाइल या रनमध्ये उघडता न आल्याने 1,59,613 लोकसंख्येची मूळ ओळ थेट वाचून पडताळता आली नाही. आकडा बदललेला नाही; मूळ तक्ता पुन्हा तपासावा.",
+        "mangalyaan.md: ISROचे स्रोत प्रक्षेपण, वस्तुमान, उपकरणे, कक्षा, खर्च आणि 2022 मधील संपर्क तुटण्याची माहिती समर्थित करतात; 'पहिल्याच प्रयत्नात मंगळाच्या कक्षेत पोहोचणारा पहिला देश' या दाव्यासाठी विशिष्ट अधिकृत ISRO स्रोत पुढील तपासणीत जोडावा.",
+        "manipuri-dance.md: UNESCO नोंद आता मणिपूरच्या संकीर्तनाच्या अमूर्त सांस्कृतिक वारशाबद्दल असल्याचे अचूक केले आहे; पाचव्या रासप्रकाराच्या नावाचे (दिवा/दिबा/दिव्य रास) प्रमाणित लेखन आणि प्रशिक्षण संस्थांबाबतचे काही सर्वसाधारण दावे अधिकृत सांस्कृतिक स्रोतांवरून तपासावेत."
+      ],
+      "human_review_flags_resolved": [],
+      "notes": "या बॅचमध्ये मंगळयान ते माओ त्से-तुंग या वर्णक्रमातील आठ लेख पूर्ण वाचून तपासले; सहा लेख अद्ययावत केले आणि माणगाव तालुका व माणिकगड किल्ला पुरेशा प्राथमिक पुष्टीअभावी न बदलता ठेवले. आठही लेखांचे title/H1 जुळले; आठही References विभाग तपासले. फक्त माणगाव तालुका लेखातील एक अंतर्गत लिंक /raigad-district/ तपासली आणि लक्ष्य फाइल अस्तित्वात असल्याची पुष्टी केली; या बॅचमध्ये तुटलेली अंतर्गत लिंक नाही. content/index.md बदललेला नाही. build.js मधील collectArticleTitles content/index.md वगळतो आणि पाच legacy redirects वगळतो; त्यामुळे 1,164 Markdown लेखांपैकी 1,159 मार्ग तयार होतात. पुढील फाइल marathi-theatre.md आहे. संपूर्ण repository मधील title-to-frontmatter आणि सर्व internal-link पडताळणी अद्याप बाकी."
     }
   ],
   "total_articles": 1164,
@@ -1120,7 +1249,7 @@
     "maharashtra.md: काही संदर्भ सर्वसाधारण शासन संकेतस्थळांकडे जातात; संबंधित दाव्यांशी जुळणारे विशिष्ट अधिकृत पृष्ठ मिळाल्यावरच बदल करावा.",
     "mahatma-gandhi.md: दोन संदर्भ आहेत; लेखातील सर्व कालखंड, संस्थात्मक काम आणि तारखांसाठी अधिक विशिष्ट प्राथमिक स्रोतांची पुढील बॅचमध्ये पडताळणी आवश्यक.",
     "malegaon-taluka.md: मालेगाव किल्ल्याच्या बांधकामाची सुरुवात सुमारे 1740 मध्ये नरोशंकर राजे बहादूर यांनी केली हा दावा या बॅचमध्ये विशिष्ट अधिकृत ऐतिहासिक स्रोताने पडताळता आला नाही; मजकूर बदललेला नाही.",
-    "manikgad.md: किल्ल्याची उभारणी, कान्होजी आंग्रे यांना 1718 मध्ये हस्तांतरण, अचूक उंची व प्रवेशमार्ग यांना या बॅचमध्ये विशिष्ट अधिकृत प्राथमिक स्रोत मिळाला नाही; दावे बदललेले नाहीत.",
+    "manikgad.md: रायगड जिल्हा प्रशासनाच्या पर्यटन पृष्ठावर रायगडमधील माणिकगडाचा उल्लेख आहे; मात्र लेखातील खालापूर तालुका, उभारणीचा कालखंड, कान्होजी आंग्रे यांना 1718 मधील हस्तांतरण, उंची, अंतर, चढाईचा मार्ग, बससेवा, पाण्याची उपलब्धता आणि सध्याचे पर्यटक नियम यांना या रनमध्ये विशिष्ट अधिकृत प्राथमिक स्रोत मिळाला नाही. चंद्रपूर जिल्ह्यातील वेगळ्या माणिकगडाशी गल्लत करू नये. मजकूर बदललेला नाही.",
     "palk-strait.md: सामुद्रधुनीची अचूक लांबी/रुंदी आणि नावाच्या व्यक्तिनाम-व्युत्पत्तीला या बॅचमध्ये निर्विवाद प्राथमिक आधार मिळाला नाही; अप्रमाणित मोजमाप व व्यक्तिनाम काढले. भूगोलासाठी IUCN चा प्रादेशिक स्रोत वापरला.",
     "panhala-fort.md: उंचीबाबत 845 आणि 977 मीटर असे विसंगत आकडे दिसले; अधिकृत प्राथमिक मोजमाप या बॅचमध्ये पडताळता न आल्याने अचूक उंची व परिघ काढले. India Cine Hub च्या अधिकृत नोंदीनुसार किल्ला 12व्या शतकात शिलाहार राजघराण्याने उभारला; नेमके वर्ष दिलेले नाही. बोगद्यांची संख्या/लांबी व सज्जा कोठीच्या बांधकामवर्षाबाबत ठोस अधिकृत पुरावा नसल्याने अचूक दावे ठेवले नाहीत.",
     "pandharpur.md: पादस्पर्श दर्शनाची प्रतीक्षा वेळ आणि दर्शनाचे वेळापत्रक सामान्य दिवस, एकादशी व यात्राकाळानुसार बदलते; लेखात स्थिर वेळा न देता उपलब्धतेतील बदल स्पष्ट केले.",
@@ -1155,21 +1284,32 @@
     "malshiras-taluka.md: नीरा नदीचे खोरे आणि त्याचा माळशिरस तालुक्याशी नेमका भौगोलिक संबंध दर्शवणारा विशिष्ट अधिकृत स्रोत अद्याप मिळालेला नाही; दावा बदललेला नाही.",
     "man-taluka.md: मानगंगा नदीचा उल्लेख समर्थित करणारा विशिष्ट अधिकृत जलस्रोत/नकाशा अद्याप मिळालेला नाही; दावा बदललेला नाही.",
     "mandangad-taluka.md: मंडणगडला रत्नागिरी जिल्ह्याचा उत्तरेकडील/सर्वात उत्तरेकडील तालुका म्हणण्याचा आणि तालुक्याशी थेट NH-66/कोकण रेल्वे जोडणीचा दावा अधिकृत तालुका-स्तरीय स्रोताने पूर्णपणे पुष्टी केलेला नाही; दावे बदललेले नाहीत.",
-    "mangalwedha-taluka.md: संत दामाजी आणि संत चोखामेळा यांच्याशी मंगळवेढ्याचा ऐतिहासिक संबंध दर्शवणारा विश्वासार्ह अधिकृत प्राथमिक स्रोत सापडलेला नाही; परंपरेचा उल्लेख सावध भाषेत कायम ठेवला आहे."
+    "mangalwedha-taluka.md: संत दामाजी आणि संत चोखामेळा यांच्याशी मंगळवेढ्याचा ऐतिहासिक संबंध दर्शवणारा विश्वासार्ह अधिकृत प्राथमिक स्रोत सापडलेला नाही; परंपरेचा उल्लेख सावध भाषेत कायम ठेवला आहे.",
+    "mangaon-taluka.md: Census A-01 या अधिकृत 2011 dataset मध्ये माणगाव उपजिल्हा कोड 04181 नोंदलेला आहे; परंतु डाउनलोड होणारी XLSX फाइल या रनमध्ये उघडता न आल्याने 1,59,613 लोकसंख्येची मूळ ओळ थेट वाचून पडताळता आली नाही. आकडा बदललेला नाही; मूळ तक्ता पुन्हा तपासावा.",
+    "mangalyaan.md: ISROचे स्रोत प्रक्षेपण, वस्तुमान, उपकरणे, कक्षा, खर्च आणि 2022 मधील संपर्क तुटण्याची माहिती समर्थित करतात; 'पहिल्याच प्रयत्नात मंगळाच्या कक्षेत पोहोचणारा पहिला देश' या दाव्यासाठी विशिष्ट अधिकृत ISRO स्रोत पुढील तपासणीत जोडावा.",
+    "manipuri-dance.md: UNESCO नोंद आता मणिपूरच्या संकीर्तनाच्या अमूर्त सांस्कृतिक वारशाबद्दल असल्याचे अचूक केले आहे; पाचव्या रासप्रकाराच्या नावाचे (दिवा/दिबा/दिव्य रास) प्रमाणित लेखन आणि प्रशिक्षण संस्थांबाबतचे काही सर्वसाधारण दावे अधिकृत सांस्कृतिक स्रोतांवरून तपासावेत."
   ],
-  "next_file": "mangalyaan.md",
-  "last_verified_main": "3c458a437bcb2f4db564e42b1aba469a96e5244a",
-  "index_note": "content/index.md हा frontmatter व 'सर्व लेख' शीर्षक असलेला shell आहे; लेखयादी build.js मधून content/ मधील Markdown फाइल्सवरून dynamic तयार होते. सध्याच्या main tree मध्ये 1,164 लेख Markdown फाइल्स, 1,159 generated article routes आणि 5 legacy redirects आहेत; duplicate slug paths नाहीत. या बॅचमधील सहा लेखांचे H1 व frontmatter title ( | Factpedia suffix वगळून) जुळतात. मलकापूरचा legacy slug मुख्य लेखाकडे 301 redirect होतो; त्याची source file आता pointer note आहे. संपूर्ण repository मधील title-to-frontmatter आणि internal-link पडताळणी अद्याप बाकी.",
-  "last_checkpoint_commit": "3c458a437bcb2f4db564e42b1aba469a96e5244a",
-  "last_run_date": "2026-11-19",
-  "last_updated": "2026-11-19T19:49:18+05:30",
+  "next_file": "marathi-theatre.md",
+  "last_verified_main": "43773913ec79e97b8d225a03b0e06ab89d99fcfb",
+  "index_note": "content/index.md हा frontmatter व 'सर्व लेख' शीर्षक असलेला shell आहे. build.js content/index.md वगळून Markdown लेखांची यादी तयार करतो आणि पाच legacy redirects वगळतो; सध्याच्या tree मध्ये 1,164 article Markdown files व 1,159 generated article routes आहेत. संपूर्ण repository मधील title-to-frontmatter आणि सर्व internal-link पडताळणी अद्याप बाकी.",
+  "last_checkpoint_commit": "43773913ec79e97b8d225a03b0e06ab89d99fcfb",
+  "last_run_date": "2026-11-20",
+  "last_updated": "2026-11-20",
   "reviewed_files": [
     "content/malkapur-taluka.md",
     "content/malshiras-taluka.md",
     "content/man-taluka.md",
     "content/manas-national-park.md",
     "content/mandangad-taluka.md",
-    "content/mangalwedha-taluka.md"
+    "content/mangalwedha-taluka.md",
+    "content/mangalyaan.md",
+    "content/mangaon-taluka.md",
+    "content/manikgad.md",
+    "content/manipur.md",
+    "content/manipuri-dance.md",
+    "content/manmohan-singh.md",
+    "content/manohar-joshi.md",
+    "content/mao-zedong.md"
   ],
   "updated_files": [
     "content/malkapur-taluka.md",
@@ -1177,7 +1317,16 @@
     "content/man-taluka.md",
     "content/manas-national-park.md",
     "content/mandangad-taluka.md",
-    "content/mangalwedha-taluka.md"
+    "content/mangalwedha-taluka.md",
+    "content/mangalyaan.md",
+    "content/manipur.md",
+    "content/manipuri-dance.md",
+    "content/manmohan-singh.md",
+    "content/manohar-joshi.md",
+    "content/mao-zedong.md"
   ],
-  "verified_no_change": []
+  "verified_no_change": [
+    "content/mangaon-taluka.md",
+    "content/manikgad.md"
+  ]
 }
