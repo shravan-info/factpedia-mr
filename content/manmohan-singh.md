@@ -17,7 +17,7 @@ description: भारताचे माजी पंतप्रधान व 
 | कार्यकाळ | २२ मे २००४ ते २६ मे २०१४ |
 | पक्ष | भारतीय राष्ट्रीय काँग्रेस |
 | अर्थमंत्री | २१ जून १९९१ ते १६ मे १९९६ |
-| रिझर्व्ह बँक गव्हर्नर | १९८२ ते १९८५ |
+| रिझर्व्ह बँक गव्हर्नर | १६ सप्टेंबर १९८२ ते १४ जानेवारी १९८५ |
 | शिक्षण | पंजाब विद्यापीठ, केंब्रिज, ऑक्सफर्ड |
 | सन्मान | पद्मविभूषण, १९८७ |
 
@@ -103,12 +103,11 @@ description: भारताचे माजी पंतप्रधान व 
 
 ## संदर्भ
 
-1. [पंतप्रधान कार्यालय — मनमोहन सिंग](https://www.pmindia.gov.in/en/former_pm/dr-manmohan-singh-2/)
-2. [Britannica — Manmohan Singh](https://www.britannica.com/biography/Manmohan-Singh)
-3. [रिझर्व्ह बँक ऑफ इंडिया — गव्हर्नर यादी](https://www.rbi.org.in/)
-4. [भारत सरकार — पद्म पुरस्कार](https://www.padmaawards.gov.in/)
-5. [नियोजन आयोग / नीती आयोग](https://www.niti.gov.in/)
+1. [पंतप्रधान कार्यालय — माजी पंतप्रधान डॉ. मनमोहन सिंग](https://www.pmindia.gov.in/en/former_pm/dr-manmohan-singh-2/)
+2. [पंतप्रधान कार्यालय — मनमोहन सिंग यांच्या निधनाबाबत केंद्रीय मंत्रिमंडळाचा शोकप्रस्ताव, २६ डिसेंबर २०२४](https://www.pmindia.gov.in/en/news_updates/cabinet-condoles-the-demise-of-former-prime-minister-dr-manmohan-singh/)
+3. [रिझर्व्ह बँक ऑफ इंडिया — माजी गव्हर्नरांची यादी](https://rbi.org.in/history/Mis_Governors.html)
+4. [Encyclopaedia Britannica — Manmohan Singh](https://www.britannica.com/biography/Manmohan-Singh)
 
 ---
 
-*शेवटचे संपादन: १८ नोव्हेंबर २०२६*
+*शेवटचे संपादन: २० नोव्हेंबर २०२६*
