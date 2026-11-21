@@ -66,10 +66,12 @@ description: मॉरिशस हा हिंदी महासागरा�
 
 1. [मॉरिशस सरकार — देशाची सामान्य माहिती](https://mauritius-london.govmu.org/Pages/Mauritius-London/General-Information-about-the-Republic-of-Mauritius.aspx)
 2. [मॉरिशस सरकार — नैसर्गिक भूगोल व राष्ट्रीय उद्याने](https://www.govmu.org/FR/Pages/exploremtius.aspx)
-3. [UNESCO — आप्रवासी घाट](https://whc.unesco.org/en/list/1227)
-4. [UNESCO — ले मॉर्न सांस्कृतिक भूदृश्य](https://whc.unesco.org/en/list/1259/)
-5. [UNESCO — Traditional Mauritian Sega](https://ich.unesco.org/en/RL/traditional-mauritian-sega-01003/)
-6. [एन्सायक्लोपीडिया ब्रिटानिका — मॉरिशस](https://www.britannica.com/place/Mauritius)
+3. [मॉरिशस सरकार — राष्ट्रीय वारसा](https://govmu.org/EN/infoservices/arts/Pages/heritage.aspx)
+4. [मॉरिशस सरकार — संस्कृती व सण](https://www.govmu.org/EN/infoservices/arts/Pages/culture.aspx)
+5. [आपप्रवासी घाट ट्रस्ट फंड — जागतिक वारसा स्थळाचा इतिहास](https://aapravasi.govmu.org/aapravasi/wp-content/uploads/2020/09/Brief-History-of-the-Aapravasi-Ghat-World-Heritage-Site.pdf)
+6. [UNESCO — ले मॉर्न सांस्कृतिक भूदृश्य](https://whc.unesco.org/en/list/1259/)
+7. [UNESCO — Traditional Mauritian Sega](https://ich.unesco.org/en/RL/traditional-mauritian-sega-01003)
+8. [एन्सायक्लोपीडिया ब्रिटानिका — मॉरिशस](https://www.britannica.com/place/Mauritius)
 
 ---
 
