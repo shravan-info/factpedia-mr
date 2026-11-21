@@ -40,10 +40,9 @@ description: मौदा तालुक्याचे स्थान, भू
 
 ## संदर्भ
 
-1. [नागपूर जिल्हा प्रशासन — प्रशासकीय रचना व तालुकानिहाय गावांची संख्या](https://nagpur.gov.in/administration/)
+1. [नागपूर जिल्हा प्रशासन — तालुकानिहाय गावांची संख्या](https://nagpur.gov.in/administration/)
 2. [NTPC — कोळसा-आधारित वीज केंद्रांची यादी](https://ntpc.co.in/power-generation/coal-stations)
-3. [NTPC — मौदा औष्णिक वीज केंद्राची माहिती](https://ntpc.co.in/media/press-releases/ntpc-terminates-mouda-400-mwh-bess-contract-due-contractor-default)
 
 ---
 
-*शेवटचे संपादन: १८ नोव्हेंबर २०२६*
+*शेवटचे संपादन: २१ नोव्हेंबर २०२६*
