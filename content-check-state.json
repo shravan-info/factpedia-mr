@@ -1,5 +1,5 @@
 {
-  "next_index": 608,
+  "next_index": 618,
   "cycle": 2,
   "runs": [
     {
@@ -1229,6 +1229,157 @@
       ],
       "human_review_flags_resolved": [],
       "notes": "या बॅचमध्ये मंगळयान ते माओ त्से-तुंग या वर्णक्रमातील आठ लेख पूर्ण वाचून तपासले; सहा लेख अद्ययावत केले आणि माणगाव तालुका व माणिकगड किल्ला पुरेशा प्राथमिक पुष्टीअभावी न बदलता ठेवले. आठही लेखांचे title/H1 जुळले; आठही References विभाग तपासले. फक्त माणगाव तालुका लेखातील एक अंतर्गत लिंक /raigad-district/ तपासली आणि लक्ष्य फाइल अस्तित्वात असल्याची पुष्टी केली; या बॅचमध्ये तुटलेली अंतर्गत लिंक नाही. content/index.md बदललेला नाही. build.js मधील collectArticleTitles content/index.md वगळतो आणि पाच legacy redirects वगळतो; त्यामुळे 1,164 Markdown लेखांपैकी 1,159 मार्ग तयार होतात. पुढील फाइल marathi-theatre.md आहे. संपूर्ण repository मधील title-to-frontmatter आणि सर्व internal-link पडताळणी अद्याप बाकी."
+    },
+    {
+      "date": "2026-11-21",
+      "checked": 10,
+      "reviewed_files": [
+        "content/marathi-theatre.md",
+        "content/marco-polo.md",
+        "content/marie-curie.md",
+        "content/mars.md",
+        "content/martin-luther-king-jr.md",
+        "content/mary-kom.md",
+        "content/mauda-taluka.md",
+        "content/mauritania.md",
+        "content/mauritius.md",
+        "content/maurya-empire.md"
+      ],
+      "updated_articles": [
+        "content/marie-curie.md",
+        "content/mars.md",
+        "content/martin-luther-king-jr.md",
+        "content/mary-kom.md",
+        "content/mauda-taluka.md",
+        "content/mauritania.md",
+        "content/mauritius.md",
+        "content/maurya-empire.md"
+      ],
+      "unchanged_articles": [
+        "content/marathi-theatre.md",
+        "content/marco-polo.md"
+      ],
+      "internal_links_checked": 1,
+      "broken_internal_links": 0,
+      "footer_dates_refreshed": 8,
+      "title_h1_checks": 10,
+      "title_h1_matches_after_suffix_normalization": 10,
+      "references_sections_checked": 10,
+      "reference_counts": [
+        {
+          "path": "content/marathi-theatre.md",
+          "count": 2
+        },
+        {
+          "path": "content/marco-polo.md",
+          "count": 3
+        },
+        {
+          "path": "content/marie-curie.md",
+          "count": 5
+        },
+        {
+          "path": "content/mars.md",
+          "count": 8
+        },
+        {
+          "path": "content/martin-luther-king-jr.md",
+          "count": 6
+        },
+        {
+          "path": "content/mary-kom.md",
+          "count": 6
+        },
+        {
+          "path": "content/mauda-taluka.md",
+          "count": 2
+        },
+        {
+          "path": "content/mauritania.md",
+          "count": 6
+        },
+        {
+          "path": "content/mauritius.md",
+          "count": 8
+        },
+        {
+          "path": "content/maurya-empire.md",
+          "count": 5
+        }
+      ],
+      "index_checked": true,
+      "index_changed": false,
+      "index_articles": 1159,
+      "article_files": 1164,
+      "duplicate_slugs": 0,
+      "legacy_redirects": 5,
+      "new_articles_added": 0,
+      "next_index": 618,
+      "next_file": "maval-taluka.md",
+      "cycle": 2,
+      "base_commit": "93648d4c654a8b6d4f9a1fc8f0359fd3fed7c3f3",
+      "article_commit_shas": [
+        {
+          "path": "content/marie-curie.md",
+          "commit": "23e2445ea8e5c8aa2f32fb69c6374be0be6079df",
+          "blob": "0ef0dbda0f9baaed4eeea5cb0686c4a5fb6365e6"
+        },
+        {
+          "path": "content/mars.md",
+          "commit": "6a3241f98ff477a2df946180d3a03b7a976f84f7",
+          "blob": "1b0396d28116f62bc554190a0676a08d5bec0a88"
+        },
+        {
+          "path": "content/martin-luther-king-jr.md",
+          "commit": "5ffc2f9702403a031c1cfd9b5ced612c8ba287c4",
+          "blob": "0ed18bdff655e8fe97bf226dae8ce8d7cf5b3c0f"
+        },
+        {
+          "path": "content/mary-kom.md",
+          "commit": "b98736f821c6db9652b6fa80798013419b49faa0",
+          "blob": "44d0f52bed1b58b51c49af99666197e8a55e447a"
+        },
+        {
+          "path": "content/mauda-taluka.md",
+          "commit": "705db14d9d136d56889b87980018e7b2f2cabf90",
+          "blob": "d413eb04622c890c2a72f859fd66fc6f6710a194"
+        },
+        {
+          "path": "content/mauritania.md",
+          "commit": "c0aa7133c6a3f44f065059246ce1cadb683f4952",
+          "blob": "855bb94228d1d70d10209080eb8439c417119bc5"
+        },
+        {
+          "path": "content/mauritius.md",
+          "commit": "e1dbaa2fd945f8193b33792668c392ed5b42e2b6",
+          "blob": "45cfd40e1a00bdea141121c4f167df895a50ab19"
+        },
+        {
+          "path": "content/maurya-empire.md",
+          "commit": "dd2fdca6fbf5ae31edf6c4ad878be5b7ee2f45db",
+          "blob": "a9466bf428836fb72e262c31d39b2e1b6d0fb34f"
+        }
+      ],
+      "corrections": [
+        "marie-curie.md: 1898 मध्ये पियेर क्युरी यांच्या सहकार्याने पोलोनियम व रेडियमची ओळख करून दिल्याचे स्पष्ट केले; रेडियम संस्थेची स्थापना 1909 मध्ये झाली हे दुरुस्त केले; अप्रमाणित वैयक्तिक आरोप व पुनरुक्त सुरक्षा परिच्छेद काढले; Institut Curie आणि Nobel संदर्भ अधिक विशिष्ट केले.",
+        "mars.md: NASAच्या माहितीनुसार सरासरी पृष्ठभागीय तापमान सुमारे -65°C केले; मोहिमांच्या तक्त्यातील वर्षे मंगळाजवळ पोहोचण्याची वर्षे असल्याचे स्पष्ट केले; NASA-ESA Mars Sample Return मोहीम अद्याप नियोजनाधीन असल्याचे सावधपणे लिहिले; ₹450 कोटी खर्च व पहिल्याच प्रयत्नातील यशासाठी ISROचा अधिकृत संसदीय दस्तऐवज जोडला.",
+        "martin-luther-king-jr.md: जन्म व मृत्यूच्या तारखा अचूक केल्या; Dexter Avenue Baptist Church चे पाळकपद 1954 आणि Boston University डॉक्टरेट 1955 अशी कालक्रमदुरुस्ती केली; वॉशिंग्टन मोर्चातील उपस्थिती अंदाजे 2.5 लाख केली; नागरी हक्क कायद्यांबाबतचा अतिव्यापक दावा मर्यादित केला.",
+        "mary-kom.md: 2024 मध्ये औपचारिक निवृत्ती जाहीर केली नव्हती हे स्पष्ट केले; मार्च 2026 मधील व्यावसायिक मुष्टियुद्धातील पुनरागमनाचा विचार वेगळा नोंदवला; Tokyo 2020 स्पर्धा 2021 मध्ये झाल्याचे स्पष्ट केले; अप्रमाणित पदवी-अर्थ काढला; Rajya Sabha आणि Padma अधिकृत नोंदी जोडल्या.",
+        "mauda-taluka.md: नागपूर जिल्हा प्रशासनाच्या तक्त्यानुसार 124 गावांची नोंद केली; NTPCच्या अद्ययावत अधिकृत यादीत मौदा केंद्राची कार्यान्वित क्षमता 2,320 MW असल्याचे जोडले; सर्वसाधारण पोर्टल संदर्भ काढले.",
+        "mauritania.md: अरबी अधिकृत व पुलार/सोनिंके/वोलोफ राष्ट्रीय भाषा असल्याचे स्पष्ट केले; UNESCOच्या यादीतील ओउलाता समाविष्ट केले; झुएरात–नौआधिबू रेल्वे 700 किमीपेक्षा लांब असून लोखंडखनिज वाहतुकीसाठी वापरली जाते हे SNIM स्रोताशी जुळवले; पुनरुक्त पर्यावरण, शहर व वाहतूक विभाग काढले.",
+        "mauritius.md: चक्रीवादळांचा हंगाम नोव्हेंबर–एप्रिल केला; सर्वोच्च शिखराची उंची 828 मीटर जोडली; इंग्रजी अधिकृत आणि क्रेओल/फ्रेंच सर्वाधिक बोलल्या जाणाऱ्या भाषा स्पष्ट केल्या; Aapravasi Ghat, Le Morne आणि Traditional Mauritian Sega संदर्भ जोडले; पुनरुक्त पर्यावरण, शहरे व वाहतूक विभाग एकत्रित केले.",
+        "maurya-empire.md: कलिंगचा आधुनिक भौगोलिक उल्लेख ओडिशापुरता मर्यादित केला; अशोकाच्या तेराव्या शिलालेखातील पश्चात्ताप व धम्मविजय स्पष्ट केले; श्रीलंका मिशनचा उल्लेख बौद्ध परंपरेनुसार असल्याचे नमूद केले; सांची स्तूपाच्या शुंग/सातवाहनकालीन विस्ताराची माहिती दिली."
+      ],
+      "human_review_flags_added": [
+        "marathi-theatre.md: मराठी विश्वकोशाचे संदर्भ 30905 आणि 40943 या रनमध्ये थेट उघडताना 502 त्रुटी आली; लेख न बदलता ठेवला. पुढील तपासणीत स्रोतपृष्ठांची उपलब्धता आणि त्यांवरील विशिष्ट दावे पुन्हा पडताळावेत.",
+        "mary-kom.md: जागतिक महिला मुष्टियुद्ध स्पर्धांतील पहिल्या सात सहभागांत प्रत्येक वेळी पदक मिळाल्याचा दावा स्पर्धानिहाय अधिकृत IBA/AIBA नोंदींशी स्वतंत्रपणे जुळवणे बाकी; या रनमध्ये दावा बदललेला नाही.",
+        "mauda-taluka.md: नागपूर जिल्हा प्रशासनाच्या पृष्ठावर मौदा तालुक्यासाठी 124 गावे दिली आहेत, पण तक्त्याची माहिती कोणत्या वर्षाची आहे हे स्पष्ट नाही; प्रशासकीय आकडा पुढील अद्ययावत नोंदीशी पुन्हा तपासावा.",
+        "mars.md: NASAचे Mars Sample Return विज्ञान-पृष्ठ 2025 मध्ये अद्ययावत झालेले आहे; 2026 मधील कार्यक्रम-रचना किंवा वेळापत्रकातील पुढील बदल तपासूनच पृथ्वीवर नमुने परत आणण्याची निश्चित तारीख द्यावी. लेखात सध्या निश्चित तारीख दिलेली नाही."
+      ],
+      "human_review_flags_resolved": [
+        "mangalyaan.md: ISROचे स्रोत प्रक्षेपण, वस्तुमान, उपकरणे, कक्षा, खर्च आणि 2022 मधील संपर्क तुटण्याची माहिती समर्थित करतात; 'पहिल्याच प्रयत्नात मंगळाच्या कक्षेत पोहोचणारा पहिला देश' या दाव्यासाठी विशिष्ट अधिकृत ISRO स्रोत पुढील तपासणीत जोडावा."
+      ],
+      "notes": "या बॅचमध्ये marathi-theatre ते maurya-empire या वर्णक्रमातील 10 लेख पूर्ण वाचून तपासले; आठ लेख अद्ययावत केले आणि मराठी रंगभूमी व मार्को पोलो हे दोन लेख पुरेशा नव्या विरोधाभासाअभावी न बदलता ठेवले. सर्व 10 लेखांचे H1/frontmatter title जुळले; सर्व 10 References विभाग तपासले. मौदा तालुका लेखातील एक अंतर्गत लिंक /nagpur-district/ अस्तित्वात असल्याची पुष्टी केली; तुटलेली लिंक नाही. content/index.md बदललेला नाही. पुढील फाइल maval-taluka.md आहे."
     }
   ],
   "total_articles": 1164,
@@ -1286,15 +1437,18 @@
     "mandangad-taluka.md: मंडणगडला रत्नागिरी जिल्ह्याचा उत्तरेकडील/सर्वात उत्तरेकडील तालुका म्हणण्याचा आणि तालुक्याशी थेट NH-66/कोकण रेल्वे जोडणीचा दावा अधिकृत तालुका-स्तरीय स्रोताने पूर्णपणे पुष्टी केलेला नाही; दावे बदललेले नाहीत.",
     "mangalwedha-taluka.md: संत दामाजी आणि संत चोखामेळा यांच्याशी मंगळवेढ्याचा ऐतिहासिक संबंध दर्शवणारा विश्वासार्ह अधिकृत प्राथमिक स्रोत सापडलेला नाही; परंपरेचा उल्लेख सावध भाषेत कायम ठेवला आहे.",
     "mangaon-taluka.md: Census A-01 या अधिकृत 2011 dataset मध्ये माणगाव उपजिल्हा कोड 04181 नोंदलेला आहे; परंतु डाउनलोड होणारी XLSX फाइल या रनमध्ये उघडता न आल्याने 1,59,613 लोकसंख्येची मूळ ओळ थेट वाचून पडताळता आली नाही. आकडा बदललेला नाही; मूळ तक्ता पुन्हा तपासावा.",
-    "mangalyaan.md: ISROचे स्रोत प्रक्षेपण, वस्तुमान, उपकरणे, कक्षा, खर्च आणि 2022 मधील संपर्क तुटण्याची माहिती समर्थित करतात; 'पहिल्याच प्रयत्नात मंगळाच्या कक्षेत पोहोचणारा पहिला देश' या दाव्यासाठी विशिष्ट अधिकृत ISRO स्रोत पुढील तपासणीत जोडावा.",
-    "manipuri-dance.md: UNESCO नोंद आता मणिपूरच्या संकीर्तनाच्या अमूर्त सांस्कृतिक वारशाबद्दल असल्याचे अचूक केले आहे; पाचव्या रासप्रकाराच्या नावाचे (दिवा/दिबा/दिव्य रास) प्रमाणित लेखन आणि प्रशिक्षण संस्थांबाबतचे काही सर्वसाधारण दावे अधिकृत सांस्कृतिक स्रोतांवरून तपासावेत."
+    "manipuri-dance.md: UNESCO नोंद आता मणिपूरच्या संकीर्तनाच्या अमूर्त सांस्कृतिक वारशाबद्दल असल्याचे अचूक केले आहे; पाचव्या रासप्रकाराच्या नावाचे (दिवा/दिबा/दिव्य रास) प्रमाणित लेखन आणि प्रशिक्षण संस्थांबाबतचे काही सर्वसाधारण दावे अधिकृत सांस्कृतिक स्रोतांवरून तपासावेत.",
+    "marathi-theatre.md: मराठी विश्वकोशाचे संदर्भ 30905 आणि 40943 या रनमध्ये थेट उघडताना 502 त्रुटी आली; लेख न बदलता ठेवला. पुढील तपासणीत स्रोतपृष्ठांची उपलब्धता आणि त्यांवरील विशिष्ट दावे पुन्हा पडताळावेत.",
+    "mary-kom.md: जागतिक महिला मुष्टियुद्ध स्पर्धांतील पहिल्या सात सहभागांत प्रत्येक वेळी पदक मिळाल्याचा दावा स्पर्धानिहाय अधिकृत IBA/AIBA नोंदींशी स्वतंत्रपणे जुळवणे बाकी; या रनमध्ये दावा बदललेला नाही.",
+    "mauda-taluka.md: नागपूर जिल्हा प्रशासनाच्या पृष्ठावर मौदा तालुक्यासाठी 124 गावे दिली आहेत, पण तक्त्याची माहिती कोणत्या वर्षाची आहे हे स्पष्ट नाही; प्रशासकीय आकडा पुढील अद्ययावत नोंदीशी पुन्हा तपासावा.",
+    "mars.md: NASAचे Mars Sample Return विज्ञान-पृष्ठ 2025 मध्ये अद्ययावत झालेले आहे; 2026 मधील कार्यक्रम-रचना किंवा वेळापत्रकातील पुढील बदल तपासूनच पृथ्वीवर नमुने परत आणण्याची निश्चित तारीख द्यावी. लेखात सध्या निश्चित तारीख दिलेली नाही."
   ],
-  "next_file": "marathi-theatre.md",
-  "last_verified_main": "43773913ec79e97b8d225a03b0e06ab89d99fcfb",
-  "index_note": "content/index.md हा frontmatter व 'सर्व लेख' शीर्षक असलेला shell आहे. build.js content/index.md वगळून Markdown लेखांची यादी तयार करतो आणि पाच legacy redirects वगळतो; सध्याच्या tree मध्ये 1,164 article Markdown files व 1,159 generated article routes आहेत. संपूर्ण repository मधील title-to-frontmatter आणि सर्व internal-link पडताळणी अद्याप बाकी.",
-  "last_checkpoint_commit": "43773913ec79e97b8d225a03b0e06ab89d99fcfb",
-  "last_run_date": "2026-11-20",
-  "last_updated": "2026-11-20",
+  "next_file": "maval-taluka.md",
+  "last_verified_main": "dd2fdca6fbf5ae31edf6c4ad878be5b7ee2f45db",
+  "index_note": "content/index.md हा title/description आणि 'सर्व लेख' शीर्षक असलेला shell आहे. build.js मधील collectArticleTitles() content/ मधील Markdown लेख शोधतो, index.md वगळतो आणि पाच legacy redirect slugs वगळतो. सध्याच्या tree मध्ये 1,164 article Markdown files, 1,159 generated article routes आणि 5 legacy redirects आहेत; duplicate slug paths आढळले नाहीत. या बॅचमध्ये 10/10 H1 व frontmatter titles suffix-normalization नंतर जुळले; एक अंतर्गत लिंक /nagpur-district/ अस्तित्वात असल्याची पुष्टी केली आणि तुटलेली लिंक आढळली नाही. संपूर्ण repository मधील title-to-frontmatter व internal-link पडताळणी अद्याप बाकी.",
+  "last_checkpoint_commit": "dd2fdca6fbf5ae31edf6c4ad878be5b7ee2f45db",
+  "last_run_date": "2026-11-21",
+  "last_updated": "2026-11-21",
   "reviewed_files": [
     "content/malkapur-taluka.md",
     "content/malshiras-taluka.md",
@@ -1309,7 +1463,17 @@
     "content/manipuri-dance.md",
     "content/manmohan-singh.md",
     "content/manohar-joshi.md",
-    "content/mao-zedong.md"
+    "content/mao-zedong.md",
+    "content/marathi-theatre.md",
+    "content/marco-polo.md",
+    "content/marie-curie.md",
+    "content/mars.md",
+    "content/martin-luther-king-jr.md",
+    "content/mary-kom.md",
+    "content/mauda-taluka.md",
+    "content/mauritania.md",
+    "content/mauritius.md",
+    "content/maurya-empire.md"
   ],
   "updated_files": [
     "content/malkapur-taluka.md",
@@ -1323,10 +1487,20 @@
     "content/manipuri-dance.md",
     "content/manmohan-singh.md",
     "content/manohar-joshi.md",
-    "content/mao-zedong.md"
+    "content/mao-zedong.md",
+    "content/marie-curie.md",
+    "content/mars.md",
+    "content/martin-luther-king-jr.md",
+    "content/mary-kom.md",
+    "content/mauda-taluka.md",
+    "content/mauritania.md",
+    "content/mauritius.md",
+    "content/maurya-empire.md"
   ],
   "verified_no_change": [
     "content/mangaon-taluka.md",
-    "content/manikgad.md"
+    "content/manikgad.md",
+    "content/marathi-theatre.md",
+    "content/marco-polo.md"
   ]
 }
