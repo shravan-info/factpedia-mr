@@ -130,12 +130,13 @@ description: मेरी कोम यांनी सहा वेळा ज�
 
 ## संदर्भ
 
-1. [ऑलिम्पिक्स.कॉम — मेरी कोम प्रोफाइल](https://www.olympics.com/en/athletes/chungneijang-mery-kom-hmangte)
-2. [ऑलिम्पिक्स.कॉम — मेरी कोम यांचे पुरस्कार व कामगिरी](https://www.olympics.com/en/news/indian-boxer-mary-kom-awards-achievements-titles-medals-olympics-world-champion)
-3. [ब्रिटानिका — मेरी कोम](https://www.britannica.com/biography/Mary-Kom)
+1. [ऑलिम्पिक्स.कॉम — भारतीय महिला खेळाडू आणि मेरी कोम यांची कामगिरी](https://www.olympics.com/ioc/news/get-inspired-by-these-indian-women-athletes)
+2. [भारत सरकार — पद्म पुरस्कार २०२० अधिसूचना](https://www.padmaawards.gov.in/Document/pdf/notifications/PadmaAwards/2020.pdf)
+3. [राज्यसभा सचिवालय — Who's Who 2020, मेरी कोम यांची नोंद](https://cms.rajyasabha.nic.in/UploadedFiles/ElectronicPublications/larrdis/WhosWho_2020.pdf)
 4. [मनीकंट्रोल — निवृत्ती जाहीर केली नसल्याचे मेरी कोम यांचे स्पष्टीकरण, २५ जानेवारी २०२४](https://www.moneycontrol.com/news/trends/sports/i-havent-announced-retirement-yet-says-boxer-mary-kom-12121651.html)
 5. [इंडिया टुडे — व्यावसायिक मुष्टियुद्धात पुनरागमनाचा मेरी कोम यांचा विचार, २९ मार्च २०२६](https://www.indiatoday.in/sports/other-sports/story/mary-kom-professional-boxing-comeback-age-limit-olympic-medallist-2888712-2026-03-29)
+6. [एन्सायक्लोपीडिया ब्रिटानिका — मेरी कोम](https://www.britannica.com/biography/Mary-Kom)
 
 ---
 
-*शेवटचे संपादन: १८ नोव्हेंबर २०२६*
+*शेवटचे संपादन: २१ नोव्हेंबर २०२६*
