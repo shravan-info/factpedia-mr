@@ -90,9 +90,10 @@ description: सूर्यमालेतील चौथा ग्रह अ�
 3. [नासा — मंगळाच्या वातावरणातील प्रमुख वायू](https://science.nasa.gov/resource/the-five-most-abundant-gases-in-the-martian-atmosphere/)
 4. [नासा — Mars Sample Return मोहीम](https://science.nasa.gov/mission/mars-sample-return/science/)
 5. [इस्रो — मंगळयान मोहीम](https://www.isro.gov.in/MarsOrbiterMissionSpacecraft.html)
-6. [इस्रो — मंगळयान राष्ट्रीय बैठक](https://www.isro.gov.in/MOM_NationalMeet_2022SEP.html)
-7. [युरोपियन स्पेस एजन्सी — मंगळ संशोधन](https://www.esa.int/Science_Exploration/Space_Science/Mars_Express)
+6. [इस्रो — मंगळयानविषयक संसदीय माहिती व खर्च](https://www.isro.gov.in/media_isro/pdf/docs/UsefulLinks/ParliamentQuestions/budget_session_in_parliament_2015_february_-_may_2015.pdf)
+7. [इस्रो — मंगळयान राष्ट्रीय बैठक](https://www.isro.gov.in/MOM_NationalMeet_2022SEP.html)
+8. [युरोपियन स्पेस एजन्सी — मंगळ संशोधन](https://www.esa.int/Science_Exploration/Space_Science/Mars_Express)
 
 ---
 
-*शेवटचे संपादन: १८ नोव्हेंबर २०२६*
+*शेवटचे संपादन: २१ नोव्हेंबर २०२६*
