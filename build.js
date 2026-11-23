@@ -43,15 +43,15 @@ function escapeHtml(value) {
 // Keep exactly one H1 in the rendered page, even if source Markdown has more.
 function addImageLoadingHints(html) {
   let imageIndex = 0;
-  const hinted = html.replace(/<img\\b[^>]*>/gi, (tag) => {
+  const hinted = html.replace(/<img\b[^>]*>/gi, (tag) => {
     const isFirstImage = imageIndex++ === 0;
     let output = tag;
-    if (!/\\bloading\\s*=/i.test(output)) output = output.replace(/<img\\b/i, '<img loading="' + (isFirstImage ? 'eager' : 'lazy') + '"');
-    if (!/\\bdecoding\\s*=/i.test(output)) output = output.replace(/<img\\b/i, '<img decoding="async"');
-    if (isFirstImage && !/\\bfetchpriority\\s*=/i.test(output)) output = output.replace(/<img\\b/i, '<img fetchpriority="high"');
+    if (!/\bloading\s*=/i.test(output)) output = output.replace(/<img\b/i, '<img loading="' + (isFirstImage ? 'eager' : 'lazy') + '"');
+    if (!/\bdecoding\s*=/i.test(output)) output = output.replace(/<img\b/i, '<img decoding="async"');
+    if (isFirstImage && !/\bfetchpriority\s*=/i.test(output)) output = output.replace(/<img\b/i, '<img fetchpriority="high"');
     return output;
   });
-  return hinted.replace(/<img\\b([^>]*?)\\s+title=(["'])(?:चित्र स्रोत|Image source):\\s*([^"']+)\\2([^>]*)>/gi,
+  return hinted.replace(/<img\b([^>]*?)\s+title=(["'])(?:चित्र स्रोत|Image source):\s*([^"']+)\2([^>]*)>/gi,
     (match, before, quote, source, after) => {
       const image = '<img' + before + after + '>';
       return '<figure class="article-image">' + image + '<figcaption>चित्र स्रोत : ' + escapeHtml(source.trim()) + '</figcaption></figure>';
@@ -164,21 +164,21 @@ function escapeRegExp(value) {
 }
 const articleTitles = collectArticleTitles(contentDir).sort((a, b) => b.title.length - a.title.length);
 function appendMissingHomepageArticles(markdown) {
-  const intro = markdown.split(/^##\\s+सर्व लेख\\s*$/m)[0].replace(/\\n+$/, "");
+  const intro = markdown.split(/^##\s+सर्व लेख\s*$/m)[0].replace(/\n+$/, "");
   const marathiCount = String(articleTitles.length).replace(/[0-9]/g, digit => "०१२३४५६७८९"[Number(digit)]);
-  const count = `<div class="article-count" aria-label="Factpedia वरील एकूण प्रकाशित लेख"><span>एकूण प्रकाशित लेख</span><strong>${marathiCount}</strong></div>`;
+  const count = '<div class="article-count" aria-label="Factpedia वरील एकूण प्रकाशित लेख"><span>एकूण प्रकाशित लेख</span><strong>' + marathiCount + '</strong></div>';
   const featuredSlugs = ["bharat", "artificial-intelligence", "chandrayaan-3", "ajanta-caves", "taj-mahal", "dr-babasaheb-ambedkar", "mahatma-gandhi", "maharashtra", "indian-constitution", "solar-system", "shivaji-maharaj", "sahyadri"];
   const featured = featuredSlugs.map(slug => articleTitles.find(item => item.slug === slug)).filter(Boolean).slice(0, 8);
-  const cards = featured.map(item => `<a class="fp-home-card" href="/${item.slug}/"><span class="fp-home-card-kicker">निवडक लेख</span><strong>${escapeHtml(item.title)}</strong><span>लेख वाचा <span aria-hidden="true">→</span></span></a>`).join("");
+  const cards = featured.map(item => '<a class="fp-home-card" href="/' + item.slug + '/"><span class="fp-home-card-kicker">निवडक लेख</span><strong>' + escapeHtml(item.title) + '</strong><span>लेख वाचा <span aria-hidden="true">→</span></span></a>').join("");
   const categories = [
     ["इतिहास व संस्कृती", ["shivaji-maharaj", "mahatma-gandhi", "ajanta-caves", "taj-mahal"]],
     ["भारत व महाराष्ट्र", ["bharat", "maharashtra", "indian-constitution"]],
     ["विज्ञान व तंत्रज्ञान", ["artificial-intelligence", "chandrayaan-3", "solar-system"]]
   ].map(([name, slugs]) => {
     const links = slugs.map(slug => articleTitles.find(item => item.slug === slug)).filter(Boolean);
-    return links.length ? `<section class="fp-home-category"><h2>${name}</h2><div>${links.map(item => `<a href="/${item.slug}/">${escapeHtml(item.title)}</a>`).join("")}</div></section>` : "";
+    return links.length ? '<section class="fp-home-category"><h2>' + name + '</h2><div>' + links.map(item => '<a href="/' + item.slug + '/">' + escapeHtml(item.title) + '</a>').join("") + '</div></section>' : "";
   }).join("");
-  return `${intro}\\n${count}\\n<section class="fp-home-explore"><div class="fp-home-section-head"><div><span>FACTPEDIA • मराठी ज्ञानकोश</span><h2>निवडक ज्ञानविश्व</h2></div><a href="/sitemap.xml">सर्व विषय शोधा ↗</a></div><div class="fp-home-grid">${cards}</div>${categories}</section>\\n`;
+  return intro + "\n" + count + "\n<section class=\"fp-home-explore\"><div class=\"fp-home-section-head\"><div><span>FACTPEDIA • मराठी ज्ञानकोश</span><h2>निवडक ज्ञानविश्व</h2></div><a href=\"/sitemap.xml\">सर्व विषय शोधा ↗</a></div><div class=\"fp-home-grid\">" + cards + "</div>" + categories + "</section>\n";
 }
 
 const searchDocuments = [];
