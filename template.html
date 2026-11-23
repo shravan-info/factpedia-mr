@@ -710,6 +710,20 @@ header{backdrop-filter:saturate(140%) blur(10px);-webkit-backdrop-filter:saturat
 @media(max-width:560px){.fp-home-grid{grid-template-columns:1fr 1fr;gap:8px}.fp-home-card{min-height:118px;padding:11px}.fp-home-card strong{font-size:15px}.fp-home-section-head h2{font-size:1.25rem!important}.fp-home-section-head>a{font-size:11px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}}
 
+
+/* Source notes, reference lists and subtle motion */
+#mainContent .references,#mainContent .references ol,#mainContent .references ul,
+#mainContent ol.references,#mainContent ul.references{font-size:13px;line-height:1.75;color:var(--text-secondary)}
+#mainContent .references li,#mainContent ol.references li{padding:2px 0;margin:0 0 5px}
+#mainContent .references a{overflow-wrap:anywhere}
+#mainContent .reference-list{padding:14px 18px;border:1px solid var(--border);background:var(--card-bg)}
+#mainContent blockquote{margin:18px 0;padding:12px 18px;border-left:3px solid var(--link);background:var(--border-light)}
+#mainContent img{max-width:100%;height:auto}
+@keyframes fpContentEnter{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:translateY(0)}}
+#mainContent{animation:fpContentEnter .32s ease-out both}
+.fp-home-card{will-change:transform}
+@media(prefers-reduced-motion:reduce){#mainContent{animation:none}.fp-home-card{will-change:auto}}
+
 </style>
 </head>
 <body>
