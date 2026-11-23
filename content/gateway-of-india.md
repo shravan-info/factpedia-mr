@@ -5,6 +5,9 @@ description: मुंबईतील गेटवे ऑफ इंडिया�
 
 # गेटवे ऑफ इंडिया
 
+
+![मुंबईतील गेटवे ऑफ इंडियाचे छायाचित्र](https://commons.wikimedia.org/wiki/Special:FilePath/The_Gateway_of_India,_Mumbai,_Maharashtra,_India.jpg?width=900 "चित्र स्रोत: Craftofolio.media | https://commons.wikimedia.org/wiki/File:The_Gateway_of_India,_Mumbai,_Maharashtra,_India.jpg | CC BY-SA 4.0 | https://creativecommons.org/licenses/by-sa/4.0/")
+
 **गेटवे ऑफ इंडिया** हे मुंबईतील अपोलो बंदर परिसरात अरबी समुद्राच्या किनाऱ्यावर उभे असलेले ऐतिहासिक कमानीदार स्मारक आहे. विसाव्या शतकाच्या सुरुवातीला ब्रिटिश भारतातील राजेशाही भेटीच्या स्मरणार्थ त्याची उभारणी करण्यात आली. आज ते मुंबईचे प्रमुख ओळखचिन्ह, पर्यटनस्थळ आणि शहराच्या वसाहतकालीन इतिहासाचे प्रतीक आहे.
 
 ## माहिती
