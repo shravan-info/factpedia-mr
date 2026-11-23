@@ -101,6 +101,8 @@ function createStructuredData({ title, description, pageUrl, isHomePage, wordCou
       "@id": websiteId,
       "url": siteUrl + "/",
       "name": "Factpedia",
+      "alternateName": ["Factpedia Marathi", "फॅक्टपीडिया मराठी"],
+      "description": "Factpedia हा मराठी ज्ञानकोश (Marathi Encyclopedia) आहे. इतिहास, भूगोल, विज्ञान आणि इतर विषयांवरील संदर्भयुक्त माहिती.",
       "inLanguage": "mr",
       "publisher": { "@id": organizationId }
     },
