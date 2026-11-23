@@ -54,7 +54,21 @@ function addImageLoadingHints(html) {
   return hinted.replace(/<img\b([^>]*?)\s+title=(["'])(?:चित्र स्रोत|Image source):\s*([^"']+)\2([^>]*)>/gi,
     (match, before, quote, source, after) => {
       const image = '<img' + before + after + '>';
-      return '<figure class="article-image">' + image + '<figcaption>चित्र स्रोत : ' + escapeHtml(source.trim()) + '</figcaption></figure>';
+      const parts = source.split('|').map(part => part.trim());
+      const author = parts[0] || 'मूळ लेखक';
+      const fileUrl = parts[1] || '';
+      const license = parts[2] || '';
+      const licenseUrl = parts[3] || '';
+      const sourceLink = fileUrl
+        ? '<a href="' + escapeHtml(fileUrl) + '" target="_blank" rel="noopener noreferrer">मूळ चित्र</a>'
+        : 'मूळ चित्र';
+      const licenseLink = license && licenseUrl
+        ? '<a href="' + escapeHtml(licenseUrl) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(license) + '</a>'
+        : escapeHtml(license);
+      const credit = '<span>चित्र स्रोत : ' + escapeHtml(author) + '</span>' +
+        (fileUrl ? ' · ' + sourceLink : '') +
+        (license ? ' · परवाना : ' + licenseLink : '');
+      return '<figure class="article-image">' + image + '<figcaption>' + credit + '</figcaption></figure>';
     });
 }
 
