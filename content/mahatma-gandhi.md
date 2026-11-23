@@ -65,5 +65,7 @@ description: मोहनदास करमचंद गांधी हे भ
 
 1. [संस्कृती मंत्रालय – महात्मा गांधी](https://culture.gov.in/mahatma-gandhi)
 2. [नेहरू पोर्टल – स्वातंत्र्यलढा](https://nehruportal.nic.in/freedom-struggle)
+3. [Gandhi Heritage Portal – महात्मा गांधी यांची कालानुक्रमिक माहिती](https://gandhiheritageportal.org/chronology)
+4. [Gandhi Heritage Portal – महात्मा गांधींचे संकलित लेखन](https://dr.gandhiheritageportal.org/the-collected-works-of-mahatma-gandhi)
 
 *शेवटचे संपादन: १८ नोव्हेंबर २०२६*
