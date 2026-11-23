@@ -43,7 +43,7 @@ html.dark{color-scheme:dark;--bg:#202122;--surface:#202122;--surface-soft:#27292
 *{box-sizing:border-box}html{scroll-behavior:smooth}
 body{margin:0;background:var(--bg);color:var(--text);font:15px/1.75 "Noto Sans Devanagari",Arial,sans-serif}
 a{color:var(--link);text-decoration:none}a:hover{text-decoration:underline}
-header{position:sticky;top:0;z-index:30;background:var(--surface);border-bottom:1px solid var(--border-soft)}
+header{position:sticky;top:0;z-index:30;background:var(--surface);border-bottom:1px solid var(--border-soft)}\n.homepage #searchBtn{display:none}
 .header-inner{width:min(100%,1240px);height:64px;margin:auto;padding:8px 28px;display:flex;align-items:center;gap:18px}
 .brand{display:inline-flex;align-items:center;gap:10px;flex:0 0 auto;color:var(--text);font-size:21px;font-weight:700;letter-spacing:-.03em}
 .brand img{width:36px;height:36px;object-fit:contain}
@@ -134,8 +134,8 @@ footer{max-width:960px;margin:36px auto 0;padding:15px 0;border-top:1px solid va
 
 <div class="container">
   <section class="search-hero" aria-label="Factpedia article search">
-    <div class="hero-wordmark">Factpedia <span class="version">मराठी मुक्त ज्ञानकोश</span></div>
-    <p class="hero-tagline">आज तुम्हाला काय जाणून घ्यायचे आहे?</p>
+    <div class="hero-wordmark">Factpedia <span class="version">मराठी ज्ञानकोश · Marathi Encyclopedia</span></div>
+    <p class="hero-tagline">संदर्भांसह पडताळलेली माहिती मराठीत वाचा.</p>
     <div class="hero-search">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="11" cy="11" r="7.5"/><path stroke-linecap="round" stroke-linejoin="round" d="m16.5 16.5 4 4"/></svg>
       <input id="searchInput" type="search" placeholder="काहीही शोधा किंवा प्रश्न विचारा..." autocomplete="off" aria-label="Search Factpedia articles">
