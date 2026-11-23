@@ -1194,7 +1194,7 @@ header{backdrop-filter:saturate(140%) blur(10px);-webkit-backdrop-filter:saturat
         .catch(() => { indexPromise = null; searchMeta.textContent = 'शोध निर्देशांक सध्या उपलब्ध नाही. कृपया पुन्हा प्रयत्न करा.'; });
       return indexPromise;
     }
-    searchInput.addEventListener('focus', loadSearchIndex, { once: true });
+    searchInput.addEventListener('focus', loadSearchIndex);
     const normalize = value => String(value || '').toLocaleLowerCase('en').normalize('NFKC')
       .replace(/[’']/g, '').replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
     // Pre-compute normalised fields and a prefix index once, so typing never
