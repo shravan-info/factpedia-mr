@@ -6,7 +6,7 @@ description: अजिंठा येथील बौद्ध शैलगृ�
 # अजिंठा लेणी
 
 
-![अजिंठा लेण्यांतील शैलगृहांचे छायाचित्र](https://commons.wikimedia.org/wiki/Special:FilePath/Ajanta_Caves_-Aurangabad-_Maharashtra.jpg?width=900 "चित्र स्रोत: Abhideo21 | https://commons.wikimedia.org/wiki/File:Ajanta_Caves_-Aurangabad-_Maharashtra.jpg | CC BY-SA 4.0 | https://creativecommons.org/licenses/by-sa/4.0/")
+![अजिंठा लेण्यांतील शैलगृहांचे छायाचित्र](https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Ajanta_Caves_-Aurangabad-_Maharashtra.jpg/960px-Ajanta_Caves_-Aurangabad-_Maharashtra.jpg "चित्र स्रोत: Abhideo21 | https://commons.wikimedia.org/wiki/File:Ajanta_Caves_-Aurangabad-_Maharashtra.jpg | CC BY-SA 4.0 | https://creativecommons.org/licenses/by-sa/4.0/")
 
 **अजिंठा लेणी** ही महाराष्ट्रातील छत्रपती संभाजीनगर जिल्ह्यातील वाघूर नदीच्या दरीत असलेली प्राचीन बौद्ध शैलगृहांची मालिका आहे. डोंगराच्या कड्यात खडक कोरून तयार केलेल्या या लेण्यांमध्ये विहार, चैत्यगृह, भित्तिचित्रे आणि शिल्पे आढळतात. भारतीय प्राचीन कला, बौद्ध धर्माचा इतिहास आणि शैलस्थापत्याचा अभ्यास करण्यासाठी अजिंठा लेणी अत्यंत महत्त्वाची मानली जातात.
 
