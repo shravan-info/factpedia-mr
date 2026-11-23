@@ -5,6 +5,9 @@ description: महाराष्ट्राची राजधानी अ�
 
 # मुंबई शहर जिल्हा
 
+
+![मुंबई सेंट्रल परिसराच्या आकाशातून घेतलेल्या छायाचित्रातील शहराचे दृश्य](https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Aerial_view_of_Mumbai_Central_skyline.jpg/960px-Aerial_view_of_Mumbai_Central_skyline.jpg "चित्र स्रोत: Sawarijoshi | https://commons.wikimedia.org/wiki/File:Aerial_view_of_Mumbai_Central_skyline.jpg | CC BY 4.0 | https://creativecommons.org/licenses/by/4.0/")
+
 **मुंबई शहर जिल्हा** हा महाराष्ट्र राज्यातील कोकण विभागातील एक जिल्हा आहे. या जिल्ह्याला स्वतंत्र मुख्यालय किंवा तालुका विभागणी नाही. मुंबई शहर आणि मुंबई उपनगर हे दोन जिल्हे मिळून मुंबई महानगर तयार होते. या भागाला बेट शहर, दक्षिण मुंबई किंवा जुनी मुंबई असेही म्हणतात. जिल्ह्याचा विस्तार कोलाबा ते महिम आणि सायन पर्यंत आहे. हा भाग सात बेटांच्या जोडणीतून तयार झाला आहे. आज तो देशातील प्रमुख आर्थिक केंद्र म्हणून ओळखला जातो.
 
 ## माहिती

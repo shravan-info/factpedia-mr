@@ -5,6 +5,9 @@ description: मोहनदास करमचंद गांधी हे भ
 
 # महात्मा गांधी
 
+
+![महात्मा गांधी यांचे ऐतिहासिक कृष्णधवल छायाचित्र](https://upload.wikimedia.org/wikipedia/commons/d/d1/Portrait_Gandhi.jpg "चित्र स्रोत: अज्ञात छायाचित्रकार (मूळ Flickr स्रोत) | https://commons.wikimedia.org/wiki/File:Portrait_Gandhi.jpg | CC BY-SA 2.0 | https://creativecommons.org/licenses/by-sa/2.0/")
+
 **मोहनदास करमचंद गांधी** (२ ऑक्टोबर १८६९ – ३० जानेवारी १९४८), ज्यांना महात्मा गांधी म्हणून ओळखले जाते, हे भारतीय स्वातंत्र्यलढ्यातील प्रमुख नेते आणि सामाजिक विचारवंत होते. सत्य, अहिंसा आणि सत्याग्रह या तत्त्वांवर आधारित आंदोलनांद्वारे त्यांनी ब्रिटिश राजवटीविरुद्धच्या राष्ट्रीय चळवळीला व्यापक जनाधार मिळवून दिला. [१]
 
 ## माहिती
@@ -62,5 +65,7 @@ description: मोहनदास करमचंद गांधी हे भ
 
 1. [संस्कृती मंत्रालय – महात्मा गांधी](https://culture.gov.in/mahatma-gandhi)
 2. [नेहरू पोर्टल – स्वातंत्र्यलढा](https://nehruportal.nic.in/freedom-struggle)
+3. [Gandhi Heritage Portal – महात्मा गांधी यांची कालानुक्रमिक माहिती](https://gandhiheritageportal.org/chronology)
+4. [Gandhi Heritage Portal – महात्मा गांधींचे संकलित लेखन](https://dr.gandhiheritageportal.org/the-collected-works-of-mahatma-gandhi)
 
 *शेवटचे संपादन: १८ नोव्हेंबर २०२६*
