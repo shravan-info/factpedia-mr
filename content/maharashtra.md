@@ -5,6 +5,9 @@ description: महाराष्ट्र हे भारताच्या �
 
 # महाराष्ट्र
 
+
+![भारताच्या नकाशात महाराष्ट्राचे स्थान दर्शविणारा नकाशा](https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Maharashtra_state_in_India.jpg/960px-Maharashtra_state_in_India.jpg "चित्र स्रोत: User:Kuldhar Rabha | https://commons.wikimedia.org/wiki/File:Maharashtra_state_in_India.jpg | CC BY-SA 4.0 | https://creativecommons.org/licenses/by-sa/4.0/")
+
 **महाराष्ट्र** हे भारताच्या पश्चिम भागातील एक राज्य आहे. १ मे १९६० रोजी तत्कालीन द्वैभाषिक [मुंबई](/mumbai) राज्याचे विभाजन होऊन महाराष्ट्र राज्याची स्थापना झाली. मुंबई ही राज्याची राजधानी असून नागपूर येथे विधानमंडळाचे हिवाळी अधिवेशन भरते. मराठी भाषा, ऐतिहासिक वारसा, औद्योगिक विकास आणि सांस्कृतिक परंपरा ही राज्याची प्रमुख वैशिष्ट्ये आहेत.
 
 ## माहिती
