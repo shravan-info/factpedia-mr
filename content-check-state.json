@@ -1,5 +1,5 @@
 {
-  "next_index": 618,
+  "next_index": 628,
   "cycle": 2,
   "runs": [
     {
@@ -1380,6 +1380,120 @@
         "mangalyaan.md: ISROचे स्रोत प्रक्षेपण, वस्तुमान, उपकरणे, कक्षा, खर्च आणि 2022 मधील संपर्क तुटण्याची माहिती समर्थित करतात; 'पहिल्याच प्रयत्नात मंगळाच्या कक्षेत पोहोचणारा पहिला देश' या दाव्यासाठी विशिष्ट अधिकृत ISRO स्रोत पुढील तपासणीत जोडावा."
       ],
       "notes": "या बॅचमध्ये marathi-theatre ते maurya-empire या वर्णक्रमातील 10 लेख पूर्ण वाचून तपासले; आठ लेख अद्ययावत केले आणि मराठी रंगभूमी व मार्को पोलो हे दोन लेख पुरेशा नव्या विरोधाभासाअभावी न बदलता ठेवले. सर्व 10 लेखांचे H1/frontmatter title जुळले; सर्व 10 References विभाग तपासले. मौदा तालुका लेखातील एक अंतर्गत लिंक /nagpur-district/ अस्तित्वात असल्याची पुष्टी केली; तुटलेली लिंक नाही. content/index.md बदललेला नाही. पुढील फाइल maval-taluka.md आहे."
+    },
+    {
+      "date": "2026-11-23",
+      "checked": 10,
+      "reviewed_files": [
+        "content/maval-taluka.md",
+        "content/maya-civilisation.md",
+        "content/mediterranean-sea.md",
+        "content/meena-kumari.md",
+        "content/meenakshi-temple.md",
+        "content/meerabai.md",
+        "content/meghalaya.md",
+        "content/meghnad-saha.md",
+        "content/mehkar-taluka.md",
+        "content/mekong-river.md"
+      ],
+      "updated_articles": [
+        "content/maya-civilisation.md",
+        "content/mediterranean-sea.md",
+        "content/meena-kumari.md",
+        "content/meenakshi-temple.md",
+        "content/meerabai.md",
+        "content/meghalaya.md",
+        "content/meghnad-saha.md",
+        "content/mehkar-taluka.md",
+        "content/mekong-river.md"
+      ],
+      "unchanged_articles": [
+        "content/maval-taluka.md"
+      ],
+      "internal_links_checked": 1,
+      "broken_internal_links": 0,
+      "title_h1_checks": 10,
+      "title_h1_matches": 10,
+      "references_sections_checked": 10,
+      "table_structure_checks": 10,
+      "footer_dates_refreshed": 9,
+      "article_files": 1164,
+      "index_articles": 1159,
+      "index_markdown_links": 0,
+      "duplicate_slugs": 0,
+      "legacy_redirects": 5,
+      "new_articles_added": 0,
+      "index_checked": true,
+      "index_changed": false,
+      "next_index": 628,
+      "next_file": "mercury-planet.md",
+      "base_commit": "84a9d1a03d68942a3907f747985bd65660ef8c98",
+      "content_commit": "6392be248911c1df6f54b8559a42c08041db6ea4",
+      "article_commit_shas": [
+        {
+          "path": "content/maya-civilisation.md",
+          "commit": "8bd12705e17161ef724a3dbe6b1bfdf5e1bfb918",
+          "blob": "40ffd412a48e3ed8433dd521776ca0c04226bb75"
+        },
+        {
+          "path": "content/mediterranean-sea.md",
+          "commit": "8bc49f17eeceff952a3c800139b541cf3efee373",
+          "blob": "85e84307a9ce5c74bf681629e53c1eb23bd614f6"
+        },
+        {
+          "path": "content/meena-kumari.md",
+          "commit": "c5ff41b18efcdad794f237da13e628d527263a09",
+          "blob": "40242365de62ab4fec2b34cec260017baebc8456"
+        },
+        {
+          "path": "content/meenakshi-temple.md",
+          "commit": "7c3497f372de638f6485b692443e4368f4824566",
+          "blob": "a35b6de48327ab16019983d1f094a7077292d680"
+        },
+        {
+          "path": "content/meghalaya.md",
+          "commit": "316a11f282e095e5225b17aef401d2b1eb39fcb7",
+          "blob": "31b3a256a98d921a94861a8fe03c0998fa55b401"
+        },
+        {
+          "path": "content/meghnad-saha.md",
+          "commit": "8c277d7778a9db534c9cddeaad10b59181e8e9e5",
+          "blob": "70038c58d6b5dcf0da72479a5747fea4db03e502"
+        },
+        {
+          "path": "content/mehkar-taluka.md",
+          "commit": "594db0ba0fab955715479c271d836ebc3aff87fa",
+          "blob": "004e4f4e00090b8c775ac8072ee442d15a9a4e4f"
+        },
+        {
+          "path": "content/mekong-river.md",
+          "commit": "e8cd31a8d63ae96e830acceb1103e4769b034186",
+          "blob": "ff93c3ec78d5b29c73577f5fdcc33ee7af1dd226"
+        },
+        {
+          "path": "content/meerabai.md",
+          "commit": "6392be248911c1df6f54b8559a42c08041db6ea4",
+          "blob": "e1d14f9de74b6f02ef1e917a2e33edcdce749cda"
+        }
+      ],
+      "corrections": [
+        "maya-civilisation.md: अभिजात कालखंड २५०–९०० हा मध्य माया प्रदेशातील नगरराज्यांसाठी लागू होतो असे स्पष्ट केले; माया लिपीचे वर्णन साध्या चित्रलिपीऐवजी लोगो-सिलेबिक लेखनपद्धती म्हणून दुरुस्त केले; अभिजात नगरराज्यांचा ऱ्हास संपूर्ण माया समाजाचा अंत नव्हता हे स्पष्ट केले.",
+        "mediterranean-sea.md: मेसिनियन क्षारता संकटात संपूर्ण भूमध्य समुद्र सहा लाख वर्षे पूर्णपणे कोरडा होता असा अतिव्यापक दावा दुरुस्त केला; अंतिम टप्प्यात मोठी जलपातळी घट झाली, किनारी प्रदेश कोरडे पडले आणि खोल खोऱ्यांत अतिक्षारयुक्त पाणी राहिले हे स्पष्ट केले.",
+        "meena-kumari.md: १९६३ च्या फिल्मफेअर सर्वोत्कृष्ट अभिनेत्री विभागात मीना कुमारी यांच्या तीन चित्रपटांची नामांकने होती आणि त्यांना चार फिल्मफेअर पुरस्कार मिळाले, हे Filmfareच्या अधिकृत संपादकीय नोंदीशी जुळवले; Wikipediaऐवजी विशिष्ट Filmfare संदर्भ दिले.",
+        "meenakshi-temple.md: HR&CEच्या अधिकृत माहितीनुसार १४ गोपुरे, दक्षिण गोपुराची ५१.९ मीटर उंची, सहाव्या शतकातील मंदिर-उल्लेख आणि वार्षिक उत्सवातील दहा लाखांहून अधिक अभ्यागत समाविष्ट केले; अप्रमाणित ३३,००० मूर्ती, ९८५ स्तंभ, दर १२ वर्षांनी रंगरंगोटी, दैनंदिन अभ्यागतसंख्या व शुक्रवारच्या विधीचे तपशील काढले; ASI व्यवस्थापनाचा अपुरा दावा बदलून HR&CE व्यवस्थापन स्पष्ट केले.",
+        "meghalaya.md: लैतकोरऐवजी शिलाँग पीक (१,९६५ मीटर) राज्यातील सर्वोच्च बिंदू असल्याचे मेघालय सरकारच्या Power Policy 2024 वरून दुरुस्त केले; भाषा, भूगोल आणि लोकसंख्येसाठी अधिक विशिष्ट सरकारी संदर्भ दिले.",
+        "meghnad-saha.md: इन्स्टिट्यूट ऑफ न्यूक्लियर फिजिक्सची स्थापना १९४९ व औपचारिक उद्घाटन ११ जानेवारी १९५० असे दुरुस्त केले; दिनदर्शिका सुधारणा समितीची नोव्हेंबर १९५२ नियुक्ती, १९५५ अहवाल आणि २१ मार्च १९५६ पासून राष्ट्रीय दिनदर्शिकेची अंमलबजावणी जोडली; साहा समीकरणाचे आयनीकरणाशी संबंधित अचूक वर्णन केले; अप्रमाणित नोबेल नामांकन व मृत्यूच्या परिस्थितीचा दावा काढला; १९१९ मधील डॉक्टरेटचा अपुष्ट उल्लेख बदलून प्रकाशित संशोधनाचा कालक्रम दिला.",
+        "mehkar-taluka.md: बुलढाणा जिल्हा प्रशासनाच्या Census 2011 तक्त्यानुसार मेहकर तालुक्यातील १६० गावे नोंदवली; सर्वसाधारण जिल्हा पोर्टलऐवजी विशिष्ट अधिकृत Village & Panchayats पृष्ठ दिले.",
+        "mekong-river.md: मेकाँगची लांबी ४,९०० किमी आणि खोरे ७,९५,००० चौ. किमी केले; १,१४८ मत्स्यप्रजाती, २३ लाख टन वार्षिक मत्स्यपकड आणि सुमारे ७ कोटी खोरे-लोकसंख्या MRC स्रोतांशी जुळवली; ४ कोटी लोकांच्या उपजीविकेचा अप्रमाणित दावा बदलून खालच्या खोऱ्यातील ६.५ कोटींची अन्नसुरक्षा व कंबोडिया/व्हिएतनाममधील जवळपास ७० लाख मत्स्य-जलकृषी उपजीविका स्पष्ट केली; MRC सदस्य देश व संवाद भागीदार वेगळे केले.",
+        "meerabai.md: जन्मस्थळ मेरवाडा ऐवजी कुडकी, मेरता परिसर असे स्पष्ट केले; जन्म/मृत्यू वर्षे अंदाजित म्हणून मांडली; विवाहाचे नेमके वर्ष अनिश्चित केले आणि भोजराज यांच्या निधनाचा कालक्रम UCLAच्या नोंदीशी जुळवला; अकबर-तानसेन भेटी व वार्षिक मीरा महोत्सवाचे अपुष्ट दावे सावध केले/काढले; Wikipedia संदर्भ काढून UCLA MANAS व Britannica संदर्भ ठेवले."
+      ],
+      "human_review_flags_added": [
+        "maval-taluka.md: २०११ मधील ३,७७,५५९ लोकसंख्या, १८७ गावे, सुमारे ८२% साक्षरता आणि ४२% शहरी लोकसंख्या हे आकडे मूळ उपजिल्हा PCA तक्त्यातून थेट जुळवणे बाकी. उपलब्ध Census District Handbook PDF मधील 'Mawal' २६३,४२६ हा C.D. Block चा आकडा आहे; तो संपूर्ण तालुक्याच्या उपजिल्हा आकड्याशी थेट तुलना करता येत नाही. मूळ sub-district PCA workbook तपासेपर्यंत लेख बदललेला नाही.",
+        "maval-taluka.md: पवना धरण पुणे आणि पिंपरी-चिंचवड या दोन्ही शहरांना किती प्रमाणात पाणीपुरवठा करते, यासाठी अद्ययावत अधिकृत जलवाटप/महापालिका स्रोत आवश्यक; लेखातील दावा बदललेला नाही.",
+        "maval-taluka.md: पवना, इंद्रायणी आणि उल्हास नद्यांचा तालुक्यातील नेमका प्रवाह/उगम दर्शवणारा एकत्रित अधिकृत जलनकाशा या बॅचमध्ये पडताळता आला नाही.",
+        "mediterranean-sea.md: कॅलिप्सो डीपची खोली काही स्रोतांत ५,१०९ मीटर तर काहींमध्ये ५,२६७ मीटर दिली जाते; या बॅचमध्ये अधिकृत bathymetric सर्वेक्षणातून एकच मोजमाप निश्चित करता आले नाही. लेखातील मोजमापाबाबतची सावध नोंद कायम ठेवावी."
+      ],
+      "notes": "मावळ तालुक्यापासून मेकाँग नदीपर्यंतचे १० लेख पूर्ण वाचून तपासले. नऊ लेख अद्ययावत केले; मावळ तालुका लेखातील जनगणना व जलपुरवठा दावे थेट प्राथमिक स्रोताने पूर्णपणे पडताळता न आल्याने न बदलता ठेवला. सर्व १० लेखांचे frontmatter title/H1 जुळले, References विभाग व तक्त्यांची रचना तपासली. मेहकर तालुक्याचा /buldhana-district अंतर्गत दुवा अस्तित्वात आहे; तुटलेला दुवा नाही. content/index.md हा लेखसूचीचा shell आहे; build.js सर्व लेखांची यादी गतिशीलपणे तयार करतो. १,१६४ लेखांमधून ५ legacy redirect slugs वगळल्यावर १,१५९ routes तयार होतात. पुढील लेख mercury-planet.md आहे."
     }
   ],
   "total_articles": 1164,
@@ -1441,14 +1555,18 @@
     "marathi-theatre.md: मराठी विश्वकोशाचे संदर्भ 30905 आणि 40943 या रनमध्ये थेट उघडताना 502 त्रुटी आली; लेख न बदलता ठेवला. पुढील तपासणीत स्रोतपृष्ठांची उपलब्धता आणि त्यांवरील विशिष्ट दावे पुन्हा पडताळावेत.",
     "mary-kom.md: जागतिक महिला मुष्टियुद्ध स्पर्धांतील पहिल्या सात सहभागांत प्रत्येक वेळी पदक मिळाल्याचा दावा स्पर्धानिहाय अधिकृत IBA/AIBA नोंदींशी स्वतंत्रपणे जुळवणे बाकी; या रनमध्ये दावा बदललेला नाही.",
     "mauda-taluka.md: नागपूर जिल्हा प्रशासनाच्या पृष्ठावर मौदा तालुक्यासाठी 124 गावे दिली आहेत, पण तक्त्याची माहिती कोणत्या वर्षाची आहे हे स्पष्ट नाही; प्रशासकीय आकडा पुढील अद्ययावत नोंदीशी पुन्हा तपासावा.",
-    "mars.md: NASAचे Mars Sample Return विज्ञान-पृष्ठ 2025 मध्ये अद्ययावत झालेले आहे; 2026 मधील कार्यक्रम-रचना किंवा वेळापत्रकातील पुढील बदल तपासूनच पृथ्वीवर नमुने परत आणण्याची निश्चित तारीख द्यावी. लेखात सध्या निश्चित तारीख दिलेली नाही."
+    "mars.md: NASAचे Mars Sample Return विज्ञान-पृष्ठ 2025 मध्ये अद्ययावत झालेले आहे; 2026 मधील कार्यक्रम-रचना किंवा वेळापत्रकातील पुढील बदल तपासूनच पृथ्वीवर नमुने परत आणण्याची निश्चित तारीख द्यावी. लेखात सध्या निश्चित तारीख दिलेली नाही.",
+    "maval-taluka.md: २०११ मधील ३,७७,५५९ लोकसंख्या, १८७ गावे, सुमारे ८२% साक्षरता आणि ४२% शहरी लोकसंख्या हे आकडे मूळ उपजिल्हा PCA तक्त्यातून थेट जुळवणे बाकी. उपलब्ध Census District Handbook PDF मधील 'Mawal' २६३,४२६ हा C.D. Block चा आकडा आहे; तो संपूर्ण तालुक्याच्या उपजिल्हा आकड्याशी थेट तुलना करता येत नाही. मूळ sub-district PCA workbook तपासेपर्यंत लेख बदललेला नाही.",
+    "maval-taluka.md: पवना धरण पुणे आणि पिंपरी-चिंचवड या दोन्ही शहरांना किती प्रमाणात पाणीपुरवठा करते, यासाठी अद्ययावत अधिकृत जलवाटप/महापालिका स्रोत आवश्यक; लेखातील दावा बदललेला नाही.",
+    "maval-taluka.md: पवना, इंद्रायणी आणि उल्हास नद्यांचा तालुक्यातील नेमका प्रवाह/उगम दर्शवणारा एकत्रित अधिकृत जलनकाशा या बॅचमध्ये पडताळता आला नाही.",
+    "mediterranean-sea.md: कॅलिप्सो डीपची खोली काही स्रोतांत ५,१०९ मीटर तर काहींमध्ये ५,२६७ मीटर दिली जाते; या बॅचमध्ये अधिकृत bathymetric सर्वेक्षणातून एकच मोजमाप निश्चित करता आले नाही. लेखातील मोजमापाबाबतची सावध नोंद कायम ठेवावी."
   ],
-  "next_file": "maval-taluka.md",
-  "last_verified_main": "dd2fdca6fbf5ae31edf6c4ad878be5b7ee2f45db",
-  "index_note": "content/index.md हा title/description आणि 'सर्व लेख' शीर्षक असलेला shell आहे. build.js मधील collectArticleTitles() content/ मधील Markdown लेख शोधतो, index.md वगळतो आणि पाच legacy redirect slugs वगळतो. सध्याच्या tree मध्ये 1,164 article Markdown files, 1,159 generated article routes आणि 5 legacy redirects आहेत; duplicate slug paths आढळले नाहीत. या बॅचमध्ये 10/10 H1 व frontmatter titles suffix-normalization नंतर जुळले; एक अंतर्गत लिंक /nagpur-district/ अस्तित्वात असल्याची पुष्टी केली आणि तुटलेली लिंक आढळली नाही. संपूर्ण repository मधील title-to-frontmatter व internal-link पडताळणी अद्याप बाकी.",
-  "last_checkpoint_commit": "dd2fdca6fbf5ae31edf6c4ad878be5b7ee2f45db",
-  "last_run_date": "2026-11-21",
-  "last_updated": "2026-11-21",
+  "next_file": "mercury-planet.md",
+  "last_verified_main": "6392be248911c1df6f54b8559a42c08041db6ea4",
+  "index_note": "content/index.md मध्ये लेखांचे स्थिर Markdown दुवे नाहीत; build.js सर्व १,१६४ Markdown लेखांमधून पाच legacy redirect slugs वगळून १,१५९ लेख-मार्ग गतिशीलपणे तयार करतो. या रनमध्ये duplicate slugs शून्य; सर्व लेखांचे title/frontmatter जुळवणे अद्याप संपूर्ण repository साठी प्रलंबित.",
+  "last_checkpoint_commit": "6392be248911c1df6f54b8559a42c08041db6ea4",
+  "last_run_date": "2026-11-23",
+  "last_updated": "2026-11-23",
   "reviewed_files": [
     "content/malkapur-taluka.md",
     "content/malshiras-taluka.md",
@@ -1473,7 +1591,17 @@
     "content/mauda-taluka.md",
     "content/mauritania.md",
     "content/mauritius.md",
-    "content/maurya-empire.md"
+    "content/maurya-empire.md",
+    "content/maval-taluka.md",
+    "content/maya-civilisation.md",
+    "content/mediterranean-sea.md",
+    "content/meena-kumari.md",
+    "content/meenakshi-temple.md",
+    "content/meerabai.md",
+    "content/meghalaya.md",
+    "content/meghnad-saha.md",
+    "content/mehkar-taluka.md",
+    "content/mekong-river.md"
   ],
   "updated_files": [
     "content/malkapur-taluka.md",
@@ -1495,12 +1623,22 @@
     "content/mauda-taluka.md",
     "content/mauritania.md",
     "content/mauritius.md",
-    "content/maurya-empire.md"
+    "content/maurya-empire.md",
+    "content/maya-civilisation.md",
+    "content/mediterranean-sea.md",
+    "content/meena-kumari.md",
+    "content/meenakshi-temple.md",
+    "content/meerabai.md",
+    "content/meghalaya.md",
+    "content/meghnad-saha.md",
+    "content/mehkar-taluka.md",
+    "content/mekong-river.md"
   ],
   "verified_no_change": [
     "content/mangaon-taluka.md",
     "content/manikgad.md",
     "content/marathi-theatre.md",
-    "content/marco-polo.md"
+    "content/marco-polo.md",
+    "content/maval-taluka.md"
   ]
 }
