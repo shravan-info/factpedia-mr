@@ -37,7 +37,7 @@ description: हिंदी चित्रपटसृष्टीतील �
 
 ## प्रमुख चित्रपट
 
-साहिब बीबी और गुलाम (१९६२) मध्ये त्यांनी दारूच्या व्यसनात अडकलेल्या पत्नीची भूमिका केली. या चित्रपटासाठी त्या वर्षीच्या तीनही सर्वोत्कृष्ट अभिनेत्रीच्या नामांकनांमध्ये त्यांचा समावेश होता आणि पुरस्कार त्यांना मिळाला.
+साहिब बीबी और गुलाम (१९६२) मध्ये त्यांनी दारूच्या व्यसनात अडकलेल्या पत्नीची भूमिका केली. १९६३ च्या फिल्मफेअर पुरस्कारांसाठी सर्वोत्कृष्ट अभिनेत्रीच्या तिन्ही नामांकनांमध्ये मीना कुमारी यांच्या तीन वेगवेगळ्या चित्रपटांतील भूमिका होत्या; त्यांना 'साहिब बीबी और गुलाम'साठी पुरस्कार मिळाला.
 
 पाकीजा (१९७२) हा चित्रपट अनेक वर्षे बनत राहिला आणि त्यांच्या निधनाच्या काही आठवडे आधी प्रदर्शित झाला. त्यातील नर्तिकेची भूमिका त्यांच्या कारकिर्दीतील सर्वोच्च भूमिका मानली जाते. दो बीघा जमीन (१९५३) मध्ये त्यांची भूमिका लहान पण लक्षात राहणारी होती.
 
@@ -59,10 +59,8 @@ description: हिंदी चित्रपटसृष्टीतील �
 
 ## संदर्भ
 
-1. [मीना कुमारी — मराठी विकिपीडिया](https://mr.wikipedia.org/wiki/मीना_कुमारी)
-2. [Meena Kumari — English Wikipedia](https://en.wikipedia.org/wiki/Meena_Kumari)
-3. [Pakeezah — English Wikipedia](https://en.wikipedia.org/wiki/Pakeezah)
-
+1. [Filmfare — Stars With the Most Filmfare Awards for Best Actor in a Leading Role (Female)](https://www.filmfare.com/features/filmfare-throwback-stars-with-the-most-filmfare-awards-for-best-actor-in-a-leading-role-female-57971.html)
+2. [Filmfare — Meena Kumari's 10 Best Songs](https://www.filmfare.com/features/meena-kumaris-10-best-songs-35259.html)
 ---
 
-*शेवटचे संपादन: १८ नोव्हेंबर २०२६*
+*शेवटचे संपादन: २३ नोव्हेंबर २०२६*
