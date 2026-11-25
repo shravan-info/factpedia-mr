@@ -51,10 +51,9 @@ description: एम. जी. के. मेनन हे भारतीय क�
 
 ## संदर्भ
 
-1. [M. G. K. Menon — English Wikipedia](https://en.wikipedia.org/wiki/M._G._K._Menon)
-2. [Tata Institute of Fundamental Research — अधिकृत संकेतस्थळ](https://www.tifr.res.in/)
-3. [ISRO — अधिकृत संकेतस्थळ](https://www.isro.gov.in/)
-
+1. [भारतीय अवकाश संशोधन संस्था — प्रा. एम. जी. के. मेनन यांचे अधिकृत चरित्र](https://www.isro.gov.in/MGKMenon.html)
+2. [विक्रम साराभाई अवकाश केंद्र — प्रा. एम. जी. के. मेनन यांचे चरित्र](https://www.vssc.gov.in/VSSC/MGKMenon.html)
+3. [NASA JPL — लघुग्रह डेटाबेस](https://ssd.jpl.nasa.gov/sb/orbits.html)
 ---
 
-*शेवटचे संपादन: १८ नोव्हेंबर २०२६*
+*शेवटचे संपादन: २५ नोव्हेंबर २०२६*
