@@ -40,11 +40,11 @@ description: म्हसळा तालुक्याचे स्थान, 
 
 ## संदर्भ
 
-1. [रायगड जिल्हा प्रशासन — अधिकृत संकेतस्थळ](https://raigad.gov.in/)
+1. [रायगड जिल्हा प्रशासन — म्हसळा तहसीलदार कार्यालय](https://raigad.gov.in/whoswho/%E0%A4%A4%E0%A4%B9%E0%A4%B8%E0%A5%80%E0%A4%B2%E0%A4%A6%E0%A4%BE%E0%A4%B0-%E0%A4%AE%E0%A5%8D%E0%A4%B9%E0%A4%B8%E0%A4%B3%E0%A4%BE/)
 2. [महाराष्ट्र शासन — महाभूमी तालुका व गाव निर्देशिका](https://mahavillages.mahabhumi.gov.in/all_list.php)
 3. [महाराष्ट्र शासन — जिल्हा सामाजिक व आर्थिक समालोचन](https://mahades.maharashtra.gov.in/)
-4. [भारताची जनगणना — २०११](https://censusindia.gov.in/)
+4. [भारताची जनगणना — रायगड जिल्हा जनगणना पुस्तिका, प्राथमिक जनगणना सारांश (२०११)](https://censusindia.gov.in/nada/index.php/catalog/823/download/2935/DH_2011_2724_PART_B_DCHB_RAIGARH.pdf)
 
 ---
 
-*शेवटचे संपादन: १८ नोव्हेंबर २०२६*
+*शेवटचे संपादन: २५ नोव्हेंबर २०२६*
