@@ -1,5 +1,5 @@
 {
-  "next_index": 628,
+  "next_index": 638,
   "cycle": 2,
   "runs": [
     {
@@ -1494,6 +1494,89 @@
         "mediterranean-sea.md: कॅलिप्सो डीपची खोली काही स्रोतांत ५,१०९ मीटर तर काहींमध्ये ५,२६७ मीटर दिली जाते; या बॅचमध्ये अधिकृत bathymetric सर्वेक्षणातून एकच मोजमाप निश्चित करता आले नाही. लेखातील मोजमापाबाबतची सावध नोंद कायम ठेवावी."
       ],
       "notes": "मावळ तालुक्यापासून मेकाँग नदीपर्यंतचे १० लेख पूर्ण वाचून तपासले. नऊ लेख अद्ययावत केले; मावळ तालुका लेखातील जनगणना व जलपुरवठा दावे थेट प्राथमिक स्रोताने पूर्णपणे पडताळता न आल्याने न बदलता ठेवला. सर्व १० लेखांचे frontmatter title/H1 जुळले, References विभाग व तक्त्यांची रचना तपासली. मेहकर तालुक्याचा /buldhana-district अंतर्गत दुवा अस्तित्वात आहे; तुटलेला दुवा नाही. content/index.md हा लेखसूचीचा shell आहे; build.js सर्व लेखांची यादी गतिशीलपणे तयार करतो. १,१६४ लेखांमधून ५ legacy redirect slugs वगळल्यावर १,१५९ routes तयार होतात. पुढील लेख mercury-planet.md आहे."
+    },
+    {
+      "date": "2026-11-25",
+      "checked": 10,
+      "range": [
+        "mercury-planet.md",
+        "milkha-singh.md"
+      ],
+      "reviewed_files": [
+        "content/mercury-planet.md",
+        "content/mesopotamia.md",
+        "content/mexico-city.md",
+        "content/mexico.md",
+        "content/mg-ramachandran.md",
+        "content/mgk-menon.md",
+        "content/mgnrega.md",
+        "content/mhasla-taluka.md",
+        "content/mikhail-gorbachev.md",
+        "content/milkha-singh.md"
+      ],
+      "updated_articles": [
+        "content/mercury-planet.md",
+        "content/mgnrega.md",
+        "content/mhasla-taluka.md",
+        "content/mg-ramachandran.md"
+      ],
+      "unchanged_articles": [
+        "content/mesopotamia.md",
+        "content/mexico-city.md",
+        "content/mexico.md",
+        "content/mgk-menon.md",
+        "content/mikhail-gorbachev.md",
+        "content/milkha-singh.md"
+      ],
+      "internal_links_checked": 1,
+      "broken_internal_links": 0,
+      "index_checked": true,
+      "index_changed": false,
+      "title_frontmatter_checks": 10,
+      "duplicate_slugs": 0,
+      "total_articles": 1164,
+      "generated_article_routes": 1159,
+      "legacy_redirects": 5,
+      "next_index": 638,
+      "next_file": "milky-way.md",
+      "cycle": 2,
+      "base_commit": "2a755484f58383e84a8871d7b13e78bd5c667ec0",
+      "article_commits": [
+        {
+          "path": "content/mercury-planet.md",
+          "commit": "081c52e71eb7e3dd23bf51bf9227dd4beeba89e5",
+          "blob": "a817cad39bf0d1709663a709bd3e0cf3a16ebc14"
+        },
+        {
+          "path": "content/mgnrega.md",
+          "commit": "3d116e4d596d756864d5bbba2fba0dc9c4e34f07",
+          "blob": "bf40a6a1e765a4632e42dc95e9fbc8a3f6c73f8c"
+        },
+        {
+          "path": "content/mhasla-taluka.md",
+          "commit": "129c7c0a96813fc948c53ff1628567d7bfaca7da",
+          "blob": "ebbd1d2a51c65e47d0f37dfbfdb6998563180841"
+        },
+        {
+          "path": "content/mg-ramachandran.md",
+          "commit": "2a755484f58383e84a8871d7b13e78bd5c667ec0",
+          "blob": "7d73fcf957738afcce4646088fe6c35c9111f5aa"
+        }
+      ],
+      "corrections": [
+        "mercury-planet.md: changed BepiColombo's 21 November 2026 orbit insertion from future to completed initial-orbit status; added the confirmed 75-hour orbit versus the planned 58-hour orbit and no-additional-burn update; corrected Mercury's core radius share to about 85%, axial tilt to about 2°, and clarified its extremely thin exosphere.",
+        "mgnrega.md: clarified that the 2 February 2006 first phase covered 200 identified districts and that coverage expanded to the remaining rural districts from 1 April 2008; replaced the generic legacy portal reference with the specific PIB expansion release.",
+        "mhasla-taluka.md: replaced generic district and Census homepages with the Mhasla Tahsildar page and the Raigad District Census Handbook PCA source; the 2011 population figure of 59,914 was confirmed against the official census material.",
+        "mg-ramachandran.md: changed the description of the 1982 MGR Nutritious Meal Programme from a new launch to the transformation of Tamil Nadu's earlier midday-meal programme; added the 2024 Tamil Nadu Government statement as a specific reference."
+      ],
+      "human_review_flags": [
+        "mg-ramachandran.md: ग्रामीण भागातील कार्यक्रमाची सुरुवात १ जुलै १९८२ अशी नोंदणारी अधिकृत नोंद उपलब्ध आहे; परंतु शहरी भागातील १५ सप्टेंबर १९८२ या विस्तारतारखेची थेट तमिळनाडू प्राथमिक नोंद या तपासणीत सापडली नाही. तारीख बदललेली नाही.",
+        "mgk-menon.md: ISRO च्या अधिकृत चरित्रात पीएच.डी. वर्ष एका ठिकाणी १९५३ आणि शिक्षणाच्या यादीत १९६० असे परस्परविरोधी दिले आहे. लेखातील १९५३ बदललेले नाही; ब्रिस्टल विद्यापीठाच्या मूळ नोंदीने पुष्टी आवश्यक.",
+        "mgk-menon.md: पूर्ण नावाच्या मराठी लिप्यंतरासाठी आणि के-कणांच्या क्षयाच्या प्रकारांवरील विशिष्ट संशोधन-दाव्यासाठी स्वतंत्र प्राथमिक/संस्थात्मक स्रोत आवश्यक; या बॅचमध्ये बदल केलेला नाही.",
+        "milkha-singh.md: जन्मतारीखेबाबत PIB व World Athletics २० नोव्हेंबर १९२९ देतात, तर Olympedia १७ ऑक्टोबर १९३५ नोंदवते. लेखात दोन्ही नोंदी दाखवल्या आहेत; मूळ जन्मनोंद किंवा कुटुंबीय अभिलेखाने अंतिम पुष्टी आवश्यक.",
+        "milkha-singh.md: सुमारे ८० शर्यती आणि त्यांपैकी बहुतेक जिंकल्याचा आकडा तसेच चार्ल्स जेनकिन्स यांच्या प्रशिक्षणपद्धतीचा प्रभाव यांसाठी स्वतंत्र विश्वासार्ह पुरावा आवश्यक; दावे बदललेले नाहीत.",
+        "mesopotamia.md: सुमेरियन लोकांच्या चाकाच्या वापर व धातुविज्ञानातील योगदानावरील वाक्याचा अधिक नेमका पुरातत्त्वीय संदर्भ पुढील तपासणीत जोडावा; सध्या ते चाकाचा शोध त्यांनीच लावला असा स्पष्ट दावा करत नाही, म्हणून बदललेले नाही."
+      ]
     }
   ],
   "total_articles": 1164,
@@ -1559,14 +1642,20 @@
     "maval-taluka.md: २०११ मधील ३,७७,५५९ लोकसंख्या, १८७ गावे, सुमारे ८२% साक्षरता आणि ४२% शहरी लोकसंख्या हे आकडे मूळ उपजिल्हा PCA तक्त्यातून थेट जुळवणे बाकी. उपलब्ध Census District Handbook PDF मधील 'Mawal' २६३,४२६ हा C.D. Block चा आकडा आहे; तो संपूर्ण तालुक्याच्या उपजिल्हा आकड्याशी थेट तुलना करता येत नाही. मूळ sub-district PCA workbook तपासेपर्यंत लेख बदललेला नाही.",
     "maval-taluka.md: पवना धरण पुणे आणि पिंपरी-चिंचवड या दोन्ही शहरांना किती प्रमाणात पाणीपुरवठा करते, यासाठी अद्ययावत अधिकृत जलवाटप/महापालिका स्रोत आवश्यक; लेखातील दावा बदललेला नाही.",
     "maval-taluka.md: पवना, इंद्रायणी आणि उल्हास नद्यांचा तालुक्यातील नेमका प्रवाह/उगम दर्शवणारा एकत्रित अधिकृत जलनकाशा या बॅचमध्ये पडताळता आला नाही.",
-    "mediterranean-sea.md: कॅलिप्सो डीपची खोली काही स्रोतांत ५,१०९ मीटर तर काहींमध्ये ५,२६७ मीटर दिली जाते; या बॅचमध्ये अधिकृत bathymetric सर्वेक्षणातून एकच मोजमाप निश्चित करता आले नाही. लेखातील मोजमापाबाबतची सावध नोंद कायम ठेवावी."
+    "mediterranean-sea.md: कॅलिप्सो डीपची खोली काही स्रोतांत ५,१०९ मीटर तर काहींमध्ये ५,२६७ मीटर दिली जाते; या बॅचमध्ये अधिकृत bathymetric सर्वेक्षणातून एकच मोजमाप निश्चित करता आले नाही. लेखातील मोजमापाबाबतची सावध नोंद कायम ठेवावी.",
+    "mg-ramachandran.md: ग्रामीण भागातील कार्यक्रमाची सुरुवात १ जुलै १९८२ अशी नोंदणारी अधिकृत नोंद उपलब्ध आहे; परंतु शहरी भागातील १५ सप्टेंबर १९८२ या विस्तारतारखेची थेट तमिळनाडू प्राथमिक नोंद या तपासणीत सापडली नाही. तारीख बदललेली नाही.",
+    "mgk-menon.md: ISRO च्या अधिकृत चरित्रात पीएच.डी. वर्ष एका ठिकाणी १९५३ आणि शिक्षणाच्या यादीत १९६० असे परस्परविरोधी दिले आहे. लेखातील १९५३ बदललेले नाही; ब्रिस्टल विद्यापीठाच्या मूळ नोंदीने पुष्टी आवश्यक.",
+    "mgk-menon.md: पूर्ण नावाच्या मराठी लिप्यंतरासाठी आणि के-कणांच्या क्षयाच्या प्रकारांवरील विशिष्ट संशोधन-दाव्यासाठी स्वतंत्र प्राथमिक/संस्थात्मक स्रोत आवश्यक; या बॅचमध्ये बदल केलेला नाही.",
+    "milkha-singh.md: जन्मतारीखेबाबत PIB व World Athletics २० नोव्हेंबर १९२९ देतात, तर Olympedia १७ ऑक्टोबर १९३५ नोंदवते. लेखात दोन्ही नोंदी दाखवल्या आहेत; मूळ जन्मनोंद किंवा कुटुंबीय अभिलेखाने अंतिम पुष्टी आवश्यक.",
+    "milkha-singh.md: सुमारे ८० शर्यती आणि त्यांपैकी बहुतेक जिंकल्याचा आकडा तसेच चार्ल्स जेनकिन्स यांच्या प्रशिक्षणपद्धतीचा प्रभाव यांसाठी स्वतंत्र विश्वासार्ह पुरावा आवश्यक; दावे बदललेले नाहीत.",
+    "mesopotamia.md: सुमेरियन लोकांच्या चाकाच्या वापर व धातुविज्ञानातील योगदानावरील वाक्याचा अधिक नेमका पुरातत्त्वीय संदर्भ पुढील तपासणीत जोडावा; सध्या ते चाकाचा शोध त्यांनीच लावला असा स्पष्ट दावा करत नाही, म्हणून बदललेले नाही."
   ],
-  "next_file": "mercury-planet.md",
-  "last_verified_main": "6392be248911c1df6f54b8559a42c08041db6ea4",
-  "index_note": "content/index.md मध्ये लेखांचे स्थिर Markdown दुवे नाहीत; build.js सर्व १,१६४ Markdown लेखांमधून पाच legacy redirect slugs वगळून १,१५९ लेख-मार्ग गतिशीलपणे तयार करतो. या रनमध्ये duplicate slugs शून्य; सर्व लेखांचे title/frontmatter जुळवणे अद्याप संपूर्ण repository साठी प्रलंबित.",
-  "last_checkpoint_commit": "6392be248911c1df6f54b8559a42c08041db6ea4",
-  "last_run_date": "2026-11-23",
-  "last_updated": "2026-11-23",
+  "next_file": "milky-way.md",
+  "last_verified_main": "2a755484f58383e84a8871d7b13e78bd5c667ec0",
+  "index_note": "content/index.md मध्ये लेखांचे स्थिर Markdown दुवे नाहीत; build.js सर्व १,१६४ Markdown लेखांमधून पाच legacy redirect slugs वगळून १,१५९ लेख-मार्ग गतिशीलपणे तयार करतो. सध्याच्या संपूर्ण file tree मध्ये duplicate slugs शून्य आहेत. या बॅचमधील १०/१० title/frontmatter जुळले; सर्व १,१६४ लेखांचे title/frontmatter जुळवणे अद्याप प्रलंबित.",
+  "last_checkpoint_commit": "2a755484f58383e84a8871d7b13e78bd5c667ec0",
+  "last_run_date": "2026-11-25",
+  "last_updated": "2026-11-25",
   "reviewed_files": [
     "content/malkapur-taluka.md",
     "content/malshiras-taluka.md",
@@ -1601,7 +1690,17 @@
     "content/meghalaya.md",
     "content/meghnad-saha.md",
     "content/mehkar-taluka.md",
-    "content/mekong-river.md"
+    "content/mekong-river.md",
+    "content/mercury-planet.md",
+    "content/mesopotamia.md",
+    "content/mexico-city.md",
+    "content/mexico.md",
+    "content/mg-ramachandran.md",
+    "content/mgk-menon.md",
+    "content/mgnrega.md",
+    "content/mhasla-taluka.md",
+    "content/mikhail-gorbachev.md",
+    "content/milkha-singh.md"
   ],
   "updated_files": [
     "content/malkapur-taluka.md",
@@ -1632,13 +1731,23 @@
     "content/meghalaya.md",
     "content/meghnad-saha.md",
     "content/mehkar-taluka.md",
-    "content/mekong-river.md"
+    "content/mekong-river.md",
+    "content/mercury-planet.md",
+    "content/mgnrega.md",
+    "content/mhasla-taluka.md",
+    "content/mg-ramachandran.md"
   ],
   "verified_no_change": [
     "content/mangaon-taluka.md",
     "content/manikgad.md",
     "content/marathi-theatre.md",
     "content/marco-polo.md",
-    "content/maval-taluka.md"
+    "content/maval-taluka.md",
+    "content/mesopotamia.md",
+    "content/mexico-city.md",
+    "content/mexico.md",
+    "content/mgk-menon.md",
+    "content/mikhail-gorbachev.md",
+    "content/milkha-singh.md"
   ]
 }
