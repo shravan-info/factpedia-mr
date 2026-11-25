@@ -1564,7 +1564,7 @@
         }
       ],
       "corrections": [
-        "mercury-planet.md: changed BepiColombo's 21 November 2026 orbit insertion from future to completed initial-orbit status; added the confirmed 75-hour orbit versus the planned 58-hour orbit and no-additional-burn update; corrected Mercury's core radius share to about 85%, axial tilt to about 2°, and clarified its extremely thin exosphere.",
+        "mercury-planet.md: changed BepiColombo's 21 November 2026 orbit insertion from future to completed initial-orbit status; added the confirmed 75-hour orbit versus the planned 58-hour orbit and no-additional-burn update; corrected Mercury's core radius share to about 85%, axial tilt to about 2°, and clarified its extremely thin exosphere. मराठी वाक्यरचना तपासून क्रियापद दुरुस्त केले.",
         "mgnrega.md: clarified that the 2 February 2006 first phase covered 200 identified districts and that coverage expanded to the remaining rural districts from 1 April 2008; replaced the generic legacy portal reference with the specific PIB expansion release.",
         "mhasla-taluka.md: replaced generic district and Census homepages with the Mhasla Tahsildar page and the official Raigad 2011 PCA TV dataset catalog; the exact 59,914 sub-district population row could not be read from the downloadable spreadsheet in this run and is flagged for human verification.",
         "mg-ramachandran.md: changed the description of the 1982 MGR Nutritious Meal Programme from a new launch to the transformation of Tamil Nadu's earlier midday-meal programme; added the 2024 Tamil Nadu Government statement as a specific reference."
@@ -1583,6 +1583,12 @@
           "commit": "7910af020d60d5b19fac684f16a18914e91b3b35",
           "blob": "b3505210a21ea58464102c1efab46dfa5a517336",
           "reason": "Replaced a PDF download URL with the directly readable official PCA TV dataset catalog."
+        },
+        {
+          "path": "content/mercury-planet.md",
+          "commit": "e5451c43deeace8366f9a5ec552e1ba6f5c3244e",
+          "blob": "19a3c30e18084ad08d911b5ac95ae565085af7e2",
+          "reason": "Corrected Marathi verb agreement in the revised BepiColombo orbit-insertion sentence."
         }
       ]
     }
@@ -1660,9 +1666,9 @@
     "mhasla-taluka.md: Census 2011 PCA TV catalog confirms the Mhasla sub-district code and downloadable village/town dataset, but the downloadable XLSX row containing the claimed total population of 59,914 could not be opened in this run. Leave the figure unchanged pending direct row-level verification."
   ],
   "next_file": "milky-way.md",
-  "last_verified_main": "7910af020d60d5b19fac684f16a18914e91b3b35",
+  "last_verified_main": "e5451c43deeace8366f9a5ec552e1ba6f5c3244e",
   "index_note": "content/index.md मध्ये लेखांचे स्थिर Markdown दुवे नाहीत; build.js सर्व १,१६४ Markdown लेखांमधून पाच legacy redirect slugs वगळून १,१५९ लेख-मार्ग गतिशीलपणे तयार करतो. सध्याच्या संपूर्ण file tree मध्ये duplicate slugs शून्य आहेत. या बॅचमधील १०/१० title/frontmatter जुळले; सर्व १,१६४ लेखांचे title/frontmatter जुळवणे अद्याप प्रलंबित.",
-  "last_checkpoint_commit": "7910af020d60d5b19fac684f16a18914e91b3b35",
+  "last_checkpoint_commit": "e5451c43deeace8366f9a5ec552e1ba6f5c3244e",
   "last_run_date": "2026-11-25",
   "last_updated": "2026-11-25",
   "reviewed_files": [
