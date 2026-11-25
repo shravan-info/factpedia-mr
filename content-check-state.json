@@ -1566,7 +1566,7 @@
       "corrections": [
         "mercury-planet.md: changed BepiColombo's 21 November 2026 orbit insertion from future to completed initial-orbit status; added the confirmed 75-hour orbit versus the planned 58-hour orbit and no-additional-burn update; corrected Mercury's core radius share to about 85%, axial tilt to about 2°, and clarified its extremely thin exosphere.",
         "mgnrega.md: clarified that the 2 February 2006 first phase covered 200 identified districts and that coverage expanded to the remaining rural districts from 1 April 2008; replaced the generic legacy portal reference with the specific PIB expansion release.",
-        "mhasla-taluka.md: replaced generic district and Census homepages with the Mhasla Tahsildar page and the Raigad District Census Handbook PCA source; the 2011 population figure of 59,914 was confirmed against the official census material.",
+        "mhasla-taluka.md: replaced generic district and Census homepages with the Mhasla Tahsildar page and the official Raigad 2011 PCA TV dataset catalog; the exact 59,914 sub-district population row could not be read from the downloadable spreadsheet in this run and is flagged for human verification.",
         "mg-ramachandran.md: changed the description of the 1982 MGR Nutritious Meal Programme from a new launch to the transformation of Tamil Nadu's earlier midday-meal programme; added the 2024 Tamil Nadu Government statement as a specific reference."
       ],
       "human_review_flags": [
@@ -1576,6 +1576,14 @@
         "milkha-singh.md: जन्मतारीखेबाबत PIB व World Athletics २० नोव्हेंबर १९२९ देतात, तर Olympedia १७ ऑक्टोबर १९३५ नोंदवते. लेखात दोन्ही नोंदी दाखवल्या आहेत; मूळ जन्मनोंद किंवा कुटुंबीय अभिलेखाने अंतिम पुष्टी आवश्यक.",
         "milkha-singh.md: सुमारे ८० शर्यती आणि त्यांपैकी बहुतेक जिंकल्याचा आकडा तसेच चार्ल्स जेनकिन्स यांच्या प्रशिक्षणपद्धतीचा प्रभाव यांसाठी स्वतंत्र विश्वासार्ह पुरावा आवश्यक; दावे बदललेले नाहीत.",
         "mesopotamia.md: सुमेरियन लोकांच्या चाकाच्या वापर व धातुविज्ञानातील योगदानावरील वाक्याचा अधिक नेमका पुरातत्त्वीय संदर्भ पुढील तपासणीत जोडावा; सध्या ते चाकाचा शोध त्यांनीच लावला असा स्पष्ट दावा करत नाही, म्हणून बदललेले नाही."
+      ],
+      "followup_commits": [
+        {
+          "path": "content/mhasla-taluka.md",
+          "commit": "7910af020d60d5b19fac684f16a18914e91b3b35",
+          "blob": "b3505210a21ea58464102c1efab46dfa5a517336",
+          "reason": "Replaced a PDF download URL with the directly readable official PCA TV dataset catalog."
+        }
       ]
     }
   ],
@@ -1648,12 +1656,13 @@
     "mgk-menon.md: पूर्ण नावाच्या मराठी लिप्यंतरासाठी आणि के-कणांच्या क्षयाच्या प्रकारांवरील विशिष्ट संशोधन-दाव्यासाठी स्वतंत्र प्राथमिक/संस्थात्मक स्रोत आवश्यक; या बॅचमध्ये बदल केलेला नाही.",
     "milkha-singh.md: जन्मतारीखेबाबत PIB व World Athletics २० नोव्हेंबर १९२९ देतात, तर Olympedia १७ ऑक्टोबर १९३५ नोंदवते. लेखात दोन्ही नोंदी दाखवल्या आहेत; मूळ जन्मनोंद किंवा कुटुंबीय अभिलेखाने अंतिम पुष्टी आवश्यक.",
     "milkha-singh.md: सुमारे ८० शर्यती आणि त्यांपैकी बहुतेक जिंकल्याचा आकडा तसेच चार्ल्स जेनकिन्स यांच्या प्रशिक्षणपद्धतीचा प्रभाव यांसाठी स्वतंत्र विश्वासार्ह पुरावा आवश्यक; दावे बदललेले नाहीत.",
-    "mesopotamia.md: सुमेरियन लोकांच्या चाकाच्या वापर व धातुविज्ञानातील योगदानावरील वाक्याचा अधिक नेमका पुरातत्त्वीय संदर्भ पुढील तपासणीत जोडावा; सध्या ते चाकाचा शोध त्यांनीच लावला असा स्पष्ट दावा करत नाही, म्हणून बदललेले नाही."
+    "mesopotamia.md: सुमेरियन लोकांच्या चाकाच्या वापर व धातुविज्ञानातील योगदानावरील वाक्याचा अधिक नेमका पुरातत्त्वीय संदर्भ पुढील तपासणीत जोडावा; सध्या ते चाकाचा शोध त्यांनीच लावला असा स्पष्ट दावा करत नाही, म्हणून बदललेले नाही.",
+    "mhasla-taluka.md: Census 2011 PCA TV catalog confirms the Mhasla sub-district code and downloadable village/town dataset, but the downloadable XLSX row containing the claimed total population of 59,914 could not be opened in this run. Leave the figure unchanged pending direct row-level verification."
   ],
   "next_file": "milky-way.md",
-  "last_verified_main": "2a755484f58383e84a8871d7b13e78bd5c667ec0",
+  "last_verified_main": "7910af020d60d5b19fac684f16a18914e91b3b35",
   "index_note": "content/index.md मध्ये लेखांचे स्थिर Markdown दुवे नाहीत; build.js सर्व १,१६४ Markdown लेखांमधून पाच legacy redirect slugs वगळून १,१५९ लेख-मार्ग गतिशीलपणे तयार करतो. सध्याच्या संपूर्ण file tree मध्ये duplicate slugs शून्य आहेत. या बॅचमधील १०/१० title/frontmatter जुळले; सर्व १,१६४ लेखांचे title/frontmatter जुळवणे अद्याप प्रलंबित.",
-  "last_checkpoint_commit": "2a755484f58383e84a8871d7b13e78bd5c667ec0",
+  "last_checkpoint_commit": "7910af020d60d5b19fac684f16a18914e91b3b35",
   "last_run_date": "2026-11-25",
   "last_updated": "2026-11-25",
   "reviewed_files": [
