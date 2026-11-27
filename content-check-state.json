@@ -1693,6 +1693,12 @@
           "commit": "d0c5832a5a25157f90e8892ce30b5b1cfff72036",
           "blob": "72ac9519121549b624d600d1c9325cd4af8f14cc",
           "reason": "Date the 45-foot channel status to the 2025 USACE report and add a current 9-foot channel source."
+        },
+        {
+          "path": "content/monsoon.md",
+          "commit": "a5b68210ac63c688f396cc12403acf9e885f334a",
+          "blob": "3cbeee729a6b1d8ef72967e72ee2f56e3fb7ac90",
+          "reason": "Align the all-India monsoon advance with IMD's around-8-July description and qualify the forecast update window as late May or early June."
         }
       ],
       "corrections": [
@@ -1702,7 +1708,7 @@
         "mizoram.md: replaced the outdated planning-department overview that still showed eight districts with the current CEO Mizoram district profile; replaced the generic Census homepage with the 2011 state-and-district PCA dataset.",
         "mohammed-shami.md: strengthened references with ICC's 2019 hat-trick report, the ICC Champions Trophy 2025 final report, and the Cricket Association of Bengal's 2026-27 SMAT squad notice.",
         "mongol-empire.md: corrected the campaign order: early expeditions targeted Western Xia (Xixia), followed by the Jin invasion in 1211.",
-        "monsoon.md: qualified the monsoon mechanism, corrected the winter-rainfall explanation for Tamil Nadu and the southeast coast, replaced the unsupported 1918 '75% lowest rainfall' claim with the IMD study's finding that 1918 was the worst drought year in its 113-year analysis, corrected the IMD update forecast timing to May, and replaced vague climate-change claims with MoES statistics."
+        "monsoon.md: qualified the monsoon mechanism, corrected winter rainfall, replaced the unsupported 1918 '75% lowest rainfall' claim with the IMD study's finding that 1918 was the worst drought year in its 113-year analysis, aligned nationwide advance with IMD's around-8-July date, qualified the second forecast as late May or early June, and replaced vague climate-change claims with MoES statistics."
       ],
       "human_review_flags": [
         "mongol-empire.md: साम्राज्याच्या लोकसंख्येचा अंदाज सुमारे १० कोटी असा दिला आहे; या विशिष्ट आकड्यासाठी स्वतंत्र प्राथमिक किंवा शैक्षणिक पुष्टी मिळाली नाही. आकडा अंदाज म्हणून ठेवला आहे; स्वतंत्र पुष्टी आवश्यक.",
@@ -1785,9 +1791,9 @@
     "mississippi-river.md: २०२५ USACE अहवालात बॅटन रूज–आखात मार्गाची विद्यमान खोली ४५ फूट व ५० फूट करण्याचा अधिकृत प्रकल्प नमूद आहे; २०२६ मधील बांधकाम/पूर्णत्व स्थितीची पुष्टी या तपासणीत मिळाली नाही. ४५ फूट दावा २०२५ अहवालाशी दिनांकित केला आहे; प्रकाशनापूर्वी ताजी स्थिती तपासावी."
   ],
   "next_file": "moon.md",
-  "last_verified_main": "d0c5832a5a25157f90e8892ce30b5b1cfff72036",
+  "last_verified_main": "a5b68210ac63c688f396cc12403acf9e885f334a",
   "index_note": "content/index.md मध्ये लेखांचे स्थिर Markdown दुवे नाहीत; build.js सर्व १,१६४ Markdown लेखांमधून पाच legacy redirect slugs वगळून १,१५९ लेख-मार्ग गतिशीलपणे तयार करतो. सध्याच्या संपूर्ण file tree मध्ये duplicate slugs शून्य आहेत. या बॅचमधील १०/१० title/frontmatter जुळले; सर्व १,१६४ लेखांचे title/frontmatter जुळवणे अद्याप प्रलंबित.",
-  "last_checkpoint_commit": "d0c5832a5a25157f90e8892ce30b5b1cfff72036",
+  "last_checkpoint_commit": "a5b68210ac63c688f396cc12403acf9e885f334a",
   "last_run_date": "2026-11-27",
   "last_updated": "2026-11-27T21:10:13+05:30",
   "reviewed_files": [
@@ -1922,6 +1928,12 @@
       "commit": "d0c5832a5a25157f90e8892ce30b5b1cfff72036",
       "blob": "72ac9519121549b624d600d1c9325cd4af8f14cc",
       "reason": "Date the 45-foot channel status to the 2025 USACE report and add a current 9-foot channel source."
+    },
+    {
+      "path": "content/monsoon.md",
+      "commit": "a5b68210ac63c688f396cc12403acf9e885f334a",
+      "blob": "3cbeee729a6b1d8ef72967e72ee2f56e3fb7ac90",
+      "reason": "Align the all-India monsoon advance with IMD's around-8-July description and qualify the forecast update window as late May or early June."
     }
   ]
 }
