@@ -79,9 +79,12 @@ description: मोहम्मद शमी हे भारताचे वे
 
 1. [आंतरराष्ट्रीय क्रिकेट परिषद — मोहम्मद शमीची कसोटी निवृत्ती](https://www.icc-cricket.com/news/india-s-veteran-fast-bowler-brings-test-career-to-a-close)
 2. [आंतरराष्ट्रीय क्रिकेट परिषद — भारत विश्वचषक अंतिम फेरीत; शमीचे सात बळी](https://www.icc-cricket.com/news/india-reach-cricket-world-cup-final-as-kohli-shami-and-iyer-star)
-3. [The Indian Express — शमीची कसोटी क्रिकेटमधून निवृत्ती](https://indianexpress.com/article/sports/cricket/india-pacer-mohammed-shami-retires-from-test-cricket-10953939/)
+3. [The Indian Express — शमीची कसोटी क्रिकेटमधून निवृत्ती व मर्यादित षटकांच्या क्रिकेटबाबत भूमिका](https://indianexpress.com/article/sports/cricket/india-pacer-mohammed-shami-retires-from-test-cricket-10953939/)
 4. [IPL — मोहम्मद शमी राजस्थान रॉयल्सकडे; २०२७ हंगामासाठी व्यापार](https://www.iplt20.com/news/article/mohd-shami-and-m-siddharth-traded-to-rajasthan-royals-sam-curran-traded-to-lucknow-super-giants)
-5. [आंतरराष्ट्रीय क्रिकेट परिषद — मोहम्मद शमी खेळाडू परिचय](https://www.icc-cricket.com/rankings/28994/mohammad-shami)
+5. [आंतरराष्ट्रीय क्रिकेट परिषद — मोहम्मद शमी खेळाडू परिचय व विश्वचषक आकडेवारी](https://www.icc-cricket.com/rankings/28994/mohammad-shami)
+6. [आंतरराष्ट्रीय क्रिकेट परिषद — २०१९ विश्वचषकातील शमीची हॅट्ट्रिक](https://www.icc-cricket.com/tournaments/cricketworldcup/news/shami-hat-trick-helps-india-defend-224-to-remain-unbeaten-in-cwc19)
+7. [बंगाल क्रिकेट असोसिएशन — सईद मुश्ताक अली करंडक २०२६-२७ साठी बंगाल संघाची निवड](https://www.cricketassociationofbengal.com/notice/Sr.%20Men%27s%20for%20Syed%20Mushtaq%20Ali%20Trophy%20at%20Mumbai05112026.pdf)
+8. [आंतरराष्ट्रीय क्रिकेट परिषद — २०२५ चॅम्पियन्स करंडक अंतिम सामना](https://www.icc-cricket.com/tournaments/champions-trophy-2025/news/live-india-and-new-zealand-on-crossroads-in-the-champions-trophy-final)
 
 ---
 
