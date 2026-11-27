@@ -70,12 +70,13 @@ description: भारतीय मोसमी वाऱ्यांची र�
 
 ## संदर्भ
 
-1. [भारतीय हवामानशास्त्र विभाग](https://mausam.imd.gov.in/)
-2. [भारतीय उष्णकटिबंधीय हवामानशास्त्र संस्था, पुणे](https://www.tropmet.res.in/)
-3. [राष्ट्रीय महासागरीय व वायुमंडलीय प्रशासन — एल निनो](https://www.noaa.gov/education/resource-collections/weather-atmosphere/el-nino)
-4. [जागतिक हवामानशास्त्र संघटना](https://wmo.int/)
-5. [एन्सायक्लोपीडिया ब्रिटानिका — मान्सून](https://www.britannica.com/science/monsoon)
+1. [भारतीय हवामानशास्त्र विभाग — नैऋत्य मोसमी पाऊस २०१५: हंगामअखेर अहवाल](https://mausam.imd.gov.in/jaipur/mcdata/monsoon2015.pdf)
+2. [भारतीय हवामानशास्त्र विभाग — मोसमी पावसाच्या सामान्य श्रेणीची व्याख्या](https://mausam.imd.gov.in/backend/assets/press_release_pdf/Pressrelease_2021_LRF_firststage_16april2021.pdf)
+3. [भारतीय उष्णकटिबंधीय हवामानशास्त्र संस्था, पुणे](https://www.tropmet.res.in/)
+4. [राष्ट्रीय महासागरीय व वायुमंडलीय प्रशासन — एल निनो](https://www.noaa.gov/education/resource-collections/weather-atmosphere/el-nino)
+5. [जागतिक हवामानशास्त्र संघटना](https://wmo.int/)
+6. [एन्सायक्लोपीडिया ब्रिटानिका — मान्सून](https://www.britannica.com/science/monsoon)
 
 ---
 
-*शेवटचे संपादन: १८ नोव्हेंबर २०२६*
+*शेवटचे संपादन: २७ नोव्हेंबर २०२६*
