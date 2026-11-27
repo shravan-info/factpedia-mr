@@ -74,10 +74,9 @@ description: भारतीय मोसमी वाऱ्यांची र�
 2. [भारतीय हवामानशास्त्र विभागाचे MAUSAM नियतकालिक — भारतातील दुष्काळाची बदलती वारंवारता](https://mausamjournal.imd.gov.in/index.php/MAUSAM/article/view/2065)
 3. [भारतीय हवामानशास्त्र विभाग — मोसमी पावसाचे आगमन व देशभरातील प्रगती](https://mausam.imd.gov.in/responsive/monsooninformation_onset.php)
 4. [भारतीय हवामानशास्त्र विभाग — मोसमी पावसाविषयी वारंवार विचारले जाणारे प्रश्न](https://mausamaudit.imd.gov.in/imd_latest/monsoonfaq.pdf)
-5. [भारतीय हवामानशास्त्र विभाग — २०२६ चा दुसऱ्या टप्प्यातील मोसमी पावसाचा अंदाज](https://internal.imd.gov.in/press_release/20260529_pr_5028.pdf)
-6. [भारतीय हवामानशास्त्र विभाग — मोसमी पावसाचा अंदाज व पडताळणी, २०२२](https://metnet.imd.gov.in/docs/imdnews/15July-Sept20223English.pdf)
-7. [पृथ्वी विज्ञान मंत्रालय — भारतातील हवामान बदल व अतिवृष्टी-दुष्काळावरील अभ्यास](https://moes.gov.in/sites/default/files/PIB1942897.pdf)
-8. [राष्ट्रीय महासागरीय व वायुमंडलीय प्रशासन — एल निनो](https://www.noaa.gov/education/resource-collections/weather-atmosphere/el-nino)
+5. [भारतीय हवामानशास्त्र विभाग — सामान्य मोसमी पावसाची श्रेणी व अंदाजाची पडताळणी](https://internal.imd.gov.in/press_release/20210930_pr_1273.pdf)
+6. [पृथ्वी विज्ञान मंत्रालय — भारतातील हवामान बदल व अतिवृष्टी-दुष्काळावरील अभ्यास](https://moes.gov.in/sites/default/files/PIB1942897.pdf)
+7. [राष्ट्रीय महासागरीय व वायुमंडलीय प्रशासन — एल निनो](https://www.noaa.gov/education/resource-collections/weather-atmosphere/el-nino)
 
 ---
 
