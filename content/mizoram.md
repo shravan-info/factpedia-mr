@@ -94,9 +94,9 @@ description: मिझोराम राज्याचा भूगोल, इ
 
 1. [मिझोराम सरकार — राज्याचा परिचय](https://protocol.mizoram.gov.in/page/profile-of-mizoram)
 2. [मिझोराम सरकार — राज्याची भौगोलिक माहिती](https://dipr.mizoram.gov.in/page/the-land)
-3. [मिझोराम नियोजन विभाग — मिझोराम एका दृष्टिक्षेपात](https://planning.mizoram.gov.in/page/mizoram-at-a-glance)
+3. [मुख्य निवडणूक अधिकारी, मिझोराम — राज्याची जिल्हानिहाय माहिती](https://ceo.mizoram.gov.in/state-profile)
 4. [ईशान्य प्रदेश विकास मंत्रालय — मिझोराम प्रोफाइल](https://mdoner.nic.in/about-north-east/mizoram)
-5. [भारताची जनगणना — २०११ जनगणना](https://censusindia.gov.in/census.website/)
+5. [भारताची जनगणना — २०११ प्राथमिक जनगणना सारांश, राज्य व जिल्हा स्तर](https://censusindia.gov.in/nada/index.php/catalog/6191/study-description)
 6. [मिझोराम वन विभाग — फावंगपुई राष्ट्रीय उद्यान](https://forest.mizoram.gov.in/page/phawngpui-national-park)
 
 ---
