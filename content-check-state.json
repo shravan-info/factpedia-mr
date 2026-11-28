@@ -1887,7 +1887,7 @@
   "next_file": "mount-saint-michel.md",
   "last_verified_main": "c6355a1ab5978abd8bb4c4f24019c05a17503626",
   "index_note": "content/index.md मध्ये लेखांचे स्थिर Markdown दुवे नाहीत; build.js सर्व १,१६४ Markdown लेखांमधून पाच legacy redirect slugs वगळून १,१५९ लेख-मार्ग गतिशीलपणे तयार करतो. सध्याच्या संपूर्ण file tree मध्ये duplicate slugs शून्य आहेत. या बॅचमधील १०/१० title/frontmatter जुळले; सर्व १,१६४ लेखांचे title/frontmatter जुळवणे अद्याप प्रलंबित.",
-  "last_checkpoint_commit": "a5b68210ac63c688f396cc12403acf9e885f334a",
+  "last_checkpoint_commit": "10ccd7b9c18361614b1f3ec46c783ffeefa9da78",
   "last_run_date": "2026-11-28",
   "last_updated": "2026-11-28",
   "reviewed_files": [
