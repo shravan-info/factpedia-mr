@@ -55,7 +55,7 @@ description: मिशनरीज ऑफ चॅरिटीच्या सं�
 
 त्यांच्या कार्याचे मूल्यमापन दोन दृष्टिकोनांतून होते. अनेकांनी त्यांच्या सेवाभावाचे कौतुक केले. काही समीक्षकांनी त्यांच्या पद्धतींवर आणि विचारांवर प्रश्न उपस्थित केले आहेत. हे दोन्ही मतप्रवाह चर्चेत राहिले आहेत.
 
-त्यांच्या नावाने अनेक रुग्णालये आणि सेवा संस्था चालतात. कलकत्त्यातील त्यांचे निवासस्थान स्मारक म्हणून जतन करण्यात आले आहे.
+कलकत्त्यातील मिशनरीज ऑफ चॅरिटीच्या मदर हाऊसमध्ये त्यांची समाधी, खोली आणि संग्रहालय जतन करण्यात आले आहे.
 
 ## संस्थेची रचना आणि कार्यपद्धती
 
@@ -89,12 +89,13 @@ description: मिशनरीज ऑफ चॅरिटीच्या सं�
 
 ## संदर्भ
 
-1. [Mother Teresa – Nobel Prize questions and answers](https://www.nobelprize.org/prizes/peace/1979/teresa/questions-and-answers/)
-2. [Prizes – Memorial House of Mother Teresa](https://memorialhouseofmotherteresa.com/mother-teresa/prizes/)
-3. [Bharat Ratna notification, 1954 – padmaawards.gov.in](https://www.padmaawards.gov.in/Document/pdf/Notifications/BharatRatna/1954BR.pdf)
-4. [Padma Awards – About (padmaawards.gov.in)](https://www.padmaawards.gov.in/About)
-5. [Mother Teresa timeline – AP News](https://apnews.com/general-news-8ad480029638418d843054d681285550)
+1. [Nobel Prize — Mother Teresa, 1979 Peace Prize](https://www.nobelprize.org/prizes/peace/1979/teresa/questions-and-answers/)
+2. [Missionaries of Charity — Our Foundress](https://missionariesofcharity.org/about-us/mother-teresa/)
+3. [व्हॅटिकन — Mother Teresa of Calcutta (1910–1997), अधिकृत चरित्र](https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20031019_madre-teresa_en.html)
+4. [भारताचे राजपत्र — मदर तेरेसा यांना पद्मश्री, १९६२](https://www.padmaawards.gov.in/Document/pdf/notifications/PadmaAwards/1962.pdf)
+5. [भारताचे राजपत्र — मदर तेरेसा यांना भारतरत्न, १९८०](https://www.padmaawards.gov.in/Document/pdf/Notifications/BharatRatna/1980BR.pdf)
+6. [व्हॅटिकन — मदर तेरेसा यांची संत घोषणा, ४ सप्टेंबर २०१६](https://press.vatican.va/content/salastampa/en/bollettino/pubblico/2016/09/04/160904a.html)
 
 ---
 
-*शेवटचे संपादन: १८ नोव्हेंबर २०२६*
+*शेवटचे संपादन: २८ नोव्हेंबर २०२६*
