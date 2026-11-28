@@ -1,5 +1,5 @@
 {
-  "next_index": 648,
+  "next_index": 658,
   "cycle": 2,
   "runs": [
     {
@@ -1714,6 +1714,95 @@
         "mongol-empire.md: साम्राज्याच्या लोकसंख्येचा अंदाज सुमारे १० कोटी असा दिला आहे; या विशिष्ट आकड्यासाठी स्वतंत्र प्राथमिक किंवा शैक्षणिक पुष्टी मिळाली नाही. आकडा अंदाज म्हणून ठेवला आहे; स्वतंत्र पुष्टी आवश्यक.",
         "mississippi-river.md: २०२५ USACE अहवालात बॅटन रूज–आखात मार्गाची विद्यमान खोली ४५ फूट व ५० फूट करण्याचा अधिकृत प्रकल्प नमूद आहे; २०२६ मधील बांधकाम/पूर्णत्व स्थितीची पुष्टी या तपासणीत मिळाली नाही. ४५ फूट दावा २०२५ अहवालाशी दिनांकित केला आहे; प्रकाशनापूर्वी ताजी स्थिती तपासावी."
       ]
+    },
+    {
+      "date": "2026-11-28",
+      "checked": 10,
+      "range": [
+        "moon.md",
+        "mount-kilimanjaro.md"
+      ],
+      "reviewed_files": [
+        "content/moon.md",
+        "content/morarji-desai.md",
+        "content/morocco.md",
+        "content/morshi-taluka.md",
+        "content/moscow-city.md",
+        "content/motala-taluka.md",
+        "content/mother-teresa.md",
+        "content/mount-everest.md",
+        "content/mount-fuji.md",
+        "content/mount-kilimanjaro.md"
+      ],
+      "updated_articles": [
+        "content/moon.md",
+        "content/morarji-desai.md",
+        "content/morocco.md",
+        "content/mother-teresa.md",
+        "content/mount-kilimanjaro.md"
+      ],
+      "unchanged_articles": [
+        "content/morshi-taluka.md",
+        "content/moscow-city.md",
+        "content/motala-taluka.md",
+        "content/mount-everest.md",
+        "content/mount-fuji.md"
+      ],
+      "internal_links_checked": 0,
+      "broken_internal_links": 0,
+      "index_checked": true,
+      "index_changed": false,
+      "title_frontmatter_checks": 10,
+      "duplicate_slugs": 0,
+      "total_articles": 1164,
+      "generated_article_routes": 1159,
+      "legacy_redirects": 5,
+      "footer_dates_refreshed": 5,
+      "next_index": 658,
+      "next_file": "mount-saint-michel.md",
+      "cycle": 2,
+      "base_commit": "7659d086e021917a496adb265b77dd51fc812b57",
+      "article_commits": [
+        {
+          "path": "content/moon.md",
+          "commit": "270932ce97507a5371d38b524c4f9a94038daab1",
+          "blob": "3432d675bdac2fdeccc4400f348da095e080c9f8"
+        },
+        {
+          "path": "content/morarji-desai.md",
+          "commit": "82f207782a775e508e380f18b5723589cbb102b3",
+          "blob": "2a60aaaecb8abf72c896275e14c756a5e55406ea"
+        },
+        {
+          "path": "content/morocco.md",
+          "commit": "09293803a467b2e8dd53147fa43c055a6832ff5e",
+          "blob": "fbe22a30f2d65d2da3c918e6a5455739f0d08d5a"
+        },
+        {
+          "path": "content/mother-teresa.md",
+          "commit": "693c581cf8cc2f96647b8f254a666ad8030c6e30",
+          "blob": "856cadf764640b1c490c4390b5f77bea5f1c41b8"
+        },
+        {
+          "path": "content/mount-kilimanjaro.md",
+          "commit": "c6355a1ab5978abd8bb4c4f24019c05a17503626",
+          "blob": "fbae76c655982a50552c978c183228f4425dc90a"
+        }
+      ],
+      "corrections": [
+        "moon.md: चंद्राच्या जवळजवळ रिकाम्या वातावरणाऐवजी अत्यंत विरळ exosphere स्पष्ट केले; चंद्राच्या कलांच्या उजवी/डावी बाजू उत्तर व दक्षिण गोलार्धानुसार बदलते हे नमूद केले; चांद्रयान-३चे दक्षिण ध्रुवीय उच्च अक्षांशांवरील पहिले यशस्वी सॉफ्ट-लँडिंग असे अचूक वर्णन केले; पृथ्वीच्या अक्षीय स्थैर्यावर चंद्राच्या प्रभावाचे स्पष्टीकरण सुधारले; ISROचा डेटा-वितरण स्रोत जोडला.",
+        "morarji-desai.md: केंद्रीय अर्थमंत्रिपदाची सुरुवात १९५९ ऐवजी २२ मार्च १९५८ अशी PM Indiaच्या अधिकृत चरित्रानुसार दुरुस्त केली; विकिपीडिया व सर्वसाधारण सरकारी पोर्टल संदर्भ काढून थेट PM India चरित्र आणि १९९१ भारतरत्न राजपत्र जोडले.",
+        "morocco.md: HCPच्या २०२४ जनगणनेनुसार १ सप्टेंबर २०२४ ची कायदेशीर लोकसंख्या ३६,८२८,३३० जोडली; अधिकृत भाषांसाठी २०११ संविधानाच्या कलम ५चा थेट संदर्भ जोडला.",
+        "mother-teresa.md: १९६२ पद्मश्री व १९८० भारतरत्नासाठी संबंधित भारत राजपत्र अधिसूचना, जीवनचरित्रासाठी व्हॅटिकन व Missionaries of Charity आणि २०१६ संत घोषणेसाठी व्हॅटिकनचा थेट संदर्भ जोडला; असमर्थित स्मारक/रुग्णालय वाक्याऐवजी मदर हाऊसमधील समाधी, खोली व संग्रहालयाचा पडताळलेला उल्लेख केला.",
+        "mount-kilimanjaro.md: अॅश पिटचा चुकीचा ३५० मीटर खोलीचा दावा ३४० मीटर व्यास व १३० मीटर खोली असा दुरुस्त केला; USGS मालिकेत २०१६चे १.७ चौ. किमी मूल्य आणि २०२१/२२साठी २०२४ अभ्यासातील ०.९८ चौ. किमी अंदाज जोडला; हिमनदी आकुंचनाच्या कारणांचे स्पष्टीकरण अद्ययावत संशोधनानुसार सुधारले."
+      ],
+      "human_review_flags": [
+        "content/mother-teresa.md: वडिलांचा व्यवसाय, १९८९ मधील पेसमेकर, १९९० मधील राजीनामा/पुन्हा निवड, १९८३ Order of Merit, १९८५ Presidential Medal of Freedom, १९९७ Congressional Gold Medal आणि २०२४ पर्यंत भारतरत्न मानकऱ्यांची संख्या/महिला संख्या यांसाठी स्वतंत्र अधिकृत पुष्टी आवश्यक; अपुष्ट दावे बदललेले नाहीत.",
+        "content/moscow-city.md: मॉस्को मेट्रोची ५४२ किमी लांबी व सुमारे ३०० स्थानके या आकड्यांची व्याप्ती आणि अद्ययावत तारीख स्पष्ट नाही; फक्त मेट्रो, MCC आणि MCD यांचा समावेश वेगळा करून अधिकृत पुष्टी आवश्यक.",
+        "content/mount-everest.md: अनुभव व वैद्यकीय तपासणी बंधनकारक असल्याचा दावा सध्याच्या अधिकृत नियमांमधून पुष्टी झालेला नाही; मानवी पुनरावलोकन आवश्यक.",
+        "content/mount-fuji.md: प्रवेश शुल्क व दैनिक मर्यादांबाबतचा वर्तमानकाळातील दावा हंगाम आणि प्रशासकीय प्रदेशानुसार बदलतो; लेखातील सर्वसाधारण विधानासाठी दिनांकित अधिकृत पुष्टी आवश्यक.",
+        "content/mount-kilimanjaro.md: किबोचा शेवटचा उद्रेक १,५०,०००–२,००,००० वर्षांपूर्वी झाल्याचा नेमका कालावधी, उद्यान परिसरातील ९० गावांचा आकडा आणि जंगलतोडीच्या कारणांविषयी अधिक मजबूत भूवैज्ञानिक/पर्यावरणीय स्रोत आवश्यक."
+      ]
     }
   ],
   "total_articles": 1164,
@@ -1788,14 +1877,19 @@
     "mesopotamia.md: सुमेरियन लोकांच्या चाकाच्या वापर व धातुविज्ञानातील योगदानावरील वाक्याचा अधिक नेमका पुरातत्त्वीय संदर्भ पुढील तपासणीत जोडावा; सध्या ते चाकाचा शोध त्यांनीच लावला असा स्पष्ट दावा करत नाही, म्हणून बदललेले नाही.",
     "mhasla-taluka.md: Census 2011 PCA TV catalog confirms the Mhasla sub-district code and downloadable village/town dataset, but the downloadable XLSX row containing the claimed total population of 59,914 could not be opened in this run. Leave the figure unchanged pending direct row-level verification.",
     "mongol-empire.md: साम्राज्याच्या लोकसंख्येचा अंदाज सुमारे १० कोटी असा दिला आहे; या विशिष्ट आकड्यासाठी स्वतंत्र प्राथमिक किंवा शैक्षणिक पुष्टी मिळाली नाही. आकडा अंदाज म्हणून ठेवला आहे; स्वतंत्र पुष्टी आवश्यक.",
-    "mississippi-river.md: २०२५ USACE अहवालात बॅटन रूज–आखात मार्गाची विद्यमान खोली ४५ फूट व ५० फूट करण्याचा अधिकृत प्रकल्प नमूद आहे; २०२६ मधील बांधकाम/पूर्णत्व स्थितीची पुष्टी या तपासणीत मिळाली नाही. ४५ फूट दावा २०२५ अहवालाशी दिनांकित केला आहे; प्रकाशनापूर्वी ताजी स्थिती तपासावी."
+    "mississippi-river.md: २०२५ USACE अहवालात बॅटन रूज–आखात मार्गाची विद्यमान खोली ४५ फूट व ५० फूट करण्याचा अधिकृत प्रकल्प नमूद आहे; २०२६ मधील बांधकाम/पूर्णत्व स्थितीची पुष्टी या तपासणीत मिळाली नाही. ४५ फूट दावा २०२५ अहवालाशी दिनांकित केला आहे; प्रकाशनापूर्वी ताजी स्थिती तपासावी.",
+    "content/mother-teresa.md: वडिलांचा व्यवसाय, १९८९ मधील पेसमेकर, १९९० मधील राजीनामा/पुन्हा निवड, १९८३ Order of Merit, १९८५ Presidential Medal of Freedom, १९९७ Congressional Gold Medal आणि २०२४ पर्यंत भारतरत्न मानकऱ्यांची संख्या/महिला संख्या यांसाठी स्वतंत्र अधिकृत पुष्टी आवश्यक; अपुष्ट दावे बदललेले नाहीत.",
+    "content/moscow-city.md: मॉस्को मेट्रोची ५४२ किमी लांबी व सुमारे ३०० स्थानके या आकड्यांची व्याप्ती आणि अद्ययावत तारीख स्पष्ट नाही; फक्त मेट्रो, MCC आणि MCD यांचा समावेश वेगळा करून अधिकृत पुष्टी आवश्यक.",
+    "content/mount-everest.md: अनुभव व वैद्यकीय तपासणी बंधनकारक असल्याचा दावा सध्याच्या अधिकृत नियमांमधून पुष्टी झालेला नाही; मानवी पुनरावलोकन आवश्यक.",
+    "content/mount-fuji.md: प्रवेश शुल्क व दैनिक मर्यादांबाबतचा वर्तमानकाळातील दावा हंगाम आणि प्रशासकीय प्रदेशानुसार बदलतो; लेखातील सर्वसाधारण विधानासाठी दिनांकित अधिकृत पुष्टी आवश्यक.",
+    "content/mount-kilimanjaro.md: किबोचा शेवटचा उद्रेक १,५०,०००–२,००,००० वर्षांपूर्वी झाल्याचा नेमका कालावधी, उद्यान परिसरातील ९० गावांचा आकडा आणि जंगलतोडीच्या कारणांविषयी अधिक मजबूत भूवैज्ञानिक/पर्यावरणीय स्रोत आवश्यक."
   ],
-  "next_file": "moon.md",
-  "last_verified_main": "a5b68210ac63c688f396cc12403acf9e885f334a",
+  "next_file": "mount-saint-michel.md",
+  "last_verified_main": "c6355a1ab5978abd8bb4c4f24019c05a17503626",
   "index_note": "content/index.md मध्ये लेखांचे स्थिर Markdown दुवे नाहीत; build.js सर्व १,१६४ Markdown लेखांमधून पाच legacy redirect slugs वगळून १,१५९ लेख-मार्ग गतिशीलपणे तयार करतो. सध्याच्या संपूर्ण file tree मध्ये duplicate slugs शून्य आहेत. या बॅचमधील १०/१० title/frontmatter जुळले; सर्व १,१६४ लेखांचे title/frontmatter जुळवणे अद्याप प्रलंबित.",
   "last_checkpoint_commit": "a5b68210ac63c688f396cc12403acf9e885f334a",
-  "last_run_date": "2026-11-27",
-  "last_updated": "2026-11-27T21:10:13+05:30",
+  "last_run_date": "2026-11-28",
+  "last_updated": "2026-11-28",
   "reviewed_files": [
     "content/malkapur-taluka.md",
     "content/malshiras-taluka.md",
@@ -1850,7 +1944,17 @@
     "content/mohol-taluka.md",
     "content/mokhada-taluka.md",
     "content/mongol-empire.md",
-    "content/monsoon.md"
+    "content/monsoon.md",
+    "content/moon.md",
+    "content/morarji-desai.md",
+    "content/morocco.md",
+    "content/morshi-taluka.md",
+    "content/moscow-city.md",
+    "content/motala-taluka.md",
+    "content/mother-teresa.md",
+    "content/mount-everest.md",
+    "content/mount-fuji.md",
+    "content/mount-kilimanjaro.md"
   ],
   "updated_files": [
     "content/malkapur-taluka.md",
@@ -1892,7 +1996,12 @@
     "content/mizoram.md",
     "content/mohammed-shami.md",
     "content/mongol-empire.md",
-    "content/monsoon.md"
+    "content/monsoon.md",
+    "content/moon.md",
+    "content/morarji-desai.md",
+    "content/morocco.md",
+    "content/mother-teresa.md",
+    "content/mount-kilimanjaro.md"
   ],
   "verified_no_change": [
     "content/mangaon-taluka.md",
@@ -1908,7 +2017,12 @@
     "content/milkha-singh.md",
     "content/mohenjo-daro.md",
     "content/mohol-taluka.md",
-    "content/mokhada-taluka.md"
+    "content/mokhada-taluka.md",
+    "content/morshi-taluka.md",
+    "content/moscow-city.md",
+    "content/motala-taluka.md",
+    "content/mount-everest.md",
+    "content/mount-fuji.md"
   ],
   "followup_commits": [
     {
